@@ -1,0 +1,466 @@
+[
+  {
+    "sectionId": 1,
+    "details": {
+      "sectionDetails": {
+        "imageUrl": "themes/gaming/aboutusbg.jpg",
+        "bgColor": "#000000",
+        "primaryColor": "#ef5350",
+        "secondaryColor": "#595959",
+        "selectedColor": "#ffffff",
+        "testimonial": {
+          "titleColor": "#ef5350",
+          "titleFontFamily": "'Arial',sans-serif",
+          "titleFontStyle": [],
+          "titleFontSize": 17,
+          "subtitleColor": "#ffffff",
+          "subtitleFontFamily": "'Arial',sans-serif",
+          "subtitleFontStyle": [],
+          "subtitleFontSize": 17
+        },
+        "acheivements": {
+          "yearColor": "#ffffff",
+          "yearFontFamily": "'Arial',sans-serif",
+          "yearFontStyle": [],
+          "yearFontSize": 15,
+          "titleColor": "#ef5350",
+          "titleFontFamily": "'Arial',sans-serif",
+          "titleFontStyle": [],
+          "titleFontSize": 21,
+          "subtitleColor": "#ffffff",
+          "subtitleFontFamily": "'Arial',sans-serif",
+          "subtitleFontStyle": [],
+          "subtitleFontSize": 15,
+          "pointColor": "#ef5350",
+          "content": [
+            {
+              "year": 2017,
+              "title": "Gamer's Pioneer",
+              "desc": "Unlocked the Gamer's Pioneer achievement in 2020. Dive into the gaming world with Lorem Ipsum 1, exploring the detailed description and gaining valuable insights into your gaming journey."
+            },
+            {
+              "year": 2018,
+              "title": "Strategic Player",
+              "desc": "Earned the Strategic Player achievement in 2018. Strategize your way through Lorem Ipsum 2, unraveling the extended description to showcase your tactical prowess in the gaming realm."
+            },
+            {
+              "year": 2019,
+              "title": "Quest Conqueror",
+              "desc": "Achieved the Quest Conqueror status in 2019. Embark on a quest through the extensive details of Lorem Ipsum 4, demonstrating your ability to conquer challenges in the gaming world."
+            },
+            {
+              "year": 2021,
+              "title": "Master Explorer",
+              "desc": "Attained the Master Explorer achievement in 2021. Delve into the abundance of words in the detailed description of Lorem Ipsum 5, proving your mastery and in-depth understanding of the gaming universe."
+            }
+          ]
+        },
+        "location": {
+          "titleColor": "#ef5350",
+          "titleFontFamily": "'Verdana',sans-serif",
+          "titleFontStyle": [
+            "B"
+          ],
+          "titleFontSize": 17,
+          "iconColor": "#ef5350",
+          "enableShadow": true,
+          "contentColor": "#ffffff",
+          "contentFontFamily": "'Roboto',sans-serif",
+          "contentFontStyle": "red",
+          "contentFontSize": 15,
+          "bgColor": "rgba(84,84,84)",
+          "borderColor": "#ffffff"
+        }
+      }
+    },
+    "selectorDetails": {
+      "selector": "phase-ii-gaming-about-us",
+      "inputData": [
+        {
+          "selectorInput": "locationDetails",
+          "handlerInput": "sampleData.locationDetails",
+          "functionName": "setWorkingDays"
+        },
+        {
+          "selectorInput": "testimonialDetails",
+          "handlerInput": "sampleData.testimonials",
+          "functionName": "getTestimonials"
+        },
+        {
+          "selectorInput": "aboutusDetails",
+          "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+        }
+      ],
+      "outputData": [
+        {
+          "selectorOutput": "pageToNavigate",
+          "handlerFunction": "pageToNavigate"
+        }
+      ]
+    },
+    "sectionName": "Gaming Aboutus",
+    "isExistingComponent": true,
+    "sampleData": {
+      "testimonials": [
+        {
+          "imageUrl": "themes/gaming/testimonial1.jpg",
+          "author": "Alexander Cole",
+          "designation": "Gaming Stylist",
+          "content": "This gaming website has become my digital sanctuary. The variety of games, from pulse-pounding action to rich storytelling, caters to every gaming whim",
+          "ratings": 4
+        },
+        {
+          "imageUrl": "themes/gaming/testimonial2.jpg",
+          "author": "Samuel Bennett",
+          "designation": "3D Artist",
+          "content": "Kudos to this gaming haven! The seamless accessibility and an extensive library of games cater to my every mood."
+        },
+        {
+          "imageUrl": "themes/gaming/testimonial3.jpg",
+          "author": "scarlett johansson",
+          "designation": "Producer",
+          "content": "This gaming website is a flawless blend of entertainment and excitement. From cutting-edge graphics to a diverse game catalog, it's a one-stop destination for gaming enthusiasts.",
+          "ratings": 5
+        }
+      ],
+      "locationDetails": [
+        {
+          "id": 75,
+          "addressId": 160,
+          "locationName": "Beaverton",
+          "pickupInstructions": null,
+          "locationDescription": null,
+          "latitude": "23.343534",
+          "longitude": "34",
+          "storeId": 2,
+          "shopClosedDays": [],
+          "timeZone": "America/Tijuana",
+          "isOrderSpecificTiming": true,
+          "orderAmountLimit": 50,
+          "isDefault": false,
+          "isGlobal": true,
+          "allowedZipcodes": null,
+          "storeWorkingHours": [
+            {
+              "id": 621,
+              "productBoxId": null,
+              "shippingMethodId": null,
+              "startTime": "09:00 AM",
+              "endTime": "12:00 PM",
+              "sun": null,
+              "mon": null,
+              "tue": null,
+              "wed": null,
+              "thu": null,
+              "fri": true,
+              "sat": true,
+              "isDelivery": null,
+              "isPickup": null,
+              "isOrder": null,
+              "isDineIn": null,
+              "isStoreActive": null
+            },
+            {
+              "id": 622,
+              "productBoxId": null,
+              "shippingMethodId": null,
+              "startTime": "12:00 PM",
+              "endTime": "07:00 PM",
+              "sun": null,
+              "mon": null,
+              "tue": null,
+              "wed": null,
+              "thu": null,
+              "fri": true,
+              "sat": true,
+              "isDelivery": null,
+              "isPickup": null,
+              "isOrder": null,
+              "isDineIn": null,
+              "isStoreActive": null
+            }
+          ],
+          "workingHoursData": [
+            {
+              "days": "Mon",
+              "time": "09:00 AM - 12:00 PM",
+              "isStoreActive": null
+            },
+            {
+              "days": "Tue",
+              "time": "09:00 AM - 12:00 PM",
+              "isStoreActive": null
+            }
+          ],
+          "closingHoursData": [
+            {
+              "days": "Sun",
+              "time": "12:00 AM - 12:00 AM",
+              "isStoreActive": null
+            }
+          ],
+          "orderPlacingTimes": [
+            {
+              "id": 156,
+              "startTime": "12:00 AM",
+              "endTime": "12:00 PM",
+              "sun": null,
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "isStoreActive": null
+            }
+          ],
+          "address": {
+            "id": 160,
+            "importId": null,
+            "addressLine1": "12725 SW Millikan Way, #300",
+            "addressLine2": null,
+            "city": "Beaverton",
+            "state": "Beaverton",
+            "name": null,
+            "country": "US",
+            "zipCode": "97005",
+            "mobileNumber": "(971) 420-1700",
+            "email": "contact@getzenbasket.com",
+            "faxNumber": null,
+            "stateAbbreviation": null,
+            "countryCode": null,
+            "isDeleted": false,
+            "isDefault": null,
+            "createdAt": "2022-01-27T05:12:46.297Z",
+            "modifiedAt": "2022-03-10T04:24:43.334Z",
+            "userId": null
+          }
+        },
+        {
+          "id": 76,
+          "addressId": 161,
+          "locationName": "Canada",
+          "pickupInstructions": null,
+          "locationDescription": null,
+          "latitude": "23.343534",
+          "longitude": "34",
+          "storeId": 2,
+          "shopClosedDays": [],
+          "timeZone": "America/Tijuana",
+          "isOrderSpecificTiming": true,
+          "orderAmountLimit": 50,
+          "isDefault": false,
+          "isGlobal": true,
+          "allowedZipcodes": null,
+          "storeWorkingHours": [
+            {
+              "id": 621,
+              "productBoxId": null,
+              "shippingMethodId": null,
+              "startTime": "09:00 AM",
+              "endTime": "12:00 PM",
+              "sun": null,
+              "mon": null,
+              "tue": null,
+              "wed": null,
+              "thu": null,
+              "fri": true,
+              "sat": true,
+              "isDelivery": null,
+              "isPickup": null,
+              "isOrder": null,
+              "isDineIn": null,
+              "isStoreActive": null
+            },
+            {
+              "id": 622,
+              "productBoxId": null,
+              "shippingMethodId": null,
+              "startTime": "12:00 PM",
+              "endTime": "07:00 PM",
+              "sun": null,
+              "mon": null,
+              "tue": null,
+              "wed": null,
+              "thu": null,
+              "fri": true,
+              "sat": true,
+              "isDelivery": null,
+              "isPickup": null,
+              "isOrder": null,
+              "isDineIn": null,
+              "isStoreActive": null
+            }
+          ],
+          "workingHoursData": [
+            {
+              "days": "Mon",
+              "time": "09:00 AM - 12:00 PM",
+              "isStoreActive": null
+            },
+            {
+              "days": "Tue",
+              "time": "09:00 AM - 12:00 PM",
+              "isStoreActive": null
+            }
+          ],
+          "closingHoursData": [
+            {
+              "days": "Sun",
+              "time": "12:00 AM - 12:00 AM",
+              "isStoreActive": null
+            }
+          ],
+          "orderPlacingTimes": [
+            {
+              "id": 156,
+              "startTime": "12:00 AM",
+              "endTime": "12:00 PM",
+              "sun": null,
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "isStoreActive": null
+            }
+          ],
+          "address": {
+            "id": 160,
+            "importId": null,
+            "addressLine1": "151 York St,",
+            "addressLine2": null,
+            "city": "London",
+            "state": "London",
+            "name": null,
+            "country": "London",
+            "zipCode": "97005",
+            "mobileNumber": "(971) 420-1700",
+            "email": "contact@getzenbasket.com",
+            "faxNumber": null,
+            "stateAbbreviation": null,
+            "countryCode": null,
+            "isDeleted": false,
+            "isDefault": null,
+            "createdAt": "2022-01-27T05:12:46.297Z",
+            "modifiedAt": "2022-03-10T04:24:43.334Z",
+            "userId": null
+          }
+        },
+        {
+          "id": 76,
+          "addressId": 161,
+          "locationName": "India",
+          "pickupInstructions": null,
+          "locationDescription": null,
+          "latitude": "23.343534",
+          "longitude": "34",
+          "storeId": 2,
+          "shopClosedDays": [],
+          "timeZone": "America/Tijuana",
+          "isOrderSpecificTiming": true,
+          "orderAmountLimit": 50,
+          "isDefault": false,
+          "isGlobal": true,
+          "allowedZipcodes": null,
+          "storeWorkingHours": [
+            {
+              "id": 621,
+              "productBoxId": null,
+              "shippingMethodId": null,
+              "startTime": "09:00 AM",
+              "endTime": "12:00 PM",
+              "sun": null,
+              "mon": null,
+              "tue": null,
+              "wed": null,
+              "thu": null,
+              "fri": true,
+              "sat": true,
+              "isDelivery": null,
+              "isPickup": null,
+              "isOrder": null,
+              "isDineIn": null,
+              "isStoreActive": null
+            },
+            {
+              "id": 622,
+              "productBoxId": null,
+              "shippingMethodId": null,
+              "startTime": "12:00 PM",
+              "endTime": "07:00 PM",
+              "sun": null,
+              "mon": null,
+              "tue": null,
+              "wed": null,
+              "thu": null,
+              "fri": true,
+              "sat": true,
+              "isDelivery": null,
+              "isPickup": null,
+              "isOrder": null,
+              "isDineIn": null,
+              "isStoreActive": null
+            }
+          ],
+          "workingHoursData": [
+            {
+              "days": "Mon",
+              "time": "09:00 AM - 12:00 PM",
+              "isStoreActive": null
+            },
+            {
+              "days": "Tue",
+              "time": "09:00 AM - 12:00 PM",
+              "isStoreActive": null
+            }
+          ],
+          "closingHoursData": [
+            {
+              "days": "Sun",
+              "time": "12:00 AM - 12:00 AM",
+              "isStoreActive": null
+            }
+          ],
+          "orderPlacingTimes": [
+            {
+              "id": 156,
+              "startTime": "12:00 AM",
+              "endTime": "12:00 PM",
+              "sun": null,
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "isStoreActive": null
+            }
+          ],
+          "address": {
+            "id": 162,
+            "importId": null,
+            "addressLine1": "25 Vinayagar Nagar, NGO Colony,",
+            "addressLine2": null,
+            "city": "Tirunelveli",
+            "state": "Tirunelveli",
+            "name": null,
+            "country": "India",
+            "zipCode": "97005",
+            "mobileNumber": "(971) 420-1700",
+            "email": "contact@getzenbasket.com",
+            "faxNumber": null,
+            "stateAbbreviation": null,
+            "countryCode": null,
+            "isDeleted": false,
+            "isDefault": null,
+            "createdAt": "2022-01-27T05:12:46.297Z",
+            "modifiedAt": "2022-03-10T04:24:43.334Z",
+            "userId": null
+          }
+        }
+      ]
+    }
+  }
+]

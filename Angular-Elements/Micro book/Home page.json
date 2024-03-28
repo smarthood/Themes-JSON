@@ -1,0 +1,539 @@
+[
+    {
+        "sectionId": 1,
+        "details": {
+            "containerHeight": 80,
+            "imageSize": "contain",
+            "backgroundcolor": "#0a386f",
+            "image": "themes/book/booksphere/book1.png",
+            "showDivider": true,
+            "dividerColor": "#f5930e",
+            "dividerWidth": 35,
+            "dividerThickness": 2,
+            "showTitle": true,
+            "title": "Welcome To Pages!!",
+            "color": "#f5f5f5",
+            "textSize": 24,
+            "fontstyle": [
+                "I"
+            ],
+            "textFontFamily": "'Palatino Linotype',serif",
+            "titleWidth": 50,
+            "titleone": "Your Books From The Best Writer",
+            "colorone": "#f5f5f5",
+            "fontstyleone": [
+                "B"
+            ],
+            "textSizeOne": 30,
+            "subtextFontFamily": "'Palatino Linotype',serif",
+            "description": "We believe that bookstores are essential to a healthy culture.They're where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.",
+            "descriptioncolor": "#f5f5f5",
+            "descriptiontextSize": 20,
+            "descriptionfontstyle": [
+                "B"
+            ],
+            "descriptiontextFontFamily": "'Palatino Linotype',serif",
+            "buttonType": "fill",
+            "button": "Order Today!",
+            "buttontextcolor": "#0a386f",
+            "backgroundColor": "#ffa500",
+            "buttonfontstyle": [
+                "B"
+            ],
+            "buttontextFontFamily": "'Palatino Linotype',serif",
+            "showCard1": true,
+            "showCard2": true,
+            "showCard3": true,
+            "text1": "Pages",
+            "textonecolor": "#FFFFFF",
+            "textonefontstyle": [
+                "B"
+            ],
+            "textOneFontFamily": "'Palatino Linotype',serif",
+            "subtext1": "250 Pages",
+            "texttwocolor": "#FFFFFF",
+            "texttwofontstyle": [
+                "B"
+            ],
+            "textTwoFontFamily": "'Palatino Linotype',serif",
+            "text2": "Length",
+            "subtext2": "10 hours",
+            "text3": "Rating",
+            "subtext3": "4.5/5",
+            "buttonLink": "products"
+        },
+        "selectorDetails": {
+            "selector": "bookhome-banner",
+            "inputData": [
+                {
+                    "selectorInput": "banner",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sectionName": "banner",
+        "isExistingComponent": true,
+        "sampleData": {},
+        "isVisible": true,
+        "script": "themes/bundle/Booksphere-theme/booksphere-home.js"
+    },
+    {
+        "details": {
+            "templateSettings": {
+                "displayProduct": "featuredProducts",
+                "cardDisplayStyle": "CardStyle1",
+                "cardContentTopHeight": 60,
+                "cardContentBottomHeight": 10,
+                "textFontFamily": "'Palatino Linotype',serif",
+                "textFontStyle": [],
+                "textColor": "black",
+                "onHover": "Zoom",
+                "productInfoAlignment": "center",
+                "textFontSize": 14,
+                "buttonAnimation": "none",
+                "displayButton": false,
+                "buttonPosition": "top",
+                "buttonText": "View More",
+                "buttonTextAlign": "center",
+                "buttonFontStyle": [],
+                "buttonBorderRadius": 1,
+                "buttonColor": "#f27d7d",
+                "buttonTextColor": "#ff1717",
+                "buttonHoverColor": "#ff8f8f",
+                "buttonHoverTextColor": "black",
+                "isDisplayBorder": false,
+                "buttonBorderColor": "white",
+                "buttonBorderSize": 1,
+                "buttonTextSize": 16,
+                "buttonPadding": 13,
+                "borderPositions": [],
+                "isbuttonIcon": false,
+                "buttonIconType": "round",
+                "buttonHeight": 0,
+                "buttonAlignWithHeading": false,
+                "sliderType": "withoutSlider",
+                "dataDisplayCount": 4,
+                "isBackground": false,
+                "displayHeading": true,
+                "headingText": "The Author's Book",
+                "headingColor": "#0a386f",
+                "headingFontFamily": "'Palatino Linotype',serif",
+                "headingFontSize": 50,
+                "headingFontStyle": [
+                    "B"
+                ],
+                "headingHeight": 26,
+                "textAlign": "center",
+                "displaySubHeading": false,
+                "displayDivider": true,
+                "dividerColor": "#f5930e",
+                "dividerWidth": 93,
+                "dividerHeight": 10
+            },
+            "isEditor": false
+        },
+        "selectorDetails": {
+            "selector": "common-slider",
+            "inputData": [
+                {
+                    "selectorInput": "sectionDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                },
+                {
+                    "selectorInput": "displayData",
+                    "handlerInput": "sampleData.displayData",
+                    "functionName": "getCommonSliderData"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                },
+                {
+                    "selectorOutput": "setInput",
+                    "handlerFunction": "getCommonSliderData"
+                }
+            ]
+        },
+        "sectionName": "Featured Products",
+        "isExistingComponent": true,
+        "sampleData": {
+            "displayData": {
+                "selectedDetail": "featuredProducts",
+                "data": [
+                    {
+                        "id": 1,
+                        "name": "Stephen King's IT",
+                        "featuredImage": "themes/book/product.jpg",
+                        "description": null,
+                        "isVariants": false,
+                        "productCategories": [
+                            {
+                                "categoryId": 1606
+                            }
+                        ],
+                        "variantCombinationDetails": [],
+                        "ribbon": {},
+                        "price": "825.00",
+                        "multiLocationVariantStocks": [
+                            {
+                                "stock": -1,
+                                "id": 53057,
+                                "qtyOnHold": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "name": "Witching Hour",
+                        "featuredImage": "themes/book/product1.jpg",
+                        "description": null,
+                        "isVariants": false,
+                        "productCategories": [
+                            {
+                                "categoryId": 1606
+                            }
+                        ],
+                        "variantCombinationDetails": [],
+                        "ribbon": {},
+                        "price": "825.00",
+                        "multiLocationVariantStocks": [
+                            {
+                                "stock": -1,
+                                "id": 53057,
+                                "qtyOnHold": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "name": "The Dreaming Arts",
+                        "featuredImage": "themes/book/product2.jpg",
+                        "description": null,
+                        "isVariants": false,
+                        "productCategories": [
+                            {
+                                "categoryId": 1606
+                            }
+                        ],
+                        "variantCombinationDetails": [],
+                        "ribbon": {},
+                        "price": "825.00",
+                        "multiLocationVariantStocks": [
+                            {
+                                "stock": -1,
+                                "id": 53057,
+                                "qtyOnHold": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "name": "The Journey of Dreams",
+                        "featuredImage": "themes/book/product3.jpg",
+                        "description": null,
+                        "isVariants": false,
+                        "productCategories": [
+                            {
+                                "categoryId": 1606
+                            }
+                        ],
+                        "variantCombinationDetails": [],
+                        "ribbon": {},
+                        "price": "825.00",
+                        "multiLocationVariantStocks": [
+                            {
+                                "stock": -1,
+                                "id": 53057,
+                                "qtyOnHold": null
+                            }
+                        ]
+                    }
+                ],
+                "sectionId": 2
+            }
+        },
+        "isVisible": true,
+        "sectionId": 2,
+        "script": "themes/bundle/shared-theme/common-slider.js"
+    },
+    {
+        "sectionId": 3,
+        "details": {
+            "showDivider": true,
+            "dividerColor": "#f5930e",
+            "dividerWidth": 93,
+            "dividerHeight": 10,
+            "image": "themes/book/booksphere/author.jpg",
+            "title": "About The Author!!",
+            "color": "#0a386f",
+            "textSize": 30,
+            "fontstyle": [
+                "B"
+            ],
+            "textFontFamily": "'Palatino Linotype',serif",
+            "description": "We believe that bookstores are essential to a healthy culture.They're where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.",
+            "descriptioncolor": "#0a386f",
+            "descriptiontextSize": 24,
+            "descriptionfontstyle": [
+                "B"
+            ],
+            "descriptiontextFontFamily": "'Palatino Linotype',serif",
+            "showCard1": true,
+            "showCard2": true,
+            "showCard3": true,
+            "text1": "02",
+            "textonecolor": "#0a386f",
+            "textonefontstyle": [
+                "B"
+            ],
+            "textOneFontFamily": "'Palatino Linotype',serif",
+            "subtext1": "Books Published",
+            "texttwocolor": "#a9a9a9",
+            "texttwofontstyle": [
+                "B"
+            ],
+            "textTwoFontFamily": "'Palatino Linotype',serif",
+            "text2": "4.5",
+            "subtext2": "User Reviews",
+            "text3": "04",
+            "subtext3": "Best Seller Awards",
+            "imageone": "themes/book/booksphere/qrcode.jpg",
+            "authorName": "John Abraham.Phd",
+            "authorNameColor": "#ffca42",
+            "authorNameFontStyle": [
+                "B"
+            ],
+            "authorFontFamily": "'Palatino Linotype',serif",
+            "authorMail": "Mail:johnabraham@gmail.com",
+            "authorMailcolor": "#f5f5f5",
+            "authorMailfontstyle": [
+                "B"
+            ],
+            "mailHeadingFontFamily": "'Palatino Linotype',serif",
+            "authorMobileNumber": "phone:866882738",
+            "authorMobileNumbercolor": "#f5f5f5",
+            "authorMobileNumberfontstyle": [
+                "B"
+            ],
+            "phoneNoHeadingFontFamily": "'Palatino Linotype',serif"
+        },
+        "selectorDetails": {
+            "selector": "bookhome-author",
+            "inputData": [
+                {
+                    "selectorInput": "author",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": []
+        },
+        "sectionName": "author",
+        "isExistingComponent": true,
+        "sampleData": {},
+        "isVisible": true,
+        "script": "themes/bundle/Booksphere-theme/booksphere-home.js"
+    },
+    {
+        "sectionId": 4,
+        "isVisible": true,
+        "isExistingComponent": true,
+        "sectionName": "Trusted By The Best",
+        "details": {
+            "sectionTitle": "Trusted By The Best",
+            "textFontStyle": [
+                "B"
+            ],
+            "textFontFamily": "'Palatino Linotype',serif",
+            "textSize": 53,
+            "textColor": "#0a386f",
+            "showDivider": true,
+            "dividerWidth": 130,
+            "dividerColor": "#ffa500",
+            "dividerThickness": 3,
+            "galleryImages": [
+                {
+                    "imageUrl": "themes/painting/A1.png",
+                    "show": true
+                },
+                {
+                    "imageUrl": "themes/painting/A3.png",
+                    "show": true
+                },
+                {
+                    "imageUrl": "themes/painting/A5.png",
+                    "show": true
+                },
+                {
+                    "imageUrl": "themes/painting/A6.png",
+                    "show": true
+                }
+            ]
+        },
+        "selectorDetails": {
+            "selector": "phase-ii-painting-aboutus-awards",
+            "inputData": [
+                {
+                    "selectorInput": "awardDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": []
+        },
+        "sampleData": null,
+        "script": "themes/bundle/painting/painting-aboutus-awards.js"
+    },
+    {
+        "sectionId": 5,
+        "details": {
+            "contentAlign": "row",
+            "textAlign": "left",
+            "showDivider": true,
+            "dividerColor": "#f5930e",
+            "dividerWidth": 93,
+            "dividerHeight": 10,
+            "buttonType": "stroked",
+            "title": "Get Book Copy Today",
+            "color": "#f5f5f5",
+            "textSize": 30,
+            "fontstyle": [
+                "B"
+            ],
+            "textFontFamily": "'Palatino Linotype',serif",
+            "description": "We believe that bookstores are essential to a healthy culture.They're where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.",
+            "descriptioncolor": "#f5f5f5",
+            "descriptiontextSize": 20,
+            "descriptionfontstyle": [
+                "B"
+            ],
+            "descriptiontextFontFamily": "'Palatino Linotype',serif",
+            "button": "Order Today!",
+            "buttontextcolor": "#f5f5f5",
+            "backgroundColor": "#0a386f",
+            "buttonBackgroundColor": "#f5930e",
+            "buttonfontstyle": [
+                ""
+            ],
+            "buttontextFontFamily": "'Palatino Linotype',serif",
+            "image": "themes/book/booksphere/book8.png",
+            "buttonLink": "products"
+        },
+        "selectorDetails": {
+            "selector": "bookhome-order",
+            "inputData": [
+                {
+                    "selectorInput": "order",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sectionName": "order",
+        "isExistingComponent": true,
+        "sampleData": {},
+        "isVisible": true,
+        "script": "themes/bundle/Booksphere-theme/booksphere-home.js"
+    },
+    {
+        "sectionId": 6,
+        "details": {
+            "title": "Words From Our Readers",
+            "color": "#0a386f",
+            "textSize": 40,
+            "fontstyle": [
+                "B"
+            ],
+            "textFontFamily": "'Palatino Linotype',serif",
+            "description": "We believe that bookstores are essential to a healthy culture.They're where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.",
+            "descriptioncolor": "#0a386f",
+            "descriptiontextSize": 20,
+            "descriptionfontstyle": [
+                "B"
+            ],
+            "descriptiontextFontFamily": "'Palatino Linotype',serif",
+            "authorColor": "#f5f5f5",
+            "authorFontStyle": [],
+            "authorFontFamily": "'Palatino Linotype',serif",
+            "testimonailHeadingColor": "#f5f5f5",
+            "testimonailHeadingFontStyle": [],
+            "testimonailHeadingFontFamily": "'Palatino Linotype',serif",
+            "testimonailContentColor": "#f5f5f5",
+            "testimonailContentFontStyle": [],
+            "testimonailContentFontFamily": "'Montserrat',serif",
+            "contentAlign": "row",
+            "textAlign": "left",
+            "showDivider": true,
+            "dividerColor": "#f5930e",
+            "dividerWidth": 93,
+            "dividerHeight": 10
+        },
+        "selectorDetails": {
+            "selector": "bookhome-review",
+            "inputData": [
+                {
+                    "selectorInput": "reviews",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                },
+                {
+                    "selectorInput": "testimonials",
+                    "handlerInput": "sampleData.testimonials",
+                    "functionName": "getTestimonials"
+                }
+            ],
+            "outputData": []
+        },
+        "sectionName": "reviews",
+        "isExistingComponent": true,
+        "sampleData": {
+            "testimonials": [
+                {
+                    "id": 1,
+                    "heading": "Bengaluru, Karnataka",
+                    "subHeading": null,
+                    "content": "I am still dipping my toes into the literally fiction pool, finding what works for me and what doesn’t. Books like The Care and Feeding of Ravenously Hungry Girls by Anissa Gray are definitely my cup of tea.",
+                    "imageUrl": "testimonial/testimonial-1.jpeg",
+                    "author": "Deepa Nair",
+                    "storeId": 272,
+                    "designation": null,
+                    "ratings": 4
+                },
+                {
+                    "id": 2,
+                    "heading": "Thiruvananthapuram, Kerala",
+                    "subHeading": null,
+                    "content": "Oh my God. I got the chills so many times toward the end of this book. It completely blew my mind. It managed to surpass my high expectations AND be nothing at all like I expected.",
+                    "imageUrl": "testimonial/testimonial-2.jpg",
+                    "author": "Ramesh Kumar",
+                    "storeId": 272,
+                    "designation": null,
+                    "ratings": 3
+                },
+                {
+                    "id": 3,
+                    "heading": "Chennai, Tamil Nadu",
+                    "subHeading": null,
+                    "content": "This picture book was such a delight. I hadn't remembered reading it when I was a child, but it might have been read to me... either way, it was like a whole new experience!",
+                    "imageUrl": "testimonial/testimonial-3.jpg",
+                    "author": "Rajeshwari Iyer",
+                    "storeId": 272,
+                    "designation": null,
+                    "ratings": 5
+                }
+            ]
+        },
+        "isVisible": true,
+        "script": "themes/bundle/Booksphere-theme/booksphere-home.js"
+    }
+]

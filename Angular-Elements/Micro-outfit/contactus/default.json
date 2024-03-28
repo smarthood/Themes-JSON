@@ -1,0 +1,203 @@
+[
+  {
+      "sectionId": 1,
+      "details": {
+          "leftBannerContent": "<h1><font color=\"#ffffff\">CONTACT</font><font color=\"#651515\"> US</font></h1>",
+          "textOneFontFamily": "'Palatino Linotype',serif",
+          "leftTextStyle": [
+              "B"
+          ],
+          "leftBannerBackground": "#ff5e00",
+          "leftHorizontalAlignment": "center",
+          "leftVerticalAlignment": "center",
+          "showLeftButton": null,
+          "leftButtonTitle": null,
+          "link1": null,
+          "leftButtonColor": null,
+          "leftButtonTextColor": null,
+          "leftButtonTextSize": null,
+          "leftButtonTextStyle": [],
+          "textFontFamily": "'Palatino Linotype',serif",
+          "rightBannerContent": "<h5><font color=\"#ffffff\">Have </font><font color=\"#ff5e00\">questions</font><font color=\"#ffffff\"> or need&#160;<br>assistance? </font><font color=\"#ff5e00\">We're here to help!</font></h5>",
+          "textTwoFontFamily": "'Palatino Linotype',serif",
+          "rightTextStyle": [
+              "B"
+          ],
+          "rightBannerBackground": "#651515",
+          "rightHorizontalAlignment": "center",
+          "rightVerticalAlignment": "center",
+          "showRightButton": null,
+          "rightButtonTitle": null,
+          "link2": null,
+          "rightButtonColor": null,
+          "rightButtonTextColor": null,
+          "rightButtonTextSize": null,
+          "rightButtonTextStyle": [],
+          "subtextFontFamily": "'Palatino Linotype',serif",
+          "showImage": true,
+          "image": "themes/retail/opulent-outfit/contact.png",
+          "applyDropShadow": true
+      },
+      "selectorDetails": {
+          "selector": "outfit-home-banner",
+          "inputData": [
+              {
+                  "selectorInput": "banner",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Contact Us Banner",
+      "isExistingComponent": true,
+      "sampleData": {},
+      "isVisible": true,
+      "script":"themes/bundle/outfit/outfit-home.js"
+  },
+  {
+    "details": {
+        "headerColor": "var(--primary-color)",
+        "textFontFamily": "'Palatino Linotype',serif",
+        "headerSize": 25,
+        "contentColor": "#808080",
+        "contentSize": 16,
+        "textFontStyle": [
+            "B"
+        ],
+        "textSize": 30,
+        "isFormNeeded": true,
+        "contactHeading": "We're Available to Help You",
+        "formSetting": {
+            "backgroundType": "none",
+            "buttonAlignment": "center",
+            "buttonBorderColor": "#000",
+            "buttonColor": "var(--primary-color)",
+            "buttonRadius": 5,
+            "buttonText": "Get In Touch",
+            "buttonTextColor": "#fff",
+            "buttonType": "raised",
+            "contactNoField": true,
+            "contactusalignment": "center",
+            "emailField": true,
+            "focusedLabelColor": "var(--primary-color)",
+            "focusedLineColor": "var(--primary-color)",
+            "formCard": false,
+            "formFieldAppearence": "outline",
+            "formFieldDesign": "none",
+            "formFieldFill": null,
+            "formFieldLabelOut": false,
+            "formOnly": true,
+            "inputTextColor": "light",
+            "nameSplit": false,
+            "normalLabelColor": "#a49e9e",
+            "normalLineColor": "#a49e9e",
+            "showSubtitle": false,
+            "showTitle": false,
+            "suffixIcon": true,
+            "templateName": "templateOne",
+            "termsAndPrivacy": false
+        }
+    },
+    "selectorDetails": {
+        "selector": "pork-theme-contact-us",
+        "inputData": [
+            {
+                "selectorInput": "details",
+                "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+            },
+            {
+                "selectorInput": "currentLocation",
+                "handlerInput": "sampleData.currentLocation",
+                "functionName": "getCurrentLocation"
+            }
+        ],
+        "outputData": []
+    },
+    "sectionName": "Contact Form",
+    "isExistingComponent": true,
+    "sampleData": {
+        "currentLocation": {
+            "id": 206,
+            "importId": null,
+            "addressLine1": "25 Ngo Colony,Vinayagar street",
+            "addressLine2": null,
+            "city": "Madurai",
+            "state": 2303,
+            "name": null,
+            "country": 145,
+            "zipCode": "653241",
+            "mobileNumber": "9025894499",
+            "email": "optimizeprime@mailinator.com"
+        },
+        "websiteSettings": {
+            "currency": {
+                "id": 2,
+                "currencySymbol": "₹",
+                "currencyCode": "INR",
+                "currencyName": "Indian Rupees",
+                "createdAt": null,
+                "modifiedAt": null
+            },
+            "store": {
+                "id": 7,
+                "name": "ZENBASKET COMPANY"
+            },
+            "email": "zenbasket@mailinator.com",
+            "contactNo": "7373994426",
+            "countryCode": 91,
+            "currencyCode": "INR"
+        }
+    },
+    "sectionId": 2,
+    "script": "themes/bundle/pork-theme/pork-theme-contact-us.js"
+},
+  {
+      "sectionId": 3,
+      "isVisible": true,
+      "sectionName": "Contact Us Footer",
+      "isExistingComponent": true,
+      "details": {
+          "imageUrl": "themes/retail/opulent-outfit/background.jpg",
+          "imageSize": "cover",
+          "showOverlay": true,
+          "overlayColor": "#6b6b6b",
+          "title": "FOLLOW US ON",
+          "color": "#FFFFFF",
+          "textSize": 24,
+          "fontstyle": [
+              "B"
+          ],
+          "textFontFamily": "Montserrat",
+          "showDivider": true,
+          "dividerColor": "#f5930e",
+          "dividerWidth": 35,
+          "dividerThickness": 2,
+          "showFacebook": true,
+          "facebook": "#ffffff",
+          "facebookLink": "https://www.facebook.com/ZenBasket/",
+          "showInstagram": true,
+          "instagram": "#ffffff",
+          "instagramLink": "https://www.instagram.com/zenbasket",
+          "showYoutube": true,
+          "youtube": "#ffffff",
+          "youtubeLink": "https://www.youtube.com/@zenbasketecommerce"
+      },
+      "sampleData": null,
+      "selectorDetails": {
+          "selector": "outfit-contactus-footer",
+          "inputData": [
+              {
+                  "selectorInput": "ContactUsFooter",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": []
+      },
+      "script":"themes/bundle/outfit/outfit-contactus.js"
+  }
+]

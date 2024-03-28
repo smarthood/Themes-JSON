@@ -1,0 +1,459 @@
+[
+    {
+        "sectionId": 1,
+        "details": {
+            "bannerProperty": 4,
+            "bannerDetails": {
+                "height": 80,
+                "marginTop": 0,
+                "marginBottom": 0,
+                "marginLeftRight": 0,
+                "bannerTextBackGroundEnabled": false,
+                "buttonLayout": "row",
+                "buttonProperties": [],
+                "buttonEnabled": false,
+                "textEnabled": true,
+                "videoOverlay": false,
+                "videooverlayColor": "rgb(0,0,0,0.5)",
+                "animation": "noAnimationTemplate",
+                "textAlign": "Center",
+                "bannerText": "About Author",
+                "textFontFamily": "'Palatino Linotype',serif",
+                "textFontStyle": [
+                    "B"
+                ],
+                "subTextFontStyle": [
+                    "B"
+                ],
+                "bannerSubText": "Whether you have question about feautures,pricing or anything else about the books,our team is ready to answer all your questions.",
+                "textColor": "white",
+                "subTextColor": "white",
+                "textSize": 52,
+                "subtextSize": 20,
+                "subtextFontFamily": "'Palatino Linotype',serif",
+                "showDivider": true,
+                "dividerWidth": 132,
+                "dividerThickness": 3,
+                "dividerColor": "#ffa500",
+                "bannerColor": "#0a386f"
+            },
+            "headingTextEnabled": false,
+            "inValid": false,
+            "isChildError": false,
+            "isNoDocumentUploaded": false,
+            "sectionId": 1
+        },
+        "selectorDetails": {
+            "selector": "banner-element",
+            "inputData": [
+                {
+                    "selectorInput": "bannerDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sectionName": "About us banner",
+        "isExistingComponent": true,
+        "sampleData": null,
+      "script": "themes/bundle/shared/banner.js"
+
+    },
+    {
+        "details": {
+            "bannerProperty": 1,
+            "bannerDetails": {
+                "bannerImage": [
+                    {
+                        "image": "themes/book/booksphere/auth.jpg",
+                        "imageAnimation": "none",
+                        "buttonEnabled": false,
+                        "textEnabled": false,
+                        "bannerTextBackGroundEnabled": false,
+                        "imageOverlay": false,
+                        "overlayColor": "rgb(0,0,0,0.5)",
+                        "subtextSize": 18,
+                        "buttonLayout": "row",
+                        "index": 0,
+                        "buttonProperties": []
+                    }
+                ],
+                "imageBackgroundSizeType": "cover",
+                "bannerImageXAlign": 40,
+                "bannerImageYAlign": 40,
+                "height": 70,
+                "marginLeftRight": 200,
+                "marginTop": 20,
+                "marginBottom": 20,
+                "pausebutton": false
+            },
+            "headingTextEnabled": false,
+            "inValid": false,
+            "isChildError": false,
+            "isNoDocumentUploaded": false,
+            "sectionId": 1
+        },
+        "selectorDetails": {
+            "selector": "banner-element",
+            "inputData": [
+                {
+                    "selectorInput": "bannerDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sectionName": "About us image banner",
+        "isExistingComponent": true,
+        "sampleData": null,
+        "sectionId": 2,
+        "script": "themes/bundle/shared/banner.js"
+
+    },
+    {
+        "details": {
+            "title": "About The Author!!",
+            "color": "#0a386f",
+            "textSize": 50,
+            "textalign": "left",
+            "fontstyle": [
+                "B"
+            ],
+            "textFontFamily": "'Palatino Linotype',serif",
+            "description": "We believe that reading books are essential to a healthy culture.They're where authors can connect with readers.",
+            "descriptioncolor": "#808080",
+            "descriptiontextSize": 16,
+            "descriptionfontstyle": [
+                "B"
+            ],
+            "descriptiontextFontFamily": "'Palatino Linotype',serif",
+            "button": "Order Today!",
+            "buttontextcolor": "#0a386f",
+            "backgroundColor": "#ffa500",
+            "buttonfontstyle": [
+                ""
+            ],
+            "buttontextFontFamily": "'Palatino Linotype',serif",
+            "textone": "Country",
+            "textonecolor": "#0a386f",
+            "textonetextSize": 16,
+            "textonefontstyle": [
+                "B"
+            ],
+            "textOneFontFamily": "'Palatino Linotype',serif",
+            "texttwo": "United Kingdom",
+            "texttwocolor": "#808080",
+            "texttwotextSize": 16,
+            "texttwofontstyle": [
+                "B"
+            ],
+            "textTwoFontFamily": "'Palatino Linotype',serif",
+            "textthree": "Language:",
+            "textthreecolor": "#0a386f",
+            "textthreetextSize": 16,
+            "textthreefontstyle": [
+                "B"
+            ],
+            "textThreeFontFamily": "'Palatino Linotype',serif",
+            "textfour": "English",
+            "textfourcolor": "#808080",
+            "textfourtextSize": 16,
+            "textfourfontstyle": [
+                "B"
+            ],
+            "textFourFontFamily": "'Palatino Linotype',serif",
+            "textfive": "Genre :",
+            "textfivecolor": "#0a386f",
+            "textfivetextSize": 16,
+            "textfivefontstyle": [
+                "B"
+            ],
+            "textFiveFontFamily": "'Palatino Linotype',serif",
+            "textsix": "History",
+            "textsixcolor": "#808080",
+            "textsixtextSize": 16,
+            "textsixfontstyle": [
+                "B"
+            ],
+            "textSixFontFamily": "'Palatino Linotype',serif",
+            "textseven": "Publication :",
+            "textsevencolor": "#0a386f",
+            "textseventextSize": 16,
+            "textsevenfontstyle": [
+                "B"
+            ],
+            "textSevenFontFamily": "'Palatino Linotype',serif",
+            "texteight": "1961",
+            "texteightcolor": "#808080",
+            "texteighttextSize": 16,
+            "texteightfontstyle": [
+                "B"
+            ],
+            "textEightFontFamily": "'Palatino Linotype',serif",
+            "textnine": "Follow me on :",
+            "textninecolor": "#0a386f",
+            "textninetextSize": 16,
+            "textninefontstyle": [
+                "B"
+            ],
+            "textNineFontFamily": "'Palatino Linotype',serif",
+            "enableLinkedin": true,
+            "enableFacebook": true,
+            "enableTwitter": true,
+            "linkedinLink": "",
+            "twitterLink": "",
+            "facebookLink": ""
+        },
+        "selectorDetails": {
+            "selector": "aboutus-description",
+            "inputData": [
+                {
+                    "selectorInput": "description",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": []
+        },
+        "sectionName": "aboutusdescription",
+        "isExistingComponent": true,
+        "sampleData": {},
+        "isVisible": true,
+        "sectionId": 3,
+        "script": "themes/bundle/Booksphere-theme/booksphere-aboutus.js"
+    },
+    {
+        "details": {
+            "title": "History",
+            "color": "#0a386f",
+            "textSize": 50,
+            "textalign": "left",
+            "fontstyle": [
+                "B"
+            ],
+            "textFontFamily": "'Palatino Linotype',serif",
+            "story": [
+                {
+                    "year": 2006,
+                    "achievements": "Founded",
+                    "color": "black"
+                },
+                {
+                    "year": 2015,
+                    "achievements": "Articles from trusted sources",
+                    "color": "black"
+                },
+                {
+                    "year": 2008,
+                    "achievements": "Founded",
+                    "color": "black"
+                },
+                {
+                    "year": 2016,
+                    "achievements": "Articles from trusted sources",
+                    "color": "black"
+                },
+                {
+                    "year": 2009,
+                    "achievements": "Founded"
+                },
+                {
+                    "year": 2018,
+                    "achievements": "Articles from trusted sources",
+                    "color": "black"
+                },
+                {
+                    "year": 2006,
+                    "achievements": "Founded",
+                    "color": "black"
+                },
+                {
+                    "year": 2015,
+                    "achievements": "Articles from trusted sources",
+                    "color": "black"
+                },
+                {
+                    "year": 2008,
+                    "achievements": "Founded",
+                    "color": "black"
+                },
+                {
+                    "year": 2016,
+                    "achievements": "Articles from trusted sources",
+                    "color": "black"
+                },
+                {
+                    "year": 2009,
+                    "achievements": "Founded",
+                    "color": "black"
+                },
+                {
+                    "year": 2018,
+                    "achievements": "Articles from trusted sources",
+                    "color": "black"
+                }
+            ]
+        },
+        "selectorDetails": {
+            "selector": "aboutus-history",
+            "inputData": [
+                {
+                    "selectorInput": "history",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": []
+        },
+        "sectionName": "aboutushistory",
+        "isExistingComponent": true,
+        "sampleData": {},
+        "isVisible": true,
+        "sectionId": 4,
+        "script": "themes/bundle/Booksphere-theme/booksphere-aboutus.js"
+    },
+    {
+        "details": {
+            "bannerProperty": 4,
+            "bannerDetails": {
+                "height": 80,
+                "marginTop": 0,
+                "marginBottom": 0,
+                "marginLeftRight": 0,
+                "bannerTextBackGroundEnabled": false,
+                "buttonLayout": "row",
+                "buttonProperties": [
+                    {
+                        "buttonLink": "home",
+                        "buttonColor": "#ffa500",
+                        "buttonText": "Shop Now!",
+                        "buttonTextAlign": "center",
+                        "buttonTextFontStyle": [],
+                        "buttonTextFontFamily": "'Palatino Linotype',serif",
+                        "buttonTextColor": "#0a386f",
+                        "iconEnabled": false,
+                        "hoverEnabled": false,
+                        "buttonCornerSize": 4,
+                        "buttonType": "flat"
+                    }
+                ],
+                "buttonEnabled": true,
+                "textEnabled": true,
+                "videoOverlay": false,
+                "videooverlayColor": "rgb(0,0,0,0.5)",
+                "animation": "noAnimationTemplate",
+                "textAlign": "Center",
+                "bannerText": "Get your favourite books sitting at home",
+                "textFontFamily": "'Palatino Linotype',serif",
+                "textFontStyle": [
+                    "B"
+                ],
+                "subTextFontStyle": [
+                    "B"
+                ],
+                "bannerSubText": "whather you have question about feautures,pricing or anything else about the books,our team is ready to answer all your questions.",
+                "textColor": "#9e3434",
+                "subTextColor": "#9e3434",
+                "textSize": 50,
+                "subtextSize": 20,
+                "subtextFontFamily": "'Palatino Linotype',serif",
+                "showDivider": true,
+                "dividerWidth": 132,
+                "dividerThickness": 3,
+                "dividerColor": "#ffa500",
+                "bannerColor": "#ffffff"
+            },
+            "headingTextEnabled": false,
+            "inValid": false,
+            "isChildError": false,
+            "isNoDocumentUploaded": false
+        },
+        "selectorDetails": {
+            "selector": "banner-element",
+            "inputData": [
+                {
+                    "selectorInput": "bannerDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sectionName": "Shop Now banner",
+        "isExistingComponent": true,
+        "sampleData": null,
+        "sectionId": 5,
+        "script": "themes/bundle/shared/banner.js"
+    },
+    {
+        "details": {
+            "showAddressSection": true,
+            "showAddressHeading": true,
+            "addressHeading": "75,678",
+            "addressHeadingFontFamily": "'Palatino Linotype',serif",
+            "addressColor": "black",
+            "showAddressDescription": true,
+            "addressDescription": "<h4><span><font color=\"#9e9e9e\">Active Readers</font></span></h4>",
+            "showPhoneNoSection": true,
+            "showPhoneNoHeading": true,
+            "phoneNoHeading": "3,040",
+            "phoneNoHeadingFontFamily": "'Palatino Linotype',serif",
+            "phoneNoHeadingColor": "black",
+            "showPhoneNo": true,
+            "phoneNo": "<h4><font color=\"#9e9e9e\">Total Pages</font></h4>",
+            "showMailSection": true,
+            "showMailHeading": true,
+            "mailHeading": "283",
+            "mailHeadingFontFamily": "'Palatino Linotype',serif",
+            "mailHeadingColor": "black",
+            "showMail": true,
+            "mail": "<h4><font color=\"#9e9e9e\">Cup of Coffee</font></h4>",
+            "showWorkingHoursSection": true,
+            "showWorkingHoursHeading": true,
+            "workingHoursHeading": "14,500",
+            "workingHoursHeadingFontFamily": "'Palatino Linotype',serif",
+            "workingHoursHeadingColor": "black",
+            "showWorkingHours": true,
+            "workingHours": "<h4><font color=\"#9e9e9e\">Facebook Fans</font></h4>",
+            "showAddressBorder": false,
+            "addressBorderColor": "#8080804a",
+            "addressBorderSize": 1,
+            "showPhoneNoBorder": false,
+            "phoneNoBorderColor": "#8080804a",
+            "phoneNoBorderSize": 1,
+            "showMailBorder": false,
+            "mailBorderColor": "#8080804a",
+            "mailBorderSize": 1,
+            "showWorkingHoursBorder": false,
+            "workingHoursBorderColor": "#8080804a",
+            "workingHoursBorderSize": 1
+        },
+        "selectorDetails": {
+            "selector": "fashion-contactus-form",
+            "inputData": [
+                {
+                    "selectorInput": "contactUsDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": []
+        },
+        "sectionName": "About us menu",
+        "isExistingComponent": true,
+        "sampleData": {},
+        "sectionId": 6,
+        "script": "themes/bundle/fashion/fashion-contactus-form.js"
+    }
+]

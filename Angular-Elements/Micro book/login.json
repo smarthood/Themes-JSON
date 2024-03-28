@@ -1,0 +1,72 @@
+[
+  {
+      "sectionId": 1,
+      "details": {
+          "logindata": {
+              "showImage": true,
+              "imagePosition": "center",
+              "leftBackgroundColor": "white",
+              "rightBackgroundColor": "white",
+              "alignment": "center",
+              "showDivider": false,
+              "showSecondaryDivider": true,
+              "showSocialMediaIcon": false,
+              "socialMediaIconPosition": "bottom",
+              "formSubTextPosition": "bottom",
+              "showEmail": false,
+              "showPhoneNumber": false,
+              "cardFill": true,
+              "appearance": "fill",
+              "containerAlignment": "center",
+              "showMainText": false,
+              "showSubText": false,
+              "formTitle": "Sign In For Better Experience",
+              "formTitleColor": "var(--primary-color)",
+              "formTitleSize": 27,
+              "formTitleStyle": [],
+              "formTitleFontFamily": "'Arial',sans-serif",
+              "formSubtitle": "Still not one of Us?",
+              "formSubtitleColor": "var(--primary-color)",
+              "formSubtitleSize": 12,
+              "formSubtitleStyle": [],
+              "formSubtitleFontFamily": "'Arial',sans-serif",
+              "buttonColor": "var(--primary-color)",
+              "showIcon": true,
+              "iconPosition": "outside",
+              "buttonTextColor": "white",
+              "buttonBorderRadius": 10,
+              "buttonSize": 50,
+              "glassy": false,
+              "overlay": false,
+              "imageUrl": "themes/arts/login/loginImage.jpg",
+              "imageAlignment": "top",
+              "animation": false,
+              "secondaryDividerColor": "grey",
+              "cardColor": "white",
+              "cardGlassy": false,
+              "cardShadow": true,
+              "cardBorderRadius": "0"
+          },
+          "isEditor": false
+      },
+      "selectorDetails": {
+          "selector": "storefront-signin",
+          "inputData": [
+              {
+                  "selectorInput": "displayDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Login page",
+      "isExistingComponent": true,
+      "sampleData": null,
+      "script": "themes/bundle/shared-theme/storefront-signin.js"
+  }
+]

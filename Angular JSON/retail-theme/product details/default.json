@@ -1,0 +1,1178 @@
+[
+  {
+      "sectionId": 1,
+      "isExistingComponent": true,
+      "details": {
+          "pageDesign": "productDetailsOne",
+          "continueOrderingButtonText": "Continue Ordering",
+          "isStar": true,
+          "notAvailableLabel": "Not Available in this location",
+          "StarColor": "var(--star-color)",
+          "addToBagButtonText": "Add to Cart",
+          "availabilityHeading": "Availability",
+          "manyStockLabel": "Many In Stock",
+          "outOfStockLabel": "Out of Stock",
+          "taxButtonText": "*including tax",
+          "isShowRatingMainProduct": true,
+          "isFavoriteMainProduct": true,
+          "viewFoodButtonText": "View Food",
+          "showShortDescription": true,
+          "shortDescriptionHeading": "Product Description",
+          "instructionText": "Add Instructions",
+          "notifyMeButtonText": "Notify Me"
+      },
+      "sampleData": {
+          "isNoProduct": false,
+          "navBarDetails": {
+              "isTransparent": false
+          },
+          "productDetails": {
+              "featuredImage": "themes/retail/product1.jpg",
+              "name": "Nykaa Prep Me Up! Face Primer",
+              "qty": 1,
+              "quantity": 1,
+              "price": "200.00",
+              "id": 85,
+              "description": "Experience the weightless texture of Nykaa SKINgenius Sculpting & Hydrating Foundation. This luxurious long-wear formula lasts all day long, keeping your skin fresh and radiant",
+              "propertyValueId": null,
+              "ratingCount": 4,
+              "inclusiveTax": true,
+              "orderQuantityMaximum": 20,
+              "orderQuantityMinimum": 1,
+              "shortDescription": "Nykaa All Day Matte Long Wear Liquid Foundation With Pump - Hazelnut 12",
+              "outOfStock": false,
+              "productAttachments": [
+                  {
+                      "ext": "mp4",
+                      "imageUrl": "themes/shared/ZenBasket Promotional Video.mp4",
+                      "id": 1
+                  },
+                  {
+                      "ext": "jpg",
+                      "imageUrl": "themes/retail/product2.jpg",
+                      "id": 2
+                  },
+                  {
+                      "ext": "jpg",
+                      "imageUrl": "themes/retail/product3.jpg",
+                      "id": 3
+                  },
+                  {
+                      "ext": "jpg",
+                      "imageUrl": "themes/retail/product4.jpg",
+                      "id": 4
+                  },
+                  {
+                      "ext": "jpg",
+                      "imageUrl": "themes/retail/product5.jpg",
+                      "id": 5
+                  },
+                  {
+                      "ext": "jpg",
+                      "imageUrl": "themes/retail/product1.jpg",
+                      "id": 6
+                  }
+              ],
+              "productOptionsList": [
+                  {
+                      "controlType": "Checkbox",
+                      "name": "Toppings",
+                      "optionValues": [
+                          {
+                              "id": 5,
+                              "optionValue": "Chocolate",
+                              "productOptionValueMappings": [
+                                  {
+                                      "isDefault": null,
+                                      "priceModifier": "+",
+                                      "priceValue": 10,
+                                      "id": 21
+                                  }
+                              ]
+                          }
+                      ]
+                  }
+              ],
+              "productOptionMappings": [
+                  {
+                      "optionId": 1,
+                      "productId": 144,
+                      "option": {
+                          "name": "Size",
+                          "optionValues": [
+                              {
+                                  "id": 1,
+                                  "optionValue": "Small",
+                                  "productVariantMappings": [
+                                      {
+                                          "skuId": 1,
+                                          "variantCombinationDetail": {
+                                              "price": "200.00",
+                                              "description": null,
+                                              "variantName": null,
+                                              "wholeSalePrice": null,
+                                              "isDefault": false,
+                                              "multiLocationVariantStocks": [
+                                                  {
+                                                      "id": 1,
+                                                      "stock": 50,
+                                                      "variantSkuId": 1,
+                                                      "inventoryLocationId": 73
+                                                  }
+                                              ]
+                                          }
+                                      },
+                                      {
+                                          "skuId": 2,
+                                          "variantCombinationDetail": {
+                                              "price": "120.00",
+                                              "description": null,
+                                              "variantName": null,
+                                              "wholeSalePrice": null,
+                                              "isDefault": false,
+                                              "multiLocationVariantStocks": [
+                                                  {
+                                                      "id": 2,
+                                                      "stock": 50,
+                                                      "variantSkuId": 2,
+                                                      "inventoryLocationId": 73
+                                                  }
+                                              ]
+                                          }
+                                      }
+                                  ]
+                              },
+                              {
+                                  "id": 2,
+                                  "optionValue": "Large",
+                                  "productVariantMappings": []
+                              }
+                          ]
+                      }
+                  },
+                  {
+                      "optionId": 2,
+                      "productId": 144,
+                      "option": {
+                          "name": "Colour",
+                          "optionValues": [
+                              {
+                                  "id": 3,
+                                  "optionValue": "Red",
+                                  "productVariantMappings": [
+                                      {
+                                          "skuId": 1,
+                                          "variantCombinationDetail": {
+                                              "price": "200.00",
+                                              "description": null,
+                                              "variantName": null,
+                                              "wholeSalePrice": null,
+                                              "isDefault": false,
+                                              "multiLocationVariantStocks": [
+                                                  {
+                                                      "id": 1,
+                                                      "stock": 50,
+                                                      "variantSkuId": 1,
+                                                      "inventoryLocationId": 73
+                                                  }
+                                              ]
+                                          }
+                                      }
+                                  ]
+                              },
+                              {
+                                  "id": 4,
+                                  "optionValue": "Green",
+                                  "productVariantMappings": [
+                                      {
+                                          "skuId": 2,
+                                          "variantCombinationDetail": {
+                                              "price": "120.00",
+                                              "description": null,
+                                              "variantName": null,
+                                              "wholeSalePrice": null,
+                                              "isDefault": false,
+                                              "multiLocationVariantStocks": [
+                                                  {
+                                                      "id": 2,
+                                                      "stock": 50,
+                                                      "variantSkuId": 2,
+                                                      "inventoryLocationId": 73
+                                                  }
+                                              ]
+                                          }
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  }
+              ],
+              "variantCombinationDetails": [],
+              "averageRatings": {
+                  "count": 3,
+                  "rows": [
+                      {
+                          "avgRatings": 3.5
+                      }
+                  ]
+              },
+              "productTaxMapping": [
+                  {
+                      "isEnabledAllProducts": true,
+                      "id": 62,
+                      "taxFor": "Specific Postal Code",
+                      "otherZoneRate": 6,
+                      "isIncludeTaxInProduct": true,
+                      "taxZonesMappings": [
+                          {
+                              "taxPercent": 2,
+                              "zipCode": 126987,
+                              "zoneId": null
+                          }
+                      ]
+                  },
+                  {
+                      "isEnabledAllProducts": true,
+                      "id": 63,
+                      "taxFor": "Specific Postal Code",
+                      "otherZoneRate": 4,
+                      "isIncludeTaxInProduct": true,
+                      "taxZonesMappings": [
+                          {
+                              "taxPercent": 3,
+                              "zipCode": 456231,
+                              "zoneId": null
+                          }
+                      ]
+                  },
+                  {
+                      "isEnabledAllProducts": true,
+                      "id": 64,
+                      "taxFor": "Specific Zone",
+                      "otherZoneRate": 4,
+                      "isIncludeTaxInProduct": true,
+                      "taxZonesMappings": [
+                          {
+                              "taxPercent": 5,
+                              "zipCode": null,
+                              "zoneId": 99
+                          },
+                          {
+                              "taxPercent": 6,
+                              "zipCode": null,
+                              "zoneId": 87
+                          }
+                      ]
+                  },
+                  {
+                      "isEnabledAllProducts": true,
+                      "id": 55,
+                      "taxFor": "Specific Zone",
+                      "otherZoneRate": 5,
+                      "isIncludeTaxInProduct": true,
+                      "taxZonesMappings": [
+                          {
+                              "taxPercent": 3,
+                              "zipCode": null,
+                              "zoneId": 104
+                          },
+                          {
+                              "taxPercent": 34,
+                              "zipCode": null,
+                              "zoneId": 102
+                          }
+                      ]
+                  },
+                  {
+                      "isEnabledAllProducts": true,
+                      "id": 61,
+                      "taxFor": "Specific Zone",
+                      "otherZoneRate": 2,
+                      "isIncludeTaxInProduct": true,
+                      "taxZonesMappings": [
+                          {
+                              "taxPercent": 1,
+                              "zipCode": null,
+                              "zoneId": 105
+                          }
+                      ]
+                  },
+                  {
+                      "isEnabledAllProducts": true,
+                      "id": 59,
+                      "taxFor": "Specific Zone",
+                      "otherZoneRate": 2,
+                      "isIncludeTaxInProduct": true,
+                      "taxZonesMappings": []
+                  },
+                  {
+                      "isEnabledAllProducts": true,
+                      "id": 60,
+                      "taxFor": "Specific Zone",
+                      "otherZoneRate": 2,
+                      "isIncludeTaxInProduct": true,
+                      "taxZonesMappings": []
+                  }
+              ],
+              "zones": [
+                  {
+                      "id": 105,
+                      "countryId": [
+                          236
+                      ],
+                      "stateId": [],
+                      "zipCode": [
+                          95007
+                      ]
+                  },
+                  {
+                      "id": 104,
+                      "countryId": [
+                          239
+                      ],
+                      "stateId": [
+                          3479
+                      ],
+                      "zipCode": [
+                          97005,
+                          95701
+                      ]
+                  },
+                  {
+                      "id": 102,
+                      "countryId": [
+                          3
+                      ],
+                      "stateId": [],
+                      "zipCode": []
+                  },
+                  {
+                      "id": 99,
+                      "countryId": [
+                          1,
+                          2
+                      ],
+                      "stateId": [],
+                      "zipCode": [
+                          34444,
+                          555555
+                      ]
+                  },
+                  {
+                      "id": 87,
+                      "countryId": [
+                          2,
+                          3
+                      ],
+                      "stateId": [],
+                      "zipCode": [
+                          33333
+                      ]
+                  }
+              ],
+              "productCategories": [
+                  {
+                      "category": {
+                          "isDefault": true
+                      }
+                  }
+              ],
+              "selectedCombination": {
+                  "price": 200,
+                  "combinationName": "Red, Small",
+                  "quantity": 1
+              },
+              "displayQuantity": 1,
+              "isCombinationAvailable": true,
+              "selectedVariant": {
+                  "variantId": 1,
+                  "combinationName": "Red, Small",
+                  "price": 200,
+                  "stockCount": [
+                      {
+                          "id": 1,
+                          "stock": 50,
+                          "variantSkuId": 1,
+                          "inventoryLocationId": 73
+                      }
+                  ],
+                  "description": null,
+                  "variantName": null
+              }
+          },
+          "subscriptionSetting": {
+              "id": 11,
+              "uuid": "01f711c0-09af-11ee-b67e-9b41be7eadd7",
+              "storeId": 212,
+              "createdAt": "2023-06-13T05:56:15.196Z",
+              "modifiedAt": "2023-06-13T05:56:15.196Z",
+              "isCancel": true,
+              "isSkipable": true,
+              "isReactivateSkip": false,
+              "isReactivated": true,
+              "isUpdateProduct": true,
+              "isReschedule": true,
+              "isUpdateShippingAddress": true,
+              "isAllowCod": false,
+              "discountConfig": [
+                  {
+                      "rangeFrom": "5000000",
+                      "rangeTo": "50000005",
+                      "discountRate": "55"
+                  },
+                  {
+                      "rangeFrom": "50000006",
+                      "rangeTo": "50000008",
+                      "discountRate": "56"
+                  },
+                  {
+                      "rangeFrom": "50000008.01",
+                      "rangeTo": -1,
+                      "discountRate": "45"
+                  }
+              ],
+              "frequency": [
+                  53,
+                  43
+              ],
+              "isAdditionalCharges": false,
+              "discountType": null,
+              "additionalChargeLabel": null,
+              "additionalCharge": null,
+              "isSingleSubscription": true
+          },
+          "frequencyArray": [
+              {
+                  "id": 8,
+                  "deliver_frequency": "daily"
+              }
+          ],
+          "websiteSettings": {
+              "currency": {
+                  "currencySymbol": "$",
+                  "currencyCode": "USD"
+              },
+              "isInstructionEnabled": true,
+              "isWholeSaleEnabled": true,
+              "autoReviewApproval": true,
+              "isWishListEnabled": true,
+              "isWaitListEnabled": true
+          },
+          "userData": {
+              "id": 6,
+              "storeId": 2,
+              "customerId": 2,
+              "isWholesale": false,
+              "address": [
+                  {
+                      "country": 239,
+                      "state": 3479,
+                      "zipCode": "97045"
+                  }
+              ]
+          },
+          "offer": [],
+          "orderId": null,
+          "productOrders": [],
+          "locationId": 73,
+          "cartProductArray": [],
+          "categoryId": 1,
+          "automaticDiscountDetails": [
+              {
+                  "id": 593,
+                  "title": "Flat 10% OFF",
+                  "appliesTo": "PRODUCT",
+                  "discountTypeId": 1,
+                  "restrictionBasedOn": "None",
+                  "customerEligibilityType": 4,
+                  "discountValue": "10.00",
+                  "overallUsageLimit": null,
+                  "orderMaxUses": null,
+                  "maxAmount": "500.00",
+                  "minValue": null,
+                  "userBasedMaxUse": 2,
+                  "toAll": true,
+                  "startDate": "2022-09-14T18:30:00.000Z",
+                  "endDate": "2022-09-29T18:30:00.000Z",
+                  "description": null,
+                  "discountType": {
+                      "id": 1,
+                      "discountName": "Percentage",
+                      "discountTypeCode": "PERCENTAGE"
+                  }
+              },
+              {
+                  "id": 585,
+                  "title": "10 to 25 % OFF",
+                  "appliesTo": "PRODUCT",
+                  "discountTypeId": 1,
+                  "restrictionBasedOn": "None",
+                  "customerEligibilityType": 4,
+                  "discountValue": "50.00",
+                  "overallUsageLimit": null,
+                  "orderMaxUses": null,
+                  "maxAmount": "100.00",
+                  "minValue": null,
+                  "userBasedMaxUse": 5,
+                  "toAll": true,
+                  "startDate": "2022-09-11T18:30:00.000Z",
+                  "endDate": "2022-09-29T18:30:00.000Z",
+                  "description": null,
+                  "discountType": {
+                      "id": 1,
+                      "discountName": "Percentage",
+                      "discountTypeCode": "PERCENTAGE"
+                  }
+              }
+          ],
+          "ogsDetails": {}
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-common-product-details",
+          "inputData": [
+              {
+                  "selectorInput": "salesCountdownTimerOffers",
+                  "handlerInput": "sampleData.isNoProduct"
+              },
+              {
+                  "selectorInput": "constantProductDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "navBarDetails",
+                  "handlerInput": "sampleData.navBarDetails"
+              },
+              {
+                  "selectorInput": "productDetails",
+                  "handlerInput": "sampleData.productDetails",
+                  "functionName": "getOneProductDetails"
+              },
+              {
+                  "selectorInput": "websiteSettings",
+                  "handlerInput": "sampleData.websiteSettings",
+                  "functionName": "getWebsiteSettings"
+              },
+              {
+                  "selectorInput": "locationId",
+                  "handlerInput": "sampleData.locationId"
+              },
+              {
+                  "selectorInput": "userData",
+                  "handlerInput": "sampleData.userData"
+              },
+              {
+                  "selectorInput": "orderId",
+                  "handlerInput": "sampleData.orderId"
+              },
+              {
+                  "selectorInput": "cartProductArray",
+                  "handlerInput": "sampleData.cartProductArray",
+                  "functionName": "getCartProducts"
+              },
+              {
+                  "selectorInput": "isSingleSubscriptionValue",
+                  "handlerInput": "sampleData.subscriptionSetting",
+                  "functionName": "getData"
+              },
+              {
+                  "selectorInput": "frequencyArray",
+                  "handlerInput": "sampleData.frequencyArray"
+              },
+              {
+                  "selectorInput": "productOrders",
+                  "handlerInput": "sampleData.productOrders",
+                  "functionName": "getProductOrders"
+              },
+              {
+                  "selectorInput": "categoryId",
+                  "handlerInput": "sampleData.categoryId"
+              },
+              {
+                  "selectorInput": "automaticDiscountDetails",
+                  "handlerInput": "sampleData.automaticDiscountDetails"
+              },
+              {
+                  "selectorInput": "isNoProduct",
+                  "handlerInput": "sampleData.isNoProduct"
+              },
+              {
+                  "selectorInput": "ogsDetails",
+                  "handlerInput": "sampleData.ogsDetails",
+                  "functionName": "setOgsDetails"
+              },
+              {
+                  "selectorInput": "categoryDetails",
+                  "handlerInput": "sampleData.categoryDetails",
+                  "functionName": "getCategoryNameForProduct"
+              },
+              {
+                  "selectorInput": "isWishlist",
+                  "handlerInput": "sampleData.isWishlist"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "cartData",
+                  "handlerFunction": "addToCart"
+              },
+              {
+                  "selectorOutput": "wishlistData",
+                  "handlerFunction": "addRemoveFromWishlist"
+              },
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              },
+              {
+                  "selectorOutput": "notifyDetails",
+                  "handlerFunction": "addToWaitList"
+              },
+              {
+                  "selectorOutput": "selectedVariant",
+                  "handlerFunction": "getDiscountDetailsForSingleProduct"
+              },
+              {
+                  "selectorOutput": "recentlyViewed",
+                  "handlerFunction": "createRecentlyViewedProducts"
+              }
+          ]
+      }
+  },
+  {
+      "sectionId": 2,
+      "isVisible": true,
+      "sectionName": "Buy X Get Y",
+      "isExistingComponent": true,
+      "details": {
+          "showDiscountTitle": true,
+          "discountTitle": "Buy more and Save more",
+          "seeMoreText": "See more discounts"
+      },
+      "sampleData": {
+          "isNoProduct": false,
+          "buyxGetyDiscountDetails": [
+              {
+                  "id": 74,
+                  "title": "abc",
+                  "description": null,
+                  "overallUsageLimit": 2,
+                  "userBasedMaxUse": 1,
+                  "customerEligibilityType": 2352,
+                  "createdAt": "2022-10-18T06:50:18.259Z",
+                  "buyxData": [
+                      {
+                          "rowId": 0,
+                          "buyxItem": {
+                              "id": 13165,
+                              "name": "Cake - Green,Small",
+                              "price": "150.00",
+                              "productId": 11968,
+                              "featuredImage": "products/variants1665730604914.jpg"
+                          },
+                          "quantity": 2
+                      }
+                  ],
+                  "getyData": [
+                      {
+                          "rowId": 0,
+                          "getyItem": {
+                              "id": 4455,
+                              "name": "Chicken Hakka Noodles",
+                              "price": "13.99",
+                              "productId": 3182,
+                              "featuredImage": null
+                          },
+                          "getyPercentage": 10
+                      }
+                  ],
+                  "buyxItemIsProduct": true,
+                  "getyItemIsProduct": true,
+                  "discountMappings": [],
+                  "selectedProductDetails": {
+                      "productName": "Cake",
+                      "variantName": "Green,Small",
+                      "id": 11968,
+                      "variantId": 13165
+                  }
+              },
+              {
+                  "id": 73,
+                  "title": "Offer offer",
+                  "description": null,
+                  "overallUsageLimit": 3,
+                  "userBasedMaxUse": 3,
+                  "customerEligibilityType": 2352,
+                  "createdAt": "2022-10-18T06:49:39.429Z",
+                  "buyxData": [
+                      {
+                          "rowId": 0,
+                          "buyxItem": {
+                              "id": 13165,
+                              "name": "Cake - Green,Small",
+                              "price": "150.00",
+                              "productId": 11968,
+                              "featuredImage": "products/variants1665730604914.jpg"
+                          },
+                          "quantity": 3
+                      }
+                  ],
+                  "getyData": [
+                      {
+                          "rowId": 0,
+                          "getyItem": {
+                              "id": 1944,
+                              "name": "Dove Deep Pure Oil Control Face Wash 50gms",
+                              "price": "1.37",
+                              "productId": 1979,
+                              "featuredImage": null
+                          },
+                          "getyPercentage": 30
+                      }
+                  ],
+                  "buyxItemIsProduct": true,
+                  "getyItemIsProduct": true,
+                  "discountMappings": [],
+                  "selectedProductDetails": {
+                      "productName": "Cake",
+                      "variantName": "Green,Small",
+                      "id": 11968,
+                      "variantId": 13165
+                  }
+              },
+              {
+                  "id": 70,
+                  "title": "Offer",
+                  "description": null,
+                  "overallUsageLimit": null,
+                  "userBasedMaxUse": 2,
+                  "customerEligibilityType": 2352,
+                  "createdAt": "2022-10-14T09:36:55.319Z",
+                  "buyxData": [
+                      {
+                          "rowId": 0,
+                          "buyxItem": {
+                              "id": 13165,
+                              "name": "Cake - Green,Small",
+                              "price": "150.00",
+                              "productId": 11968,
+                              "featuredImage": "products/variants1665730604914.jpg"
+                          },
+                          "quantity": 5
+                      }
+                  ],
+                  "getyData": [
+                      {
+                          "rowId": 0,
+                          "getyItem": {
+                              "id": 13165,
+                              "name": "Cake - Green,Small",
+                              "price": "150.00",
+                              "productId": 11968,
+                              "featuredImage": "products/variants1665730604914.jpg"
+                          },
+                          "getyPercentage": 20
+                      }
+                  ],
+                  "buyxItemIsProduct": true,
+                  "getyItemIsProduct": true,
+                  "discountMappings": [],
+                  "selectedProductDetails": {
+                      "productName": "Cake",
+                      "variantName": "Green,Small",
+                      "id": 11968,
+                      "variantId": 13165
+                  }
+              }
+          ],
+          "websiteSettings": {}
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-buyx-gety-details",
+          "inputData": [
+              {
+                  "selectorInput": "displayDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "buyxGetyDiscountDetails",
+                  "handlerInput": "sampleData.buyxGetyDiscountDetails"
+              },
+              {
+                  "selectorInput": "websiteSettings",
+                  "handlerInput": "sampleData.websiteSettings"
+              },
+              {
+                  "selectorInput": "isNoProduct",
+                  "handlerInput": "sampleData.isNoProduct"
+              },
+              {
+                  "selectorInput": "productDetails",
+                  "handlerInput": "sampleData.productDetails"
+              },
+              {
+                  "selectorInput": "locationId",
+                  "handlerInput": "sampleData.locationId"
+              }
+          ],
+          "outputData": []
+      }
+  },
+  {
+      "sectionId": 3,
+      "isVisible": true,
+      "isExistingComponent": true,
+      "details": {
+          "pageDesign": "designTemplateTwo",
+          "showProductDescriptionTab": "true",
+          "productDescriptionTabText": "Product Description",
+          "showReviewTab": "true",
+          "reviewTabText": "Review",
+          "showSpecificationTab": "true",
+          "specificationTabText": "Specifications",
+          "showFaqTab": "true",
+          "faqTabText": "FAQ",
+          "showRatingTitle": "true",
+          "ratingTitle": "Overall Rating",
+          "showStarRatings": "true",
+          "showVerifiedRatings": "true",
+          "showRatingBar": "true",
+          "showReviewDescription": "true",
+          "newReviewDescription": "Share your thoughts with other customers",
+          "showUserFullName": "true",
+          "showUploadedImages": "true",
+          "showVerfiedPurchase": "true",
+          "showReviewDate": "true",
+          "showReviewTitle": "true",
+          "showReviewMessage": "true",
+          "showHelpfulButton": "true",
+          "shownotSatisfiedButton": "true",
+          "experienceText": "How was your experience with",
+          "uploadImageTitle": "Show off your look",
+          "uploadImageDescription": "Images are more helpful than text",
+          "uploadImageButtonText": "Upload Photo",
+          "newReviewButtonText": "Write Review",
+          "showWriteReviewButton": true
+      },
+      "sampleData": {
+          "isNoProduct": false,
+          "productVideos": [
+              "themes/shared/ZenBasket Promotional Video.mp4"
+          ],
+          "tabSectionDetails": {
+              "productId": 81,
+              "description": "Pizza is a type of food that was created in Italy (The Naples area). It is made with different toppings.",
+              "specificationDetails": [
+                  {
+                      "title": "Browse Type",
+                      "description": "Smartphones"
+                  },
+                  {
+                      "title": "Model Number",
+                      "description": "V2132"
+                  },
+                  {
+                      "title": "Model Name",
+                      "description": "V23 Pro 5G"
+                  },
+                  {
+                      "title": "Color",
+                      "description": "Stardust Black"
+                  },
+                  {
+                      "title": "In The Box",
+                      "description": "Handset, Headset, Documentation, USB Cable, Charger, 3.5mm Earphone Jack Adapter, Eject Tool, Phone Case, Protective Film (Applied)"
+                  },
+                  {
+                      "title": "Sample title",
+                      "description": "Sample description"
+                  }
+              ],
+              "productReviews": [
+                  {
+                      "id": 28,
+                      "reviewTitle": "Food Review",
+                      "reviewMessage": "Good",
+                      "createdBy": 6,
+                      "ratings": 5,
+                      "likes": null,
+                      "disLikes": null,
+                      "createdAt": "2022-03-25T10:34:17.432Z",
+                      "isApproved": true,
+                      "reviewAttachments": [
+                          {
+                              "id": 25,
+                              "fileUrl": "themes/shared/cake.jpg",
+                              "ext": "jpg"
+                          }
+                      ],
+                      "fullName": "shri Abi",
+                      "shortName": "SA"
+                  },
+                  {
+                      "id": 29,
+                      "reviewTitle": "Cake Review",
+                      "reviewMessage": "Good",
+                      "createdBy": 6,
+                      "ratings": 4,
+                      "likes": null,
+                      "disLikes": null,
+                      "createdAt": "2022-03-25T10:59:34.819Z",
+                      "reviewAttachments": [
+                          {
+                              "id": 26,
+                              "fileUrl": "themes/restaurant/vegpizza.png",
+                              "ext": "png"
+                          }
+                      ],
+                      "fullName": "shri Abi",
+                      "shortName": "SA"
+                  }
+              ],
+              "averageRatings": {
+                  "count": 3,
+                  "rows": [
+                      {
+                          "avgRatings": "4.3333333333333333"
+                      }
+                  ]
+              },
+              "productAttachments": [
+                  {
+                      "ext": "jpg",
+                      "imageUrl": "themes/shared/cakes.jpg",
+                      "id": 1
+                  },
+                  {
+                      "ext": "jpg",
+                      "imageUrl": "themes/shared/cake.jpg",
+                      "id": 2
+                  },
+                  {
+                      "ext": "jpg",
+                      "imageUrl": "themes/bakery/cakes1.jpg",
+                      "id": 3
+                  }
+              ],
+              "productFrequentlyAskedQuestions": [
+                  {
+                      "question": "When will be delivered?",
+                      "answer": "Delivered within an hour"
+                  }
+              ],
+              "users": [
+                  {
+                      "firstName": "Siraaju",
+                      "lastName": "Rahim",
+                      "id": 2
+                  },
+                  {
+                      "firstName": "Durga",
+                      "lastName": "Padmanaban",
+                      "id": 6
+                  }
+              ],
+              "groupProductRatings": [
+                  {
+                      "ratings": 3,
+                      "count": "2"
+                  },
+                  {
+                      "ratings": 2,
+                      "count": "1"
+                  }
+              ],
+              "featuredImage": "themes/shared/cakes.jpg",
+              "name": "Cake",
+              "isOrderedProduct": "true"
+          },
+          "websiteSettings": {
+              "currency": {
+                  "currencySymbol": "$",
+                  "currencyCode": "USD"
+              },
+              "isInstructionEnabled": true,
+              "isWholeSaleEnabled": true,
+              "autoReviewApproval": true
+          }
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-common-additional-info",
+          "inputData": [
+              {
+                  "selectorInput": "displayDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "tabSectionDetails",
+                  "handlerInput": "sampleData.tabSectionDetails"
+              },
+              {
+                  "selectorInput": "productVideos",
+                  "handlerInput": "sampleData.productVideos"
+              },
+              {
+                  "selectorInput": "websiteSettings",
+                  "handlerInput": "sampleData.websiteSettings"
+              },
+              {
+                  "selectorInput": "isNoProduct",
+                  "handlerInput": "sampleData.isNoProduct"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "newReviewData",
+                  "handlerFunction": "createReview"
+              },
+              {
+                  "selectorOutput": "likeClicked",
+                  "handlerFunction": "likeClicked"
+              },
+              {
+                  "selectorOutput": "dislikeClicked",
+                  "handlerFunction": "dislikeClicked"
+              }
+          ]
+      }
+  },
+  {
+      "sectionId": 4,
+      "isVisible": true,
+      "isExistingComponent": true,
+      "details": {
+          "showCrosssellProducts": true,
+          "crosssellProductsTitle": "Related Products",
+          "showUpsellProducts": true,
+          "upsellProductsTitle": "You may also like"
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-upsell-cross-sell",
+          "inputData": [
+              {
+                  "selectorInput": "displayDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "relatedProducts",
+                  "handlerInput": "sampleData.relatedProducts",
+                  "functionName": "getRelatedProducts"
+              },
+              {
+                  "selectorInput": "salesCountdownTimerOffers",
+                  "handlerInput": "sampleData.salesCountdownTimerOffers"
+              },
+              {
+                  "selectorInput": "websiteSettings",
+                  "handlerInput": "sampleData.websiteSettings"
+              },
+              {
+                  "selectorInput": "productOrders",
+                  "handlerInput": "sampleData.productOrders"
+              },
+              {
+                  "selectorInput": "orderId",
+                  "handlerInput": "sampleData.orderId"
+              },
+              {
+                  "selectorInput": "customerId",
+                  "handlerInput": "sampleData.customerId"
+              },
+              {
+                  "selectorInput": "isNoProduct",
+                  "handlerInput": "sampleData.isNoProduct"
+              }
+          ],
+          "outputData": []
+      },
+      "sampleData": {
+          "isNoProduct": false,
+          "relatedProducts": {
+              "upsellProducts": [
+                  {
+                      "code": "UPSELL_PRODUCT",
+                      "id": 285,
+                      "products": {
+                          "costComparePrice": 100,
+                          "featuredImage": "Products/bag21666341258053.jpg",
+                          "id": 12427,
+                          "isVariants": true,
+                          "multiLocationVariantStocks": [],
+                          "name": "SKYBAGS",
+                          "price": 95,
+                          "productAvailability": true,
+                          "variantId": 13889,
+                          "weightCount": "0.20",
+                          "weightUnitId": 9,
+                          "productId": 12210,
+                          "relatedProductId": 12427,
+                          "sortOrder": 3
+                      }
+                  },
+                  {
+                      "code": "UPSELL_PRODUCT",
+                      "id": 286,
+                      "products": {
+                          "costComparePrice": 0,
+                          "featuredImage": "Products/bag21666341258053.jpg",
+                          "id": 10280,
+                          "isVariants": true,
+                          "multiLocationVariantStocks": [],
+                          "name": "SKYBAGS",
+                          "price": 89,
+                          "productAvailability": true,
+                          "variantId": 11801,
+                          "weightCount": "0.20",
+                          "weightUnitId": 9,
+                          "productId": 12210,
+                          "relatedProductId": 10280,
+                          "sortOrder": 4
+                      }
+                  }
+              ],
+              "crosssellProducts": [
+                  {
+                      "code": "UPSELL_PRODUCT",
+                      "id": 285,
+                      "products": {
+                          "costComparePrice": 100,
+                          "featuredImage": "Products/bag21666341258053.jpg",
+                          "id": 12427,
+                          "isVariants": true,
+                          "multiLocationVariantStocks": [],
+                          "name": "SKYBAGS",
+                          "price": 95,
+                          "productAvailability": true,
+                          "variantId": 13889,
+                          "weightCount": "0.20",
+                          "weightUnitId": 9,
+                          "productId": 12210,
+                          "relatedProductId": 12427,
+                          "sortOrder": 3
+                      }
+                  },
+                  {
+                      "code": "UPSELL_PRODUCT",
+                      "id": 286,
+                      "products": {
+                          "costComparePrice": 0,
+                          "featuredImage": "Products/bag21666341258053.jpg",
+                          "id": 10280,
+                          "isVariants": true,
+                          "multiLocationVariantStocks": [],
+                          "name": "SKYBAGS",
+                          "price": 89,
+                          "productAvailability": true,
+                          "variantId": 11801,
+                          "weightCount": "0.20",
+                          "weightUnitId": 9,
+                          "productId": 12210,
+                          "relatedProductId": 10280,
+                          "sortOrder": 4
+                      }
+                  }
+              ]
+          }
+      }
+  }
+]

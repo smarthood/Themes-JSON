@@ -1,0 +1,700 @@
+[
+  {
+      "sectionId": 1,
+      "details": {
+          "bannerProperty": 3,
+          "bannerDetails": {
+              "height": 80,
+              "buttonEnabled": true,
+              "bannerTextBackGroundEnabled": false,
+              "textEnabled": true,
+              "buttonLayout": "row",
+              "buttonProperties": [
+                  {
+                      "buttonLink": "products",
+                      "buttonColor": "#f25e3d",
+                      "buttonText": "Order Now",
+                      "buttonTextColor": "white"
+                  }
+              ],
+              "animation": "slideInText",
+              "textAlign": "Center",
+              "bannerText": "Welcome to Tasty Cravings",
+              "textFontFamily": "'Montserrat',sans-serif",
+              "textFontStyle": [],
+              "subTextFontStyle": [],
+              "bannerSubText": null,
+              "textColor": "white",
+              "bannerTextBackGroundColor": "white",
+              "subTextColor": "white",
+              "textSize": 42,
+              "subtextSize": 18,
+              "bannerVideo": "themes/restaurant/restaurantHomeBanner.mp4",
+              "bannerVideoMarginLeftRight": 0,
+              "bannerVideoMarginTop": 0,
+              "bannerVideoMarginBottom": 0,
+              "bannerVideoCard": false
+          },
+          "inValid": false,
+          "isChildError": false
+      },
+      "selectorDetails": {
+          "selector": "banner-element",
+          "inputData": [
+              {
+                  "selectorInput": "bannerDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Home Banner",
+      "isExistingComponent": true,
+      "sampleData": null,
+      "script": "themes/bundle/shared-theme/banner.js"
+  },
+  {
+      "details": {
+          "templateSettings": {
+              "displayProduct": "featuredCategory",
+              "cardDisplayStyle": "restaurantTheme1Category",
+              "cardContentHeight": 42,
+              "buttonAnimation": "none",
+              "displayButton": false,
+              "buttonPosition": "top",
+              "buttonText": "View More",
+              "buttonTextAlign": "right",
+              "buttonFontStyle": [],
+              "buttonBorderRadius": 1,
+              "buttonColor": "#ffffff",
+              "buttonTextColor": "#000000",
+              "buttonHoverColor": "#ffffff",
+              "buttonHoverTextColor": "black",
+              "isDisplayBorder": false,
+              "buttonBorderColor": "white",
+              "buttonBorderSize": 1,
+              "buttonTextSize": 16,
+              "buttonPadding": 1,
+              "borderPositions": [],
+              "isbuttonIcon": true,
+              "buttonIconType": "normal",
+              "buttonHeight": 0,
+              "buttonAlignWithHeading": false,
+              "sliderType": "slider",
+              "isAutomatic": "withSeconds",
+              "timeInterval": 3,
+              "iconType": "normal",
+              "showArrowsOnHover": false,
+              "isBackground": false,
+              "displayHeading": true,
+              "headingText": "Craving Categories..!",
+              "headingColor": "#f6785d",
+              "headingFontFamily": "'Montserrat',sans-serif",
+              "headingFontSize": 27,
+              "headingFontStyle": [
+                  "B"
+              ],
+              "headingHeight": 19,
+              "textAlign": "center",
+              "displaySubHeading": false,
+              "displayDivider": false
+          }
+      },
+      "selectorDetails": {
+          "selector": "common-slider",
+          "inputData": [
+              {
+                  "selectorInput": "sectionDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "displayData",
+                  "handlerInput": "sampleData.categories",
+                  "functionName": "getCommonSliderData"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              },
+              {
+                  "selectorOutput": "setInput",
+                  "handlerFunction": "getCommonSliderData"
+              }
+          ]
+      },
+      "sectionName": "Product Categories",
+      "isExistingComponent": true,
+      "sampleData": {
+          "categories": {
+              "selectedDetail": "featuredCategory",
+              "data": [
+                  {
+                      "categoryImageUrl": "themes/restaurant/category-one.jpg",
+                      "categoryName": "Biriyani"
+                  },
+                  {
+                      "categoryImageUrl": "themes/restaurant/category-two.jpg",
+                      "categoryName": "Rotti"
+                  },
+                  {
+                      "categoryImageUrl": "themes/restaurant/category-three.jpg",
+                      "categoryName": "Gravy"
+                  }
+              ],
+              "sectionId": 7
+          }
+      },
+      "isVisible": true,
+      "sectionId": 7,
+      "script": "themes/bundle/shared-theme/common-slider.js"
+  },
+  {
+      "sectionId": 3,
+      "details": {
+          "infoHeading": "About Us",
+          "infoHeadingColorStyle": [
+              "B"
+          ],
+          "textFontFamily": "'Montserrat',sans-serif",
+          "infoHeadingSize": 20,
+          "infoHeadingColor": "#000000",
+          "infoDescription": "<div><span>It&#8217;s a wonderful opportunity for us to welcome you to our restaurant.&#160;</span></div><div><span>All of our dishes are made using quality fresh ingredients with safety, it all starts with the hand-made dough and our toppings are sourced from the best local grocers. We offer amazing food at incredible prices. Our customer service is what makes us one of the best restaurants around.</span></div>",
+          "buttonEnabled": true,
+          "buttonText": "Know More",
+          "buttonColor": "#f25e3d",
+          "buttonTextColor": "white",
+          "aboutImage": "themes/restaurant/about-us.jpg",
+          "buttonLink": "aboutus"
+      },
+      "selectorDetails": {
+          "selector": "restaurant-story",
+          "inputData": [
+              {
+                  "selectorInput": "storyDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "About Us",
+      "isExistingComponent": true,
+      "sampleData": null,
+      "isVisible": true,
+      "script": "themes/bundle/restaurant/zen-cravings/zencravings-home.js"
+  },
+  {
+      "sectionId": 4,
+      "details": {
+          "bannerProperty": 1,
+          "bannerDetails": {
+              "bannerImage": [
+                  {
+                      "image": "themes/Tasty_Cravings_theme_mid_banner_1685101907872_S51.png",
+                      "imageZoom": false,
+                      "parallax": true,
+                      "buttonEnabled": true,
+                      "textEnabled": true,
+                      "bannerTextBackGroundEnabled": false,
+                      "imageOverlay": true,
+                      "overlayColor": "rgb(0,0,0,0.5)",
+                      "subtextSize": 18,
+                      "buttonLayout": "row",
+                      "index": 0,
+                      "buttonProperties": [
+                          {
+                              "buttonLink": "products",
+                              "buttonColor": "#f25e3d",
+                              "buttonText": "Order Now",
+                              "buttonTextColor": "white"
+                          }
+                      ],
+                      "animation": "noAnimationTemplate",
+                      "textAlign": "Center",
+                      "bannerText": "Free Delivery for Lucky Winners",
+                      "textFontFamily": "'Montserrat',sans-serif",
+                      "textFontStyle": [
+                          "B"
+                      ],
+                      "subTextFontStyle": [],
+                      "bannerSubText": null,
+                      "textColor": "white",
+                      "bannerTextBackGroundColor": "white",
+                      "subTextColor": "white",
+                      "textSize": 28
+                  }
+              ],
+              "imageBackgroundSizeType": "cover",
+              "height": 60
+          },
+          "inValid": false,
+          "isChildError": false
+      },
+      "selectorDetails": {
+          "selector": "banner-element",
+          "inputData": [
+              {
+                  "selectorInput": "bannerDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Second Banner",
+      "isExistingComponent": true,
+      "sampleData": null,
+      "isVisible": true,
+      "script": "themes/bundle/shared-theme/banner.js"
+  },
+  {
+    "sectionId": 6,
+    "details": {},
+    "selectorDetails": {
+        "selector": "recently-viewed-products",
+        "inputData": [
+            {
+                "selectorInput": "recentlyViewedProducts",
+                "handlerInput": "sampleData.recentlyViewedProducts",
+                "functionName": "getRecentlyViewedProducts"
+            }
+        ],
+        "outputData": []
+    },
+    "sectionName": "Recently Viewed Products",
+    "isExistingComponent": true,
+    "sampleData": {
+        "recentlyViewedProducts": [
+            {
+                "product": {
+                    "featuredImage": "themes/restaurant/recent-one.jpg",
+                    "name": "Egg Noodles",
+                    "price": "250"
+                }
+            },
+            {
+                "product": {
+                    "featuredImage": "themes/restaurant/recent-two.jpg",
+                    "name": "Paneer Gravy",
+                    "price": "400"
+                }
+            },
+            {
+                "product": {
+                    "featuredImage": "themes/restaurant/recent-three.jpg",
+                    "name": "Biriyani",
+                    "price": "500"
+                }
+            },
+            {
+                "product": {
+                    "featuredImage": "themes/restaurant/recent-four.jpg",
+                    "name": "Chicken Gravy",
+                    "price": "400"
+                }
+            }
+        ]
+    },
+    "isVisible": true,
+    "script":"themes/bundle/shared-theme/recently-viewed-products.js"
+},
+{
+    "sectionId": 5,
+    "details": {
+        "showBackgroundImage": true,
+        "backgroundImage": "themes/Contact_us_Matha_try_tiles_image_1685103013695_S51.jpg",
+        "imageBackgroundSizeType": "100% 100%",
+        "locationHeading": "Our Branches",
+        "textFontStyle": [
+            "B"
+        ],
+        "textFontFamily": "'Montserrat',sans-serif",
+        "textSize": 26,
+        "textColor": "#000000",
+        "showFilter": null
+    },
+    "selectorDetails": {
+        "selector": "contact-location-map",
+        "inputData": [
+            {
+                "selectorInput": "contactUsDetails",
+                "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+            },
+            {
+                "selectorInput": "locationDetails",
+                "handlerInput": "sampleData.locationDetails",
+                "functionName": "setWorkingDays"
+            }
+        ],
+        "outputData": [
+            {
+                "selectorOutput": "searchBy",
+                "handlerFunction": "searchBy"
+            },
+            {
+                "selectorOutput": "searchValue",
+                "handlerFunction": "searchValue"
+            }
+        ]
+    },
+    "sectionName": "Location Details",
+    "isExistingComponent": true,
+    "sampleData": {
+        "locationDetails": [
+            {
+                "id": 75,
+                "addressId": 160,
+                "locationName": "Beaverton",
+                "pickupInstructions": null,
+                "locationDescription": null,
+                "latitude": "23.343534",
+                "longitude": "34",
+                "storeId": 2,
+                "shopClosedDays": [],
+                "timeZone": "America/Tijuana",
+                "isOrderSpecificTiming": true,
+                "orderAmountLimit": 50,
+                "isDefault": false,
+                "isGlobal": true,
+                "allowedZipcodes": null,
+                "storeWorkingHours": [
+                    {
+                        "id": 621,
+                        "productBoxId": null,
+                        "shippingMethodId": null,
+                        "startTime": "09:00 AM",
+                        "endTime": "12:00 PM",
+                        "sun": null,
+                        "mon": null,
+                        "tue": null,
+                        "wed": null,
+                        "thu": null,
+                        "fri": true,
+                        "sat": true,
+                        "isDelivery": null,
+                        "isPickup": null,
+                        "isOrder": null,
+                        "isDineIn": null,
+                        "isStoreActive": null
+                    },
+                    {
+                        "id": 622,
+                        "productBoxId": null,
+                        "shippingMethodId": null,
+                        "startTime": "12:00 PM",
+                        "endTime": "07:00 PM",
+                        "sun": null,
+                        "mon": null,
+                        "tue": null,
+                        "wed": null,
+                        "thu": null,
+                        "fri": true,
+                        "sat": true,
+                        "isDelivery": null,
+                        "isPickup": null,
+                        "isOrder": null,
+                        "isDineIn": null,
+                        "isStoreActive": null
+                    }
+                ],
+                "workingHoursData": [
+                    {
+                        "days": "Mon",
+                        "time": "09:00 AM - 12:00 PM",
+                        "isStoreActive": null
+                    },
+                    {
+                        "days": "Tue",
+                        "time": "09:00 AM - 12:00 PM",
+                        "isStoreActive": null
+                    }
+                ],
+                "closingHoursData": [
+                    {
+                        "days": "Sun",
+                        "time": "12:00 AM - 12:00 AM",
+                        "isStoreActive": null
+                    }
+                ],
+                "orderPlacingTimes": [
+                    {
+                        "id": 156,
+                        "startTime": "12:00 AM",
+                        "endTime": "12:00 PM",
+                        "sun": null,
+                        "mon": true,
+                        "tue": true,
+                        "wed": true,
+                        "thu": true,
+                        "fri": true,
+                        "sat": true,
+                        "isStoreActive": null
+                    }
+                ],
+                "address": {
+                    "id": 160,
+                    "importId": null,
+                    "addressLine1": "12725 SW Millikan Way, #300",
+                    "addressLine2": null,
+                    "city": "Beaverton",
+                    "state": "Beaverton",
+                    "name": null,
+                    "country": "US",
+                    "zipCode": "97005",
+                    "mobileNumber": "(971) 420-1700",
+                    "email": "contact@getzenbasket.com",
+                    "faxNumber": null,
+                    "stateAbbreviation": null,
+                    "countryCode": null,
+                    "isDeleted": false,
+                    "isDefault": null,
+                    "createdAt": "2022-01-27T05:12:46.297Z",
+                    "modifiedAt": "2022-03-10T04:24:43.334Z",
+                    "userId": null
+                }
+            },
+            {
+                "id": 76,
+                "addressId": 161,
+                "locationName": "Canada",
+                "pickupInstructions": null,
+                "locationDescription": null,
+                "latitude": "23.343534",
+                "longitude": "34",
+                "storeId": 2,
+                "shopClosedDays": [],
+                "timeZone": "America/Tijuana",
+                "isOrderSpecificTiming": true,
+                "orderAmountLimit": 50,
+                "isDefault": false,
+                "isGlobal": true,
+                "allowedZipcodes": null,
+                "storeWorkingHours": [
+                    {
+                        "id": 621,
+                        "productBoxId": null,
+                        "shippingMethodId": null,
+                        "startTime": "09:00 AM",
+                        "endTime": "12:00 PM",
+                        "sun": null,
+                        "mon": null,
+                        "tue": null,
+                        "wed": null,
+                        "thu": null,
+                        "fri": true,
+                        "sat": true,
+                        "isDelivery": null,
+                        "isPickup": null,
+                        "isOrder": null,
+                        "isDineIn": null,
+                        "isStoreActive": null
+                    },
+                    {
+                        "id": 622,
+                        "productBoxId": null,
+                        "shippingMethodId": null,
+                        "startTime": "12:00 PM",
+                        "endTime": "07:00 PM",
+                        "sun": null,
+                        "mon": null,
+                        "tue": null,
+                        "wed": null,
+                        "thu": null,
+                        "fri": true,
+                        "sat": true,
+                        "isDelivery": null,
+                        "isPickup": null,
+                        "isOrder": null,
+                        "isDineIn": null,
+                        "isStoreActive": null
+                    }
+                ],
+                "workingHoursData": [
+                    {
+                        "days": "Mon",
+                        "time": "09:00 AM - 12:00 PM",
+                        "isStoreActive": null
+                    },
+                    {
+                        "days": "Tue",
+                        "time": "09:00 AM - 12:00 PM",
+                        "isStoreActive": null
+                    }
+                ],
+                "closingHoursData": [
+                    {
+                        "days": "Sun",
+                        "time": "12:00 AM - 12:00 AM",
+                        "isStoreActive": null
+                    }
+                ],
+                "orderPlacingTimes": [
+                    {
+                        "id": 156,
+                        "startTime": "12:00 AM",
+                        "endTime": "12:00 PM",
+                        "sun": null,
+                        "mon": true,
+                        "tue": true,
+                        "wed": true,
+                        "thu": true,
+                        "fri": true,
+                        "sat": true,
+                        "isStoreActive": null
+                    }
+                ],
+                "address": {
+                    "id": 160,
+                    "importId": null,
+                    "addressLine1": "151 York St,",
+                    "addressLine2": null,
+                    "city": "London",
+                    "state": "London",
+                    "name": null,
+                    "country": "London",
+                    "zipCode": "97005",
+                    "mobileNumber": "(971) 420-1700",
+                    "email": "contact@getzenbasket.com",
+                    "faxNumber": null,
+                    "stateAbbreviation": null,
+                    "countryCode": null,
+                    "isDeleted": false,
+                    "isDefault": null,
+                    "createdAt": "2022-01-27T05:12:46.297Z",
+                    "modifiedAt": "2022-03-10T04:24:43.334Z",
+                    "userId": null
+                }
+            },
+            {
+                "id": 76,
+                "addressId": 161,
+                "locationName": "India",
+                "pickupInstructions": null,
+                "locationDescription": null,
+                "latitude": "23.343534",
+                "longitude": "34",
+                "storeId": 2,
+                "shopClosedDays": [],
+                "timeZone": "America/Tijuana",
+                "isOrderSpecificTiming": true,
+                "orderAmountLimit": 50,
+                "isDefault": false,
+                "isGlobal": true,
+                "allowedZipcodes": null,
+                "storeWorkingHours": [
+                    {
+                        "id": 621,
+                        "productBoxId": null,
+                        "shippingMethodId": null,
+                        "startTime": "09:00 AM",
+                        "endTime": "12:00 PM",
+                        "sun": null,
+                        "mon": null,
+                        "tue": null,
+                        "wed": null,
+                        "thu": null,
+                        "fri": true,
+                        "sat": true,
+                        "isDelivery": null,
+                        "isPickup": null,
+                        "isOrder": null,
+                        "isDineIn": null,
+                        "isStoreActive": null
+                    },
+                    {
+                        "id": 622,
+                        "productBoxId": null,
+                        "shippingMethodId": null,
+                        "startTime": "12:00 PM",
+                        "endTime": "07:00 PM",
+                        "sun": null,
+                        "mon": null,
+                        "tue": null,
+                        "wed": null,
+                        "thu": null,
+                        "fri": true,
+                        "sat": true,
+                        "isDelivery": null,
+                        "isPickup": null,
+                        "isOrder": null,
+                        "isDineIn": null,
+                        "isStoreActive": null
+                    }
+                ],
+                "workingHoursData": [
+                    {
+                        "days": "Mon",
+                        "time": "09:00 AM - 12:00 PM",
+                        "isStoreActive": null
+                    },
+                    {
+                        "days": "Tue",
+                        "time": "09:00 AM - 12:00 PM",
+                        "isStoreActive": null
+                    }
+                ],
+                "closingHoursData": [
+                    {
+                        "days": "Sun",
+                        "time": "12:00 AM - 12:00 AM",
+                        "isStoreActive": null
+                    }
+                ],
+                "orderPlacingTimes": [
+                    {
+                        "id": 156,
+                        "startTime": "12:00 AM",
+                        "endTime": "12:00 PM",
+                        "sun": null,
+                        "mon": true,
+                        "tue": true,
+                        "wed": true,
+                        "thu": true,
+                        "fri": true,
+                        "sat": true,
+                        "isStoreActive": null
+                    }
+                ],
+                "address": {
+                    "id": 162,
+                    "importId": null,
+                    "addressLine1": "25 Vinayagar Nagar, NGO Colony,",
+                    "addressLine2": null,
+                    "city": "Tirunelveli",
+                    "state": "Tirunelveli",
+                    "name": null,
+                    "country": "India",
+                    "zipCode": "97005",
+                    "mobileNumber": "(971) 420-1700",
+                    "email": "contact@getzenbasket.com",
+                    "faxNumber": null,
+                    "stateAbbreviation": null,
+                    "countryCode": null,
+                    "isDeleted": false,
+                    "isDefault": null,
+                    "createdAt": "2022-01-27T05:12:46.297Z",
+                    "modifiedAt": "2022-03-10T04:24:43.334Z",
+                    "userId": null
+                }
+            }
+        ]
+    },
+    "isVisible": true,
+    "script":"themes/bundle/shared-theme/contact-location-map.js"
+}
+]

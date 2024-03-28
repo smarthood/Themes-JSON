@@ -1,0 +1,897 @@
+[
+  {
+      "sectionId": 1,
+      "details": {
+          "bannerProperty": 1,
+          "bannerDetails": {
+              "bannerImage": [
+                  {
+                      "image": "themes/retail/banner-image.jpg",
+                      "imageZoom": false,
+                      "parallax": false,
+                      "buttonEnabled": true,
+                      "textEnabled": true,
+                      "bannerTextBackGroundEnabled": false,
+                      "imageOverlay": true,
+                      "overlayColor": "rgb(0,0,0,0.5)",
+                      "subtextSize": 18,
+                      "buttonLayout": "row",
+                      "index": 0,
+                      "buttonProperties": [
+                          {
+                              "buttonLink": "products",
+                              "buttonColor": "white",
+                              "buttonText": "Shop Now",
+                              "buttonTextColor": "black"
+                          }
+                      ],
+                      "animation": "noAnimationTemplate",
+                      "textAlign": "Center",
+                      "bannerText": "Fashion Blended with Comfort",
+                      "textFontFamily": "'Montserrat',sans-serif",
+                      "textFontStyle": [
+                          "B"
+                      ],
+                      "subTextFontStyle": [],
+                      "bannerSubText": null,
+                      "textColor": "white",
+                      "bannerTextBackGroundColor": "white",
+                      "subTextColor": "white",
+                      "textSize": 40
+                  }
+              ],
+              "imageBackgroundSizeType": "cover",
+              "height": 80
+          },
+          "inValid": false,
+          "isChildError": false
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-banner",
+          "inputData": [
+              {
+                  "selectorInput": "bannerDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Home Banner",
+      "isExistingComponent": true,
+      "sampleData": null
+  },
+  {
+      "details": {
+          "templateSettings": {
+              "displayProduct": "featuredProducts",
+              "cardDisplayStyle": "CardStyle1",
+              "textFontFamily": "'Montserrat',sans-serif",
+              "textFontStyle": [],
+              "textColor": "black",
+              "onHover": "Nothing",
+              "productInfoAlignment": "center",
+              "buttonAnimation": "none",
+              "displayButton": true,
+              "buttonPosition": "bottom",
+              "buttonText": "View More",
+              "buttonTextAlign": "center",
+              "buttonFontStyle": [],
+              "buttonBorderRadius": 1,
+              "buttonColor": "#ffffff",
+              "buttonTextColor": "#000000",
+              "buttonHoverColor": "#ffffff",
+              "buttonHoverTextColor": "#000000",
+              "isDisplayBorder": true,
+              "buttonBorderColor": "#0c0c0c",
+              "buttonBorderSize": 2,
+              "buttonTextSize": 18,
+              "buttonPadding": 15,
+              "borderPositions": [
+                  "t",
+                  "b",
+                  "l",
+                  "r"
+              ],
+              "isbuttonIcon": false,
+              "buttonIconType": "normal",
+              "sliderType": "slider",
+              "isAutomatic": "withSeconds",
+              "timeInterval": 3,
+              "iconType": "round",
+              "showArrowsOnHover": false,
+              "displayHeading": false,
+              "displaySubHeading": false,
+              "displayDivider": false
+          }
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-common-slider",
+          "inputData": [
+              {
+                  "selectorInput": "sectionDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "displayData",
+                  "handlerInput": "sampleData.displayData",
+                  "functionName": "getCommonSliderData"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              },
+              {
+                  "selectorOutput": "setInput",
+                  "handlerFunction": "getCommonSliderData"
+              }
+          ]
+      },
+      "sectionName": "Featured Product",
+      "isExistingComponent": true,
+      "sampleData": {
+          "displayData": {
+              "selectedDetail": "featuredProducts",
+              "data": [
+                  {
+                      "id": 1,
+                      "name": "Clinique Moisturizer",
+                      "featuredImage": "themes/retail/featured-one.jpg",
+                      "price": "950.00",
+                      "description": "Clinique Moisturizer",
+                      "qty": 5,
+                      "productRibbons": [],
+                      "ratings": 3.983333333333333,
+                      "numberOfRatings": "3",
+                      "currency": "$"
+                  },
+                  {
+                      "id": 2,
+                      "name": "Mamaearth Rose Face Toner",
+                      "featuredImage": "themes/retail/featured-two.jpg",
+                      "price": "367.00",
+                      "description": "Mamaearth Rose Face Toner",
+                      "qty": 5,
+                      "productRibbons": [],
+                      "ratings": 3.983333333333333,
+                      "numberOfRatings": "3",
+                      "currency": "$"
+                  },
+                  {
+                      "id": 3,
+                      "name": "Innisfree",
+                      "featuredImage": "themes/retail/featured-three.jpg",
+                      "price": "460.00",
+                      "description": "Innisfree",
+                      "qty": 5,
+                      "productRibbons": [],
+                      "ratings": 3.983333333333333,
+                      "numberOfRatings": "3",
+                      "currency": "$"
+                  },
+                  {
+                      "id": 4,
+                      "name": "Rose Water",
+                      "featuredImage": "themes/retail/featured-four.jpeg",
+                      "price": "950.00",
+                      "description": "Rose Water",
+                      "qty": 5,
+                      "productRibbons": [],
+                      "ratings": 3.983333333333333,
+                      "numberOfRatings": "3",
+                      "currency": "$"
+                  },
+                  {
+                      "id": 5,
+                      "name": "Rice Ceramide",
+                      "featuredImage": "themes/retail/featured-five.jpeg",
+                      "price": "950.00",
+                      "description": "Rice Ceramide",
+                      "qty": 5,
+                      "productRibbons": [],
+                      "ratings": 3.983333333333333,
+                      "numberOfRatings": "3",
+                      "currency": "$"
+                  }
+              ],
+              "sectionId": 8
+          },
+          "settings": "US"
+      },
+      "isVisible": true,
+      "sectionId": 8
+  },
+  {
+      "details": {
+          "templateSettings": {
+              "displayProduct": "featuredCategory",
+              "cardDisplayStyle": "retailCategory",
+              "buttonText1": "See More",
+              "imageSize": "cover",
+              "buttonAnimation": "none",
+              "displayButton": false,
+              "buttonPosition": "top",
+              "buttonText": "View More",
+              "buttonTextAlign": "center",
+              "buttonFontStyle": [],
+              "buttonBorderRadius": 1,
+              "buttonColor": "#f27d7d",
+              "buttonTextColor": "#ff1717",
+              "buttonHoverColor": "#ff8f8f",
+              "buttonHoverTextColor": "black",
+              "isDisplayBorder": false,
+              "buttonBorderColor": "white",
+              "buttonBorderSize": 1,
+              "buttonTextSize": 16,
+              "buttonPadding": 13,
+              "borderPositions": [],
+              "isbuttonIcon": false,
+              "buttonIconType": "round",
+              "sliderType": "withoutSlider",
+              "dataDisplayCount": 10,
+              "displayHeading": false,
+              "displaySubHeading": false,
+              "displayDivider": false
+          }
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-common-slider",
+          "inputData": [
+              {
+                  "selectorInput": "sectionDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "displayData",
+                  "handlerInput": "sampleData.categories",
+                  "functionName": "getCommonSliderData"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              },
+              {
+                  "selectorOutput": "setInput",
+                  "handlerFunction": "getCommonSliderData"
+              }
+          ]
+      },
+      "sectionName": "Featured Categories",
+      "isExistingComponent": true,
+      "sampleData": {
+          "categories": {
+              "selectedDetail": "featuredCategory",
+              "data": [
+                  {
+                      "categoryImageUrl": "themes/retail/special-five.jpeg",
+                      "categoryName": "Western"
+                  },
+                  {
+                      "categoryImageUrl": "themes/retail/special-six.jpeg",
+                      "categoryName": "Watches"
+                  },
+                  {
+                      "categoryImageUrl": "themes/retail/special-one.png",
+                      "categoryName": "Shirts"
+                  },
+                  {
+                      "categoryImageUrl": "themes/retail/special-two.jpg",
+                      "categoryName": "Wedding Special"
+                  },
+                  {
+                      "categoryImageUrl": "themes/retail/special-three.jpg",
+                      "categoryName": "Sarees"
+                  },
+                  {
+                      "categoryImageUrl": "themes/retail/special-four.jpeg",
+                      "categoryName": "Footwears"
+                  },
+                  {
+                      "categoryImageUrl": "themes/retail/special-seven.jpeg",
+                      "categoryName": "Kids Wear"
+                  },
+                  {
+                      "categoryImageUrl": "themes/retail/special-eight.jpeg",
+                      "categoryName": "Salwar"
+                  },
+                  {
+                      "categoryImageUrl": "themes/retail/special-nine.jpeg",
+                      "categoryName": "Face Care"
+                  },
+                  {
+                      "categoryImageUrl": "themes/retail/special-ten.jpg",
+                      "categoryName": "Summer Wear"
+                  }
+              ],
+              "sectionId": 9
+          }
+      },
+      "isVisible": true,
+      "sectionId": 9
+  },
+  {
+      "sectionId": 4,
+      "details": {
+          "alignment": "row",
+          "descriptionImage": "themes/retail/shopforpic.jpg",
+          "formBackgroundColor": "#ebe9e9",
+          "headingText": "This Season",
+          "textFontStyle": [
+              "B"
+          ],
+          "textFontFamily": "'Montserrat',sans-serif",
+          "textSize": 42,
+          "textColor": "#000000",
+          "subText": "BE READY TO CHANGE",
+          "subtextFontStyle": [
+              "B"
+          ],
+          "subtextFontFamily": "'Montserrat',sans-serif",
+          "subTextSize": 32,
+          "subTextColor": "#000000",
+          "buttonText": "Shop for Women",
+          "buttonLink": "products",
+          "buttonColor": "#f24141",
+          "buttonBorderColor": "none",
+          "buttonTextColor": "#ffffff",
+          "buttonVisiblity": true,
+          "buttonBorderRadius": 0,
+          "buttonBorderLocation": "all",
+          "textAlignment": "center"
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-retail-shop-for",
+          "inputData": [
+              {
+                  "selectorInput": "displayDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": []
+      },
+      "sectionName": "Shop for",
+      "isExistingComponent": true,
+      "sampleData": {},
+      "isVisible": true
+  },
+  {
+      "sectionId": 10,
+      "details": {
+          "templateSettings": {
+              "displayProduct": "getBrands",
+              "cardDisplayStyle": "retailBrand",
+              "cardContentHeight": 10,
+              "buttonAnimation": "none",
+              "displayButton": true,
+              "buttonPosition": "bottom",
+              "buttonText": "View All",
+              "buttonTextAlign": "center",
+              "buttonFontStyle": [],
+              "buttonBorderRadius": 4,
+              "buttonColor": "#f24141",
+              "buttonTextColor": "#ffffff",
+              "buttonHoverColor": "#f24141",
+              "buttonHoverTextColor": "#ffffff",
+              "isDisplayBorder": false,
+              "buttonBorderColor": "white",
+              "buttonBorderSize": 1,
+              "buttonTextSize": 16,
+              "buttonPadding": 13,
+              "borderPositions": [],
+              "isbuttonIcon": false,
+              "buttonIconType": "round",
+              "buttonHeight": 0,
+              "buttonAlignWithHeading": false,
+              "sliderType": "withoutSlider",
+              "dataDisplayCount": 5,
+              "displayHeading": false,
+              "displaySubHeading": false,
+              "displayDivider": false
+          },
+          "inValid": false
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-common-slider",
+          "inputData": [
+              {
+                  "selectorInput": "sectionDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "displayData",
+                  "handlerInput": "sampleData.categories",
+                  "functionName": "getCommonSliderData"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              },
+              {
+                  "selectorOutput": "setInput",
+                  "handlerFunction": "getCommonSliderData"
+              }
+          ]
+      },
+      "sectionName": "Featured Brands",
+      "isExistingComponent": true,
+      "sampleData": {
+          "categories": {
+              "selectedDetail": "getBrands",
+              "data": [
+                  {
+                      "brandName": "Adidas",
+                      "imageUrl": "themes/retail/brand-one.png"
+                  },
+                  {
+                      "brandName": "Allen Solly",
+                      "imageUrl": "themes/retail/brand-two.png"
+                  },
+                  {
+                      "brandName": "H&M",
+                      "imageUrl": "themes/retail/brand-three.png"
+                  },
+                  {
+                      "brandName": "BIBA",
+                      "imageUrl": "themes/retail/brand-four.png"
+                  },
+                  {
+                      "brandName": "PETER ENGLAND",
+                      "imageUrl": "themes/retail/brand-five.png"
+                  }
+              ],
+              "sectionId": 10
+          }
+      },
+      "isVisible": true
+  },
+  {
+      "sectionId": 7,
+      "details": {},
+      "selectorDetails": {
+          "selector": "phase-ii-recently-viewed-products",
+          "inputData": [
+              {
+                  "selectorInput": "recentlyViewedProducts",
+                  "handlerInput": "sampleData.recentlyViewedProducts",
+                  "functionName": "getRecentlyViewedProducts"
+              }
+          ],
+          "outputData": []
+      },
+      "sectionName": "Recently Viewed Products",
+      "isExistingComponent": true,
+      "sampleData": {
+          "recentlyViewedProducts": [
+              {
+                  "product": {
+                      "featuredImage": "themes/retail/recent-one.jpeg",
+                      "name": "Flats",
+                      "price": "200"
+                  }
+              },
+              {
+                  "product": {
+                      "featuredImage": "themes/retail/recent-two.jpeg",
+                      "name": "Party Footwear",
+                      "price": "300"
+                  }
+              },
+              {
+                  "product": {
+                      "featuredImage": "themes/retail/recent-three.jpg",
+                      "name": "Plum Moisturizer",
+                      "price": "200"
+                  }
+              },
+              {
+                  "product": {
+                      "featuredImage": "themes/retail/recent-four.jpeg",
+                      "name": "Shoes",
+                      "price": "400"
+                  }
+              },
+              {
+                  "product": {
+                      "featuredImage": "themes/retail/recent-five.jpeg",
+                      "name": "Jacket",
+                      "price": "500"
+                  }
+              }
+          ]
+      },
+      "isVisible": true
+  },
+  {
+      "sectionId": 5,
+      "details": {
+          "showBackgroundImage": true,
+          "backgroundImage": "themes/bg_matha_try_people_crowd_image_1685526873444_S33.jpg",
+          "imageBackgroundSizeType": "cover",
+          "locationHeading": "Contact Us",
+          "textFontStyle": [
+              "B"
+          ],
+          "textFontFamily": "'Montserrat',sans-serif",
+          "textSize": 30,
+          "textColor": "#000000",
+          "showFilter": null
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-contact-location-map",
+          "inputData": [
+              {
+                  "selectorInput": "contactUsDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "locationDetails",
+                  "handlerInput": "sampleData.locationDetails",
+                  "functionName": "setWorkingDays"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "searchBy",
+                  "handlerFunction": "searchBy"
+              },
+              {
+                  "selectorOutput": "searchValue",
+                  "handlerFunction": "searchValue"
+              }
+          ]
+      },
+      "sectionName": "Location Details",
+      "isExistingComponent": true,
+      "sampleData": {
+          "locationDetails": [
+              {
+                  "id": 75,
+                  "addressId": 160,
+                  "locationName": "Beaverton",
+                  "pickupInstructions": null,
+                  "locationDescription": null,
+                  "latitude": "23.343534",
+                  "longitude": "34",
+                  "storeId": 2,
+                  "shopClosedDays": [],
+                  "timeZone": "America/Tijuana",
+                  "isOrderSpecificTiming": true,
+                  "orderAmountLimit": 50,
+                  "isDefault": false,
+                  "isGlobal": true,
+                  "allowedZipcodes": null,
+                  "storeWorkingHours": [
+                      {
+                          "id": 621,
+                          "productBoxId": null,
+                          "shippingMethodId": null,
+                          "startTime": "09:00 AM",
+                          "endTime": "12:00 PM",
+                          "sun": null,
+                          "mon": null,
+                          "tue": null,
+                          "wed": null,
+                          "thu": null,
+                          "fri": true,
+                          "sat": true,
+                          "isDelivery": null,
+                          "isPickup": null,
+                          "isOrder": null,
+                          "isDineIn": null,
+                          "isStoreActive": null
+                      },
+                      {
+                          "id": 622,
+                          "productBoxId": null,
+                          "shippingMethodId": null,
+                          "startTime": "12:00 PM",
+                          "endTime": "07:00 PM",
+                          "sun": null,
+                          "mon": null,
+                          "tue": null,
+                          "wed": null,
+                          "thu": null,
+                          "fri": true,
+                          "sat": true,
+                          "isDelivery": null,
+                          "isPickup": null,
+                          "isOrder": null,
+                          "isDineIn": null,
+                          "isStoreActive": null
+                      }
+                  ],
+                  "workingHoursData": [
+                      {
+                          "days": "Mon",
+                          "time": "09:00 AM - 12:00 PM",
+                          "isStoreActive": null
+                      },
+                      {
+                          "days": "Tue",
+                          "time": "09:00 AM - 12:00 PM",
+                          "isStoreActive": null
+                      }
+                  ],
+                  "closingHoursData": [
+                      {
+                          "days": "Sun",
+                          "time": "12:00 AM - 12:00 AM",
+                          "isStoreActive": null
+                      }
+                  ],
+                  "orderPlacingTimes": [
+                      {
+                          "id": 156,
+                          "startTime": "12:00 AM",
+                          "endTime": "12:00 PM",
+                          "sun": null,
+                          "mon": true,
+                          "tue": true,
+                          "wed": true,
+                          "thu": true,
+                          "fri": true,
+                          "sat": true,
+                          "isStoreActive": null
+                      }
+                  ],
+                  "address": {
+                      "id": 160,
+                      "importId": null,
+                      "addressLine1": "12725 SW Millikan Way, #300",
+                      "addressLine2": null,
+                      "city": "Beaverton",
+                      "state": "Beaverton",
+                      "name": null,
+                      "country": "US",
+                      "zipCode": "97005",
+                      "mobileNumber": "(971) 420-1700",
+                      "email": "contact@getzenbasket.com",
+                      "faxNumber": null,
+                      "stateAbbreviation": null,
+                      "countryCode": null,
+                      "isDeleted": false,
+                      "isDefault": null,
+                      "createdAt": "2022-01-27T05:12:46.297Z",
+                      "modifiedAt": "2022-03-10T04:24:43.334Z",
+                      "userId": null
+                  }
+              },
+              {
+                  "id": 76,
+                  "addressId": 161,
+                  "locationName": "Canada",
+                  "pickupInstructions": null,
+                  "locationDescription": null,
+                  "latitude": "23.343534",
+                  "longitude": "34",
+                  "storeId": 2,
+                  "shopClosedDays": [],
+                  "timeZone": "America/Tijuana",
+                  "isOrderSpecificTiming": true,
+                  "orderAmountLimit": 50,
+                  "isDefault": false,
+                  "isGlobal": true,
+                  "allowedZipcodes": null,
+                  "storeWorkingHours": [
+                      {
+                          "id": 621,
+                          "productBoxId": null,
+                          "shippingMethodId": null,
+                          "startTime": "09:00 AM",
+                          "endTime": "12:00 PM",
+                          "sun": null,
+                          "mon": null,
+                          "tue": null,
+                          "wed": null,
+                          "thu": null,
+                          "fri": true,
+                          "sat": true,
+                          "isDelivery": null,
+                          "isPickup": null,
+                          "isOrder": null,
+                          "isDineIn": null,
+                          "isStoreActive": null
+                      },
+                      {
+                          "id": 622,
+                          "productBoxId": null,
+                          "shippingMethodId": null,
+                          "startTime": "12:00 PM",
+                          "endTime": "07:00 PM",
+                          "sun": null,
+                          "mon": null,
+                          "tue": null,
+                          "wed": null,
+                          "thu": null,
+                          "fri": true,
+                          "sat": true,
+                          "isDelivery": null,
+                          "isPickup": null,
+                          "isOrder": null,
+                          "isDineIn": null,
+                          "isStoreActive": null
+                      }
+                  ],
+                  "workingHoursData": [
+                      {
+                          "days": "Mon",
+                          "time": "09:00 AM - 12:00 PM",
+                          "isStoreActive": null
+                      },
+                      {
+                          "days": "Tue",
+                          "time": "09:00 AM - 12:00 PM",
+                          "isStoreActive": null
+                      }
+                  ],
+                  "closingHoursData": [
+                      {
+                          "days": "Sun",
+                          "time": "12:00 AM - 12:00 AM",
+                          "isStoreActive": null
+                      }
+                  ],
+                  "orderPlacingTimes": [
+                      {
+                          "id": 156,
+                          "startTime": "12:00 AM",
+                          "endTime": "12:00 PM",
+                          "sun": null,
+                          "mon": true,
+                          "tue": true,
+                          "wed": true,
+                          "thu": true,
+                          "fri": true,
+                          "sat": true,
+                          "isStoreActive": null
+                      }
+                  ],
+                  "address": {
+                      "id": 160,
+                      "importId": null,
+                      "addressLine1": "151 York St,",
+                      "addressLine2": null,
+                      "city": "London",
+                      "state": "London",
+                      "name": null,
+                      "country": "London",
+                      "zipCode": "97005",
+                      "mobileNumber": "(971) 420-1700",
+                      "email": "contact@getzenbasket.com",
+                      "faxNumber": null,
+                      "stateAbbreviation": null,
+                      "countryCode": null,
+                      "isDeleted": false,
+                      "isDefault": null,
+                      "createdAt": "2022-01-27T05:12:46.297Z",
+                      "modifiedAt": "2022-03-10T04:24:43.334Z",
+                      "userId": null
+                  }
+              },
+              {
+                  "id": 76,
+                  "addressId": 161,
+                  "locationName": "India",
+                  "pickupInstructions": null,
+                  "locationDescription": null,
+                  "latitude": "23.343534",
+                  "longitude": "34",
+                  "storeId": 2,
+                  "shopClosedDays": [],
+                  "timeZone": "America/Tijuana",
+                  "isOrderSpecificTiming": true,
+                  "orderAmountLimit": 50,
+                  "isDefault": false,
+                  "isGlobal": true,
+                  "allowedZipcodes": null,
+                  "storeWorkingHours": [
+                      {
+                          "id": 621,
+                          "productBoxId": null,
+                          "shippingMethodId": null,
+                          "startTime": "09:00 AM",
+                          "endTime": "12:00 PM",
+                          "sun": null,
+                          "mon": null,
+                          "tue": null,
+                          "wed": null,
+                          "thu": null,
+                          "fri": true,
+                          "sat": true,
+                          "isDelivery": null,
+                          "isPickup": null,
+                          "isOrder": null,
+                          "isDineIn": null,
+                          "isStoreActive": null
+                      },
+                      {
+                          "id": 622,
+                          "productBoxId": null,
+                          "shippingMethodId": null,
+                          "startTime": "12:00 PM",
+                          "endTime": "07:00 PM",
+                          "sun": null,
+                          "mon": null,
+                          "tue": null,
+                          "wed": null,
+                          "thu": null,
+                          "fri": true,
+                          "sat": true,
+                          "isDelivery": null,
+                          "isPickup": null,
+                          "isOrder": null,
+                          "isDineIn": null,
+                          "isStoreActive": null
+                      }
+                  ],
+                  "workingHoursData": [
+                      {
+                          "days": "Mon",
+                          "time": "09:00 AM - 12:00 PM",
+                          "isStoreActive": null
+                      },
+                      {
+                          "days": "Tue",
+                          "time": "09:00 AM - 12:00 PM",
+                          "isStoreActive": null
+                      }
+                  ],
+                  "closingHoursData": [
+                      {
+                          "days": "Sun",
+                          "time": "12:00 AM - 12:00 AM",
+                          "isStoreActive": null
+                      }
+                  ],
+                  "orderPlacingTimes": [
+                      {
+                          "id": 156,
+                          "startTime": "12:00 AM",
+                          "endTime": "12:00 PM",
+                          "sun": null,
+                          "mon": true,
+                          "tue": true,
+                          "wed": true,
+                          "thu": true,
+                          "fri": true,
+                          "sat": true,
+                          "isStoreActive": null
+                      }
+                  ],
+                  "address": {
+                      "id": 162,
+                      "importId": null,
+                      "addressLine1": "25 Vinayagar Nagar, NGO Colony,",
+                      "addressLine2": null,
+                      "city": "Tirunelveli",
+                      "state": "Tirunelveli",
+                      "name": null,
+                      "country": "India",
+                      "zipCode": "97005",
+                      "mobileNumber": "(971) 420-1700",
+                      "email": "contact@getzenbasket.com",
+                      "faxNumber": null,
+                      "stateAbbreviation": null,
+                      "countryCode": null,
+                      "isDeleted": false,
+                      "isDefault": null,
+                      "createdAt": "2022-01-27T05:12:46.297Z",
+                      "modifiedAt": "2022-03-10T04:24:43.334Z",
+                      "userId": null
+                  }
+              }
+          ]
+      },
+      "isVisible": true
+  }
+]

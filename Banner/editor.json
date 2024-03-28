@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "isExistingComponent": true,
+    "sectionName": "Home Banner",
+    "controls": [
+      {
+        "type": "Banner Layout",
+        "name": "bannerDetails",
+        "label": "Banner Details"
+      }
+    ]
+  }
+]

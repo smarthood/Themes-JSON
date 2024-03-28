@@ -1,0 +1,120 @@
+[
+    {
+        "id": 1,
+        "sectionName": "Contact Form",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "General Settings",
+                "groupControls": [
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showImg",
+                        "label": "Background Image Toggle"
+                    }
+                ]
+            },
+            {
+                "groupName": "Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Text Area",
+                        "name": "contactUsPageTitle",
+                        "label": "Contact Page Title",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "titleFontFamily",
+                        "label": "Title Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "titleFontSize",
+                        "label": "Title Font Size",
+                        "options": [
+                            10,
+                            80
+                        ]
+                    },
+                    {
+                        "name": "titleColor",
+                        "type": "Color Picker",
+                        "label": "Title Color"
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "titleFontStyle",
+                        "label": "Title Font style"
+                    },
+                    {
+                        "type": "Text Area",
+                        "name": "contactUsPageSubTitle",
+                        "label": "Contact Page Sub Title",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "subtextFontFamily",
+                        "label": "Subtitle Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "subtitleFontSize",
+                        "label": "Subtitle Font Size",
+                        "options": [
+                            10,
+                            80
+                        ]
+                    },
+                    {
+                        "name": "subtitleColor",
+                        "type": "Color Picker",
+                        "label": "Subtitle Color"
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "subtitleFontStyle",
+                        "label": "Subtitle Font style"
+                    }
+                ]
+            },
+            {
+                "groupName": "Image Setting",
+                "groupControls": [
+                    {
+                        "type": "Image",
+                        "name": "img",
+                        "label": "Background Image"
+                    }
+                ]
+            },
+            {
+                "groupName": "Contact-us Form Settings",
+                "groupControls": [
+                    {
+                        "type": "Contact Form",
+                        "name": "formSetting",
+                        "label": "Form Settings"
+                    }
+                ]
+            }
+        ]
+    }
+]

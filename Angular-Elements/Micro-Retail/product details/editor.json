@@ -1,0 +1,227 @@
+
+
+[
+    {
+        "id": 1,
+        "sectionName": "Product Details",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Design Settings",
+                "groupControls": [
+                    {
+                        "type": "Radio",
+                        "name": "pageDesign",
+                        "label": "Product Card Designs",
+                        "options": [
+                            {
+                                "name": "Template I",
+                                "value": "productDetailsOne"
+                            },
+                            {
+                                "name": "Template II",
+                                "value": "productDetailsTwo"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "groupName": "Back Button Settings",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "continueOrderingButtonText",
+                        "label": "Continue Ordering Button Text",
+                        "sectionInfo": "Add the text for your continue ordering button label.",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "groupName": "Rating Settings",
+                "groupControls": [
+                    {
+                        "type": "Slider Toggle",
+                        "name": "isShowRatingMainProduct",
+                        "label": "Rating display"
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "isStar",
+                        "label": "Star display"
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "StarColor",
+                        "label": "Star color",
+                        "sectionInfo": "Choose your customer rating star color from the displayed palette.",
+                        "errors": [
+                            {
+                                "name": "required"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "groupName": "Stock Settings",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "availabilityHeading",
+                        "label": "Availability Heading",
+                        "sectionInfo": "Add the title for your product's stock availability.",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Input",
+                        "name": "manyStockLabel",
+                        "label": "Many Stock Label",
+                        "sectionInfo": "Add the label text for your many stock label.",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Input",
+                        "name": "outOfStockLabel",
+                        "label": "Out Of Stock Label",
+                        "sectionInfo": "Add the text for your out of stock label.",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Input",
+                        "name": "notAvailableLabel",
+                        "label": "Not Available in this Location Label",
+                        "sectionInfo": "Add the text for your out of stock label.",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "pattern",
+                                "patternName": "acceptsCharacterWithSpace"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Input",
+                        "name": "notifyMeButtonText",
+                        "label": "Notify Me Button Label",
+                        "sectionInfo": "Add the text for your notify me button label.",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "groupName": "Product Details Settings",
+                "groupControls": [
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showShortDescription",
+                        "label": "Show Short Description"
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "isFavoriteMainProduct",
+                        "label": "Favorite icon for main product"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "addToBagButtonText",
+                        "label": "Add To Bag Button Label",
+                        "sectionInfo": "Add the label text for your add to bag button.",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Input",
+                        "name": "taxButtonText",
+                        "label": "Tax description Label",
+                        "sectionInfo": "Add the label text for your tax description.",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Input",
+                        "name": "instructionText",
+                        "label": "Instruction Label",
+                        "sectionInfo": "Add the title for your instruction label.",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "sectionName": "Frequently bought together",
+        "isExistingComponent": true,
+        "controls": []
+    }
+]

@@ -1,0 +1,229 @@
+[
+  {
+      "id": 1,
+      "sectionName": "Home Banner",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "type": "Banner Layout",
+              "name": "bannerDetails",
+              "label": "Banner Details"
+          }
+      ]
+  },
+  {
+      "id": 7,
+      "sectionName": "Product Categories",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "type": "Common Slider Controls",
+              "name": "templateSettings",
+              "label": "Template Settings"
+          }
+      ]
+  },
+  {
+      "id": 3,
+      "sectionName": "About Us",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Title Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "infoHeading",
+                      "label": "Story title",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "infoHeadingColorStyle",
+                      "label": "Story title style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Story title family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "infoHeadingSize",
+                      "label": "Story title size",
+                      "options": [
+                          20,
+                          80
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "infoHeadingColor",
+                      "label": "Story title color"
+                  },
+                  {
+                      "type": "Text Editor",
+                      "name": "infoDescription",
+                      "label": "Story description",
+                      "errors": [
+                          {
+                              "name": "required"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Image Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider Toggle",
+                      "name": "buttonEnabled",
+                      "label": "Show about button"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "buttonText",
+                      "label": "Button label",
+                      "showHideControl": "buttonEnabled",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Image Settings",
+              "groupControls": [
+                  {
+                      "type": "Image",
+                      "name": "aboutImage",
+                      "label": "About us image",
+                      "errors": [
+                          {
+                              "name": "required"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 4,
+      "sectionName": "Second Banner",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "type": "Banner Layout",
+              "name": "bannerDetails",
+              "label": "Banner details"
+          }
+      ]
+  },
+  {
+      "id": 6,
+      "sectionName": "Recently Viewed Products",
+      "isExistingComponent": true,
+      "controls": []
+  },
+  {
+      "id": 5,
+      "sectionName": "Location Details",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Image Settings",
+              "groupControls": [
+                  {
+                      "type": "Checkbox",
+                      "name": "showBackgroundImage",
+                      "label": "Show background image"
+                  },
+                  {
+                      "type": "Image",
+                      "name": "backgroundImage",
+                      "label": "Background image"
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "imageBackgroundSizeType",
+                      "label": "Image background size type",
+                      "options": [
+                          {
+                              "name": "Cover",
+                              "value": "cover"
+                          },
+                          {
+                              "name": "Fill (100% 100%)",
+                              "value": "100% 100%"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Heading Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "locationHeading",
+                      "label": "Location heading",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textFontStyle",
+                      "label": "Location heading style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Location heading family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Location heading size",
+                      "options": [
+                          20,
+                          80
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textColor",
+                      "label": "Location heading color"
+                  },
+                  {
+                      "type": "Checkbox",
+                      "name": "showFilter",
+                      "label": "Show location filter"
+                  }
+              ]
+          }
+      ]
+  }
+]

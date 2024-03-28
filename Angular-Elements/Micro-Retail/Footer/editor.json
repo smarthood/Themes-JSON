@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "sectionName": "Footer",
+    "isExistingComponent": true,
+    "controls": [
+      {
+        "groupName": "AboutUs Text Settings",
+        "groupControls": [
+          {
+            "type": "Checkbox",
+            "name": "isDisplayAbout",
+            "label": "Display About Text"
+          },
+          {
+            "type": "Input",
+            "name": "aboutTitle",
+            "label": "About Title",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 20
+              }
+            ]
+          },
+          {
+            "type": "Input",
+            "name": "aboutText",
+            "label": "About Text",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "groupName": "Disclaimer Settings",
+        "groupControls": [
+          {
+            "type": "Checkbox",
+            "name": "isDisplayDisclaimer",
+            "label": "Display disclaimer text"
+          },
+          {
+            "type": "Input",
+            "name": "disclaimerText",
+            "label": "Disclaimer Text"
+          },
+          {
+            "type": "Checkbox",
+            "name": "displayStoreNameInDisclaimer",
+            "label": "Display Store name in disclaimer text"
+          },
+          {
+            "type": "Input",
+            "name": "referrerName",
+            "label": "Referrer Name"
+          },
+          {
+            "type": "Input",
+            "name": "referrerLink",
+            "label": "Referrer Link"
+          },
+          {
+            "type": "Checkbox",
+            "name": "displayVersion",
+            "label": "Display Version in disclaimer"
+          },
+          {
+            "type": "Input",
+            "name": "versionType",
+            "label": "Disclaimer Version"
+          }
+        ]
+      }
+    ]
+  }
+]

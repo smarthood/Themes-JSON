@@ -1,0 +1,201 @@
+[
+    {
+        "sectionId": 1,
+        "details": {
+            "bannerProperty": 4,
+            "bannerDetails": {
+                "height": 80,
+                "marginTop": 0,
+                "marginBottom": 0,
+                "marginLeftRight": 0,
+                "bannerTextBackGroundEnabled": false,
+                "buttonLayout": "row",
+                "buttonProperties": [],
+                "buttonEnabled": false,
+                "textEnabled": true,
+                "videoOverlay": false,
+                "videooverlayColor": "rgb(0,0,0,0.5)",
+                "animation": "noAnimationTemplate",
+                "textAlign": "Center",
+                "bannerText": "Contact Us",
+                "textFontFamily": "'Palatino Linotype',serif",
+                "textFontStyle": [
+                    "B"
+                ],
+                "subTextFontStyle": [
+                    "B"
+                ],
+                "bannerSubText": "Whether you have question about feautures,pricing or anything else about the books,our team is ready to answer all your questions.",
+                "textColor": "white",
+                "subTextColor": "white",
+                "textSize": 52,
+                "subtextSize": 20,
+                "subtextFontFamily": "'Palatino Linotype',serif",
+                "showDivider": true,
+                "dividerWidth": 132,
+                "dividerThickness": 3,
+                "dividerColor": "#ffa500",
+                "bannerColor": "#0a386f"
+            },
+            "headingTextEnabled": false,
+            "inValid": false,
+            "isChildError": false,
+            "isNoDocumentUploaded": false,
+            "sectionId": 1
+        },
+        "selectorDetails": {
+            "selector": "banner-element",
+            "inputData": [
+                {
+                    "selectorInput": "bannerDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sectionName": "Contact us banner",
+        "isExistingComponent": true,
+        "sampleData": null,
+        "script": "themes/bundle/shared/banner.js"
+    },
+    {
+        "sectionId": 2,
+        "sectionName": "Contactus form",
+        "isExistingComponent": true,
+        "sampleData": null,
+        "details": {
+            "title": "Keep In Touch",
+            "color": "#0a386f",
+            "textSize": 50,
+            "fontstyle": [
+                "B"
+            ],
+            "textFontFamily": "'Palatino Linotype',serif",
+            "description": "We believe that bookstores are essential to a healthy culture.They're where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.",
+            "descriptioncolor": "#808080",
+            "descriptiontextSize": 20,
+            "descriptionfontstyle": [
+                "B"
+            ],
+            "descriptiontextFontFamily": "'Palatino Linotype',serif",
+            "formSetting": {
+                "formOnly": true,
+                "textAlingment": "center",
+                "showTitle": true,
+                "formTitle": "Please get in touch",
+                "titleColor": "#000",
+                "titleFontSize": 35,
+                "titleFontFamily": "Palatino Linotype",
+                "titleFontStyle": [
+                    "B"
+                ],
+                "showSubtitle": true,
+                "formSubtitle": "We'd love to hear from you",
+                "subtitleColor": "#000",
+                "subtitleFontSize": 20,
+                "subtitleFontFamily": "Palatino Linotype",
+                "subtitleFontStyle": [],
+                "textOutside": false,
+                "backgroundColor": "#ff7c64",
+                "backgroundType": "none",
+                "contactusImage": "/themes/img.jpg",
+                "imageFill": false,
+                "contactusalignment": "center",
+                "formFieldAppearence": "outline",
+                "inputTextColor": "light",
+                "normalLabelColor": "#000",
+                "normalLineColor": "#000",
+                "focusedLabelColor": "#065677",
+                "focusedLineColor": "#065677",
+                "formFieldDesign": "rounded",
+                "formCard": false,
+                "formBackground": false,
+                "formFieldLabelOut": false,
+                "formFieldFill": false,
+                "formFieldColor": "rgba(0, 0, 0, 0.25)",
+                "nameSplit": false,
+                "emailField": true,
+                "contactNoField": true,
+                "buttonText": "Send",
+                "buttonBorderColor": "#000",
+                "buttonTextColor": "#fff",
+                "buttonColor": "#0a386f",
+                "buttonRadius": 20,
+                "buttonType": "flat",
+                "buttonAlignment": "start",
+                "templateName": "templateOne",
+                "termsAndPrivacy": false
+            }
+        },
+        "selectorDetails": {
+            "selector": "contactus-message",
+            "inputData": [
+                {
+                    "selectorInput": "contactFields",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                },
+                {
+                    "selectorInput": "location",
+                    "handlerInput": "sampleData.currentLocation",
+                    "functionName": "getCurrentLocation"
+                }
+            ],
+            "outputData": []
+        },
+        "script": "themes/bundle/Booksphere-theme/booksphere-contactus.js"
+    },
+    {
+        "sectionId": 3,
+        "isVisible": true,
+        "isExistingComponent": true,
+        "sectionName": "Trusted By The Best",
+        "details": {
+            "sectionTitle": "Trusted By The Best",
+            "textFontStyle": [
+                "B"
+            ],
+            "textFontFamily": "Garamond",
+            "textSize": 53,
+            "textColor": "#0a386f",
+            "showDivider": true,
+            "dividerWidth": 130,
+            "dividerColor": "#ffa500",
+            "dividerThickness": 3,
+            "galleryImages": [
+                {
+                    "imageUrl": "themes/painting/A1.png",
+                    "show": true
+                },
+                {
+                    "imageUrl": "themes/painting/A3.png",
+                    "show": true
+                },
+                {
+                    "imageUrl": "themes/painting/A5.png",
+                    "show": true
+                },
+                {
+                    "imageUrl": "themes/painting/A6.png",
+                    "show": true
+                }
+            ]
+        },
+        "selectorDetails": {
+            "selector": "phase-ii-painting-aboutus-awards",
+            "inputData": [
+                {
+                    "selectorInput": "awardDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": []
+        },
+        "sampleData": null,
+        "script": "themes/bundle/painting/painting-aboutus-awards.js"
+    }
+]

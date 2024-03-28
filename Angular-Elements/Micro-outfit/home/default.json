@@ -1,0 +1,504 @@
+[
+    {
+        "sectionId": 1,
+        "details": {
+            "leftBannerContent": "<h1><font color=\"#ffffff\">ZEN </font>BOUTIQUE</h1>",
+            "textOneFontFamily": "'Palatino Linotype',serif",
+            "leftTextStyle": [
+                "B"
+            ],
+            "leftBannerBackground": "#ff5e00",
+            "leftHorizontalAlignment": "center",
+            "leftVerticalAlignment": "center",
+            "showLeftButton": null,
+            "leftButtonTitle": null,
+            "link1": null,
+            "leftButtonColor": null,
+            "leftButtonTextColor": null,
+            "leftButtonTextSize": null,
+            "leftButtonTextStyle": [],
+            "textFontFamily": "'Palatino Linotype',serif",
+            "rightBannerContent": "<h3><font color=\"#ffffff\">FLAT</font></h3><h4><font color=\"#ff5e00\">20% OFF</font></h4><div><font color=\"#ffffff\">ON ENTIRE FASHION SECTION</font></div><h4><font color=\"#ff5e00\">HURRY </font><font color=\"#f9f7f5\">LIMITED STOCK</font></h4>",
+            "textTwoFontFamily": "'Palatino Linotype',serif",
+            "rightTextStyle": [
+                "B"
+            ],
+            "rightBannerBackground": "#651515",
+            "rightHorizontalAlignment": "center",
+            "rightVerticalAlignment": "center",
+            "showRightButton": null,
+            "rightButtonTitle": null,
+            "link2": null,
+            "rightButtonColor": null,
+            "rightButtonTextColor": null,
+            "rightButtonTextSize": null,
+            "rightButtonTextStyle": [],
+            "subtextFontFamily": "'Palatino Linotype',serif",
+            "showImage": true,
+            "image": "themes/retail/opulent-outfit/redshirt.png",
+            "applyDropShadow": true
+        },
+        "selectorDetails": {
+            "selector": "outfit-home-banner",
+            "inputData": [
+                {
+                    "selectorInput": "banner",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sectionName": "banner",
+        "isExistingComponent": true,
+        "sampleData": {},
+        "isVisible": true,
+        "script": "themes/bundle/outfit/outfit-home.js"
+    },
+    {
+        "sectionId": 2,
+        "details": {
+            "imageSize": "cover",
+            "showCard1": true,
+            "imageone": "themes/retail/opulent-outfit/hoodie.png",
+            "backgroundcolor": "#651515",
+            "textone": "40% OFF",
+            "textonecolor": "#FFFFFF",
+            "textonefontstyle": [
+                "B"
+            ],
+            "textOneFontFamily": "'Palatino Linotype',serif",
+            "showButton1": true,
+            "texttwo": "SHOP NOW",
+            "link1": "products",
+            "texttwocolor": "#FFFFFF",
+            "backgroundcolorone": "#ff0000",
+            "texttwofontstyle": [
+                "B"
+            ],
+            "textTwoFontFamily": "'Palatino Linotype',serif",
+            "showCard2": true,
+            "imagetwo": "themes/retail/opulent-outfit/brown.png",
+            "backgroundcolortwo": "#3d271d",
+            "textthree": "40% OFF",
+            "textthreecolor": "#FFFFFF",
+            "textthreefontstyle": [
+                "B"
+            ],
+            "textThreeFontFamily": "'Palatino Linotype',serif",
+            "showButton2": true,
+            "textfour": "SHOP NOW",
+            "link2": "products",
+            "textfourcolor": "#FFFFFF",
+            "backgroundcolorthree": "#8e6328;",
+            "textfourfontstyle": [
+                "B"
+            ],
+            "textFourFontFamily": "'Palatino Linotype',serif",
+            "showCard3": true,
+            "imagethree": "themes/retail/opulent-outfit/greencoat.png",
+            "backgroundcolorfour": "#021c0f",
+            "textfive": "40% OFF",
+            "textfivecolor": "#FFFFFF",
+            "textfivefontstyle": [
+                "B"
+            ],
+            "textFiveFontFamily": "'Palatino Linotype',serif",
+            "showButton3": true,
+            "textsix": "SHOP NOW",
+            "link3": "products",
+            "textsixcolor": "#FFFFFF",
+            "backgroundcolorfive": "#14674e",
+            "textsixfontstyle": [
+                "B"
+            ],
+            "textSixFontFamily": "'Palatino Linotype',serif",
+            "showCard4": true,
+            "imagefour": "themes/retail/opulent-outfit/contact.png",
+            "backgroundcolorsix": "#141414",
+            "textseven": "40% OFF",
+            "textsevencolor": "#FFFFFF",
+            "textsevenfontstyle": [
+                "B"
+            ],
+            "textSevenFontFamily": "'Palatino Linotype',serif",
+            "showButton4": true,
+            "texteight": "SHOP NOW",
+            "link4": "products",
+            "texteightcolor": "#FFFFFF",
+            "backgroundcolorseven": "#3a3a3a",
+            "texteightfontstyle": [
+                "B"
+            ],
+            "textEightFontFamily": "'Palatino Linotype',serif"
+        },
+        "selectorDetails": {
+            "selector": "outfit-home-shopnow",
+            "inputData": [
+                {
+                    "selectorInput": "shopnow",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sectionName": "shopnow",
+        "isExistingComponent": true,
+        "sampleData": {},
+        "isVisible": true,
+        "script": "themes/bundle/outfit/outfit-home.js"
+    },
+    {
+        "details": {
+            "alignment": "column",
+            "iconSize": "50px",
+            "border": null,
+            "height": 100,
+            "textFontFamily": "'Palatino Linotype',serif",
+            "backgroundColor": "#fff5f5",
+            "textColor": "#ff5e00",
+            "toRemoveShadow": true,
+            "menuArray": [
+                {
+                    "iconStyle": "material-icons",
+                    "link": "",
+                    "menuIcon": "replay",
+                    "menuName": "30 DAYS RETURN",
+                    "subText": "Simply return it within 30 days for an exchange"
+                },
+                {
+                    "iconStyle": "material-icons",
+                    "link": null,
+                    "menuIcon": "local_shipping",
+                    "menuName": "FREE DELIVERY",
+                    "subText": "On orders over 200!"
+                },
+                {
+                    "iconStyle": "material-icons",
+                    "link": null,
+                    "menuIcon": "phone_in_talk",
+                    "menuName": "SUPPORT 24/7",
+                    "subText": "contact us 24 hours a day,7 days a week"
+                }
+            ]
+        },
+        "selectorDetails": {
+            "selector": "phase-ii-bar",
+            "inputData": [
+                {
+                    "selectorInput": "menuDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sectionName": "policies",
+        "isExistingComponent": true,
+        "sampleData": {},
+        "isVisible": true,
+        "sectionId": 4,
+        "isDesktopView": true,
+        "isMobileView": true,
+        "script": "themes/bundle/shared/bar.js"
+    },
+    {
+        "sectionId": 3,
+        "sectionName": "Single Product",
+        "isExistingComponent": true,
+        "details": {
+            "singleProductSettings": {
+                "showTitle": true,
+                "showSubTitle": true,
+                "singleProduct": 173454,
+                "bgColor": "#ffffff",
+                "stampColor": "#aa6d58",
+                "showButton": true,
+                "templateName": "singleProductTemplateThree",
+                "imageUrl": "themes/candellaTheme/arrivalImage.jpg",
+                "imageTextOne": "New Arrivals",
+                "imageTextOneColor": "#FFF",
+                "imageTextOneSize": 50,
+                "imageTextOneFontFamily": "'Lucida Handwriting',cursive",
+                "imageTextOneStyle": [],
+                "imageTextTwo": "Fall 3- wick candles",
+                "imageTextTwoColor": "#FFF",
+                "imageTextTwoSize": 59,
+                "imageTextTwoFontFamily": "'Georgia',serif",
+                "imageTextTwoStyle": [],
+                "imageBackgroundColor": "#ff5e00",
+                "cardBackgroundColor": "#651515",
+                "imageSize": "contain",
+                "title": "Available now",
+                "titleColor": "black",
+                "titleSize": "12",
+                "textFontFamily": "Arial",
+                "titleFontStyle": [
+                    "B"
+                ],
+                "titlePosition": "center",
+                "buttonText": "VIEW PRODUCT",
+                "buttonTextColor": "white",
+                "buttonColor": "black",
+                "subtitle": "Just added to the shop",
+                "subtitleColor": "black",
+                "subtitleSize": "24",
+                "subtextFontFamily": "Arial",
+                "subtitleFontStyle": [
+                    "B"
+                ],
+                "subtitlePosition": "center"
+            }
+        },
+        "selectorDetails": {
+            "selector": "single-product-display",
+            "inputData": [
+                {
+                    "selectorInput": "websiteSettings",
+                    "handlerInput": "sampleData.websiteSettings"
+                },
+                {
+                    "selectorInput": "displayDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sampleData": {},
+        "script":"themes/bundle/shared-theme/single-product.js"
+    },
+    {
+        "sectionId": 5,
+        "details": {
+            "title": "TESTIMONIALS",
+            "color": "#ff5e00",
+            "textSize": 34,
+            "textalign": "center",
+            "fontstyle": [
+                "B"
+            ],
+            "textFontFamily": "'Palatino Linotype',serif",
+            "leftBackgroundColor": "#ff5e00",
+            "rightBackgroundColor": "#651515",
+            "authorColor": "#651515",
+            "contentColor": "#f5f5f5",
+            "authorFontFamily": "'Palatino Linotype',serif",
+            "testimonailContentFontFamily": "'Palatino Linotype',serif",
+            "showRating": true,
+            "starColor": "#FFFF00",
+            "dotsColor": "#ff5e00",
+            "activeDotColor": "#ffffff"
+        },
+        "selectorDetails": {
+            "selector": "outfit-home-testimonial",
+            "inputData": [
+                {
+                    "selectorInput": "Testimonials",
+                    "handlerInput": "sampleData.testimonials",
+                    "functionName": "getTestimonials"
+                },
+                {
+                    "selectorInput": "testimonialDisplay",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": []
+        },
+        "sectionName": "testimonial",
+        "isExistingComponent": true,
+        "sampleData": {
+            "testimonials": [
+                {
+                    "imageUrl": "testimonial/testimonial-1.jpeg",
+                    "author": "Deepa Nair",
+                    "content": "These sleek cufflinks instantly elevated my style game. Classy and confident, they are the perfect accessory for any occasion. Highly recommended!",
+                    "ratings": 4
+                },
+                {
+                    "imageUrl": "testimonial/testimonial-2.jpg",
+                    "author": "Ramesh Kumar",
+                    "content": "The leather wallet I purchased is not only stylish but also incredibly functional. It holds all my essentials and adds a touch of sophistication to my everyday look.",
+                    "ratings": 2
+                },
+                {
+                    "imageUrl": "testimonial/testimonial-3.jpg",
+                    "author": "Rajeshwari Iyer",
+                    "content": "I was skeptical about wearing a tie clip, but this one changed my mind. It adds a subtle yet impactful touch to my outfit, giving me that extra boost of confidence.",
+                    "ratings": 5
+                }
+            ]
+        },
+        "isVisible": true,
+        "script": "themes/bundle/outfit/outfit-home.js"
+    },
+    {
+        "sectionId": 6,
+        "details": {
+            "image": "themes/retail/opulent-outfit/coat3.jpg",
+            "title": "Categories",
+            "color": "#FFFFFF",
+            "textSize": 35,
+            "fontstyle": [
+                "B"
+            ],
+            "textFontFamily": "'Palatino Linotype',serif",
+            "viewAllText": "View All",
+            "viewAllColor": "#f5f5f5",
+            "textThreeFontFamily": "'Palatino Linotype',serif",
+            "backgroundcolor": "#ff5e00",
+            "textcolor": "#651515",
+            "textOneFontFamily": "'Palatino Linotype',serif",
+            "productNameColor": "#000000",
+            "textTwoFontFamily": "'Palatino Linotype',serif",
+            "displayPrice": true,
+            "priceColor": "#ff5e00",
+            "buttonText": "VIEW PRODUCT",
+            "buttonColor": "#ff5e00",
+            "buttonTextcolor": "#651515",
+            "productImageSize": "contain",
+            "cardBackgroundColor": "#000000"
+        },
+        "selectorDetails": {
+            "selector": "outfit-home-product",
+            "inputData": [
+                {
+                    "selectorInput": "product",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                },
+                {
+                    "selectorInput": "featuredCategory",
+                    "handlerInput": "sampleData.featuredCategory",
+                    "functionName": "getFeaturedCategoriesProducts"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sectionName": "product",
+        "isExistingComponent": true,
+        "sampleData": {
+            "featuredCategory": [
+                {
+                    "id": 1616,
+                    "categoryName": "T-Shirts",
+                    "description": null,
+                    "featuredSort": null,
+                    "productCategories": [
+                        {
+                            "productId": 125945,
+                            "categoryId": 1616,
+                            "id": 50609,
+                            "product": {
+                                "id": 125945,
+                                "name": "Printed Round-Neck T-Shirt",
+                                "featuredImage": "themes/retail/opulent-outfit/coat2.png",
+                                "isVariants": false,
+                                "productAvailability": true,
+                                "isDigitalProduct": true,
+                                "price": 89,
+                                "costComparePrice": 0,
+                                "multiLocationVariantStocks": [
+                                    {
+                                        "stock": -1,
+                                        "id": 227821,
+                                        "inventoryLocationId": 165
+                                    }
+                                ],
+                                "variantId": 164393,
+                                "weightCount": null
+                            }
+                        },
+                        {
+                            "productId": 9881,
+                            "categoryId": 1616,
+                            "id": 53174,
+                            "product": {
+                                "id": 9881,
+                                "name": "Printed Round-Neck T-Shirt",
+                                "featuredImage": "themes/retail/opulent-outfit/coat1.png",
+                                "isVariants": true,
+                                "productAvailability": true,
+                                "isDigitalProduct": false,
+                                "price": 119,
+                                "costComparePrice": 0,
+                                "multiLocationVariantStocks": [
+                                    {
+                                        "stock": -1,
+                                        "id": 222897,
+                                        "inventoryLocationId": 165
+                                    }
+                                ],
+                                "variantId": 164563,
+                                "weightCount": null
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1616,
+                    "categoryName": "Shoes",
+                    "categoryImageUrl": "STORE_154/categories/category1671784589308_S154.png",
+                    "description": null,
+                    "featuredSort": null,
+                    "productCategories": []
+                },
+                {
+                    "id": 1616,
+                    "categoryName": "Leather Jacket",
+                    "categoryImageUrl": "STORE_154/categories/category1671784589308_S154.png",
+                    "description": null,
+                    "featuredSort": null,
+                    "productCategories": []
+                },
+                {
+                    "id": 1616,
+                    "categoryName": "Coat",
+                    "categoryImageUrl": "STORE_154/categories/category1671784589308_S154.png",
+                    "description": null,
+                    "featuredSort": null,
+                    "productCategories": []
+                },
+                {
+                    "id": 1616,
+                    "categoryName": "Coat",
+                    "categoryImageUrl": "STORE_154/categories/category1671784589308_S154.png",
+                    "description": null,
+                    "featuredSort": null,
+                    "productCategories": []
+                },
+                {
+                    "id": 1616,
+                    "categoryName": "Coat",
+                    "categoryImageUrl": "STORE_154/categories/category1671784589308_S154.png",
+                    "description": null,
+                    "featuredSort": null,
+                    "productCategories": []
+                }
+            ]
+        },
+        "isVisible": true,
+        "script": "themes/bundle/outfit/outfit-home.js"
+    }
+]

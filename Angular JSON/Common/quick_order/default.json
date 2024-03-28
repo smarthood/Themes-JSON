@@ -1,0 +1,270 @@
+[
+  {
+      "sectionId": 1,
+      "sectionName": "Category Header",
+      "isExistingComponent": true,
+      "details": {
+          "searchPlaceHolder": "Search by Name"
+      },
+      "sampleData": {
+          "categoryList": [
+              {
+                  "id": 373,
+                  "categoryName": "Fruits",
+                  "categoryImageUrl": null,
+                  "isAutomatic": false,
+                  "rule": [],
+                  "sortOrder": 1,
+                  "parentCategoryId": null,
+                  "isFeatured": false,
+                  "locationBasedCategories": [
+                      {
+                          "id": 2606
+                      }
+                  ]
+              },
+              {
+                  "id": 91,
+                  "categoryName": "Nuts",
+                  "categoryImageUrl": "categories/category1651210851808.png",
+                  "isAutomatic": false,
+                  "rule": [],
+                  "sortOrder": 8,
+                  "parentCategoryId": 88,
+                  "isFeatured": true,
+                  "locationBasedCategories": [
+                      {
+                          "id": 1893
+                      }
+                  ]
+              }
+          ],
+          "selectedDetails": {
+              "categoryDetails": 373,
+              "categoryId": 373,
+              "searchText": null
+          }
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-category-list",
+          "inputData": [
+              {
+                  "selectorInput": "displayDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "categoryList",
+                  "handlerInput": "sampleData.categoryList",
+                  "functionName": "getAllQuickOrderCategories"
+              },
+              {
+                  "selectorInput": "selectedDetails",
+                  "handlerInput": "sampleData.selectedDetails"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "selectedCategoryId",
+                  "handlerFunction": "getAllCategoryProducts"
+              },
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              },
+              {
+                  "selectorOutput": "searchedText",
+                  "handlerFunction": "getAllProductsBySearchText"
+              },
+              {
+                  "selectorOutput": "clearSearchForQuickOrder",
+                  "handlerFunction": "clearSearchForQuickOrder"
+              }
+          ]
+      }
+  },
+  {
+      "sectionId": 2,
+      "details": {
+          "data": "sample"
+      },
+      "sampleData": {
+          "menuCategoryAvailability": [
+              {
+                  "categoryId": 91,
+                  "menuClosed": true
+              }
+          ],
+          "categoryList": [
+              {
+                  "id": 373,
+                  "categoryName": "Fruits",
+                  "categoryImageUrl": null,
+                  "isAutomatic": false,
+                  "rule": [],
+                  "sortOrder": 1,
+                  "parentCategoryId": null,
+                  "isFeatured": false,
+                  "locationBasedCategories": [
+                      {
+                          "id": 2606
+                      }
+                  ]
+              },
+              {
+                  "id": 91,
+                  "categoryName": "Nuts",
+                  "categoryImageUrl": "categories/category1651210851808.png",
+                  "isAutomatic": false,
+                  "rule": [],
+                  "sortOrder": 8,
+                  "parentCategoryId": 88,
+                  "isFeatured": true,
+                  "locationBasedCategories": [
+                      {
+                          "id": 1893
+                      }
+                  ]
+              }
+          ],
+          "productArray": [
+              {
+                  "id": 7167,
+                  "price": "5.00",
+                  "wholeSalePrice": "32.00",
+                  "variantName": "s,red,M",
+                  "weightUnitId": null,
+                  "weightCount": null,
+                  "product": {
+                      "id": 2100,
+                      "name": "Banana",
+                      "orderQuantityMaximum": 5,
+                      "orderQuantityMinimum": null,
+                      "productId": "33bba660-bfe3-11ec-b29d-11f7e4b5c23a",
+                      "qty": null,
+                      "isVariants": true
+                  },
+                  "multiLocationVariantStocks": []
+              },
+              {
+                  "id": 7167,
+                  "price": "15.00",
+                  "wholeSalePrice": "32.00",
+                  "variantName": "s,red,M",
+                  "weightUnitId": null,
+                  "weightCount": null,
+                  "product": {
+                      "id": 2100,
+                      "name": "Watermelon",
+                      "orderQuantityMaximum": 5,
+                      "orderQuantityMinimum": null,
+                      "productId": "33bba660-bfe3-11ec-b29d-11f7e4b5c23a",
+                      "qty": null,
+                      "isVariants": true
+                  },
+                  "multiLocationVariantStocks": []
+              },
+              {
+                  "id": 7258,
+                  "price": "50.00",
+                  "wholeSalePrice": null,
+                  "variantName": "red,s",
+                  "weightUnitId": null,
+                  "weightCount": null,
+                  "product": {
+                      "id": 6842,
+                      "name": "Mangoes",
+                      "orderQuantityMaximum": 2,
+                      "orderQuantityMinimum": null,
+                      "productId": "84462a30-3575-11ed-ac20-bd1a9c9ad569",
+                      "qty": null,
+                      "isVariants": true
+                  },
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 45060,
+                          "stock": 23,
+                          "qtyOnHold": null
+                      }
+                  ]
+              },
+              {
+                  "id": 7258,
+                  "price": "50.00",
+                  "wholeSalePrice": null,
+                  "variantName": "red,s",
+                  "weightUnitId": null,
+                  "weightCount": null,
+                  "product": {
+                      "id": 6841,
+                      "name": "strawberry",
+                      "orderQuantityMaximum": 2,
+                      "orderQuantityMinimum": null,
+                      "productId": "84462a30-3575-11ed-ac20-bd1a9c9ad569",
+                      "qty": null,
+                      "isVariants": true
+                  },
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 45060,
+                          "stock": 23,
+                          "qtyOnHold": null
+                      }
+                  ]
+              }
+          ],
+          "selectedDetails": {
+              "categoryDetails": 373,
+              "searchText": null,
+              "categoryId": 373
+          }
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-quick-order-product",
+          "inputData": [
+              {
+                  "selectorInput": "salesCountdownTimerDiscounts",
+                  "functionName": "getAllSalesCountdownTimerDiscounts"
+              },
+              {
+                  "selectorInput": "menuCategoryAvailability",
+                  "handlerInput": "sampleData.menuCategoryAvailability"
+              },
+              {
+                  "selectorInput": "cartProducts",
+                  "handlerInput": "sampleData.cartProducts",
+                  "functionName": "getAllQuickOrderCategories"
+              },
+              {
+                  "selectorInput": "selectedDetails",
+                  "handlerInput": "sampleData.selectedDetails"
+              },
+              {
+                  "selectorInput": "productArray",
+                  "handlerInput": "sampleData.productArray"
+              },
+              {
+                  "selectorInput": "categoryList",
+                  "handlerInput": "sampleData.categoryList",
+                  "functionName": "getAllQuickOrderCategories"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              },
+              {
+                "selectorOutput": "emitData",
+                "handlerFunction": "onDataEmitQuick"
+            },
+              {
+                  "selectorOutput": "addToCartEmit",
+                  "handlerFunction": "addToCartProduct"
+              }
+          ]
+      },
+      "sectionName": "Quick Order Product",
+      "isExistingComponent": true,
+      "isVisible": true
+  }
+]

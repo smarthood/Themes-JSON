@@ -1,0 +1,209 @@
+[
+  {
+    "id": 1,
+    "sectionName": "Navbar Properties",
+    "isExistingComponent": true,
+    "controls": [
+      {
+        "groupName": "Navbar Color Settings",
+        "groupControls": [
+          {
+            "type": "Color Picker",
+            "name": "navbarColor",
+            "label": "Search Button Color"
+          },
+          {
+            "type": "Color Picker",
+            "name": "color",
+            "label": "Search Icon Color"
+          },
+          {
+            "type": "Color Picker",
+            "name": "backgroundColor",
+            "label": "Background Color"
+          },
+          {
+            "type": "Color Picker",
+            "name": "textColor",
+            "label": "Text Color"
+          },
+          {
+            "type": "Color Picker",
+            "name": "cartIconColor",
+            "label": "Cart Icon Color"
+          },
+          {
+            "type": "Color Picker",
+            "name": "cartBadgeColor",
+            "label": "Cart Badge Color"
+          },
+          {
+            "type": "Color Picker",
+            "name": "iconColor",
+            "label": "Icon Color"
+          },
+          {
+            "type": "Color Picker",
+            "name": "hoverBackgroundColor",
+            "label": "Background Color on Hover"
+          },
+          {
+            "type": "Color Picker",
+            "name": "hoverTextColor",
+            "label": "Text Color on Hover"
+          }
+        ]
+      },
+      {
+        "groupName": "Navbar Category Type Settings",
+        "groupControls": [
+          {
+            "type": "Radio",
+            "name": "navbarCategory",
+            "label": "Navbar Category Type",
+            "options": [
+              {
+                "name": "Category Without Image",
+                "value": "withCategory"
+              },
+              {
+                "name": "Category With Image",
+                "value": "withCategory2"
+              },
+              {
+                "name": "No Categories",
+                "value": "noCategory"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "groupName": "Attention Banner Settings",
+        "groupControls": [
+          {
+            "type": "Slider Toggle",
+            "name": "showAttentionBanner",
+            "label": "Show Attention Banner"
+          },
+          {
+            "type": "Input",
+            "name": "attentionBannerText",
+            "label": "Attention Banner Text",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 100
+              }
+            ]
+          },
+          {
+            "type": "Color Picker",
+            "name": "attentionBannerBackgroundColor",
+            "label": "Background Color"
+          },
+          {
+            "type": "Color Picker",
+            "name": "attentionBannerTextColor",
+            "label": "Text Color"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "sectionName": "Color",
+    "isExistingComponent": true,
+    "controls": [
+      {
+        "groupName": "Color Settings",
+        "groupControls": [
+          {
+            "type": "Color Picker",
+            "name": "primary-color",
+            "label": "Primary Color"
+          },
+          {
+            "type": "Color Picker",
+            "name": "secondary-color",
+            "label": "Secondary Color"
+          }
+        ]
+      }
+    ]
+  },
+  {
+      "id": 3,
+      "isExistingComponent": true,
+      "sectionName": "Loader",
+      "controls": [
+          {
+              "groupName": "Loader Settings",
+              "groupControls": [
+                  {
+                      "type": "Image",
+                      "name": "loaderImage",
+                      "label": "Load Image",
+                      "errors": [
+                          {
+                              "name": "required"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "ArrayOfObjects",
+                      "name": "loaderArray",
+                      "label": "Loader Image"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "loaderText",
+                      "label": "Loader Text",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 10
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textColor",
+                      "label": "Loader Text Color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textStyle",
+                      "label": "Loader Font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Loader Font Family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textFontSize",
+                      "label": "Loader Text Size",
+                      "options": [
+                          10,
+                          20
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "backgroundColor",
+                      "label": "Loader Background Color"
+                  }
+              ]
+          }
+      ]
+  }
+]

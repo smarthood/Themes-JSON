@@ -1,0 +1,83 @@
+[
+  {
+    "sectionId": 1,
+    "details": {
+      "logindata": {
+        "showImage": true,
+        "imagePosition": "fill",
+        "imageAlignment": "top",
+        "containerAlignment": "center",
+        "alignment": "row",
+        "imageUrl": "themes/retail-theme-4/men_login_bg.jpg",
+        "animation": true,
+        "animationPosition": "top",
+        "showDivider": true,
+        "dividerLength": 70,
+        "dividerColor": "black",
+        "showSocialMediaIcon": true,
+        "socialMediaIconPosition": "bottom",
+        "rightBackgroundColor": "white",
+        "cardColor": "white",
+        "cardShadow": false,
+        "cardBorderRadius": 0,
+        "formTextColor": "black",
+        "formErrorTextColor": "red",
+        "formSubTextPosition": "bottom",
+        "showEmail": true,
+        "showPhoneNumber": true,
+        "cardFill": false,
+        "appearance": "outline",
+        "showMainText": true,
+        "mainText": "Welcome to Men's Accessories",
+        "mainTextColor": "#000",
+        "mainTextSize": 34,
+        "mainTextStyle": [
+          "B"
+        ],
+        "mainTextFontFamily": "'Raleway', sans-serif",
+        "showSubText": true,
+        "subText": "Follow us for daily updates!",
+        "subTextColor": "#000",
+        "subTextSize": 28,
+        "subTextStyle": [],
+        "subTextFontFamily": "'Arial',sans-serif",
+        "formTitle": "Sign In For Better Experience",
+        "formTitleColor": "#7c4949",
+        "formTitleSize": 18,
+        "formTitleStyle": [],
+        "formTitleFontFamily": "'Arial',sans-serif",
+        "formSubtitle": "Still not one of Us?",
+        "formSubtitleColor": "#000",
+        "formSubtitleSize": 12,
+        "formSubtitleStyle": [],
+        "formSubtitleFontFamily": "'Arial',sans-serif",
+        "showSecondaryDivider": true,
+        "secondaryDividerColor": "#7c4949",
+        "buttonTextColor": "white",
+        "iconPosition": "inside",
+        "showIcon": true,
+        "buttonColor": "#7c4949",
+        "glassy": true,
+        "overlay": false
+      }
+    },
+    "selectorDetails": {
+      "selector": "phase-ii-storefront-sign-in",
+      "inputData": [
+        {
+          "selectorInput": "displayDetails",
+          "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+        }
+      ],
+      "outputData": [
+        {
+          "selectorOutput": "pageToNavigate",
+          "handlerFunction": "pageToNavigate"
+        }
+      ]
+    },
+    "sectionName": "Login page",
+    "isExistingComponent": true,
+    "sampleData": null
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "sectionId": 1,
+    "sectionName": "AboutUs banner",
+    "isExistingComponent": true,
+    "details": {
+      "bannerProperty": 4,
+      "bannerDetails": {
+        "height": 40,
+        "bannerTextBackGroundEnabled": false,
+        "textEnabled": true,
+        "bannerColor": "#f5f4f1",
+        "animation": "noAnimationTemplate",
+        "textAlign": "Center",
+        "bannerText": "About Us",
+        "textFontFamily": "Palatino Linotype",
+        "textFontStyle": [
+          "B"
+        ],
+        "subTextFontStyle": [],
+        "bannerSubText": null,
+        "textColor": "#000",
+        "bannerTextBackGroundColor": "white",
+        "subTextColor": "#4A4D60",
+        "textSize": 54,
+        "subtextSize": 18
+      },
+      "inValid": false,
+      "isChildError": false
+    },
+    "selectorDetails": {
+      "selector": "phase-ii-banner",
+      "inputData": [
+        {
+          "selectorInput": "bannerDetails",
+          "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+        }
+      ],
+      "outputData": []
+    }
+  },
+  {
+    "sectionId": 2,
+    "sectionName": "Image Gallery",
+    "isExistingComponent": true,
+    "details": {
+      "gallerImages" : [
+        {
+          "imageUrl": "themes/retail-theme-4/abt-img-1.jpg"
+        },
+        {
+          "imageUrl": "themes/retail-theme-4/abt-img-2.jpg"
+        },
+        {
+          "imageUrl": "themes/retail-theme-4/abt-img-3.jpg"
+        },
+        {
+          "imageUrl": "themes/retail-theme-4/abt-img-4.jpg"
+        },
+        {
+          "imageUrl": "themes/retail-theme-4/abt-img-5.jpg"
+        },
+        {
+          "imageUrl": "themes/retail-theme-4/abt-img-6.jpg"
+        },
+        {
+          "imageUrl": "themes/retail-theme-4/abt-img-7.jpg"
+        },
+        {
+          "imageUrl": "themes/retail-theme-4/abt-img-8.jpg"
+        }
+      ]
+    },
+    "selectorDetails": {
+      "selector": "phase-ii-men-accessories-image-gallery",
+      "inputData": [
+        {
+          "selectorInput": "galleryDetails",
+          "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+        }
+      ],
+      "outputData": []
+    }
+  },
+  {
+    "sectionId": 3,
+    "details": {
+      "alignment": "column",
+      "buttonVisiblity": false,
+      "descriptionImage": "themes/retail-theme-4/abt-banner-1.jpg",
+      "formBackgroundColor": "#f5f4f1",
+      "textAlignment": "left",
+      "headingText": "Our Promise",
+      "subText": "Committed to ethical and sustainable manufacturing, our quality products are traceable in the supply chain. We prioritize the well-being of people and the planet, aiming for a brighter future.",
+      "textSize": 28,
+      "showSubText": true,
+      "subTextSize": 12,
+      "textColor": "#000000",
+      "textFontFamily": "Montserrat",
+      "subtextFontFamily": "Montserrat",
+      "subTextColor": "#000000",
+      "subtextFontStyle": [],
+      "textFontStyle": [
+        "B"
+      ]
+    },
+    "selectorDetails": {
+      "selector": "phase-ii-retail-shop-for",
+      "inputData": [
+        {
+          "selectorInput": "displayDetails",
+          "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+        }
+      ],
+      "outputData": []
+    },
+    "sectionName": "Our Promise",
+    "isExistingComponent": true,
+    "sampleData": {},
+    "isVisible": true
+  },
+  {
+    "sectionId": 4,
+    "sectionName": "Quote banner",
+    "isExistingComponent": true,
+    "details": {
+      "bannerProperty": 4,
+      "bannerDetails": {
+        "height": 50,
+        "bannerTextBackGroundEnabled": false,
+        "textEnabled": true,
+        "bannerColor": "#ffffff",
+        "animation": "noAnimationTemplate",
+        "textAlign": "Center",
+        "bannerText": "Trending and timeless accessories to pair seamlessly with your wardrobe",
+        "textFontFamily": "Palatino Linotype",
+        "textFontStyle": [],
+        "subTextFontStyle": [],
+        "bannerSubText": null,
+        "textColor": "#000",
+        "bannerTextBackGroundColor": "white",
+        "subTextColor": "#4A4D60",
+        "textSize": 60,
+        "subtextSize": 18
+      },
+      "inValid": false,
+      "isChildError": false
+    },
+    "selectorDetails": {
+      "selector": "phase-ii-banner",
+      "inputData": [
+        {
+          "selectorInput": "bannerDetails",
+          "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+        }
+      ],
+      "outputData": []
+    }
+  },
+  {
+    "sectionId": 5,
+    "details": {
+      "textColor": "#000",
+      "title": "CUSTOMER LOVE",
+      "subTitle": "We take pride in our quality and service",
+      "backgroundColor": "#f5f5f5",
+      "animationCheck": true,
+      "animationDuration": 3
+    },
+    "selectorDetails": {
+      "selector": "phase-ii-men-accessories-testimonials",
+      "inputData": [
+        {
+          "selectorInput": "testimonialDetails",
+          "handlerInput": "sampleData.testimonials",
+          "functionName": "getTestimonials"
+        },
+        {
+          "selectorInput": "testimonialDisplay",
+          "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+        }
+      ],
+      "outputData": []
+    },
+    "sectionName": "Testimonial",
+    "isExistingComponent": true,
+    "sampleData": {
+      "testimonials": [
+        {
+          "imageUrl" : "themes/retail-theme-4/te_profile_1.jpg",
+          "author" : "Alexander Cole",
+          "designation" : "Fashion Stylist",
+          "content" : "These sleek cufflinks instantly elevated my style game. Classy and confident, they are the perfect accessory for any occasion. Highly recommended!",
+          "ratings" : 4
+        },
+        {
+          "imageUrl" : "themes/retail-theme-4/te_profile_2.jpg",
+          "author" : "Samuel Bennett",
+          "designation" : "Financial Analyst",
+          "content" : "The leather wallet I purchased is not only stylish but also incredibly functional. It holds all my essentials and adds a touch of sophistication to my everyday look.",
+          "ratings" : 2
+        },
+        {
+          "imageUrl" : "themes/retail-theme-4/te_profile_3.jpg",
+          "author" : "Benjamin Taylor",
+          "designation" : "Creative Director",
+          "content" : "I was skeptical about wearing a tie clip, but this one changed my mind. It adds a subtle yet impactful touch to my outfit, giving me that extra boost of confidence.",
+          "ratings" : 5
+        },
+        {
+          "imageUrl" : "themes/retail-theme-4/te_profile_4.jpg",
+          "author" : "Noah Roberts",
+          "designation" : "Photographer",
+          "content" : "The sunglasses I bought are a game-changer. They not only protect my eyes but also make me look effortlessly cool. They're my go-to accessory for any sunny day.",
+          "ratings" : 0
+        },
+        {
+          "imageUrl" : "themes/retail-theme-4/te_profile_5.jpg",
+          "author" : "Henry Turner",
+          "designation" : "Fashion Designer",
+          "content" : "I never realized how much a simple pocket square could transform my suit. The vibrant colors and patterns instantly make a statement, taking my formal attire to the next level.",
+          "ratings" : 1
+        }
+      ]
+    }
+  }
+]

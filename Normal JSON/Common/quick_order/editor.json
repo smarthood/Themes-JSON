@@ -1,0 +1,33 @@
+[
+  {
+      "id": 1,
+      "sectionName": "Category Header",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "type": "Input",
+              "name": "searchPlaceHolder",
+              "label": "Place Holder of Search",
+              "errors": [
+                  {
+                      "name": "required"
+                  },
+                  {
+                      "name": "pattern",
+                      "patternName": "emptySpace"
+                  },
+                  {
+                      "name": "maxlength",
+                      "length": 100
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 2,
+      "sectionName": "Quick Order Product",
+      "isExistingComponent": true,
+      "controls": []
+  }
+]

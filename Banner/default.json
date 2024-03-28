@@ -1,0 +1,46 @@
+[
+  {
+    "sectionId": 1,
+    "isExistingComponent": true,
+    "details": {
+      "bannerProperty": 8,
+      "bannerDetails": {
+        "height": 60,
+        "imageBackgroundSizeType": "cover",
+        "slideAutomatically": true,
+        "bannerImage": [
+          {
+            "image": "your/image/1"
+          },
+          {
+            "image": "your/image/2"
+          },
+          {
+            "image": "your/image/3"
+          },
+          {
+            "image": "your/image/4"
+          },
+          {
+            "image": "your/image/5"
+          }
+        ]
+      }
+    },
+    "selectorDetails": {
+      "selector": "phase-ii-banner",
+      "inputData": [
+        {
+          "selectorInput": "bannerDetails",
+          "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+        }
+      ],
+      "outputData": [
+        {
+          "selectorOutput": "pageToNavigate",
+          "handlerFunction": "pageToNavigate"
+        }
+      ]
+    }
+  }
+]

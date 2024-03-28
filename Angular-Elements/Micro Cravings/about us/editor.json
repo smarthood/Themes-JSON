@@ -1,0 +1,948 @@
+[
+  {
+      "id": 1,
+      "sectionName": "About Us Banner",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "type": "Banner Layout",
+              "name": "bannerDetails",
+              "label": "Banner Details"
+          }
+      ]
+  },
+  {
+      "id": 2,
+      "sectionName": "Story and Timeline",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Text Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "infoHeading",
+                      "label": "Story title",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "infoHeadingColorStyle",
+                      "label": "Story title style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Story title family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "infoHeadingSize",
+                      "label": "Story title size",
+                      "options": [
+                          20,
+                          80
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "infoHeadingColor",
+                      "label": "Story title color"
+                  },
+                  {
+                      "type": "Text Editor",
+                      "name": "infoDescription",
+                      "label": "Story description",
+                      "errors": [
+                          {
+                              "name": "required"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Slider Toggle",
+                      "name": "showTimeline",
+                      "label": "Show timeline"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "storyHeading",
+                      "label": "Timeline heading",
+                      "showHideControl": "storyHeading",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "storyHeadingColorStyle",
+                      "label": "Timeline heading style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "subtextFontFamily",
+                      "label": "Timeline heading family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "storyHeadingSize",
+                      "label": "Timeline heading size",
+                      "options": [
+                          20,
+                          80
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "storyHeadingColor",
+                      "label": "Timeline heading color"
+                  }
+              ]
+          },
+          {
+              "groupName": "Story Settings",
+              "groupControls": [
+                  {
+                      "type": "ArrayOfObjects",
+                      "name": "story",
+                      "label": "Timeline"
+                  }
+              ]
+          },
+          {
+              "groupName": "Additonal Info Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider Toggle",
+                      "name": "showAdditionalInfo",
+                      "label": "Show additional info"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "backgroundColor",
+                      "label": "Additional info background color",
+                      "showHideControl": "showAdditionalInfo",
+                      "errors": [
+                          {
+                              "name": "required"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Input",
+                      "name": "heading",
+                      "label": "Additional info heading",
+                      "showHideControl": "showAdditionalInfo",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Text Area",
+                      "name": "description",
+                      "label": "Additional info description",
+                      "showHideControl": "showAdditionalInfo",
+                      "errors": [
+                          {
+                              "name": "required"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textColor",
+                      "label": "Additional info text color",
+                      "showHideControl": "showAdditionalInfo",
+                      "errors": [
+                          {
+                              "name": "required"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Image Settings",
+              "groupControls": [
+                  {
+                      "type": "Image",
+                      "name": "aboutImage",
+                      "label": "About us image",
+                      "errors": [
+                          {
+                              "name": "required"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Button Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider Toggle",
+                      "name": "buttonEnabled",
+                      "label": "Show contact us button"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "buttonText",
+                      "label": "Button label",
+                      "showHideControl": "buttonEnabled",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "buttonLink",
+                      "label": "Button link"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttonColor",
+                      "label": "Button color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttonTextColor",
+                      "label": "Button text color"
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 3,
+      "sectionName": "Gallery",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Text Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "galleryHeading",
+                      "label": "Gallery title",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textFontStyle",
+                      "label": "Gallery title style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Gallery title family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Gallery title size",
+                      "options": [
+                          20,
+                          80
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textColor",
+                      "label": "Gallery title color"
+                  }
+              ]
+          },
+          {
+              "groupName": "Background Image Settings",
+              "groupControls": [
+                  {
+                      "type": "Image",
+                      "name": "background",
+                      "label": "Gallery background image",
+                      "errors": [
+                          {
+                              "name": "required"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "imageBackgroundSizeType",
+                      "label": "Image background size type",
+                      "options": [
+                          {
+                              "name": "Cover",
+                              "value": "cover"
+                          },
+                          {
+                              "name": "Fill (100% 100%)",
+                              "value": "100% 100%"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Gallery Image Settings",
+              "groupControls": [
+                  {
+                      "type": "ArrayOfObjects",
+                      "name": "galleryImages",
+                      "label": "Gallery images"
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 4,
+      "sectionName": "Team",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Text Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "sectionTitle",
+                      "label": "Team title",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textFontStyle",
+                      "label": "Team title style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Team title family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Team title size",
+                      "options": [
+                          10,
+                          80
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textColor",
+                      "label": "Team title color"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "retailQuote",
+                      "label": "Quote about team / company",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "subtextFontStyle",
+                      "label": "Quote about team style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "subtextFontFamily",
+                      "label": "Quote about team family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "subTextSize",
+                      "label": "Quote about team size",
+                      "options": [
+                          10,
+                          80
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "subTextColor",
+                      "label": "Quote about team color"
+                  },
+                  {
+                      "type": "Text Area",
+                      "name": "teamContent",
+                      "label": "Content about team"
+                  }
+              ]
+          },
+          {
+              "groupName": "Team Members Details Settings",
+              "groupControls": [
+                  {
+                      "type": "Checkbox",
+                      "name": "showProfession",
+                      "label": "Show profession"
+                  },
+                  {
+                      "type": "Checkbox",
+                      "name": "showImage",
+                      "label": "Show image"
+                  },
+                  {
+                      "type": "ArrayOfObjects",
+                      "name": "teamDetails",
+                      "label": "Team member details"
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 7,
+      "sectionName": "Testimonials Template 5",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Text Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "sectionTitle",
+                      "label": "Section title",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Input",
+                      "name": "sectionDescription",
+                      "label": "Section description",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 350
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "sectionTitleStyle",
+                      "label": "Section title style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Text font family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "sectionTitleSize",
+                      "label": "Section title size",
+                      "options": [
+                          40,
+                          80
+                      ]
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "sectionDescriptionSize",
+                      "label": "Section description size",
+                      "options": [
+                          20,
+                          80
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "sectionTitleColor",
+                      "label": "Section text color"
+                  },
+                  {
+                      "name": "sampleData"
+                  }
+              ]
+          },
+          {
+              "groupName": "Image Settings",
+              "groupControls": [
+                  {
+                      "type": "Image",
+                      "name": "backgroundImage",
+                      "label": "Background image"
+                  }
+              ]
+          },
+          {
+              "groupName": "Testimonial Settings",
+              "groupControls": [
+                  {
+                      "type": "Testimonial",
+                      "name": "testimonial",
+                      "label": "Testimonials"
+                  },
+                  {
+                      "type": "Slider Toggle",
+                      "name": "showCustomerName",
+                      "label": "Show / Hide customer name"
+                  },
+                  {
+                      "type": "Slider Toggle",
+                      "name": "showCustomerProfession",
+                      "label": "Show / Hide customer profession"
+                  },
+                  {
+                      "type": "Slider Toggle",
+                      "name": "showCustomerImage",
+                      "label": "Show / Hide customer image"
+                  },
+                  {
+                      "type": "Slider Toggle",
+                      "name": "showSampleData",
+                      "label": "Show / Hide sample data"
+                  }
+              ]
+          }
+      ],
+      "isAddedSection": true
+  },
+  {
+      "id": 5,
+      "sectionName": "Testimonials",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Text Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "sectionTitle",
+                      "label": "Features title",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textFontStyle",
+                      "label": "Features title style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Features title family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Features title size",
+                      "options": [
+                          20,
+                          80
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textColor",
+                      "label": "Features title color"
+                  }
+              ]
+          },
+          {
+              "groupName": "Testimonials Settings",
+              "groupControls": [
+                  {
+                      "type": "Checkbox",
+                      "name": "showCustomerName",
+                      "label": "Show customer name"
+                  },
+                  {
+                      "type": "Checkbox",
+                      "name": "showCustomerImage",
+                      "label": "Show customer image"
+                  },
+                  {
+                      "type": "Testimonial",
+                      "name": "testimonial",
+                      "label": "Testimonials"
+                  }
+              ]
+          }
+      ],
+      "isDeletedSection": true
+  },
+  {
+      "id": 9,
+      "sectionName": "About Us Display",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "About Us Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider Toggle",
+                      "name": "showAboutUs",
+                      "label": "Show about us section"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "aboutUsTitle",
+                      "label": "About us title",
+                      "showHideControl": "showAboutUs",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Text Editor",
+                      "name": "aboutUsContent",
+                      "label": "About us content",
+                      "showHideControl": "showAboutUs",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 600
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Founder Name Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "founderName",
+                      "label": "Founder name",
+                      "showHideControl": "showAboutUs",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Input",
+                      "name": "position",
+                      "label": "Position of work",
+                      "showHideControl": "showAboutUs",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Gallery Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider Toggle",
+                      "name": "showGallery",
+                      "label": "Show gallery"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "galleryTitle",
+                      "label": "Gallery title",
+                      "showHideControl": "showGallery",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Image",
+                      "name": "productImage",
+                      "label": "Gallery icon image",
+                      "showHideControl": "showGallery",
+                      "errors": [
+                          {
+                              "name": "required"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "ArrayOfObjects",
+                      "name": "galaryImage",
+                      "label": "Gallery images"
+                  }
+              ]
+          },
+          {
+              "groupName": "Offers Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider Toggle",
+                      "name": "showOffer",
+                      "label": "Show offer"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "offerHeading",
+                      "label": "Offer heading",
+                      "showHideControl": "showOffer",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Input",
+                      "name": "offerSubHeading",
+                      "label": "Offer subheading",
+                      "showHideControl": "showOffer",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Text Area",
+                      "name": "offerDescription",
+                      "label": "Offer description",
+                      "showHideControl": "showOffer",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 250
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Button Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "readMoreButtonText",
+                      "label": "Read more button label",
+                      "showHideControl": "showOffer",
+                      "errors": [
+                          {
+                              "name": "required"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Background Image Settings",
+              "groupControls": [
+                  {
+                      "type": "Image",
+                      "name": "backgroundImage",
+                      "label": "Background image",
+                      "showHideControl": "showOffer",
+                      "errors": [
+                          {
+                              "name": "required"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "imageBackgroundSizeType",
+                      "label": "Image background size type",
+                      "options": [
+                          {
+                              "name": "Cover",
+                              "value": "cover"
+                          },
+                          {
+                              "name": "Fill (100% 100%)",
+                              "value": "100% 100%"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ],
+      "isAddedSection": true
+  },
+  {
+      "id": 6,
+      "sectionName": "Location Details",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "General Settings",
+              "groupControls": [
+                  {
+                      "type": "Checkbox",
+                      "name": "showFilter",
+                      "label": "Show location filter"
+                  }
+              ]
+          },
+          {
+              "groupName": "Text Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "locationHeading",
+                      "label": "Location heading",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textFontStyle",
+                      "label": "Location heading style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Location heading family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Location heading size",
+                      "options": [
+                          20,
+                          80
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textColor",
+                      "label": "Location heading color"
+                  }
+              ]
+          },
+          {
+              "groupName": "Background Image Settings",
+              "groupControls": [
+                  {
+                      "type": "Checkbox",
+                      "name": "showBackgroundImage",
+                      "label": "Show background image"
+                  },
+                  {
+                      "type": "Image",
+                      "name": "backgroundImage",
+                      "label": "Background image"
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "imageBackgroundSizeType",
+                      "label": "Image background size type",
+                      "options": [
+                          {
+                              "name": "Cover",
+                              "value": "cover"
+                          },
+                          {
+                              "name": "Fill (100% 100%)",
+                              "value": "100% 100%"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  }
+]

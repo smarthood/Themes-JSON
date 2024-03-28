@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "sectionName": "Login page",
+    "isExistingComponent": true,
+    "controls": [
+      {
+        "type": "Login Page",
+        "name": "logindata",
+        "label": "Login Details"
+      }
+    ]
+  }
+]

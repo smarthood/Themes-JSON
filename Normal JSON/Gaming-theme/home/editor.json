@@ -1,0 +1,391 @@
+[
+    {
+        "id": 1,
+        "sectionName": "Banner",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Background Color Settings",
+                "groupControls": [
+                    {
+                        "type": "Color Picker",
+                        "name": "backgroundColor",
+                        "label": "Background Color"
+                    },
+                    {
+                        "type": "Video",
+                        "name": "backgroundVideo",
+                        "label": "Background Video"
+                    },
+                    {
+                        "type": "Image",
+                        "name": "consoleImage",
+                        "label": "Image 1"
+                    },
+                    {
+                        "type": "Image",
+                        "name": "controllerImage",
+                        "label": "Image 2"
+                    }
+                ]
+            },
+            {
+                "groupName": "Head Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "headText",
+                        "label": "Heading"
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "headTextFontStyle",
+                        "label": "Heading Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Heading Text Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "headTextSize",
+                        "label": "Heading Size",
+                        "options": [
+                            10,
+                            50
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "headTextColor",
+                        "label": "Heading Text Color"
+                    }
+                ]
+            },
+            {
+                "groupName": "Info Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "infoText",
+                        "label": "Info Text"
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "infoTextFontStyle",
+                        "label": "Info Text Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "contentFontFamily",
+                        "label": "Info Text Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "infoTextSize",
+                        "label": "Info Text Size",
+                        "options": [
+                            10,
+                            50
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "infoTextColor",
+                        "label": "Info Text Color"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "sectionName": "Gallery",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Image Settings",
+                "groupControls": [
+                    {
+                        "type": "Image Gallery",
+                        "name": "gallerImages",
+                        "label": "Background Colour"
+                    }
+                ]
+            },
+            {
+                "groupName": "Background Settings",
+                "groupControls": [
+                    {
+                        "type": "Image",
+                        "name": "backgroundImage",
+                        "label": "Background Image"
+                    }
+                ]
+            },
+            {
+                "groupName": "Heading Settings",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "headText",
+                        "label": "Heading"
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "headTextFontStyle",
+                        "label": "Heading Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Heading Text Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "headTextSize",
+                        "label": "Heading Size",
+                        "options": [
+                            10,
+                            60
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "headTextColor",
+                        "label": "Heading Text Color"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "sectionName": "ProductList",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Background Color Settings",
+                "groupControls": [
+                    {
+                        "type": "Color Picker",
+                        "name": "firstProduct",
+                        "label": "First Product Background"
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "secondProduct",
+                        "label": "Second Product Background"
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "thirdProduct",
+                        "label": "Third Product Background"
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "fourthProduct",
+                        "label": "Fourth Product Background"
+                    }
+                ]
+            },
+            {
+                "groupName": "Name Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Font Style",
+                        "name": "cardNameFontStyle",
+                        "label": "Name Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFiveFontFamily",
+                        "label": "Name Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "cardNameFontSize",
+                        "label": "Name Text Size",
+                        "options": [
+                            10,
+                            50
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "cardNameFontColor",
+                        "label": "Name Text Color"
+                    }
+                ]
+            },
+            {
+                "groupName": "Price Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Font Style",
+                        "name": "cardPriceFontStyle",
+                        "label": "Price Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textThreeFontFamily",
+                        "label": "Price Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "cardPriceFontSize",
+                        "label": "Price Text Size",
+                        "options": [
+                            10,
+                            40
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "cardPriceFontColor",
+                        "label": "Price Text Color"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "sectionName": "CategoriesList",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Background Color Settings",
+                "groupControls": [
+                    {
+                        "type": "Color Picker",
+                        "name": "backgroundColor",
+                        "label": "Background Color"
+                    }
+                ]
+            },
+            {
+                "groupName": "Heading Settings",
+                "groupControls": [
+                    {
+                        "type": "Font Style",
+                        "name": "headTextFontStyle",
+                        "label": "Heading Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Heading Text Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "headTextSize",
+                        "label": "Heading Size",
+                        "options": [
+                            10,
+                            65
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "headTextColor",
+                        "label": "Heading Text Color"
+                    }
+                ]
+            },
+            {
+                "groupName": "Link Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "linkText",
+                        "label": "Link text"
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "linkFontStyle",
+                        "label": "Link Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "valueTitleFontFamily",
+                        "label": "Link Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "linkFontSize",
+                        "label": "Link Text Size",
+                        "options": [
+                            10,
+                            40
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "linkFontColor",
+                        "label": "Link Text Color"
+                    }
+                ]
+            },
+            {
+                "groupName": "Name Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Font Style",
+                        "name": "cardNameFontStyle",
+                        "label": "Name Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFiveFontFamily",
+                        "label": "Name Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "cardNameFontSize",
+                        "label": "Name Text Size",
+                        "options": [
+                            10,
+                            40
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "cardNameFontColor",
+                        "label": "Name Text Color"
+                    }
+                ]
+            },
+            {
+                "groupName": "Price Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Font Style",
+                        "name": "cardPriceFontStyle",
+                        "label": "Price Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textThreeFontFamily",
+                        "label": "Price Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "cardPriceFontSize",
+                        "label": "Price Text Size",
+                        "options": [
+                            10,
+                            40
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "cardPriceFontColor",
+                        "label": "Price Text Color"
+                    }
+                ]
+            }
+        ]
+    }
+]

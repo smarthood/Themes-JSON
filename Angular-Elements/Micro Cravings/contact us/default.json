@@ -1,0 +1,118 @@
+[
+  {
+      "sectionId": 1,
+      "details": {
+          "backgroundImage": "themes/restaurant/restaurantContactUsBanner.png",
+          "formTitle": "Tell us how we can help!",
+          "contactusButtonText": "Get in Touch",
+          "termsAndPrivacy": false,
+          "recaptcha": true,
+          "textSize": 24,
+          "textColor": "var(--light-color)",
+          "textFontFamily": "Montserrat",
+          "textFontStyle": [
+              "B"
+          ],
+          "formSetting": {
+              "formOnly": true,
+              "showTitle": false,
+              "showSubtitle": false,
+              "backgroundColor": "#ff7c64",
+              "backgroundType": "none",
+              "contactusalignment": "center",
+              "formFieldAppearence": "outline",
+              "inputTextColor": "dark",
+              "normalLabelColor": "#fff",
+              "normalLineColor": "#fff",
+              "focusedLabelColor": "#065677",
+              "focusedLineColor": "#065677",
+              "formFieldDesign": "none",
+              "formCard": false,
+              "formBackground": false,
+              "formFieldLabelOut": false,
+              "formFieldFill": false,
+              "suffixIcon": true,
+              "nameSplit": false,
+              "emailField": true,
+              "contactNoField": true,
+              "termsAndPrivacy": false,
+              "buttonText": "Get in Touch",
+              "buttonBorderColor": "#000",
+              "buttonTextColor": "#fff",
+              "buttonColor": "#F25E3D",
+              "buttonRadius": 5,
+              "buttonType": "flat",
+              "buttonAlignment": "center",
+              "templateName": "templateOne"
+          }
+      },
+      "selectorDetails": {
+          "selector": "restaurant-contactus-imagecard",
+          "inputData": [
+              {
+                  "selectorInput": "contactusFormValues",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "currentLocation",
+                  "handlerInput": "sampleData.currentLocation",
+                  "functionName": "getCurrentLocation"
+              },
+              {
+                  "selectorInput": "websiteSettings",
+                  "handlerInput": "sampleData.websiteSettings"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "formData",
+                  "handlerFunction": "navigateTo"
+              }
+          ]
+      },
+      "sectionName": "Contact Us Form",
+      "isExistingComponent": true,
+      "sampleData": {
+          "currentLocation": {
+              "id": 206,
+              "importId": null,
+              "addressLine1": "pavoorchatram ,tenkasi district ,panchaty taluk",
+              "addressLine2": null,
+              "city": "das",
+              "state": 2303,
+              "name": null,
+              "country": 145,
+              "zipCode": "321233",
+              "mobileNumber": "9025894499",
+              "email": "selvi9068@gmail.com"
+          },
+          "websiteSettings": {
+              "currency": {
+                  "id": 2,
+                  "currencySymbol": "₹",
+                  "currencyCode": "INR",
+                  "currencyName": "Indian Rupees",
+                  "createdAt": null,
+                  "modifiedAt": null
+              },
+              "store": {
+                  "id": 7,
+                  "name": "ZENBASKET COMPANY"
+              },
+              "email": "zenbasket@mailinator.com",
+              "contactNo": "7373994426",
+              "countryCode": 91,
+              "currencyCode": "INR"
+          }
+      },
+      "imageControls": [
+          {
+              "controlName": "backgroundImage",
+              "isPublished": true,
+              "fileUrl": "themes/restaurant/restaurantContactUsBanner.png",
+              "displayUrl": "themes/restaurant/restaurantContactUsBanner.png"
+          }
+      ],
+      "script":"themes/bundle/cravings/zencravings-contactus.js"
+  }
+]

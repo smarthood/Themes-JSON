@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "sectionName": "Gaming Aboutus",
+    "isExistingComponent": true,
+    "controls": [
+      {
+        "type": "Gaming Aboutus",
+        "name": "sectionDetails",
+        "label": "Api data"
+      }
+    ]
+  }
+]

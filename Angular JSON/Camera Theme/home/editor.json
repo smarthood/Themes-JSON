@@ -1,0 +1,1177 @@
+[
+  {
+      "id": 1,
+      "sectionName": "banner",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Header Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "title",
+                      "label": "Heading",
+                      "errors": [
+                          {
+                              "name": "maxlength",
+                              "length": 50
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "color",
+                      "label": "Heading font color"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Heading font size",
+                      "options": [
+                          10,
+                          34
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "fontstyle",
+                      "label": "Heading font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Heading font family"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "textone",
+                      "label": "Subtext",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textonecolor",
+                      "label": "Subtext font color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textonefontstyle",
+                      "label": "Subtext font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textOneFontFamily",
+                      "label": "Subtext font family"
+                  }
+              ]
+          },
+          {
+              "groupName": "Button Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "button",
+                      "label": "Button text",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 20
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "buttonLink",
+                      "label": "Redirect to",
+                      "errors": [
+                          {
+                              "name": "required"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttontextcolor",
+                      "label": "Button font color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "buttonfontstyle",
+                      "label": "Button Font Style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "buttontextFontFamily",
+                      "label": "Button font family"
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "buttonType",
+                      "label": "Button type",
+                      "options": [
+                          {
+                              "name": "Fill",
+                              "value": "fill"
+                          },
+                          {
+                              "name": "Stroked",
+                              "value": "stroked"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttonBackgroundColor",
+                      "label": "Background / Border color"
+                  },
+                  {
+                      "groupName": "Section 2 Settings",
+                      "groupControls": [
+                          {
+                              "type": "Input",
+                              "name": "textone",
+                              "label": "Subtext",
+                              "errors": [
+                                  {
+                                      "name": "required"
+                                  },
+                                  {
+                                      "name": "maxlength",
+                                      "length": 100
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "Color Picker",
+                              "name": "textonecolor",
+                              "label": "Subtext font color"
+                          },
+                          {
+                              "type": "Font Style",
+                              "name": "textonefontstyle",
+                              "label": "Subtext font style"
+                          },
+                          {
+                              "type": "Dropdown",
+                              "name": "textOneFontFamily",
+                              "label": "Subtext font family"
+                          },
+                          {
+                              "type": "Input",
+                              "name": "texttwo",
+                              "label": "Subtext",
+                              "errors": [
+                                  {
+                                      "name": "required"
+                                  },
+                                  {
+                                      "name": "maxlength",
+                                      "length": 100
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "Color Picker",
+                              "name": "texttwocolor",
+                              "label": "Subtext font color"
+                          },
+                          {
+                              "type": "Font Style",
+                              "name": "texttwofontstyle",
+                              "label": "Subtext font style"
+                          },
+                          {
+                              "type": "Dropdown",
+                              "name": "textTwoFontFamily",
+                              "label": "Subtext font family"
+                          },
+                          {
+                              "type": "Input",
+                              "name": "textthree",
+                              "label": "Subtext",
+                              "errors": [
+                                  {
+                                      "name": "required"
+                                  },
+                                  {
+                                      "name": "maxlength",
+                                      "length": 100
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "Color Picker",
+                              "name": "textthreecolor",
+                              "label": "Subtext font color"
+                          },
+                          {
+                              "type": "Font Style",
+                              "name": "textthreefontstyle",
+                              "label": "Subtext font style"
+                          },
+                          {
+                              "type": "Dropdown",
+                              "name": "textThreeFontFamily",
+                              "label": "Subtext font family"
+                          },
+                          {
+                              "type": "Input",
+                              "name": "textfour",
+                              "label": "Subtext",
+                              "errors": [
+                                  {
+                                      "name": "required"
+                                  },
+                                  {
+                                      "name": "maxlength",
+                                      "length": 100
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "Color Picker",
+                              "name": "textfourcolor",
+                              "label": "Subtext font color"
+                          },
+                          {
+                              "type": "Font Style",
+                              "name": "textfourfontstyle",
+                              "label": "Subtext font style"
+                          },
+                          {
+                              "type": "Dropdown",
+                              "name": "textFourFontFamily",
+                              "label": "Subtext font family"
+                          },
+                          {
+                              "type": "Input",
+                              "name": "textfive",
+                              "label": "Subtext",
+                              "errors": [
+                                  {
+                                      "name": "required"
+                                  },
+                                  {
+                                      "name": "maxlength",
+                                      "length": 100
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "Color Picker",
+                              "name": "textfivecolor",
+                              "label": "Subtext font color"
+                          },
+                          {
+                              "type": "Font Style",
+                              "name": "textfivefontstyle",
+                              "label": "Subtext font style"
+                          },
+                          {
+                              "type": "Dropdown",
+                              "name": "textFiveFontFamily",
+                              "label": "Subtext font family"
+                          },
+                          {
+                              "type": "Input",
+                              "name": "textsix",
+                              "label": "Subtext",
+                              "errors": [
+                                  {
+                                      "name": "required"
+                                  },
+                                  {
+                                      "name": "maxlength",
+                                      "length": 100
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "Color Picker",
+                              "name": "textsixcolor",
+                              "label": "Subtext font color"
+                          },
+                          {
+                              "type": "Font Style",
+                              "name": "textsixfontstyle",
+                              "label": "Subtext font style"
+                          },
+                          {
+                              "type": "Dropdown",
+                              "name": "textSixFontFamily",
+                              "label": "Subtext font family"
+                          },
+                          {
+                              "type": "Input",
+                              "name": "textseven",
+                              "label": "Subtext",
+                              "errors": [
+                                  {
+                                      "name": "required"
+                                  },
+                                  {
+                                      "name": "maxlength",
+                                      "length": 100
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "Color Picker",
+                              "name": "textsevencolor",
+                              "label": "Subtext font color"
+                          },
+                          {
+                              "type": "Font Style",
+                              "name": "textsevenfontstyle",
+                              "label": "Subtext font style"
+                          },
+                          {
+                              "type": "Dropdown",
+                              "name": "textSevenFontFamily",
+                              "label": "Subtext font family"
+                          },
+                          {
+                              "type": "Input",
+                              "name": "texteight",
+                              "label": "Subtext",
+                              "errors": [
+                                  {
+                                      "name": "required"
+                                  },
+                                  {
+                                      "name": "maxlength",
+                                      "length": 100
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "Color Picker",
+                              "name": "texteightcolor",
+                              "label": "Subtext font color"
+                          },
+                          {
+                              "type": "Font Style",
+                              "name": "texteightfontstyle",
+                              "label": "Subtext font style"
+                          },
+                          {
+                              "type": "Dropdown",
+                              "name": "textEightFontFamily",
+                              "label": "Subtext font family"
+                          },
+                          {
+                              "type": "Input",
+                              "name": "textnine",
+                              "label": "Subtext",
+                              "errors": [
+                                  {
+                                      "name": "required"
+                                  },
+                                  {
+                                      "name": "maxlength",
+                                      "length": 100
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "Color Picker",
+                              "name": "textninecolor",
+                              "label": "Subtext font color"
+                          },
+                          {
+                              "type": "Font Style",
+                              "name": "textninefontstyle",
+                              "label": "Subtext font style"
+                          },
+                          {
+                              "type": "Dropdown",
+                              "name": "textNineFontFamily",
+                              "label": "Subtext font family"
+                          },
+                          {
+                              "type": "Input",
+                              "name": "textten",
+                              "label": "Subtext",
+                              "errors": [
+                                  {
+                                      "name": "required"
+                                  },
+                                  {
+                                      "name": "maxlength",
+                                      "length": 100
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "Color Picker",
+                              "name": "texttencolor",
+                              "label": "Subtext font color"
+                          },
+                          {
+                              "type": "Font Style",
+                              "name": "texttenfontstyle",
+                              "label": "Subtext font style"
+                          },
+                          {
+                              "type": "Dropdown",
+                              "name": "textTenFontFamily",
+                              "label": "Subtext font family"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 2,
+      "sectionName": "products",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Header Settings",
+              "groupControls": [
+                  {
+                      "type": "Color Picker",
+                      "name": "backgroundcolor",
+                      "label": "Background color"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "title",
+                      "label": "Heading",
+                      "errors": [
+                          {
+                              "name": "maxlength",
+                              "length": 50
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "color",
+                      "label": "Heading font color"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Heading font size",
+                      "options": [
+                          10,
+                          34
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "fontstyle",
+                      "label": "Heading font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Heading font family"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "textone",
+                      "label": "Subtext",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textonecolor",
+                      "label": "Subtext font color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textonefontstyle",
+                      "label": "Subtext font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textOneFontFamily",
+                      "label": "Subtext font family"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "texttwo",
+                      "label": "Subtext",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "texttwocolor",
+                      "label": "Subtext font color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "texttwofontstyle",
+                      "label": "Subtext font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textTwoFontFamily",
+                      "label": "Subtext font family"
+                  }
+              ]
+          },
+          {
+              "groupName": "Button Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "button",
+                      "label": "Button text",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 20
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "buttonLink",
+                      "label": "Redirect to",
+                      "errors": [
+                          {
+                              "name": "required"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttontextcolor",
+                      "label": "Button font color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "buttonfontstyle",
+                      "label": "Button Font Style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "buttontextFontFamily",
+                      "label": "Button font family"
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "buttonType",
+                      "label": "Button type",
+                      "options": [
+                          {
+                              "name": "Fill",
+                              "value": "fill"
+                          },
+                          {
+                              "name": "Stroked",
+                              "value": "stroked"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttonBackgroundColor",
+                      "label": "Background / Border color"
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 3,
+      "sectionName": "image",
+      "isExistingComponent": true,
+      "controls": []
+  },
+  {
+      "id": 4,
+      "sectionName": "addtocart",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Header Settings",
+              "groupControls": [
+                  {
+                      "type": "Color Picker",
+                      "name": "backgroundcolor",
+                      "label": "Background color"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "title",
+                      "label": "Heading",
+                      "errors": [
+                          {
+                              "name": "maxlength",
+                              "length": 50
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "color",
+                      "label": "Heading font color"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Heading font size",
+                      "options": [
+                          10,
+                          34
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "fontstyle",
+                      "label": "Heading font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Heading font family"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "textone",
+                      "label": "Subtext",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textonecolor",
+                      "label": "Subtext font color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textonefontstyle",
+                      "label": "Subtext font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textOneFontFamily",
+                      "label": "Subtext font family"
+                  }
+              ]
+          },
+          {
+              "groupName": "Button Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "button",
+                      "label": "Button text",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 20
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "buttonLink",
+                      "label": "Redirect to",
+                      "errors": [
+                          {
+                              "name": "required"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttontextcolor",
+                      "label": "Button font color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "buttonfontstyle",
+                      "label": "Button Font Style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "buttontextFontFamily",
+                      "label": "Button font family"
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "buttonType",
+                      "label": "Button type",
+                      "options": [
+                          {
+                              "name": "Fill",
+                              "value": "fill"
+                          },
+                          {
+                              "name": "Stroked",
+                              "value": "stroked"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttonBackgroundColor",
+                      "label": "Background / Border color"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "buttontwo",
+                      "label": "Button text",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 20
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "buttonLink",
+                      "label": "Redirect to",
+                      "errors": [
+                          {
+                              "name": "required"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttontwotextcolor",
+                      "label": "Button font color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "buttontwofontstyle",
+                      "label": "Button Font Style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "SubtextFontFamily",
+                      "label": "Button font family"
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "buttonType",
+                      "label": "Button type",
+                      "options": [
+                          {
+                              "name": "Fill",
+                              "value": "fill"
+                          },
+                          {
+                              "name": "Stroked",
+                              "value": "stroked"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttontwoBackgroundColor",
+                      "label": "Background / Border color"
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 5,
+      "sectionName": "Offers",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Header Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "title",
+                      "label": "Heading",
+                      "errors": [
+                          {
+                              "name": "maxlength",
+                              "length": 50
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "color",
+                      "label": "Heading font color"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Heading font size",
+                      "options": [
+                          10,
+                          34
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "fontstyle",
+                      "label": "Heading font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Heading font family"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "textone",
+                      "label": "Subtext",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textonecolor",
+                      "label": "Subtext font color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textonefontstyle",
+                      "label": "Subtext font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textOneFontFamily",
+                      "label": "Subtext font family"
+                  }
+              ]
+          },
+          {
+              "groupName": "Offers Timing",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "timerday",
+                      "label": "Days"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "timerhour",
+                      "label": "Hours"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "timermin",
+                      "label": "Minutes"
+                  },
+                  {
+                      "name": "dbDate"
+                  },
+                  {
+                      "name": "oldmillisec"
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 6,
+      "sectionName": "chooseus",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Button Settings",
+              "groupControls": [
+                  {
+                      "groupName": "Section 2 Settings",
+                      "groupControls": [
+                          {
+                              "type": "Color Picker",
+                              "name": "buttonBackgroundColor",
+                              "label": "Background / Border color"
+                          },
+                          {
+                              "type": "Input",
+                              "name": "textone",
+                              "label": "Subtext",
+                              "errors": [
+                                  {
+                                      "name": "required"
+                                  },
+                                  {
+                                      "name": "maxlength",
+                                      "length": 100
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "Color Picker",
+                              "name": "textonecolor",
+                              "label": "Subtext font color"
+                          },
+                          {
+                              "type": "Font Style",
+                              "name": "textonefontstyle",
+                              "label": "Subtext font style"
+                          },
+                          {
+                              "type": "Dropdown",
+                              "name": "textOneFontFamily",
+                              "label": "Subtext font family"
+                          },
+                          {
+                              "type": "Input",
+                              "name": "texttwo",
+                              "label": "Subtext",
+                              "errors": [
+                                  {
+                                      "name": "required"
+                                  },
+                                  {
+                                      "name": "maxlength",
+                                      "length": 100
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "Color Picker",
+                              "name": "texttwocolor",
+                              "label": "Subtext font color"
+                          },
+                          {
+                              "type": "Font Style",
+                              "name": "texttwofontstyle",
+                              "label": "Subtext font style"
+                          },
+                          {
+                              "type": "Dropdown",
+                              "name": "textTwoFontFamily",
+                              "label": "Subtext font family"
+                          },
+                          {
+                              "type": "Input",
+                              "name": "textthree",
+                              "label": "Subtext",
+                              "errors": [
+                                  {
+                                      "name": "required"
+                                  },
+                                  {
+                                      "name": "maxlength",
+                                      "length": 100
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "Color Picker",
+                              "name": "textthreecolor",
+                              "label": "Subtext font color"
+                          },
+                          {
+                              "type": "Font Style",
+                              "name": "textthreefontstyle",
+                              "label": "Subtext font style"
+                          },
+                          {
+                              "type": "Dropdown",
+                              "name": "textThreeFontFamily",
+                              "label": "Subtext font family"
+                          },
+                          {
+                              "type": "Input",
+                              "name": "textfour",
+                              "label": "Subtext",
+                              "errors": [
+                                  {
+                                      "name": "required"
+                                  },
+                                  {
+                                      "name": "maxlength",
+                                      "length": 100
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "Color Picker",
+                              "name": "textfourcolor",
+                              "label": "Subtext font color"
+                          },
+                          {
+                              "type": "Font Style",
+                              "name": "textfourfontstyle",
+                              "label": "Subtext font style"
+                          },
+                          {
+                              "type": "Dropdown",
+                              "name": "textFourFontFamily",
+                              "label": "Subtext font family"
+                          },
+                          {
+                              "type": "Input",
+                              "name": "textfive",
+                              "label": "Subtext",
+                              "errors": [
+                                  {
+                                      "name": "required"
+                                  },
+                                  {
+                                      "name": "maxlength",
+                                      "length": 100
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "Color Picker",
+                              "name": "textfivecolor",
+                              "label": "Subtext font color"
+                          },
+                          {
+                              "type": "Font Style",
+                              "name": "textfivefontstyle",
+                              "label": "Subtext font style"
+                          },
+                          {
+                              "type": "Dropdown",
+                              "name": "textFiveFontFamily",
+                              "label": "Subtext font family"
+                          },
+                          {
+                              "type": "Input",
+                              "name": "textsix",
+                              "label": "Subtext",
+                              "errors": [
+                                  {
+                                      "name": "required"
+                                  },
+                                  {
+                                      "name": "maxlength",
+                                      "length": 100
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "Color Picker",
+                              "name": "textsixcolor",
+                              "label": "Subtext font color"
+                          },
+                          {
+                              "type": "Font Style",
+                              "name": "textsixfontstyle",
+                              "label": "Subtext font style"
+                          },
+                          {
+                              "type": "Dropdown",
+                              "name": "textSixFontFamily",
+                              "label": "Subtext font family"
+                          },
+                          {
+                              "type": "Input",
+                              "name": "textseven",
+                              "label": "Subtext",
+                              "errors": [
+                                  {
+                                      "name": "required"
+                                  },
+                                  {
+                                      "name": "maxlength",
+                                      "length": 100
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "Color Picker",
+                              "name": "textsevencolor",
+                              "label": "Subtext font color"
+                          },
+                          {
+                              "type": "Font Style",
+                              "name": "textsevenfontstyle",
+                              "label": "Subtext font style"
+                          },
+                          {
+                              "type": "Dropdown",
+                              "name": "textSevenFontFamily",
+                              "label": "Subtext font family"
+                          },
+                          {
+                              "type": "Input",
+                              "name": "texteight",
+                              "label": "Subtext",
+                              "errors": [
+                                  {
+                                      "name": "required"
+                                  },
+                                  {
+                                      "name": "maxlength",
+                                      "length": 100
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "Color Picker",
+                              "name": "texteightcolor",
+                              "label": "Subtext font color"
+                          },
+                          {
+                              "type": "Font Style",
+                              "name": "texteightfontstyle",
+                              "label": "Subtext font style"
+                          },
+                          {
+                              "type": "Dropdown",
+                              "name": "textEightFontFamily",
+                              "label": "Subtext font family"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  }
+]

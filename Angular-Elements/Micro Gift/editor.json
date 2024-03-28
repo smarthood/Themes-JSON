@@ -1,0 +1,691 @@
+[
+    {
+        "id": 1,
+        "sectionName": "Home Banner",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Heading Settings",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "heading",
+                        "label": "Heading",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 20
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Heading font family"
+                    }
+                ]
+            },
+            {
+                "groupName": "Button Settings",
+                "groupControls": [
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showButton",
+                        "label": "Show button"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "buttonText",
+                        "label": "Button text",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 20
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "buttonLink",
+                        "label": "Redirect to"
+                    }
+                ]
+            },
+            {
+                "groupName": "Content Settings",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "content1",
+                        "label": "Content-1",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 80
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Input",
+                        "name": "content2",
+                        "label": "Content-2",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 80
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "groupName": "Mobile Info Settings",
+                "groupControls": [
+                    {
+                        "type": "ArrayOfObjects",
+                        "name": "giftMobileInfo",
+                        "label": "Mobile info"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "isExistingComponent": true,
+        "sectionName": "Home Grid Banner",
+        "controls": [
+            {
+                "groupName": "Heading Settings",
+                "groupControls": [
+                    {
+                        "type": "Common Heading",
+                        "name": "headingSettings",
+                        "label": "Heading Settings"
+                    }
+                ]
+            },
+            {
+                "groupName": "General Settings",
+                "groupControls": [
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Text font family"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "subtextFontFamily",
+                        "label": "Subtext font family"
+                    }
+                ]
+            },
+            {
+                "groupName": "Box #1",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "text1",
+                        "label": "Text",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 50
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Input",
+                        "name": "subText1",
+                        "label": "Subtext",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "textColor1",
+                        "label": "Text color"
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "backgroundColor1",
+                        "label": "Background color"
+                    },
+                    {
+                        "type": "Image",
+                        "name": "boxImage11",
+                        "label": "Image 1"
+                    },
+                    {
+                        "type": "Image",
+                        "name": "boxImage12",
+                        "label": "Image 2"
+                    }
+                ]
+            },
+            {
+                "groupName": "Box #2",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "text2",
+                        "label": "Text",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 50
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Input",
+                        "name": "subText2",
+                        "label": "Subtext",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "textColor2",
+                        "label": "Text color"
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "backgroundColor2",
+                        "label": "Background color"
+                    },
+                    {
+                        "type": "Image",
+                        "name": "boxImage21",
+                        "label": "Image 1"
+                    },
+                    {
+                        "type": "Image",
+                        "name": "boxImage22",
+                        "label": "Image 2"
+                    }
+                ]
+            },
+            {
+                "groupName": "Box #3",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "text3",
+                        "label": "Text",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 50
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Input",
+                        "name": "subText3",
+                        "label": "Subtext",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "textColor3",
+                        "label": "Text color"
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "backgroundColor3",
+                        "label": "Background color"
+                    },
+                    {
+                        "type": "Image",
+                        "name": "boxImage3",
+                        "label": "Image"
+                    }
+                ]
+            },
+            {
+                "groupName": "Box #4",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "text4",
+                        "label": "Text",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 50
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Input",
+                        "name": "subText4",
+                        "label": "Subtext",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "textColor4",
+                        "label": "Text color"
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "backgroundColor4",
+                        "label": "Background color"
+                    },
+                    {
+                        "type": "Image",
+                        "name": "boxImage4",
+                        "label": "Image"
+                    }
+                ]
+            },
+            {
+                "groupName": "Box #5",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "text5",
+                        "label": "Text",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 50
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Input",
+                        "name": "subText5",
+                        "label": "Subtext",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "textColor5",
+                        "label": "Text color"
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "backgroundColor5",
+                        "label": "Background color"
+                    },
+                    {
+                        "type": "Image",
+                        "name": "boxImage5",
+                        "label": "Image"
+                    }
+                ]
+            },
+            {
+                "groupName": "Box #6",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "text6",
+                        "label": "Text",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 50
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Input",
+                        "name": "subText6",
+                        "label": "Subtext",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "textColor6",
+                        "label": "Text color"
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "backgroundColor6",
+                        "label": "Background color"
+                    },
+                    {
+                        "type": "Image",
+                        "name": "boxImage6",
+                        "label": "Image"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "sectionName": "Gift Reveal",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Heading Settings",
+                "groupControls": [
+                    {
+                        "type": "Color Picker",
+                        "name": "bgColor",
+                        "label": "Background color"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "heading",
+                        "label": "Heading",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 20
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Heading font family"
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "headingColor",
+                        "label": "Heading color"
+                    }
+                ]
+            },
+            {
+                "groupName": "Content Settings",
+                "groupControls": [
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showContent",
+                        "label": "Show content"
+                    },
+                    {
+                        "type": "Text Area",
+                        "name": "content",
+                        "label": "Content",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 130
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "contentColor",
+                        "label": "Content color"
+                    }
+                ]
+            },
+            {
+                "groupName": "Image Settings",
+                "groupControls": [
+                    {
+                        "type": "Image",
+                        "name": "image1",
+                        "label": "Image-1"
+                    },
+                    {
+                        "type": "Image",
+                        "name": "image2",
+                        "label": "Image-2"
+                    },
+                    {
+                        "type": "Image",
+                        "name": "image3",
+                        "label": "Image-3"
+                    },
+                    {
+                        "type": "Image",
+                        "name": "image4",
+                        "label": "Image-4"
+                    },
+                    {
+                        "type": "Image",
+                        "name": "image5",
+                        "label": "Image-5"
+                    },
+                    {
+                        "type": "Image",
+                        "name": "image6",
+                        "label": "Image-6"
+                    },
+                    {
+                        "type": "Image",
+                        "name": "image7",
+                        "label": "Image-7"
+                    },
+                    {
+                        "type": "Image",
+                        "name": "image8",
+                        "label": "Image-8"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "sectionName": "creditcard",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Head Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "heading",
+                        "label": "Heading"
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "headTextFontStyle",
+                        "label": "Heading Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Heading Text Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "headTextSize",
+                        "label": "Head Text Size",
+                        "options": [
+                            10,
+                            80
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "headTextColor",
+                        "label": "Heading Text Color"
+                    }
+                ]
+            },
+            {
+                "groupName": "Button Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "buttonText",
+                        "label": "Button Text"
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "buttonTextFontStyle",
+                        "label": "Button Text Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "valueTitleFontFamily",
+                        "label": "Button Text Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "buttonTextSize",
+                        "label": "Button Text Size",
+                        "options": [
+                            10,
+                            30
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "buttonTextColor",
+                        "label": "Button Text Color"
+                    }
+                ]
+            },
+            {
+                "groupName": "Button Settings",
+                "groupControls": [
+                    {
+                        "type": "Color Picker",
+                        "name": "buttonColor",
+                        "label": "Button Color"
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "buttonHoverColor",
+                        "label": "Button Hover Color"
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "buttonBorderColor",
+                        "label": "Button Border Color"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "buttonBorderRadius",
+                        "label": "Button Border Radius",
+                        "options": [
+                            0,
+                            25
+                        ]
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "buttonBorderLocation",
+                        "label": "Button Border Location",
+                        "options": [
+                            {
+                                "name": "All",
+                                "value": "all"
+                            },
+                            {
+                                "name": "Top",
+                                "value": "top"
+                            },
+                            {
+                                "name": "Left",
+                                "value": "left"
+                            },
+                            {
+                                "name": "Right",
+                                "value": "right"
+                            },
+                            {
+                                "name": "Bottom",
+                                "value": "bottom"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "groupName": "Image Settings",
+                "groupControls": [
+                    {
+                        "type": "ArrayOfObjects",
+                        "name": "GiftBannerImages",
+                        "label": "Choose banner image"
+                    }
+                ]
+            }
+        ]
+    }
+]
