@@ -1,0 +1,87 @@
+[
+    {
+        "sectionId": 1,
+        "details": {
+            "showImg": true,
+            "contactUsPageTitle": "Level Up Your Connection: Game with Us!",
+            "titleFontFamily": "'Roboto',sans-serif",
+            "titleFontSize": 25,
+            "titleColor": "#da5353",
+            "titleFontStyle": [
+                "B"
+            ],
+            "contactUsPageSubTitle": "Initiate Play. Unleash Fun!",
+            "subtextFontFamily": "'Roboto',sans-serif",
+            "subtitleFontSize": 20,
+            "subtitleColor": "#5586b1",
+            "subtitleFontStyle": [],
+            "img": "themes/gaming/contactUsForm.jpeg",
+            "formSetting": {
+                "formOnly": true,
+                "showTitle": false,
+                "showSubtitle": false,
+                "backgroundType": "none",
+                "contactusalignment": "center",
+                "formFieldAppearence": "fill",
+                "inputTextColor": "light",
+                "normalLabelColor": "#3f4140",
+                "normalLineColor": "#3f4140",
+                "focusedLabelColor": "#065677",
+                "focusedLineColor": "#065677",
+                "formFieldDesign": "none",
+                "formCard": false,
+                "formFieldLabelOut": false,
+                "formFieldFill": false,
+                "suffixIcon": true,
+                "nameSplit": false,
+                "emailField": true,
+                "contactNoField": true,
+                "buttonText": "Connect",
+                "buttonTextColor": "#fff",
+                "buttonBorderColor": "#000",
+                "buttonColor": "#f63d3d",
+                "buttonRadius": 14,
+                "buttonType": "raised",
+                "buttonAlignment": "center",
+                "templateName": "templateOne",
+                "termsAndPrivacy": true
+            },
+            "isEditor": false
+        },
+        "selectorDetails": {
+            "selector": "zenbook-contact-us",
+            "inputData": [
+                {
+                    "selectorInput": "contactUsDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                },
+                {
+                    "selectorInput": "currentLocation",
+                    "handlerInput": "sampleData.currentLocation",
+                    "functionName": "getCurrentLocation"
+                }
+            ],
+            "outputData": []
+        },
+        "sectionName": "Contact Form",
+        "isExistingComponent": true,
+        "sampleData": {
+            "currentLocation": {
+                "id": 1,
+                "email": "mailto:info@gameroasis.com",
+                "mobileNumber": "555 555 5555",
+                "countryCode": "1",
+                "zipCode": "94115",
+                "countryDetail": {
+                    "name": "United States"
+                },
+                "stateDetail": {
+                    "name": "California"
+                },
+                "city": "San Francisco",
+                "addressLine1": "43A, Lombard Street"
+            }
+        },
+        "script":"themes/bundle/book/Zen-Book/zenbook-contact-us.js"
+    }
+]

@@ -57,7 +57,7 @@
         "isExistingComponent": true,
         "sampleData": {},
         "isVisible": true,
-        "script": "themes/bundle/outfit/outfit-home.js"
+        "script": "themes/bundle/retail/opulent-outfit/outfit-home.js"
     },
     {
         "sectionId": 2,
@@ -155,7 +155,7 @@
         "isExistingComponent": true,
         "sampleData": {},
         "isVisible": true,
-        "script": "themes/bundle/outfit/outfit-home.js"
+        "script": "themes/bundle/retail/opulent-outfit/outfit-home.js"
     },
     {
         "details": {
@@ -213,7 +213,7 @@
         "sectionId": 4,
         "isDesktopView": true,
         "isMobileView": true,
-        "script": "themes/bundle/shared/bar.js"
+        "script": "themes/bundle/shared-theme/bar.js"
     },
     {
         "sectionId": 3,
@@ -347,7 +347,7 @@
             ]
         },
         "isVisible": true,
-        "script": "themes/bundle/outfit/outfit-home.js"
+        "script": "themes/bundle/retail/opulent-outfit/outfit-home.js"
     },
     {
         "sectionId": 6,
@@ -499,6 +499,6 @@
             ]
         },
         "isVisible": true,
-        "script": "themes/bundle/outfit/outfit-home.js"
+        "script": "themes/bundle/retail/opulent-outfit/outfit-home.js"
     }
 ]

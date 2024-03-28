@@ -59,7 +59,7 @@
       "isExistingComponent": true,
       "sampleData": {},
       "isVisible": true,
-      "script":"themes/bundle/outfit/outfit-home.js"
+      "script":"themes/bundle/retail/opulent-outfit/outfit-home.js"
   },
   {
       "sectionId": 2,
@@ -112,7 +112,7 @@
               }
           ]
       },
-      "script":"themes/bundle/outfit/outfit-aboutus.js"
+      "script":"themes/bundle/retail/opulent-outfit/outfit-aboutus.js"
   },
   {
       "sectionId": 3,
@@ -174,7 +174,7 @@
       "sectionName": "Team",
       "isExistingComponent": true,
       "isVisible": true,
-      "script":"themes/bundle/outfit/outfit-aboutus.js"
+      "script":"themes/bundle/retail/opulent-outfit/outfit-aboutus.js"
   },
   {
     "sectionId": 4,
@@ -228,7 +228,7 @@
     "sampleData": null,
     "isVisible": true,
     "isAddedSection": true,
-    "script":"themes/bundle/painting/painting-aboutus-awards.js"
+    "script":"themes/bundle/painting/painting-theme/painting-aboutus-awards.js"
 },
   {
       "sectionId": 5,
@@ -270,6 +270,6 @@
               }
           ]
       },
-      "script": "themes/bundle/shared/banner.js"
+      "script": "themes/bundle/shared-theme/banner.js"
   }
 ]

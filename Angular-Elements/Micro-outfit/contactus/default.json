@@ -57,7 +57,7 @@
       "isExistingComponent": true,
       "sampleData": {},
       "isVisible": true,
-      "script":"themes/bundle/outfit/outfit-home.js"
+      "script":"themes/bundle/retail/opulent-outfit/outfit-home.js"
   },
   {
     "details": {
@@ -154,7 +154,7 @@
         }
     },
     "sectionId": 2,
-    "script": "themes/bundle/pork-theme/pork-theme-contact-us.js"
+    "script": "themes/bundle/speciality-store/pork-theme/pork-theme-contact-us.js"
 },
   {
       "sectionId": 3,
@@ -198,6 +198,6 @@
           ],
           "outputData": []
       },
-      "script":"themes/bundle/outfit/outfit-contactus.js"
+      "script":"themes/bundle/retail/opulent-outfit/outfit-contactus.js"
   }
 ]
