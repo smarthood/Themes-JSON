@@ -67,7 +67,11 @@
               {
                   "selectorOutput": "formData",
                   "handlerFunction": "navigateTo"
-              }
+              },
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
           ]
       },
       "sectionName": "Contact Us Form",
@@ -113,6 +117,6 @@
               "displayUrl": "themes/restaurant/restaurantContactUsBanner.png"
           }
       ],
-      "script":"themes/bundle/cravings/zencravings-contactus.js"
+      "script":"themes/bundle/restaurant/zen-cravings/zencravings-contactus.js"
   }
 ]

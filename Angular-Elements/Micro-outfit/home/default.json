@@ -213,7 +213,7 @@
         "sectionId": 4,
         "isDesktopView": true,
         "isMobileView": true,
-        "script": "themes/bundle/shared-theme/bar.js"
+        "script": "themes/bundle/retail/wedding-emporium/bar.js"
     },
     {
         "sectionId": 3,
@@ -283,7 +283,7 @@
             ]
         },
         "sampleData": {},
-        "script":"themes/bundle/shared-theme/single-product.js"
+        "script":"themes/bundle/shared-theme/single-product-display.js"
     },
     {
         "sectionId": 5,

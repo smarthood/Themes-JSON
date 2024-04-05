@@ -61,7 +61,12 @@
                     "functionName": "getCurrentLocation"
                 }
             ],
-            "outputData": []
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
         },
         "sectionName": "Contact Form",
         "isExistingComponent": true,

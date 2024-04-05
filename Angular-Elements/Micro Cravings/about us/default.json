@@ -372,7 +372,7 @@
     "isExistingComponent": true,
     "sampleData": null,
     "isVisible": false,
-    "script":"themes/bundle/retail/zen-fashion/retail-aboutus-team.js"
+    "script":"themes/bundle/retail/zen-fashion/zenfashion-aboutus.js"
 },
 {
     "sectionId": 7,
@@ -522,7 +522,7 @@
     },
     "isVisible": true,
     "isDeletedSection": true,
-    "script":"themes/bundle/retail/zen-fashion/retail-aboutus-testimonials.js"
+    "script":"themes/bundle/retail/zen-fashion/zenfashion-aboutus.js"
 },
 {
     "sectionId": 6,

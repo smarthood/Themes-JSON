@@ -276,5 +276,55 @@
                 }
             ]
         }
+    },
+    {
+        "sectionId": 5,
+        "details": {},
+        "selectorDetails": {
+            "selector": "phase-ii-recently-viewed-products",
+            "inputData": [
+                {
+                    "selectorInput": "recentlyViewedProducts",
+                    "handlerInput": "sampleData.recentlyViewedProducts",
+                    "functionName": "getRecentlyViewedProducts"
+                }
+            ],
+            "outputData": []
+        },
+        "sectionName": "Recently Viewed Products",
+        "isExistingComponent": true,
+        "sampleData": {
+            "recentlyViewedProducts": [
+                {
+                    "product": {
+                        "featuredImage": "themes/gaming/gta.jpg",
+                        "name": "GTA V",
+                        "price": "2500"
+                    }
+                },
+                {
+                    "product": {
+                        "featuredImage": "themes/gaming/valhalla.jpg",
+                        "name": "Assassins's creed Valhalla",
+                        "price": "2000"
+                    }
+                },
+                {
+                    "product": {
+                        "featuredImage": "themes/gaming/godofwar4.jpg",
+                        "name": "God of war",
+                        "price": "200"
+                    }
+                },
+                {
+                    "product": {
+                        "featuredImage": "themes/gaming/ghostoftsushima.jpg",
+                        "name": "Ghost of Tshushima",
+                        "price": "3000"
+                    }
+                }
+            ]
+        },
+        "isVisible": true
     }
 ]
