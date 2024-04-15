@@ -1,0 +1,152 @@
+[
+  {
+      "sectionId": 1,
+      "details": {
+          "bannerProperty": 3,
+          "bannerDetails": {
+              "videoOverlay": true,
+              "videooverlayColor": "rgb(0,0,0,0.5)",
+              "animation": "slideInText",
+              "textAlign": "Center",
+              "bannerText": "Beauty In Bunch",
+              "textEnabled": true,
+              "bannerSubText": null,
+              "textColor": "white",
+              "textSize": 72,
+              "height": 80,
+              "subTextColor": "white",
+              "textFontStyle": [
+                  "B"
+              ],
+              "subTextFontStyle": [],
+              "buttonEnabled": true,
+              "textFontFamily": "Montserrat",
+              "buttonLayout": "row",
+              "buttonProperties": [
+                  {
+                      "buttonLink": "products",
+                      "buttonColor": "var(--primary-color)",
+                      "buttonText": "Shop Now",
+                      "buttonTextColor": "white"
+                  }
+              ],
+              "bannerVideo": "themes/bouquet-theme/bouquet-home-banner-bg.mp4"
+          }
+      },
+      "script": "themes/bundle/shared-theme/banner.js",
+      "selectorDetails": {
+          "selector": "phase-ii-banner",
+          "inputData": [
+              {
+                  "selectorInput": "bannerDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Home Banner",
+      "isExistingComponent": true,
+      "sampleData": null
+  },
+  {
+      "sectionId": 2,
+      "details": {
+          "show_itemName": "true",
+          "header": "For Flower Enthusiasts",
+          "headercolor": "#331111",
+          "headerAlignment": "center",
+          "headersize": "50",
+          "headerMarginTop": "50",
+          "headerMarginBottom": "25",
+          "textFontFamily": "",
+          "headerstyle": [
+              "B"
+          ],
+          "buttontextLoadMore": "Load More",
+          "buttontextShowLess": "Show Less",
+          "buttontextcolor": "white",
+          "buttonbgcolor": "var(--primary-color)"
+      },
+      "script": "themes/bundle/outdoor-and-garden/petals/petals-home.js",
+      "selectorDetails": {
+          "selector": "phase-ii-bouquet-home-products",
+          "inputData": [
+              {
+                  "selectorInput": "bouquetHomeProductDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              },
+              {
+                  "selectorOutput": "getCategoryProduct",
+                  "handlerFunction": "getCategoryProduct"
+              }
+          ]
+      },
+      "sectionName": "Home Products",
+      "isExistingComponent": true,
+      "sampleData": {}
+  },
+  {
+      "sectionId": 3,
+      "details": {
+          "bgimage": "themes/bouquet-theme/bouquet-home-quotes-flower-bg.jpg",
+          "minHeight": "400",
+          "content": "Discover the convenience and beauty of buying flowers online with us. We're thrilled to provide you with a seamless and delightful shopping experience, right from the comfort of your own home.",
+          "contentcolor": "black",
+          "contentWidth": "70",
+          "contentsize": "19",
+          "contentAlignment": "center",
+          "contentstyle": [
+              "I"
+          ],
+          "iconFacebook_Link": "https://www.facebook.com/",
+          "iconInstagram_Link": "https://www.instagram.com/",
+          "iconYoutube_Link": "https://www.youtube.com/",
+          "iconTwitter_Link": "https://twitter.com/",
+          "iconLinkedin_Link": "https://www.linkedin.com/",
+          "iconPinterest_Link": "https://in.pinterest.com/"
+      },
+      "script": "themes/bundle/outdoor-and-garden/petals/petals-home.js",
+      "selectorDetails": {
+          "selector": "phase-ii-bouquet-home-quotes",
+          "inputData": [
+              {
+                  "selectorInput": "boquetHomeQuotesDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Home Quotes",
+      "isExistingComponent": true,
+      "sampleData": {}
+  },
+  {
+      "sectionId": 5,
+      "details": {},
+      "script": "themes/bundle/shared-theme/scroll-top.js",
+      "selectorDetails": {
+          "selector": "phase-ii-scroll-top",
+          "inputData": [],
+          "outputData": []
+      },
+      "sectionName": "Scroll Top",
+      "isExistingComponent": true,
+      "sampleData": null
+  }
+]

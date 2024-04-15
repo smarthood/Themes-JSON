@@ -1,0 +1,135 @@
+[
+  {
+      "sectionId": 1,
+      "details": {
+          "bannerProperty": 1,
+          "bannerDetails": {
+              "bannerImage": [
+                  {
+                      "image": "themes/bouquet-theme/bouquet-aboutus-banner-bg.jpg",
+                      "imageZoom": false,
+                      "parallax": false,
+                      "buttonEnabled": false,
+                      "textEnabled": true,
+                      "imageOverlay": true,
+                      "overlayColor": "rgb(0,0,0,0.5)",
+                      "subtextSize": 20,
+                      "buttonLayout": "row",
+                      "index": 0,
+                      "buttonProperties": [
+                          {
+                              "buttonLink": "products",
+                              "buttonColor": "white",
+                              "buttonText": "Shop Now",
+                              "buttonTextColor": "black",
+                              "buttonCornerSize": 4,
+                              "buttonType": "flat",
+                              "buttonHover": false,
+                              "hoverColor": "white",
+                              "buttonAnimation": false
+                          }
+                      ],
+                      "animation": "noAnimationTemplate",
+                      "textAlign": "Bottom Right",
+                      "bannerText": "About Me",
+                      "textFontFamily": "Montserrat",
+                      "bannerSubText": "",
+                      "textColor": "white",
+                      "subTextColor": "white",
+                      "textFontStyle": [
+                          "B"
+                      ],
+                      "subTextFontStyle": [],
+                      "textSize": 50
+                  }
+              ],
+              "imageBackgroundSizeType": "cover",
+              "height": 60
+          },
+          "inValid": false,
+          "isChildError": false
+      },
+      "script": "themes/bundle/shared-theme/banner.js",
+      "selectorDetails": {
+          "selector": "phase-ii-banner",
+          "inputData": [
+              {
+                  "selectorInput": "bannerDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Aboutus Banner",
+      "isExistingComponent": true,
+      "sampleData": {}
+  },
+  {
+      "sectionId": 2,
+      "details": {
+          "bouquetContent": [
+              {
+                  "content": "Hi! I'm Sara, the proud owner and passionate floral artist behind this blooming endeavor. Allow me to share a bit about myself and my love for all things flowers."
+              },
+              {
+                  "content": "From a young age, Ifound solace and inspiration in the beauty of nature, particularly the enchanting world of flowers. Their colors, scents, and delicate petals have always fascinated me. What began as a personal fascination soon blossomed into a lifelong passion."
+              },
+              {
+                  "content": "After years of honing my skills and knowledge through formal education and hands-on experience, Idecided to transform my love for flowers into a full-fledged business. That's when Petals came to life. It has been a dream come true to curate stunning floral arrangements and bring smiles to the faces of countless individuals."
+              },
+              {
+                  "content": "At  Petals, Istrive to create an immersive experience that celebrates the artistry of flowers. Each arrangement is crafted with meticulous attention to detail, combining the finest blooms to create captivating compositions. Whether it's a grand wedding, a heartfelt gesture, or a simple expression of love, I pour my heart and soul into every creation."
+              },
+              {
+                  "content": "What sets Petals apart is our commitment to quality and personalized service. I believe in the power of flowers to convey emotions, tell stories, and transform spaces. That's why I work closely with each customer, understanding their vision and translating it into floral masterpieces that surpass expectations."
+              },
+              {
+                  "content": "Beyond the petals, I'm also dedicated to sustainability and eco-conscious practices. I source flowers from local growers whenever possible, supporting the community and reducing our carbon footprint. It brings me joy to share not only the beauty of flowers but also their positive impact on the environment."
+              },
+              {
+                  "content": "I invite you to explore our collection, immerse yourself in the enchanting world of flowers, and let us bring your floral dreams to life. Thank you for choosing Petals, where passion meets petals."
+              }
+          ],
+          "textcolor": "rgb(80 80 88 / 79%)",
+          "subtextFontFamily": "'Montserrat', sans-serif",
+          "fontsize": "20",
+          "fontstyle": [
+              "B"
+          ],
+          "signature": "With love and flowers,",
+          "signcolor": "rgb(80 80 88 / 79%)",
+          "signimage": "themes/bouquet-theme/bouquet-aboutus-sign.png",
+          "TextAlign": "left",
+          "fontpicker": [
+              "B"
+          ],
+          "textFontFamily": "'Montserrat', sans-serif",
+          "fontSize": "20",
+          "fontsizeltmd": "15"
+      },
+      "script": "themes/bundle/outdoor-and-garden/petals/petals-aboutus.js",
+      "selectorDetails": {
+          "selector": "phase-ii-bouquet-aboutus",
+          "inputData": [
+              {
+                  "selectorInput": "bouquetAboutusDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Aboutus Content",
+      "isExistingComponent": true,
+      "sampleData": {}
+  }
+]

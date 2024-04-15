@@ -1,0 +1,152 @@
+[
+  {
+      "sectionId": 1,
+      "sectionName": "Contactus Banner",
+      "isExistingComponent": true,
+      "details": {
+          "bannerProperty": 1,
+          "bannerDetails": {
+              "height": 70,
+              "imageBackgroundSizeType": "cover",
+              "bannerImage": [
+                  {
+                      "image": "themes/bouquet-theme/bouquet-contactus-banner-bg.jpg",
+                      "imageZoom": false,
+                      "animation": "noAnimationTemplate",
+                      "bannerText": "Let's Talk !",
+                      "bannerSubText": null,
+                      "parallax": false,
+                      "textAlign": "Right",
+                      "buttonEnabled": false,
+                      "buttonLayout": "row",
+                      "textFontFamily": "'Lato',sans-serif",
+                      "textSize": 50,
+                      "subtextSize": 20,
+                      "textColor": "black",
+                      "subTextColor": "white",
+                      "textFontStyle": [
+                          "B"
+                      ],
+                      "subTextFontStyle": [],
+                      "imageOverlay": false,
+                      "overlayColor": "rgba(0,0,0,0.5)",
+                      "textEnabled": true,
+                      "buttonProperties": [
+                          {
+                              "buttonLink": "products",
+                              "buttonColor": "#E5A61E",
+                              "buttonText": "Shop Now     >>",
+                              "buttonTextColor": "white"
+                          }
+                      ]
+                  }
+              ]
+          }
+      },
+      "script": "themes/bundle/shared-theme/banner.js",
+      "selectorDetails": {
+          "selector": "phase-ii-banner",
+          "inputData": [
+              {
+                  "selectorInput": "bannerDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      }
+  },
+  {
+      "sectionId": 2,
+      "details": {
+          "formhead": "Contact Us",
+          "formheadcolor": "black",
+          "contactUsPageTitleFontFamily": "",
+          "headfontsize": "30",
+          "headfontstyle": [
+              "B"
+          ],
+          "formcontent": "We are happy to answer any questions you may have about our online shop.You can also send your queries to our Facebook and Twitter Customer Service pages.",
+          "formcontentcolor": "black",
+          "subtextFontFamily": "",
+          "formContentFontSize": "15",
+          "formContentFontStyle": [
+              ""
+          ],
+          "formSetting": {
+              "formOnly": true,
+              "showTitle": false,
+              "showSubtitle": false,
+              "backgroundColor": "#ff7c64",
+              "backgroundType": "none",
+              "contactusalignment": "center",
+              "formFieldAppearence": "outline",
+              "normalLabelColor": "#000",
+              "normalLineColor": "#000",
+              "focusedLabelColor": "#065677",
+              "focusedLineColor": "#065677",
+              "formFieldDesign": "none",
+              "formCard": false,
+              "formBackground": false,
+              "formFieldLabelOut": false,
+              "formFieldFill": false,
+              "suffixIcon": true,
+              "nameSplit": false,
+              "emailField": true,
+              "contactNoField": false,
+              "termsAndPrivacy": true,
+              "buttonText": "Send",
+              "buttonBorderColor": "#000",
+              "buttonTextColor": "#fff",
+              "buttonColor": "var(--primary-color)",
+              "buttonRadius": 2,
+              "buttonType": "flat",
+              "buttonAlignment": "left",
+              "templateName": "templateOne"
+          },
+          "contactImage": "themes/bouquet-theme/bouquet-contactus-contact.jpg",
+          "contacthead": "We take flowers personally, with your thoughts in hand...",
+          "contactheadcolor": "#35312b",
+          "contentFontFamily": "Times New Roman",
+          "contactFontSize": "30",
+          "contactFontStyle": [
+              ""
+          ],
+          "contactusbackgroundColor": "#f8f8f8",
+          "content": "We understand that flowers often play a significant role in expressing emotions and creating memorable moments. Our knowledgeable staff is ready to assist you in choosing the perfectarrangement for any occasion or providing expert advice on flower“ care. If you prefer, you can also use the contact form to send us a message. Please fill in your details and inquiry, and we will respondto you promptly",
+          "contentcolor": "rgb(80 80 88 / 79%)",
+          "textFontFamily": "Times New Roman",
+          "fontSize": "15",
+          "fontsyle": [
+              ""
+          ],
+          "signImage": "themes/bouquet-theme/bouquet-aboutus-sign.png"
+      },
+      "script": "themes/bundle/outdoor-and-garden/petals/petals-contactus.js",
+      "innerScript": [
+          "themes/bundle/shared-theme/common-form.js"
+      ],
+      "selectorDetails": {
+          "selector": "phase-ii-bouquet-contactus-form",
+          "inputData": [
+              {
+                  "selectorInput": "bouquetContactusDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "contactus Form",
+      "isExistingComponent": true,
+      "sampleData": {}
+  }
+]
