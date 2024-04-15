@@ -387,5 +387,11 @@
                 ]
             }
         ]
+    },
+    {
+        "id": 5,
+        "sectionName": "Recently Viewed Products",
+        "isExistingComponent": true,
+        "controls": []
     }
 ]

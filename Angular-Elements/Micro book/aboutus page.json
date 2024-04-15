@@ -44,7 +44,7 @@
             "sectionId": 1
         },
         "selectorDetails": {
-            "selector": "banner-element",
+            "selector": "phase-ii-banner",
             "inputData": [
                 {
                     "selectorInput": "bannerDetails",
@@ -99,7 +99,7 @@
             "sectionId": 1
         },
         "selectorDetails": {
-            "selector": "banner-element",
+            "selector": "phase-ii-banner",
             "inputData": [
                 {
                     "selectorInput": "bannerDetails",
@@ -377,7 +377,7 @@
             "isNoDocumentUploaded": false
         },
         "selectorDetails": {
-            "selector": "banner-element",
+            "selector": "phase-ii-banner",
             "inputData": [
                 {
                     "selectorInput": "bannerDetails",

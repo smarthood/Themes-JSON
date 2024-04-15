@@ -97,7 +97,7 @@
           "isChildError": false
       },
       "selectorDetails": {
-          "selector": "banner-element",
+          "selector": "phase-ii-banner",
           "inputData": [
               {
                   "selectorInput": "bannerDetails",
@@ -176,7 +176,7 @@
           "buttonTextColor": "white"
       },
       "selectorDetails": {
-          "selector": "restaurant-story",
+        "selector": "phase-ii-restaurant-story",
           "inputData": [
               {
                   "selectorInput": "storyDetails",
@@ -236,7 +236,7 @@
           ]
       },
       "selectorDetails": {
-          "selector": "restaurant-gallery",
+          "selector": "phase-ii-restaurant-gallery",
           "inputData": [
               {
                   "selectorInput": "galleryDetails",
@@ -359,7 +359,7 @@
         ]
     },
     "selectorDetails": {
-        "selector": "retail-aboutus-team",
+        "selector": "phase-ii-retail-aboutus-team",
         "inputData": [
             {
                 "selectorInput": "teamData",
@@ -460,7 +460,7 @@
         "isEditor": false
     },
     "selectorDetails": {
-        "selector": "retail-aboutus-testimonials",
+        "selector": "phase-ii-retail-aboutus-testimonials",
         "inputData": [
             {
                 "selectorInput": "testimonialData",
@@ -540,7 +540,7 @@
         "imageBackgroundSizeType": "100% 100%"
     },
     "selectorDetails": {
-        "selector": "contact-location-map",
+        "selector": "phase-ii-contact-location-map",
         "inputData": [
             {
                 "selectorInput": "contactUsDetails",

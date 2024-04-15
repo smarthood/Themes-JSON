@@ -170,7 +170,7 @@
       }
     },
     "selectorDetails": {
-      "selector": "gaming-product-list",
+      "selector": "phase-ii-gaming-product-list",
       "inputData": [
         {
           "selectorInput": "salesCountdownTimerDiscounts",
@@ -652,13 +652,19 @@
         }
       }
     },
-    "script":"themes/bundle/retail/gaming/gaming-product-list.js"
+    "script":"themes/bundle/retail/gaming/gaming-product-list.js",
+    "innerScript": [
+      "themes/bundle/shared-theme/common-product-list.js",
+      "themes/bundle/shared-theme/product-filter.js",
+      "themes/bundle/shared-theme/variants-and-modifier.js",
+      "themes/bundle/shared-theme/common-timer.js"
+  ]
   },
   {
     "sectionId": 2,
     "details": {},
     "selectorDetails": {
-      "selector": "scroll-top",
+      "selector": "phase-ii-scroll-top",
       "inputData": [],
       "outputData": []
     },

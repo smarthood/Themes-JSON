@@ -39,7 +39,7 @@
           "applyDropShadow": true
       },
       "selectorDetails": {
-          "selector": "outfit-home-banner",
+          "selector": "phase-ii-outfit-home-banner",
           "inputData": [
               {
                   "selectorInput": "banner",
@@ -104,7 +104,7 @@
         }
     },
     "selectorDetails": {
-        "selector": "pork-theme-contact-us",
+        "selector": "phase-ii-pork-theme-contact-us",
         "inputData": [
             {
                 "selectorInput": "details",
@@ -120,6 +120,10 @@
             {
                 "selectorOutput": "pageToNavigate",
                 "handlerFunction": "pageToNavigate"
+            },
+            {
+                "selectorOutput": "formData",
+                "handlerFunction": "navigateTo"
             }
         ]
     },
@@ -159,7 +163,10 @@
         }
     },
     "sectionId": 2,
-    "script": "themes/bundle/speciality-store/pork-theme/pork-theme-contact-us.js"
+    "script": "themes/bundle/speciality-store/pork-theme/pork-theme-contact-us.js",
+    "innerScript": [
+        "themes/bundle/shared-theme/common-form.js"
+   ]
 },
   {
       "sectionId": 3,
@@ -194,7 +201,7 @@
       },
       "sampleData": null,
       "selectorDetails": {
-          "selector": "outfit-contactus-footer",
+          "selector": "phase-ii-outfit-contactus-footer",
           "inputData": [
               {
                   "selectorInput": "ContactUsFooter",

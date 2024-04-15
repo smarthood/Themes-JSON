@@ -58,8 +58,7 @@
       "sectionName": "banner",
       "isExistingComponent": true,
       "sampleData": {},
-      "isVisible": true,
-      "script":"themes/bundle/retail/opulent-outfit/outfit-home.js"
+      "isVisible": true
   },
   {
       "sectionId": 2,
@@ -75,7 +74,7 @@
           ],
           "textFontFamily": "'Palatino Linotype',serif",
           "textone": "ABOUT US",
-          "textonecolor": "#ff5e00;",
+          "textonecolor": "#ff5e00",
           "textonetextSize": 42,
           "textonefontstyle": [
               "B"
@@ -111,8 +110,7 @@
                   "handlerFunction": "pageToNavigate"
               }
           ]
-      },
-      "script":"themes/bundle/retail/opulent-outfit/outfit-aboutus.js"
+      }
   },
   {
       "sectionId": 3,
@@ -173,63 +171,61 @@
       },
       "sectionName": "Team",
       "isExistingComponent": true,
-      "isVisible": true,
-      "script":"themes/bundle/retail/opulent-outfit/outfit-aboutus.js"
+      "isVisible": true
   },
   {
-    "sectionId": 4,
-    "details": {
-        "sectionTitle": "OUR BRANDS",
-        "textColor": "#ff5e00",
-        "textSize": 53,
-        "textFontFamily": "Garamond",
-        "textFontStyle": [
-            "B"
-        ],
-        "galleryImages": [
-            {
-                "imageUrl": "themes/painting/A1.png",
-                "show": true
-            },
-            {
-                "imageUrl": "themes/painting/A2.png",
-                "show": true
-            },
-            {
-                "imageUrl": "themes/painting/A3.png",
-                "show": true
-            },
-            {
-                "imageUrl": "themes/painting/A4.png",
-                "show": true
-            },
-            {
-                "imageUrl": "themes/painting/A5.png",
-                "show": true
-            },
-            {
-                "imageUrl": "themes/painting/A6.png",
-                "show": true
-            }
-        ]
-    },
-    "selectorDetails": {
-        "selector": "phase-ii-painting-aboutus-awards",
-        "inputData": [
-            {
-                "selectorInput": "awardDetails",
-                "handlerInput": "previewDetails.storePageSetup.savedPageContent"
-            }
-        ],
-        "outputData": []
-    },
-    "sectionName": "Awards Template 2",
-    "isExistingComponent": true,
-    "sampleData": null,
-    "isVisible": true,
-    "isAddedSection": true,
-    "script":"themes/bundle/painting/painting-theme/painting-aboutus-awards.js"
-},
+      "sectionId": 4,
+      "details": {
+          "sectionTitle": "OUR BRANDS",
+          "textColor": "#ff5e00",
+          "textSize": 53,
+          "textFontFamily": "Garamond",
+          "textFontStyle": [
+              "B"
+          ],
+          "galleryImages": [
+              {
+                  "imageUrl": "themes/painting/A1.png",
+                  "show": true
+              },
+              {
+                  "imageUrl": "themes/painting/A2.png",
+                  "show": true
+              },
+              {
+                  "imageUrl": "themes/painting/A3.png",
+                  "show": true
+              },
+              {
+                  "imageUrl": "themes/painting/A4.png",
+                  "show": true
+              },
+              {
+                  "imageUrl": "themes/painting/A5.png",
+                  "show": true
+              },
+              {
+                  "imageUrl": "themes/painting/A6.png",
+                  "show": true
+              }
+          ]
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-painting-aboutus-awards",
+          "inputData": [
+              {
+                  "selectorInput": "awardDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": []
+      },
+      "sectionName": "Awards Template 2",
+      "isExistingComponent": true,
+      "sampleData": null,
+      "isVisible": true,
+      "isAddedSection": true
+  },
   {
       "sectionId": 5,
       "isExistingComponent": true,
@@ -269,7 +265,6 @@
                   "handlerFunction": "pageToNavigate"
               }
           ]
-      },
-      "script": "themes/bundle/shared-theme/banner.js"
+      }
   }
 ]

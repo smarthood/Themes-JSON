@@ -48,7 +48,7 @@
       },
       "script": "themes/bundle/shared-theme/banner.js",
       "selectorDetails": {
-        "selector": "banner-element",
+        "selector": "phase-ii-banner",
         "inputData": [
           {
             "selectorInput": "bannerDetails",
@@ -112,7 +112,7 @@
       },
       "script": "themes/bundle/shared-theme/common-slider.js",
       "selectorDetails": {
-        "selector": "common-slider",
+        "selector": "phase-ii-common-slider",
         "inputData": [
           {
             "selectorInput": "sectionDetails",
@@ -244,7 +244,7 @@
       },
       "script": "themes/bundle/shared-theme/common-slider.js",
       "selectorDetails": {
-        "selector": "common-slider",
+        "selector": "phase-ii-common-slider",
         "inputData": [
           {
             "selectorInput": "sectionDetails",
@@ -404,7 +404,7 @@
       },
       "script": "themes/bundle/shared-theme/common-slider.js",
       "selectorDetails": {
-        "selector": "common-slider",
+        "selector": "phase-ii-common-slider",
         "inputData": [
           {
             "selectorInput": "sectionDetails",

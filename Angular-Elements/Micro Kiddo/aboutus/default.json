@@ -126,7 +126,7 @@
         "isVisibile": true,
         "script": "themes/bundle/zenFashion/banner.js",
         "selectorDetails": {
-          "selector": "banner-element",
+          "selector": "phase-ii-banner",
             "inputData": [
                 {
                     "selectorInput": "bannerDetails",

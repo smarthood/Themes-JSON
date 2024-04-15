@@ -47,7 +47,7 @@
           }
       },
       "selectorDetails": {
-          "selector": "restaurant-contactus-imagecard",
+        "selector": "phase-ii-restaurant-contactus-imagecard",
           "inputData": [
               {
                   "selectorInput": "contactusFormValues",
@@ -117,6 +117,9 @@
               "displayUrl": "themes/restaurant/restaurantContactUsBanner.png"
           }
       ],
-      "script":"themes/bundle/restaurant/zen-cravings/zencravings-contactus.js"
+      "script":"themes/bundle/restaurant/zen-cravings/zencravings-contactus.js",
+      "innerScript": [
+        "themes/bundle/shared-theme/common-form.js"
+   ]
   }
 ]

@@ -157,62 +157,35 @@
   },
   {
       "sectionId": 3,
-      "sectionName": "Single Product",
-      "isExistingComponent": true,
       "details": {
-          "singleProductSettings": {
-              "showTitle": true,
-              "showSubTitle": true,
-              "singleProduct": 173454,
-              "bgColor": "#ffffff",
-              "stampColor": "#aa6d58",
-              "showButton": true,
-              "templateName": "singleProductTemplateThree",
-              "imageUrl": "themes/candellaTheme/arrivalImage.jpg",
-              "imageTextOne": "New Arrivals",
-              "imageTextOneColor": "#FFF",
-              "imageTextOneSize": 50,
-              "imageTextOneFontFamily": "'Lucida Handwriting',cursive",
-              "imageTextOneStyle": [],
-              "imageTextTwo": "Fall 3- wick candles",
-              "imageTextTwoColor": "#FFF",
-              "imageTextTwoSize": 59,
-              "imageTextTwoFontFamily": "'Georgia',serif",
-              "imageTextTwoStyle": [],
-              "imageBackgroundColor": "#ff5e00",
-              "cardBackgroundColor": "#651515",
-              "imageSize": "contain",
-              "title": "Available now",
-              "titleColor": "black",
-              "titleSize": "12",
-              "textFontFamily": "Arial",
-              "titleFontStyle": [
-                  "B"
-              ],
-              "titlePosition": "center",
-              "buttonText": "VIEW PRODUCT",
-              "buttonTextColor": "white",
-              "buttonColor": "black",
-              "subtitle": "Just added to the shop",
-              "subtitleColor": "black",
-              "subtitleSize": "24",
-              "subtextFontFamily": "Arial",
-              "subtitleFontStyle": [
-                  "B"
-              ],
-              "subtitlePosition": "center"
-          }
+          "imageSize": "contain",
+          "productImageSize": "contain",
+          "textAlign": "left",
+          "productNameColor": "#272727",
+          "nameFontStyle": [
+              "B"
+          ],
+          "textFontFamily": "'Palatino Linotype',serif",
+          "displayPrice": true,
+          "priceColor": "#ff5e00",
+          "priceFontstyle": [
+              "B"
+          ],
+          "textOneFontFamily": "'Palatino Linotype',serif",
+          "imageBackgroundColor": "#ff5e00",
+          "cardBackgroundColor": "#651515"
       },
       "selectorDetails": {
-          "selector": "phase-ii-single-product-display",
+          "selector": "phase-ii-outfit-home-collections",
           "inputData": [
-              {
-                  "selectorInput": "websiteSettings",
-                  "handlerInput": "sampleData.websiteSettings"
-              },
               {
                   "selectorInput": "displayDetails",
                   "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "featuredProducts",
+                  "handlerInput": "sampleData.products",
+                  "functionName": "getAllFeaturedProducts"
               }
           ],
           "outputData": [
@@ -222,7 +195,38 @@
               }
           ]
       },
-      "sampleData": {}
+      "sectionName": "collections",
+      "isExistingComponent": true,
+      "sampleData": {
+          "products": [
+              {
+                  "id": 9887,
+                  "name": "Printed Round-Neck T-Shirt",
+                  "featuredImage": "themes/retail/opulent-outfit/dotted.png",
+                  "featuredVideo": null,
+                  "description": null,
+                  "isVariants": true,
+                  "isDigitalProduct": false,
+                  "productCategories": [
+                      {
+                          "categoryId": 1912
+                      },
+                      {
+                          "categoryId": 1907
+                      }
+                  ],
+                  "price": "33.00",
+                  "multiLocationVariantStocks": [
+                      {
+                          "stock": -1,
+                          "id": 274173,
+                          "qtyOnHold": null
+                      }
+                  ]
+              }
+          ]
+      },
+      "isVisible": true
   },
   {
       "details": {
@@ -490,6 +494,63 @@
                   "description": null,
                   "featuredSort": null,
                   "productCategories": []
+              }
+          ]
+      },
+      "isVisible": true
+  },
+  {
+      "sectionId": 7,
+      "details": {},
+      "selectorDetails": {
+          "selector": "phase-ii-recently-viewed-products",
+          "inputData": [
+              {
+                  "selectorInput": "recentlyViewedProducts",
+                  "handlerInput": "sampleData.recentlyViewedProducts",
+                  "functionName": "getRecentlyViewedProducts"
+              }
+          ],
+          "outputData": []
+      },
+      "sectionName": "Recently Viewed Products",
+      "isExistingComponent": true,
+      "sampleData": {
+          "recentlyViewedProducts": [
+              {
+                  "product": {
+                      "featuredImage": "themes/retail/opulent-outfit/hoodie.png",
+                      "name": "Hoodie",
+                      "price": "200"
+                  }
+              },
+              {
+                  "product": {
+                      "featuredImage": "themes/retail/opulent-outfit/redshirt",
+                      "name": "Party Wear",
+                      "price": "300"
+                  }
+              },
+              {
+                  "product": {
+                      "featuredImage": "themes/retail/opulent-outfit/coat3.jpg",
+                      "name": "Coat",
+                      "price": "200"
+                  }
+              },
+              {
+                  "product": {
+                      "featuredImage": "themes/retail/opulent-outfit/coat1.png",
+                      "name": "Blazer",
+                      "price": "400"
+                  }
+              },
+              {
+                  "product": {
+                      "featuredImage": "themes/retail/opulent-outfit/greencoat.png",
+                      "name": "Jacket",
+                      "price": "500"
+                  }
               }
           ]
       },

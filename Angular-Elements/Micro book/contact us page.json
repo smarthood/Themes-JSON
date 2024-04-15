@@ -44,7 +44,7 @@
             "sectionId": 1
         },
         "selectorDetails": {
-            "selector": "banner-element",
+            "selector": "phase-ii-banner",
             "inputData": [
                 {
                     "selectorInput": "bannerDetails",

@@ -139,7 +139,7 @@
             "isEditor": false
         },
         "selectorDetails": {
-            "selector": "common-slider",
+            "selector": "phase-ii-common-slider",
             "inputData": [
                 {
                     "selectorInput": "sectionDetails",

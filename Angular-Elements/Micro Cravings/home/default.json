@@ -39,7 +39,7 @@
           "isChildError": false
       },
       "selectorDetails": {
-          "selector": "banner-element",
+          "selector": "phase-ii-banner",
           "inputData": [
               {
                   "selectorInput": "bannerDetails",
@@ -106,7 +106,7 @@
           }
       },
       "selectorDetails": {
-          "selector": "common-slider",
+          "selector": "phase-ii-common-slider",
           "inputData": [
               {
                   "selectorInput": "sectionDetails",
@@ -174,7 +174,7 @@
           "buttonLink": "aboutus"
       },
       "selectorDetails": {
-          "selector": "restaurant-story",
+          "selector": "phase-ii-restaurant-story",
           "inputData": [
               {
                   "selectorInput": "storyDetails",
@@ -242,7 +242,7 @@
           "isChildError": false
       },
       "selectorDetails": {
-          "selector": "banner-element",
+          "selector": "phase-ii-banner",
           "inputData": [
               {
                   "selectorInput": "bannerDetails",
@@ -266,7 +266,7 @@
     "sectionId": 6,
     "details": {},
     "selectorDetails": {
-        "selector": "recently-viewed-products",
+        "selector": "phase-ii-recently-viewed-products",
         "inputData": [
             {
                 "selectorInput": "recentlyViewedProducts",
@@ -329,7 +329,7 @@
         "showFilter": null
     },
     "selectorDetails": {
-        "selector": "contact-location-map",
+        "selector": "phase-ii-contact-location-map",
         "inputData": [
             {
                 "selectorInput": "contactUsDetails",

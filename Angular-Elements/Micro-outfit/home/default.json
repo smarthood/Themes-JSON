@@ -39,7 +39,7 @@
             "applyDropShadow": true
         },
         "selectorDetails": {
-            "selector": "outfit-home-banner",
+            "selector": "phase-ii-outfit-home-banner",
             "inputData": [
                 {
                     "selectorInput": "banner",
@@ -137,7 +137,7 @@
             "textEightFontFamily": "'Palatino Linotype',serif"
         },
         "selectorDetails": {
-            "selector": "outfit-home-shopnow",
+            "selector": "phase-ii-outfit-home-shopnow",
             "inputData": [
                 {
                     "selectorInput": "shopnow",
@@ -264,7 +264,7 @@
             }
         },
         "selectorDetails": {
-            "selector": "single-product-display",
+            "selector": "phase-ii-single-product-display",
             "inputData": [
                 {
                     "selectorInput": "websiteSettings",
@@ -308,7 +308,7 @@
             "activeDotColor": "#ffffff"
         },
         "selectorDetails": {
-            "selector": "outfit-home-testimonial",
+            "selector": "phase-ii-outfit-home-testimonial",
             "inputData": [
                 {
                     "selectorInput": "Testimonials",
@@ -377,7 +377,7 @@
             "cardBackgroundColor": "#000000"
         },
         "selectorDetails": {
-            "selector": "outfit-home-product",
+            "selector": "phase-ii-outfit-home-product",
             "inputData": [
                 {
                     "selectorInput": "product",
@@ -500,5 +500,63 @@
         },
         "isVisible": true,
         "script": "themes/bundle/retail/opulent-outfit/outfit-home.js"
+    },
+    {
+        "sectionId": 7,
+        "details": {},
+        "selectorDetails": {
+            "selector": "phase-ii-recently-viewed-products",
+            "inputData": [
+                {
+                    "selectorInput": "recentlyViewedProducts",
+                    "handlerInput": "sampleData.recentlyViewedProducts",
+                    "functionName": "getRecentlyViewedProducts"
+                }
+            ],
+            "outputData": []
+        },
+        "sectionName": "Recently Viewed Products",
+        "isExistingComponent": true,
+        "sampleData": {
+            "recentlyViewedProducts": [
+                {
+                    "product": {
+                        "featuredImage": "themes/retail/opulent-outfit/hoodie.png",
+                        "name": "Hoodie",
+                        "price": "200"
+                    }
+                },
+                {
+                    "product": {
+                        "featuredImage": "themes/retail/opulent-outfit/redshirt",
+                        "name": "Party Wear",
+                        "price": "300"
+                    }
+                },
+                {
+                    "product": {
+                        "featuredImage": "themes/retail/opulent-outfit/coat3.jpg",
+                        "name": "Coat",
+                        "price": "200"
+                    }
+                },
+                {
+                    "product": {
+                        "featuredImage": "themes/retail/opulent-outfit/coat1.png",
+                        "name": "Blazer",
+                        "price": "400"
+                    }
+                },
+                {
+                    "product": {
+                        "featuredImage": "themes/retail/opulent-outfit/greencoat.png",
+                        "name": "Jacket",
+                        "price": "500"
+                    }
+                }
+            ]
+        },
+        "isVisible": true,
+        "script":"themes/bundle/shared-theme/recently-viewed-products.js"
     }
 ]

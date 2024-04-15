@@ -490,7 +490,7 @@
       },
       "script": "themes/bundle/shared-theme/common-product-details.js",
       "selectorDetails": {
-          "selector": "common-product-details",
+        "selector": "phase-ii-common-product-details",
           "inputData": [
               {
                   "selectorInput": "salesCountdownTimerOffers",
@@ -1022,7 +1022,7 @@
       },
       "script": "themes/bundle/shared-theme/related-products.js",
       "selectorDetails": {
-          "selector": "related-products",
+          "selector": "phase-ii-upsell-cross-sell",
           "inputData": [
               {
                   "selectorInput": "displayDetails",

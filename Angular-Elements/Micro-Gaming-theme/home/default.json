@@ -22,7 +22,7 @@
             "controllerImage": "themes/gaming/controller.png"
         },
         "selectorDetails": {
-            "selector": "gaming-banner",
+            "selector": "phase-ii-gaming-banner",
             "inputData": [
                 {
                     "selectorInput": "displayDetails",
@@ -80,7 +80,7 @@
             "headTextColor": "rgb(224, 224, 224)"
         },
         "selectorDetails": {
-            "selector": "gaming-gallery",
+            "selector": "phase-ii-gaming-gallery",
             "inputData": [
                 {
                     "selectorInput": "displayDetails",
@@ -120,7 +120,7 @@
             "cardPriceFontColor": "#000000"
         },
         "selectorDetails": {
-            "selector": "gaming-featured-product",
+            "selector": "phase-ii-gaming-product",
             "inputData": [
                 {
                     "selectorInput": "displayDetails",
@@ -202,7 +202,7 @@
             "cardPriceFontColor": "#1d1d1f"
         },
         "selectorDetails": {
-            "selector": "gaming-category",
+            "selector": "phase-ii-gaming-categories",
             "inputData": [
                 {
                     "selectorInput": "displayDetails",
@@ -280,5 +280,56 @@
             ]
         },
         "script": "themes/bundle/retail/gaming/gaming-home.js"
+    },
+    {
+        "sectionId": 5,
+        "details": {},
+        "selectorDetails": {
+            "selector": "phase-ii-recently-viewed-products",
+            "inputData": [
+                {
+                    "selectorInput": "recentlyViewedProducts",
+                    "handlerInput": "sampleData.recentlyViewedProducts",
+                    "functionName": "getRecentlyViewedProducts"
+                }
+            ],
+            "outputData": []
+        },
+        "sectionName": "Recently Viewed Products",
+        "isExistingComponent": true,
+        "sampleData": {
+            "recentlyViewedProducts": [
+                {
+                    "product": {
+                        "featuredImage": "themes/gaming/gta.jpg",
+                        "name": "GTA V",
+                        "price": "2500"
+                    }
+                },
+                {
+                    "product": {
+                        "featuredImage": "themes/gaming/valhalla.jpg",
+                        "name": "Assassins's creed Valhalla",
+                        "price": "2000"
+                    }
+                },
+                {
+                    "product": {
+                        "featuredImage": "themes/gaming/godofwar4.jpg",
+                        "name": "God of war",
+                        "price": "200"
+                    }
+                },
+                {
+                    "product": {
+                        "featuredImage": "themes/gaming/ghostoftsushima.jpg",
+                        "name": "Ghost of Tshushima",
+                        "price": "3000"
+                    }
+                }
+            ]
+        },
+        "isVisible": true,
+        "script":"themes/bundle/shared-theme/recently-viewed-products.js"
     }
 ]
