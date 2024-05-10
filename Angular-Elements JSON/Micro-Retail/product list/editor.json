@@ -1,0 +1,21 @@
+[
+    {
+        "id": 3,
+        "sectionName": "Product List",
+        "isFavoriteMainProduct": true,
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "type": "Product List Controls",
+                "name": "productListDetails",
+                "label": "Product List Controls"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "sectionName": "Scroll Top",
+        "isExistingComponent": true,
+        "controls": []
+    }
+]

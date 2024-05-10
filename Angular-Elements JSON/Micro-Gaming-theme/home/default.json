@@ -1,0 +1,340 @@
+[
+    {
+        "sectionId": 1,
+        "details": {
+            "headText": "PLAY HAS NO LIMITS",
+            "headTextFontStyle": [
+                "B"
+            ],
+            "textFontFamily": "'Open Sans', sans-serif",
+            "headTextSize": 40,
+            "headTextColor": "#ffffff",
+            "infoText": "Experience the might of PS5",
+            "infoTextFontStyle": [
+                "B"
+            ],
+            "contentFontFamily": "'Open Sans', sans-serif",
+            "infoTextSize": 40,
+            "infoTextColor": "#ffffff",
+            "backgroundColor": "#020109",
+            "backgroundVideo": "themes/gaming/bannerVideo.mp4",
+            "consoleImage": "themes/gaming/ps5.png",
+            "controllerImage": "themes/gaming/controller.png"
+        },
+        "selectorDetails": {
+            "selector": "phase-ii-gaming-banner",
+            "inputData": [
+                {
+                    "selectorInput": "displayDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sectionName": "Banner",
+        "isExistingComponent": true,
+        "sampleData": {},
+        "script": "themes/bundle/retail/gaming/gaming-home.js"
+    },
+    {
+        "sectionId": 2,
+        "details": {
+            "gallerImages": [
+                {
+                    "imageUrl": "themes/gaming/galleryImage1.jpg"
+                },
+                {
+                    "imageUrl": "themes/gaming/galleryImage2.jpg"
+                },
+                {
+                    "imageUrl": "themes/gaming/galleryImage3.jpg"
+                },
+                {
+                    "imageUrl": "themes/gaming/galleryImage4.jpg"
+                },
+                {
+                    "imageUrl": "themes/gaming/galleryImage5.jpg"
+                },
+                {
+                    "imageUrl": "themes/gaming/galleryImage6.jpg"
+                },
+                {
+                    "imageUrl": "themes/gaming/galleryImage7.jpg"
+                },
+                {
+                    "imageUrl": "themes/gaming/galleryImage8.jpg"
+                }
+            ],
+            "backgroundImage": "themes/gaming/backgroundImageGallery.jpg",
+            "headText": "Discover your next favourite game!!!",
+            "headTextFontStyle": [
+                "B"
+            ],
+            "textFontFamily": "'Kalam', cursive",
+            "headTextSize": 50,
+            "headTextColor": "rgb(224, 224, 224)"
+        },
+        "selectorDetails": {
+            "selector": "phase-ii-gaming-gallery",
+            "inputData": [
+                {
+                    "selectorInput": "displayDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sectionName": "Gallery",
+        "isExistingComponent": true,
+        "sampleData": {},
+        "script": "themes/bundle/retail/gaming/gaming-home.js"
+    },
+    {
+        "sectionId": 3,
+        "details": {
+            "firstProduct": "rgb(212, 136, 136)",
+            "secondProduct": "rgb(211, 212, 136)",
+            "thirdProduct": "rgb(166, 198, 199)",
+            "fourthProduct": "rgb(153, 153, 153)",
+            "cardNameFontStyle": [
+                "B"
+            ],
+            "textFiveFontFamily": "'Exo 2', sans-serif",
+            "cardNameFontSize": 40,
+            "cardNameFontColor": "#000000",
+            "cardPriceFontStyle": [
+                "B"
+            ],
+            "textThreeFontFamily": "'Exo 2', sans-serif",
+            "cardPriceFontSize": 30,
+            "cardPriceFontColor": "#000000"
+        },
+        "selectorDetails": {
+            "selector": "phase-ii-gaming-product",
+            "inputData": [
+                {
+                    "selectorInput": "displayDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                },
+                {
+                    "selectorInput": "FeaturedProducts",
+                    "handlerInput": "sampleData.products",
+                    "functionName": "getAllFeaturedProducts"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sectionName": "ProductList",
+        "isExistingComponent": true,
+        "sampleData": {
+            "products": [
+                {
+                    "featuredVideo": "themes/gaming/product1.mp4",
+                    "name": "Ghost of Tshushima",
+                    "description": "An action game in which players assume the role of a samurai (Jin Sakai) on a quest for vengeance against Mongol invaders in 13th century Japan.",
+                    "price": "50"
+                },
+                {
+                    "featuredVideo": "themes/gaming/product2.mp4",
+                    "name": "God of war",
+                    "description": "A greek god and his offspring in an adventure embarks in the realm of midgard",
+                    "price": "50"
+                },
+                {
+                    "featuredVideo": "themes/gaming/product3.mp4",
+                    "name": "Assassin's creed unity",
+                    "description": "an action-adventure, stealth game played from a third-person perspective and set in an open world environment",
+                    "price": "50"
+                },
+                {
+                    "featuredVideo": "themes/gaming/product4.mp4",
+                    "name": "Days gone",
+                    "description": "Days Gone is an open-world action-adventure game set in a harsh wilderness two years after a devastating global pandemic",
+                    "price": "50"
+                }
+            ]
+        },
+        "script": "themes/bundle/retail/gaming/gaming-home.js"
+    },
+    {
+        "sectionId": 4,
+        "details": {
+            "backgroundColor": "rgba(0, 0, 0, 0.589)",
+            "headTextFontStyle": [
+                ""
+            ],
+            "textFontFamily": "'Oswald', sans-serif",
+            "headTextSize": 50,
+            "headTextColor": "#ffffff",
+            "linkText": "explore",
+            "linkFontStyle": [
+                "B"
+            ],
+            "valueTitleFontFamily": "",
+            "linkFontSize": 15,
+            "linkFontColor": "#ffffff",
+            "cardNameFontStyle": [
+                ""
+            ],
+            "textFiveFontFamily": "monospace",
+            "cardNameFontSize": 20,
+            "cardNameFontColor": "#1d1d1f",
+            "cardPriceFontStyle": [
+                ""
+            ],
+            "textThreeFontFamily": "monospace",
+            "cardPriceFontSize": 23,
+            "cardPriceFontColor": "#1d1d1f"
+        },
+        "selectorDetails": {
+            "selector": "phase-ii-gaming-categories",
+            "inputData": [
+                {
+                    "selectorInput": "displayDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                },
+                {
+                    "selectorInput": "featuredcategoriesproducts",
+                    "handlerInput": "sampleData.featuredcategoriesproducts",
+                    "functionName": "getFeaturedCategoriesProducts"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sectionName": "CategoriesList",
+        "isExistingComponent": true,
+        "sampleData": {
+            "featuredcategoriesproducts": [
+                {
+                    "categoryName": "Consoles",
+                    "productCategories": [
+                        {
+                            "product": {
+                                "name": "Ghost of Tshushima",
+                                "price": 10,
+                                "featuredImage": "themes/gaming/categories1.jpg"
+                            }
+                        },
+                        {
+                            "product": {
+                                "name": "God of war Ragnarok",
+                                "price": 30,
+                                "featuredImage": "themes/gaming/categories2.jpg"
+                            }
+                        },
+                        {
+                            "product": {
+                                "name": "Call of duty MWII",
+                                "price": 20,
+                                "featuredImage": "themes/gaming/categories3.jpg"
+                            }
+                        },
+                        {
+                            "product": {
+                                "name": "Elden Rink",
+                                "price": 40,
+                                "featuredImage": "themes/gaming/categories4.jpg"
+                            }
+                        },
+                        {
+                            "product": {
+                                "name": "Days gone",
+                                "price": 50,
+                                "featuredImage": "themes/gaming/categories5.jpg"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "categoryName": "Gaming components"
+                },
+                {
+                    "categoryName": "Games"
+                },
+                {
+                    "categoryName": "Pc accessories"
+                },
+                {
+                    "categoryName": "Controllers"
+                }
+            ]
+        },
+        "script": "themes/bundle/retail/gaming/gaming-home.js"
+    },
+    {
+        "sectionId": 5,
+        "details": {},
+        "selectorDetails": {
+            "selector": "phase-ii-recently-viewed-products",
+            "inputData": [
+                {
+                    "selectorInput": "recentlyViewedProducts",
+                    "handlerInput": "sampleData.recentlyViewedProducts",
+                    "functionName": "getRecentlyViewedProducts"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sectionName": "Recently Viewed Products",
+        "isExistingComponent": true,
+        "sampleData": {
+            "recentlyViewedProducts": [
+                {
+                    "product": {
+                        "featuredImage": "themes/gaming/gta.jpg",
+                        "name": "GTA V",
+                        "price": "2500"
+                    }
+                },
+                {
+                    "product": {
+                        "featuredImage": "themes/gaming/valhalla.jpg",
+                        "name": "Assassins's creed Valhalla",
+                        "price": "2000"
+                    }
+                },
+                {
+                    "product": {
+                        "featuredImage": "themes/gaming/godofwar4.jpg",
+                        "name": "God of war",
+                        "price": "200"
+                    }
+                },
+                {
+                    "product": {
+                        "featuredImage": "themes/gaming/ghostoftsushima.jpg",
+                        "name": "Ghost of Tshushima",
+                        "price": "3000"
+                    }
+                }
+            ]
+        },
+        "isVisible": true,
+        "script":"themes/bundle/shared-theme/recently-viewed-products.js"
+    }
+]

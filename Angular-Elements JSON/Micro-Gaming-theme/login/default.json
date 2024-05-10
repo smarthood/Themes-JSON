@@ -1,0 +1,88 @@
+[
+    {
+      "sectionId": 1,
+      "details": {
+        "logindata": {
+          "appearance": "outline",
+          "formSubtitle": "Still not one of Us?",
+          "formSubtitleColor": "#b7aeae",
+          "formSubtitleSize": "12",
+          "formSubtitleStyle": [],
+          "formSubtitleFontFamily": "'Arial',sans-serif",
+          "buttonColor": "#ffffff",
+          "iconPosition": "inside",
+          "buttonTextColor": "#000000",
+          "buttonBorderRadius": 5,
+          "buttonSize": 40,
+          "normalLabelColor": "#ffffff",
+          "normalLineColor": "rgba(255,255,255,0.74)",
+          "focusedLabelColor": "#ffffff",
+          "focusedLineColor": "rgba(255,255,255,0.75)",
+          "showImage": true,
+          "formTitle": "Sign In For Better Experience",
+          "formTitleColor": "#ffffff",
+          "formTitleSize": "18",
+          "formTitleStyle": [],
+          "formTitleFontFamily": "'Arial',sans-serif",
+          "showIcon": false,
+          "showMainText": true,
+          "showSocialMediaIcon": false,
+          "showSubText": false,
+          "inputColor": "white",
+          "fillInput": false,
+          "containerAlignment": "center",
+          "imagePosition": "fill",
+          "overlay": false,
+          "glassy": false,
+          "cardSize": 42,
+          "showDivider": false,
+          "showEmail": false,
+          "showPhoneNumber": false,
+          "cardFill": true,
+          "verticalAlign": "end",
+          "horizontalAlign": "center",
+          "leftBackgroundColor": "white",
+          "rightBackgroundColor": "white",
+          "showSecondaryDivider": false,
+          "alignment": "center",
+          "templateName": "commonLogin",
+          "imageUrl": "themes/gaming/login_bg.jpg",
+          "imageAlignment": "top",
+          "animation": true,
+          "cardColor": "white",
+          "cardGlassy": true,
+          "cardShadow": false,
+          "cardBorderRadius": 2,
+          "cardBorder": true,
+          "cardBorderColor": "#ffffff",
+          "cardBorderSide": "all",
+          "mainText": "Welcome to world of Gaming :)",
+          "mainTextFontFamily": "'Papyrus',fantasy",
+          "mainTextSize": 38,
+          "mainTextColor": "#ffffff",
+          "mainTextStyle": [
+            "B"
+          ]
+        }
+      },
+      "selectorDetails": {
+        "selector": "phase-ii-storefront-sign-in",
+        "inputData": [
+          {
+            "selectorInput": "displayDetails",
+            "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+          }
+        ],
+        "outputData": [
+          {
+            "selectorOutput": "pageToNavigate",
+            "handlerFunction": "pageToNavigate"
+          }
+        ]
+      },
+      "sectionName": "Login page",
+      "isExistingComponent": true,
+      "sampleData": null,
+      "script": "themes/bundle/shared-theme/storefront-signin.js"
+    }
+]

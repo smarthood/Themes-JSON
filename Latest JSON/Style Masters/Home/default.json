@@ -1,0 +1,447 @@
+[
+  {
+      "sectionId": 1,
+      "details": {
+          "titleFontStyle": [
+              "B"
+          ],
+          "textFontFamily": "'Arial',sans-serif",
+          "titleSize": "24",
+          "titleColor": "white",
+          "subtitleFontStyle": [],
+          "subtextFontFamily": "'Arial',sans-serif",
+          "subtitleSize": "16",
+          "subtitleColor": "white",
+          "alignment": "end",
+          "height": 85,
+          "templateName": "menAccessoriesTemp",
+          "getcontentdetails": [
+              {
+                  "title": "Elevate Your Waist",
+                  "content": "Complete Your Look with Fashionable Belts",
+                  "imageUrl": "themes/retail-theme-4/banner1.jpg"
+              },
+              {
+                  "title": "Wrist Elegancet",
+                  "content": "Time, fransformed into Timeless Beauty",
+                  "imageUrl": "themes/retail-theme-4/banner-2.jpg"
+              },
+              {
+                  "title": "Fashionable Knots",
+                  "content": "Refine Your Look with Stylish Ties",
+                  "imageUrl": "themes/retail-theme-4/banner-3.jpg"
+              }
+          ]
+      },
+      "script": "themes/bundle/retail/style-masters/style-masters-banner.js",
+      "selectorDetails": {
+          "selector": "phase-ii-retail-theme4-banner",
+          "inputData": [
+              {
+                  "selectorInput": "bannerData",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Mens Banner",
+      "isExistingComponent": true,
+      "sampleData": null
+  },
+  {
+      "sectionId": 2,
+      "details": {
+          "imageBannerProperty": 2,
+          "height": 100,
+          "section": {
+              "columnSection": [
+                  {
+                      "columnWidth": 50,
+                      "row": [
+                          {
+                              "height": 100,
+                              "image": "themes/retail-theme-4/img-1.jpg",
+                              "spacingLeft": 10,
+                              "spacingTop": 10,
+                              "spacingRight": 10,
+                              "spacingBottom": 10,
+                              "borderColor": "black",
+                              "overlay": true,
+                              "overlayColor": "rgba(0,0,0,0.7)",
+                              "overlayColorRadius": 0,
+                              "fontStyle": "'Arial',sanserif",
+                              "fontWeight": false,
+                              "padding": 20,
+                              "textAlign": "Bottom Left",
+                              "imageText": "Bags",
+                              "textColor": "#ffffff",
+                              "textSize": 40,
+                              "imageBackgroundSizeType": "cover",
+                              "subTextFontStyle": [
+                                  "U"
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "columnWidth": 50,
+                      "row": [
+                          {
+                              "height": 50,
+                              "image": "themes/retail-theme-4/img-2.jpg",
+                              "spacingTop": 10,
+                              "spacingRight": 10,
+                              "spacingBottom": 10,
+                              "borderColor": "black",
+                              "overlay": true,
+                              "overlayColorRadius": 0,
+                              "overlayColor": "rgba(0,0,0,0.7)",
+                              "fontStyle": "'Arial',sanserif",
+                              "padding": 20,
+                              "textAlign": "Bottom Left",
+                              "imageText": "Belts",
+                              "textColor": "white",
+                              "textSize": 35,
+                              "imageBackgroundSizeType": "cover",
+                              "subTextFontStyle": [
+                                  "U"
+                              ]
+                          },
+                          {
+                              "height": 50,
+                              "image": "themes/retail-theme-4/img-3.jpg",
+                              "spacingRight": 10,
+                              "spacingBottom": 10,
+                              "borderColor": "black",
+                              "overlay": true,
+                              "overlayColorRadius": 0,
+                              "overlayColor": "rgba(0,0,0,0.7)",
+                              "fontStyle": "'Arial',sanserif",
+                              "padding": 20,
+                              "textAlign": "Bottom Left",
+                              "imageText": "Ties",
+                              "textColor": "white",
+                              "textSize": 35,
+                              "imageBackgroundSizeType": "cover",
+                              "subTextFontStyle": [
+                                  "U"
+                              ]
+                          }
+                      ]
+                  }
+              ]
+          },
+          "headingGroup": {
+              "heading": "An accessories brand where everything is thoughtfully designed and responsibly made.",
+              "headingDesignEnabled": false,
+              "headingFontStyle": "'Georgia',serif",
+              "headingSize": 26,
+              "headingTextColor": "#000000",
+              "headingHeight": 20,
+              "headingAlign": "Center",
+              "headingBackgroundColor": "white"
+          },
+          "backgroundColors": {
+              "backgroundColor": "white",
+              "backgroundColor1": "red",
+              "backgroundColor2": "white"
+          }
+      },
+      "script": "themes/bundle/retail/wedding-emporium/image-banner.js",
+      "selectorDetails": {
+          "selector": "phase-ii-image-banner",
+          "inputData": [
+              {
+                  "selectorInput": "imageDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Mens Image Gallery",
+      "isExistingComponent": true,
+      "sampleData": null
+  },
+  {
+      "sectionId": 3,
+      "details": {
+          "isGlobalBackground": "true",
+          "localBackground": "#fff",
+          "alignment": "row",
+          "descriptionImage": "themes/retail-theme-4/about-us.jpg",
+          "buttonVisiblity": true,
+          "formBackgroundColor": "#d4651f",
+          "headingText": "MADE WITH LOVE IN SAN FRANCISCO",
+          "subText": "All our products are designed meticulously crafted right here in California.",
+          "buttonText": "ABOUT US",
+          "textSize": 30,
+          "textAlignment": "center",
+          "showSubText": true,
+          "subTextSize": 15,
+          "textColor": "#ffffff",
+          "textFontFamily": "Montserrat",
+          "subtextFontFamily": "Montserrat",
+          "subTextColor": "#ffffff",
+          "buttonBorderColor": "#ffffff",
+          "buttonBorderRadius": 21,
+          "buttonBorderLocation": "all",
+          "subtextFontStyle": [],
+          "textFontStyle": [
+              "B"
+          ],
+          "buttonLink": "aboutus",
+          "buttonColor": "#ffffff00",
+          "buttonTextColor": "#ffffff"
+      },
+      "script": "themes/bundle/retail/zen-fashion/zenfashion-home.js",
+      "selectorDetails": {
+          "selector": "phase-ii-retail-shop-for",
+          "inputData": [
+              {
+                  "selectorInput": "displayDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Mens Shop for",
+      "isExistingComponent": true,
+      "sampleData": {},
+      "isVisible": true
+  },
+  {
+      "sectionId": 5,
+      "sectionName": "Single Product",
+      "isExistingComponent": true,
+      "details": {
+          "singleProductSettings": {
+              "showTitle": true,
+              "title": "Available now",
+              "titlePosition": "center",
+              "showSubTitle": true,
+              "subtitle": "Just added to the shop",
+              "subtitlePosition": "center",
+              "titleFontStyle": [
+                  "B"
+              ],
+              "textFontFamily": "Arial",
+              "titleSize": "12",
+              "titleColor": "black",
+              "subtitleFontStyle": [
+                  "B"
+              ],
+              "subtextFontFamily": "Arial",
+              "subtitleSize": "24",
+              "subtitleColor": "black",
+              "stampText": "New Arrival . New Arrival .",
+              "stampColor": "#aa6d58",
+              "showButton": true,
+              "buttonText": "VIEW PRODUCT",
+              "buttonTextColor": "white",
+              "buttonColor": "black",
+              "templateName": "singleProductTemplateOne",
+              "imageUrl": "themes/candellaTheme/arrivalImage.jpg",
+              "bgColor": "#ffffff",
+              "imageTextOne": "New Arrivals",
+              "imageTextOneSize": 50,
+              "imageTextOneStyle": [],
+              "imageTextOneColor": "#FFF",
+              "imageTextOneFontFamily": "'Lucida Handwriting',cursive",
+              "imageTextTwo": "Fall 3- wick candles",
+              "imageTextTwoSize": 59,
+              "imageTextTwoStyle": [],
+              "imageTextTwoColor": "#FFF",
+              "imageTextTwoFontFamily": "'Georgia',serif",
+              "nameFontSize": 17,
+              "nameColor": "#000",
+              "buttonText1": "View Products",
+              "buttonFontColor": "#282828",
+              "buttonFontSize": 24
+          }
+      },
+      "script": "themes/bundle/shared-theme/single-product-display.js",
+      "selectorDetails": {
+          "selector": "phase-ii-single-product-display",
+          "inputData": [
+              {
+                  "selectorInput": "websiteSettings",
+                  "handlerInput": "sampleData.websiteSettings"
+              },
+              {
+                  "selectorInput": "displayDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sampleData": {}
+  },
+  {
+      "sectionId": 6,
+      "details": {
+          "alignment": "column",
+          "isGlobalBackground": "true",
+          "localBackground": "#fff",
+          "buttonVisiblity": true,
+          "descriptionImage": "themes/retail-theme-4/discount.jpg",
+          "formBackgroundColor": "#f5f4f1",
+          "headingText": "Up to 50% ᵒᶠᶠ",
+          "subText": "Last chance sale on select styles.",
+          "buttonText": "SHOP SALE",
+          "textSize": 65,
+          "subTextSize": 12,
+          "textColor": "#000000",
+          "textFontFamily": "Montserrat",
+          "showSubText": true,
+          "subtextFontFamily": "Montserrat",
+          "subTextColor": "#000000",
+          "textAlignment": "center",
+          "subtextFontStyle": [
+              "B"
+          ],
+          "textFontStyle": [
+              "B"
+          ],
+          "buttonBorderColor": "#000000",
+          "buttonBorderRadius": 0,
+          "buttonBorderLocation": "bottom",
+          "buttonLink": "products",
+          "buttonColor": "#ffffff00",
+          "buttonTextColor": "#000000"
+      },
+      "script": "themes/bundle/retail/zen-fashion/zenfashion-home.js",
+      "selectorDetails": {
+          "selector": "phase-ii-retail-shop-for",
+          "inputData": [
+              {
+                  "selectorInput": "displayDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Mens Shop Discount",
+      "isExistingComponent": true,
+      "sampleData": {},
+      "isVisible": true
+  },
+  {
+      "sectionId": 7,
+      "details": {
+          "bannerProperty": 3,
+          "bannerDetails": {
+              "height": 60,
+              "marginTop": 0,
+              "marginBottom": 0,
+              "marginLeftRight": 0,
+              "bannerTextBackGroundEnabled": false,
+              "videoOverlay": true,
+              "videooverlayColor": "rgb(0,0,0,0.5)",
+              "buttonLayout": "row",
+              "buttonProperties": [
+                  {
+                      "buttonLink": "aboutus",
+                      "buttonColor": "#d3d3d3",
+                      "buttonText": "READ OUR BLOG",
+                      "buttonTextAlign": "center",
+                      "buttonTextFontStyle": [],
+                      "buttonTextFontFamily": "'Montserrat',sans-serif",
+                      "buttonTextColor": "Black",
+                      "iconEnabled": true,
+                      "hoverEnabled": false,
+                      "buttonCornerSize": 25,
+                      "buttonType": "flat",
+                      "iconText": "keyboard_arrow_right",
+                      "iconColor": "black",
+                      "iconAlign": "center",
+                      "iconLayout": "row"
+                  },
+                  {
+                      "buttonLink": "contactus",
+                      "buttonColor": "rgba(255,255,255,0)",
+                      "buttonText": "CONTACT US",
+                      "buttonTextAlign": "center",
+                      "buttonTextFontStyle": [],
+                      "buttonTextFontFamily": "'Montserrat',sans-serif",
+                      "buttonTextColor": "#ffffff",
+                      "iconEnabled": true,
+                      "hoverEnabled": false,
+                      "buttonCornerSize": 25,
+                      "buttonType": "stroked",
+                      "iconText": "phone",
+                      "iconColor": "#ffffff",
+                      "iconAlign": "center",
+                      "iconLayout": "row-reverse"
+                  }
+              ],
+              "buttonEnabled": true,
+              "textEnabled": true,
+              "animation": "noAnimationTemplate",
+              "textAlign": "Center",
+              "bannerText": "COMING SOON",
+              "textFontFamily": "Montserrat",
+              "textFontStyle": [
+                  "B"
+              ],
+              "subTextFontStyle": [],
+              "bannerSubText": "The next generation of luxury tech gear",
+              "textColor": "#d3d3d3",
+              "bannerTextBackGroundColor": "white",
+              "subTextColor": "#d3d3d3",
+              "textSize": 42,
+              "subtextSize": 18,
+              "subtextFontFamily": "'Montserrat',sans-serif",
+              "bannerVideo": "themes/retail-theme-4/video.mp4",
+              "bannerVideoCard": false,
+              "isVideoControls": false
+          },
+          "headingTextEnabled": false,
+          "isChildError": false,
+          "isNoDocumentUploaded": false
+      },
+      "script": "themes/bundle/shared-theme/banner.js",
+      "selectorDetails": {
+          "selector": "phase-ii-banner",
+          "inputData": [
+              {
+                  "selectorInput": "bannerDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Video Banner",
+      "isExistingComponent": true,
+      "sampleData": null
+  }
+]

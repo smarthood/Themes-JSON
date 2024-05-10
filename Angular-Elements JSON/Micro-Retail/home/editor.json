@@ -1,0 +1,386 @@
+[
+    {
+        "id": 1,
+        "sectionName": "Home Banner",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "type": "Banner Layout",
+                "name": "bannerDetails",
+                "label": "Banner Details"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "sectionName": "Featured Product",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "type": "Common Slider Controls",
+                "name": "templateSettings",
+                "label": "Template Settings"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "sectionName": "Featured Categories",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "type": "Common Slider Controls",
+                "name": "templateSettings",
+                "label": "Template Settings"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "sectionName": "Shop for",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Image Settings",
+                "groupControls": [
+                    {
+                        "type": "Radio",
+                        "name": "alignment",
+                        "label": "Image alignment",
+                        "options": [
+                            {
+                                "name": "Left",
+                                "value": "row"
+                            },
+                            {
+                                "name": "Right",
+                                "value": "column"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Image",
+                        "name": "descriptionImage",
+                        "label": "Description image"
+                    }
+                ]
+            },
+            {
+                "groupName": "Color Settings",
+                "groupControls": [
+                    {
+                        "type": "Color Picker",
+                        "name": "formBackgroundColor",
+                        "label": "Form background color"
+                    }
+                ]
+            },
+            {
+                "groupName": "Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Radio",
+                        "name": "textAlignment",
+                        "label": "Text alignment",
+                        "options": [
+                            {
+                                "name": "Left",
+                                "value": "start"
+                            },
+                            {
+                                "name": "Center",
+                                "value": "center"
+                            },
+                            {
+                                "name": "Right",
+                                "value": "end"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Input",
+                        "name": "headingText",
+                        "label": "Heading text",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "pattern",
+                                "patternName": "emptySpace"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "textColor",
+                        "label": "Heading text color"
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "textFontStyle",
+                        "label": "Font style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Text font family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "textSize",
+                        "label": "Heading size",
+                        "options": [
+                            10,
+                            80
+                        ]
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showSubText",
+                        "label": "Show subtext"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "subText",
+                        "label": "Subtext",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "subTextColor",
+                        "label": "Subtext color"
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "subtextFontStyle",
+                        "label": "Font style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "subtextFontFamily",
+                        "label": "Subtext font family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "subTextSize",
+                        "label": "Subtext size",
+                        "options": [
+                            10,
+                            40
+                        ]
+                    }
+                ]
+            },
+            {
+                "groupName": "Button Settings",
+                "groupControls": [
+                    {
+                        "type": "Slider Toggle",
+                        "name": "buttonVisiblity",
+                        "label": "Show button"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "buttonText",
+                        "label": "Button text",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 20
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "buttonLink",
+                        "label": "Redirect to",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "buttonColor",
+                        "label": "Button color"
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "buttonTextColor",
+                        "label": "Button text color"
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "buttonBorderColor",
+                        "label": "Button border color"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "buttonBorderRadius",
+                        "label": "Button border radius",
+                        "options": [
+                            0,
+                            25
+                        ]
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "isButtonBorder",
+                        "label": "Enable button border"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "buttonBorderLocation",
+                        "label": "Button border location",
+                        "options": [
+                            {
+                                "name": "All",
+                                "value": "all"
+                            },
+                            {
+                                "name": "Top",
+                                "value": "top"
+                            },
+                            {
+                                "name": "Left",
+                                "value": "left"
+                            },
+                            {
+                                "name": "Right",
+                                "value": "right"
+                            },
+                            {
+                                "name": "Bottom",
+                                "value": "bottom"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "sectionName": "Featured Brands",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "type": "Common Slider Controls",
+                "name": "templateSettings",
+                "label": "Template Settings"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "sectionName": "Recently Viewed Products",
+        "isExistingComponent": true,
+        "controls": []
+    },
+    {
+        "id": 5,
+        "sectionName": "Location Details",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Image Settings",
+                "groupControls": [
+                    {
+                        "type": "Checkbox",
+                        "name": "showBackgroundImage",
+                        "label": "Show background image"
+                    },
+                    {
+                        "type": "Image",
+                        "name": "backgroundImage",
+                        "label": "Background image"
+                    },
+                    {
+                        "type": "Radio",
+                        "name": "imageBackgroundSizeType",
+                        "label": "Image background size type",
+                        "options": [
+                            {
+                                "name": "Cover",
+                                "value": "cover"
+                            },
+                            {
+                                "name": "Fill (100% 100%)",
+                                "value": "100% 100%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "groupName": "Heading Settings",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "locationHeading",
+                        "label": "Location heading",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "textFontStyle",
+                        "label": "Location heading style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Location heading family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "textSize",
+                        "label": "Location heading size",
+                        "options": [
+                            20,
+                            80
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "textColor",
+                        "label": "Location heading color"
+                    },
+                    {
+                        "type": "Checkbox",
+                        "name": "showFilter",
+                        "label": "Show location filter"
+                    }
+                ]
+            }
+        ]
+    }
+]

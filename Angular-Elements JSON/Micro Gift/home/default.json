@@ -1,0 +1,235 @@
+[
+    {
+        "sectionId": 1,
+        "sectionName": "Home Banner",
+        "isExistingComponent": true,
+        "details": {
+            "heading": "Gift More Smiles",
+            "textFontFamily": "'Georgia',serif",
+            "showButton": true,
+            "buttonText": "Send a Gift",
+            "buttonLink": "products",
+            "content1": "We make gifting and celebrating better.",
+            "content2": "So you can show up for every meaningful occasion, milestone, and moment.",
+            "giftMobileInfo": [
+                {
+                    "title": "Happy Birthday",
+                    "content": "Many more Happy returns of the day my dear baby, leave many years.",
+                    "imageUrl": "themes/gift/happyBirthday.png",
+                    "darkColor": "#184363",
+                    "lightColor": "#b8cedc"
+                },
+                {
+                    "title": "Happy Holidays",
+                    "content": "Wish you peace joy and love this holidays season. i miss you like crazy",
+                    "imageUrl": "themes/gift/happyHolidays.png",
+                    "darkColor": "#1c471f",
+                    "lightColor": "#c9da8f"
+                },
+                {
+                    "title": "Congrats",
+                    "content": "Congrats! on forevery. your love is a special kind of love. cheers to happy",
+                    "imageUrl": "themes/gift/Congrats.jpg",
+                    "darkColor": "#4a411e",
+                    "lightColor": "#fedf6f"
+                },
+                {
+                    "title": "Love",
+                    "content": "Thank you being so much love and joy with me. i am very happy to say this.",
+                    "imageUrl": "themes/gift/Love.png",
+                    "darkColor": "#4f1316",
+                    "lightColor": "#f36464"
+                }
+            ]
+        },
+        "selectorDetails": {
+            "selector": "phase-ii-gift-home-banner",
+            "inputData": [
+                {
+                    "selectorInput": "giftBannerDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "script": "themes/bundle/speciality-store/gift-theme/gift-home.js"
+    },
+    {
+        "sectionId": 2,
+        "details": {
+            "headingSettings": {
+                "enableHeading": true,
+                "headingText": "Explore endless possibilities.",
+                "isBorder": true,
+                "borderStyle": [],
+                "isTextShadow": false,
+                "isBackgroundColor": false,
+                "textAlign": "center",
+                "smallScreenAlign": false,
+                "smallScreenTextAlign": "",
+                "headingTextColor": "#333333",
+                "backgroundColor": "#fff",
+                "headingFontSize": 60,
+                "headingStyle": [
+                    "B"
+                ],
+                "titleFontFamily": "Larken",
+                "headingTransform": "none",
+                "borderColor": "#616568",
+                "borderType": "defaultBorder",
+                "defaultBorderType": "solid",
+                "invertBorder": false,
+                "insidePaddingX": 10,
+                "insidePaddingY": 10,
+                "outsidePaddingX": 0,
+                "outsidePaddingY": 0
+            },
+            "textFontFamily": "Larken",
+            "subtextFontFamily": "Tahoma",
+            "text1": "Customization",
+            "subText1": "Use a pre-designed template or personalize with video, stickers, fonts, and more",
+            "textColor1": "#52225e",
+            "backgroundColor1": "#c3b2e7",
+            "boxImage11": "themes/gift/customization-card-01.jpg",
+            "boxImage12": "themes/gift/customization-card-02.jpg",
+            "text2": "Scheduling",
+            "subText2": "Schedule all your cards and gifts now and we`ll send them later",
+            "textColor2": "#5e2047",
+            "backgroundColor2": "#f682a5",
+            "boxImage21": "themes/gift/scheduling-card.jpg",
+            "boxImage22": "themes/gift/scheduling-card-2.png",
+            "text3": "Wallet",
+            "subText3": "Access all your gifts and save up your Givingli Cash",
+            "textColor3": "#1c471f",
+            "backgroundColor3": "#c9da8f",
+            "boxImage3": "themes/gift/starbucks.jpg",
+            "text4": "Inbox",
+            "subText4": "Track your gifts, group chats, and sent cards",
+            "textColor4": "#4a411e",
+            "backgroundColor4": "#fedf6f",
+            "boxImage4": "themes/gift/inbox-ui.jpg",
+            "text5": "Send Gifts",
+            "subText5": "Send as a group with friends or individually",
+            "textColor5": "#582614",
+            "backgroundColor5": "#f9a474",
+            "boxImage5": "themes/gift/amazon.jpg",
+            "text6": "Reminders",
+            "subText6": "Never miss a birthday or special occasion again",
+            "textColor6": "#184363",
+            "backgroundColor6": "#b8cedc",
+            "boxImage6": "themes/gift/reminders-ui.jpg"
+        },
+        "selectorDetails": {
+            "selector": "phase-ii-gift-home-grid",
+            "inputData": [
+                {
+                    "selectorInput": "bannerDetail",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": []
+        },
+        "sectionName": "Home Grid Banner",
+        "isExistingComponent": true,
+        "sampleData": null,
+        "script": "themes/bundle/speciality-store/gift-theme/gift-home.js",
+        "innerScript": ["themes/bundle/shared-theme/common-heading.js"]
+    },
+    {
+        "sectionId": 3,
+        "sectionName": "Gift Reveal",
+        "isExistingComponent": true,
+        "details": {
+            "bgColor": "#c3b2e7",
+            "heading": "Gifting made simple",
+            "textFontFamily": "'Georgia',serif",
+            "headingColor": "#52225e",
+            "showContent": true,
+            "content": "Send the perfect gift every time. Our gift store is packed with hundreds of top brands and fully curated for every occasion.",
+            "contentColor": "#52225e",
+            "image1": "themes/gift/gift_reveal_1.png",
+            "image2": "themes/gift/gift_reveal_2.png",
+            "image3": "themes/gift/gift_reveal_3.png",
+            "image4": "themes/gift/gift_reveal_4.png",
+            "image5": "themes/gift/gift_reveal_5.png",
+            "image6": "themes/gift/gift_reveal_6.png",
+            "image7": "themes/gift/gift_reveal_7.png",
+            "image8": "themes/gift/gift_reveal_8.png"
+        },
+        "selectorDetails": {
+            "selector": "phase-ii-gift-reveal",
+            "inputData": [
+                {
+                    "selectorInput": "giftRevealDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "script": "themes/bundle/speciality-store/gift-theme/gift-home.js"
+    },
+    {
+        "sectionId": 4,
+        "details": {
+            "heading": "Ready to start giving?",
+            "headTextFontStyle": [
+                "B"
+            ],
+            "textFontFamily": "Georgia, 'Times New Roman', Times, serif",
+            "headTextSize": 55,
+            "headTextColor": "white",
+            "buttonText": "View Products",
+            "buttonTextFontStyle": [
+                ""
+            ],
+            "valueTitleFontFamily": "",
+            "buttonTextSize": 18,
+            "buttonTextColor": "Black",
+            "buttonColor": "white",
+            "buttonHoverColor": "rgb(236, 235, 235)",
+            "buttonBorderColor": "white",
+            "buttonBorderRadius": 25,
+            "buttonBorderLocation": "all",
+            "GiftBannerImages": [
+                {
+                    "imageUrl": "themes/gift/giftcard1.jpg"
+                },
+                {
+                    "imageUrl": "themes/gift/image_2024_01_27T04_28_48_049Z.png"
+                },
+                {
+                    "imageUrl": "themes/gift/giftcard3.jpg"
+                }
+            ]
+        },
+        "selectorDetails": {
+            "selector": "phase-ii-gift-creditcard",
+            "inputData": [
+                {
+                    "selectorInput": "displayDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sectionName": "creditcard",
+        "isExistingComponent": true,
+        "sampleData": {},
+        "script": "themes/bundle/speciality-store/gift-theme/gift-home.js"
+    }
+]

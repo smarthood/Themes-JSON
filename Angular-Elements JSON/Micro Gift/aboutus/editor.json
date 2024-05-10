@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "sectionName": "Gift Banner",
+    "isExistingComponent": true,
+    "controls": [
+      {
+        "groupName": "Background Setting",
+        "groupControls": [
+          {
+            "type": "Color Picker",
+            "name": "backGroundColor",
+            "label": "Choose background color"
+          }
+        ]
+      },
+      {
+        "groupName": "Text Settings",
+        "groupControls": [
+          {
+            "type": "Input",
+            "name": "heading",
+            "label": "Heading",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 15
+              }
+            ]
+          },
+          {
+            "type": "Dropdown",
+            "name": "textFontFamily",
+            "label": "Heading font family"
+          },
+          {
+            "type": "Color Picker",
+            "name": "headingColor",
+            "label": "Heading text color"
+          },
+          {
+            "type": "Slider",
+            "name": "headingSize",
+            "label": "Heading size",
+            "options": [
+              14,
+              30
+            ]
+          },
+          {
+            "type": "Font Style",
+            "name": "headingFontStyle",
+            "label": "Heading font style"
+          },
+          {
+            "type": "Input",
+            "name": "content",
+            "label": "Content",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 60
+              }
+            ]
+          },
+          {
+            "type": "Dropdown",
+            "name": "contentFontFamily",
+            "label": "Content font family"
+          },
+          {
+            "type": "Color Picker",
+            "name": "contentColor",
+            "label": "Content text color"
+          },
+          {
+            "type": "Slider",
+            "name": "contentSize",
+            "label": "Content size",
+            "options": [
+              60,
+              100
+            ]
+          },
+          {
+            "type": "Font Style",
+            "name": "contentStyle",
+            "label": "Heading font style"
+          }
+        ]
+      },
+      {
+        "groupName": "Image Settings",
+        "groupControls": [
+          {
+            "type": "ArrayOfObjects",
+            "name": "GiftBannerImages",
+            "label": "Choose banner image"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "sectionName": "Aboutus journey",
+    "isExistingComponent": true,
+    "controls": [
+      {
+        "groupName": "Background Settings",
+        "groupControls": [
+          {
+            "type": "Color Picker",
+            "name": "bgColor",
+            "label": "Choose Background color"
+          }
+        ]
+      },
+      {
+        "groupName": "Heading Settings",
+        "groupControls": [
+          {
+            "type": "Input",
+            "name": "heading",
+            "label": "Heading text",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 20
+              }
+            ]
+          },
+          {
+            "type": "Color Picker",
+            "name": "headingColor",
+            "label": "Heading color"
+          },
+          {
+            "type": "Slider",
+            "name": "headingSize",
+            "label": "Heading text",
+            "options": [
+              30,
+              80
+            ]
+          },
+          {
+            "type": "Dropdown",
+            "name": "textFontFamily",
+            "label": "Heading text font family"
+          },
+          {
+            "type": "Font Style",
+            "name": "headingStyle",
+            "label": "Heading text style"
+          }
+        ]
+      },
+      {
+        "groupName": "Image and Quotes Settings",
+        "groupControls": [
+          {
+            "type": "Image",
+            "name": "image1",
+            "label": "choose image",
+            "errors": [
+              {
+                "name": "required"
+              }
+            ]
+          },
+          {
+            "type": "Image",
+            "name": "image2",
+            "label": "choose image",
+            "errors": [
+              {
+                "name": "required"
+              }
+            ]
+          },
+          {
+            "type": "Input",
+            "name": "smallContent",
+            "label": "Small quotes",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 100
+              }
+            ]
+          },
+          {
+            "type": "Slider",
+            "name": "smallContentSize",
+            "label": "Quotes text size",
+            "options": [
+              10,
+              20
+            ]
+          },
+          {
+            "type": "Dropdown",
+            "name": "subtextFontFamily",
+            "label": "Quotes text font family"
+          },
+          {
+            "type": "Color Picker",
+            "name": "smallContentColor",
+            "label": "Quotes text color"
+          },
+          {
+            "type": "Font Style",
+            "name": "smallContentStyle",
+            "label": "Quotes text style"
+          }
+        ]
+      },
+      {
+        "groupName": "Content Settings",
+        "groupControls": [
+          {
+            "type": "Text Area",
+            "name": "content1",
+            "label": "Content",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 400
+              }
+            ]
+          },
+          {
+            "type": "Text Area",
+            "name": "content2",
+            "label": "Content",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 400
+              }
+            ]
+          },
+          {
+            "type": "Text Area",
+            "name": "content3",
+            "label": "Content",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 30
+              }
+            ]
+          },
+          {
+            "type": "Color Picker",
+            "name": "contetColor",
+            "label": "Content color"
+          },
+          {
+            "type": "Dropdown",
+            "name": "contentFontFamily",
+            "label": "Content text font family"
+          },
+          {
+            "type": "Font Style",
+            "name": "contentStyle",
+            "label": "Content text style"
+          },
+          {
+            "type": "Slider",
+            "name": "contentSize",
+            "label": "Content text size",
+            "options": [
+              10,
+              30
+            ]
+          }
+        ]
+      },
+      {
+        "groupName": "Button Settings",
+        "groupControls": [
+          {
+            "type": "Input",
+            "name": "buttonText",
+            "label": "Button Text",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 20
+              }
+            ]
+          },
+          {
+            "type": "Color Picker",
+            "name": "butttonTextColor",
+            "label": "Button text color"
+          },
+          {
+            "type": "Slider",
+            "name": "buttonTextSize",
+            "label": "Button text size",
+            "options": [
+              10,
+              25
+            ]
+          },
+          {
+            "type": "Font Style",
+            "name": "buttonTextStyle",
+            "label": "Button text style"
+          },
+          {
+            "type": "Color Picker",
+            "name": "buttonBgColor",
+            "label": "Button background color"
+          },
+          {
+            "type": "Dropdown",
+            "name": "buttonLink",
+            "label": "Redirect to"
+          },
+          {
+            "type": "Input",
+            "name": "facebook_Link",
+            "label": "Facebook link"
+          },
+          {
+            "type": "Input",
+            "name": "twitter_Link",
+            "label": "Facebook link"
+          },
+          {
+            "type": "Input",
+            "name": "instagram_Link",
+            "label": "Facebook link"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "sectionName": "Product Detail",
+    "isExistingComponent": true,
+    "controls": [
+      {
+        "groupName": "Background Setting",
+        "groupControls": [
+          {
+            "type": "Color Picker",
+            "name": "backGroundColor",
+            "label": "Choose background color"
+          }
+        ]
+      },
+      {
+        "groupName": "Title Settings",
+        "groupControls": [
+          {
+            "type": "Input",
+            "name": "heading",
+            "label": "Heading",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 50
+              }
+            ]
+          },
+          {
+            "type": "Dropdown",
+            "name": "textFontFamily",
+            "label": "Heading font family"
+          },
+          {
+            "type": "Color Picker",
+            "name": "headingColor",
+            "label": "Heading text color"
+          },
+          {
+            "type": "Slider",
+            "name": "headingSize",
+            "label": "Heading size",
+            "options": [
+              50,
+              90
+            ]
+          },
+          {
+            "type": "Font Style",
+            "name": "headingFontStyle",
+            "label": "Heading font style"
+          }
+        ]
+      },
+      {
+        "groupName": "Card Setting",
+        "groupControls": [
+          {
+            "type": "Input",
+            "name": "headingc1",
+            "label": "Title for card 1",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 20
+              }
+            ]
+          },
+          {
+            "type": "Text Area",
+            "name": "content1",
+            "label": "Content for card 1",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 300
+              }
+            ]
+          },
+          {
+            "type": "Input",
+            "name": "headingc2",
+            "label": "Title for card 2",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 20
+              }
+            ]
+          },
+          {
+            "type": "Text Area",
+            "name": "content2",
+            "label": "Content for card 2",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 300
+              }
+            ]
+          },
+          {
+            "type": "Input",
+            "name": "headingc3",
+            "label": "Title for card 3",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 20
+              }
+            ]
+          },
+          {
+            "type": "Text Area",
+            "name": "content3",
+            "label": "Content for card 3",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 300
+              }
+            ]
+          },
+          {
+            "type": "Dropdown",
+            "name": "subtextFontFamily",
+            "label": "Card heading font family"
+          },
+          {
+            "type": "Color Picker",
+            "name": "contentHeadingColor",
+            "label": "Card heading color"
+          },
+          {
+            "type": "Slider",
+            "name": "contentHeadingSize",
+            "label": "Card heading size",
+            "options": [
+              20,
+              55
+            ]
+          },
+          {
+            "type": "Font Style",
+            "name": "contentHeadingStyle",
+            "label": "Card heading style"
+          },
+          {
+            "type": "Dropdown",
+            "name": "contentFontFamily",
+            "label": "Card content font family"
+          },
+          {
+            "type": "Color Picker",
+            "name": "contentColor",
+            "label": "Card content color"
+          },
+          {
+            "type": "Slider",
+            "name": "contentSize",
+            "label": "Card content size",
+            "options": [
+              18,
+              30
+            ]
+          },
+          {
+            "type": "Font Style",
+            "name": "contentStyle",
+            "label": "Card content style"
+          }
+        ]
+      },
+      {
+        "groupName": "Image Settings",
+        "groupControls": [
+          {
+            "type": "Image",
+            "name": "image1",
+            "label": "Choose image"
+          },
+          {
+            "type": "Image",
+            "name": "image2",
+            "label": "Choose image"
+          },
+          {
+            "type": "Image",
+            "name": "image3",
+            "label": "Choose image"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "sectionName": "Gift Collab",
+    "isExistingComponent": true,
+    "controls": [
+      {
+        "groupName": "Background Setting",
+        "groupControls": [
+          {
+            "type": "Color Picker",
+            "name": "backGroundColor",
+            "label": "Choose background color"
+          }
+        ]
+      },
+      {
+        "groupName": "Heading Setting",
+        "groupControls": [
+          {
+            "type": "Input",
+            "name": "heading",
+            "label": "Heading",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 30
+              }
+            ]
+          },
+          {
+            "type": "Dropdown",
+            "name": "textFontFamily",
+            "label": "Heading font family"
+          },
+          {
+            "type": "Color Picker",
+            "name": "headingColor",
+            "label": "Heading text color"
+          },
+          {
+            "type": "Slider",
+            "name": "headingSize",
+            "label": "Heading size",
+            "options": [
+              40,
+              80
+            ]
+          },
+          {
+            "type": "Font Style",
+            "name": "headingFontStyle",
+            "label": "Heading font style"
+          }
+        ]
+      },
+      {
+        "groupName": "Box1 Settings",
+        "groupControls": [
+          {
+            "type": "Color Picker",
+            "name": "box1Color",
+            "label": "Choose background color"
+          },
+          {
+            "type": "Input",
+            "name": "box1heading",
+            "label": "Text",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 30
+              }
+            ]
+          },
+          {
+            "type": "Dropdown",
+            "name": "subtextFontFamily",
+            "label": "Text font family"
+          },
+          {
+            "type": "Color Picker",
+            "name": "box1textColor",
+            "label": "Text color"
+          },
+          {
+            "type": "Slider",
+            "name": "box1textSize",
+            "label": "Text size",
+            "options": [
+              30,
+              80
+            ]
+          },
+          {
+            "type": "Font Style",
+            "name": "box1textStyle",
+            "label": "Text font style"
+          },
+          {
+            "type": "ArrayOfObjects",
+            "name": "GiftBannerImages",
+            "label": "Images"
+          }
+        ]
+      },
+      {
+        "groupName": "Box2 Settings",
+        "groupControls": [
+          {
+            "type": "Color Picker",
+            "name": "box2Color",
+            "label": "Choose background color"
+          },
+          {
+            "type": "Input",
+            "name": "box2Text",
+            "label": "Text",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 30
+              }
+            ]
+          },
+          {
+            "type": "Dropdown",
+            "name": "cardImageTextFontFamily",
+            "label": "Text font family"
+          },
+          {
+            "type": "Color Picker",
+            "name": "box2textColor",
+            "label": "Text color"
+          },
+          {
+            "type": "Slider",
+            "name": "box2textSize",
+            "label": "Text size",
+            "options": [
+              18,
+              30
+            ]
+          },
+          {
+            "type": "Slider",
+            "name": "box2numSize",
+            "label": "Number size",
+            "options": [
+              70,
+              120
+            ]
+          },
+          {
+            "type": "Font Style",
+            "name": "box2fontstyle",
+            "label": "Text font style"
+          }
+        ]
+      },
+      {
+        "groupName": "Box3 Settings",
+        "groupControls": [
+          {
+            "type": "Color Picker",
+            "name": "box3Color",
+            "label": "Choose background color"
+          },
+          {
+            "type": "Input",
+            "name": "box3Text",
+            "label": "Text",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 30
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "groupName": "Box4 Settings",
+        "groupControls": [
+          {
+            "type": "Color Picker",
+            "name": "box4Color",
+            "label": "Choose background color"
+          },
+          {
+            "type": "Input",
+            "name": "box4Text",
+            "label": "Text",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 30
+              }
+            ]
+          },
+          {
+            "type": "Dropdown",
+            "name": "contentFontFamily",
+            "label": "Text font family"
+          },
+          {
+            "type": "Color Picker",
+            "name": "box4txtColor",
+            "label": "Text color"
+          },
+          {
+            "type": "Slider",
+            "name": "box4textSize",
+            "label": "Text size",
+            "options": [
+              20,
+              40
+            ]
+          },
+          {
+            "type": "Font Style",
+            "name": "box4textStye",
+            "label": "Text font style"
+          },
+          {
+            "type": "Image",
+            "name": "mobileImage",
+            "label": "Choose Image"
+          },
+          {
+            "type": "Input",
+            "name": "box4btnText",
+            "label": "Button text",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 25
+              }
+            ]
+          },
+          {
+            "type": "Slider",
+            "name": "box4btnsize",
+            "label": "Button text size",
+            "options": [
+              10,
+              20
+            ]
+          },
+          {
+            "type": "Color Picker",
+            "name": "box4btncolor",
+            "label": "Button text color"
+          },
+          {
+            "type": "Color Picker",
+            "name": "box4bgColor",
+            "label": "Button background color"
+          },
+          {
+            "type": "Text Area",
+            "name": "box4Link",
+            "label": "Button link",
+            "errors": [
+              {
+                "name": "required"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "sectionName": "Work Details",
+    "isExistingComponent": true,
+    "controls": [
+      {
+        "groupName": "Background Settings",
+        "groupControls": [
+          {
+            "type": "Color Picker",
+            "name": "bgColor",
+            "label": "Choose Background color"
+          },
+          {
+            "type": "Color Picker",
+            "name": "svgColor",
+            "label": "Choose Line color"
+          }
+        ]
+      },
+      {
+        "groupName": "Heading Settings",
+        "groupControls": [
+          {
+            "type": "Input",
+            "name": "heading",
+            "label": "Heading text",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 20
+              }
+            ]
+          },
+          {
+            "type": "Color Picker",
+            "name": "headingColor",
+            "label": "Heading color"
+          },
+          {
+            "type": "Slider",
+            "name": "headingSize",
+            "label": "Heading text",
+            "options": [
+              30,
+              80
+            ]
+          },
+          {
+            "type": "Dropdown",
+            "name": "textFontFamily",
+            "label": "Heading text font family"
+          },
+          {
+            "type": "Font Style",
+            "name": "headingStyle",
+            "label": "Heading text style"
+          }
+        ]
+      },
+      {
+        "groupName": "Button Settings",
+        "groupControls": [
+          {
+            "type": "Input",
+            "name": "buttonText",
+            "label": "Button Text",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 25
+              }
+            ]
+          },
+          {
+            "type": "Color Picker",
+            "name": "butttonTextColor",
+            "label": "Button text color"
+          },
+          {
+            "type": "Slider",
+            "name": "buttonTextSize",
+            "label": "Button text size",
+            "options": [
+              10,
+              25
+            ]
+          },
+          {
+            "type": "Font Style",
+            "name": "buttonTextStyle",
+            "label": "Button text style"
+          },
+          {
+            "type": "Color Picker",
+            "name": "buttonBgColor",
+            "label": "Button background color"
+          },
+          {
+            "type": "Dropdown",
+            "name": "buttonLink",
+            "label": "Redirect to"
+          }
+        ]
+      },
+      {
+        "groupName": "Image Settings",
+        "groupControls": [
+          {
+            "type": "Image",
+            "name": "image1",
+            "label": "Choose image"
+          },
+          {
+            "type": "Image",
+            "name": "image2",
+            "label": "Choose image"
+          },
+          {
+            "type": "Image",
+            "name": "image3",
+            "label": "Choose image"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "isExistingComponent": true,
+    "sectionName": "Blogs And Testimonials",
+    "controls": [
+      {
+        "groupName": "Heading Settings",
+        "groupControls": [
+          {
+            "type": "Common Heading",
+            "name": "headingSettings",
+            "label": "Heading Settings"
+          }
+        ]
+      },
+      {
+        "groupName": "Blogs Text Settings",
+        "groupControls": [
+          {
+            "type": "Color Picker",
+            "name": "blogTextColor",
+            "label": "Title text color"
+          },
+          {
+            "type": "Dropdown",
+            "name": "textFontFamily",
+            "label": "Title font family"
+          },
+          {
+            "type": "Color Picker",
+            "name": "blogDateTextColor",
+            "label": "Date text color"
+          },
+          {
+            "type": "Dropdown",
+            "name": "subtextFontFamily",
+            "label": "Date font family"
+          }
+        ]
+      },
+      {
+        "groupName": "Blogs Button Settings",
+        "groupControls": [
+          {
+            "type": "Dropdown",
+            "name": "textTwoFontFamily",
+            "label": "Button font family"
+          },
+          {
+            "type": "Color Picker",
+            "name": "moreTextColor",
+            "label": "Button text color"
+          },
+          {
+            "type": "Color Picker",
+            "name": "moreBoxColor",
+            "label": "Button box color"
+          }
+        ]
+      },
+      {
+        "groupName": "Testimonials Settings",
+        "groupControls": [
+          {
+            "type": "Color Picker",
+            "name": "testimonialBoxColor",
+            "label": "Box color"
+          },
+          {
+            "type": "Color Picker",
+            "name": "testamentTextColor",
+            "label": "Text color"
+          },
+          {
+            "type": "Dropdown",
+            "name": "textThreeFontFamily",
+            "label": "Title font family"
+          },
+          {
+            "type": "Dropdown",
+            "name": "textFourFontFamily",
+            "label": "Content font family"
+          }
+        ]
+      },
+      {
+        "groupName": "Staff Review Settings",
+        "groupControls": [
+          {
+            "type": "Color Picker",
+            "name": "staffBoxColor",
+            "label": "Box color"
+          },
+          {
+            "type": "Color Picker",
+            "name": "staffTextColor",
+            "label": "Text color"
+          },
+          {
+            "type": "Input",
+            "name": "staffName",
+            "label": "Staff name",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 70
+              }
+            ]
+          },
+          {
+            "type": "Input",
+            "name": "staffRole",
+            "label": "Staff role",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 70
+              }
+            ]
+          },
+          {
+            "type": "Text Area",
+            "name": "staffReview",
+            "label": "Staff review",
+            "errors": [
+              {
+                "name": "required"
+              },
+              {
+                "name": "maxlength",
+                "length": 250
+              }
+            ]
+          },
+          {
+            "type": "Dropdown",
+            "name": "textFiveFontFamily",
+            "label": "Text font family"
+          },
+          {
+            "type": "Image",
+            "name": "staffImage",
+            "label": "Staff Image"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "sectionName": "creditcard",
+    "isExistingComponent": true,
+    "controls": [
+      {
+        "groupName": "Head Text Settings",
+        "groupControls": [
+          {
+            "type": "Input",
+            "name": "heading",
+            "label": "Heading"
+          },
+          {
+            "type": "Font Style",
+            "name": "headTextFontStyle",
+            "label": "Heading Font Style"
+          },
+          {
+            "type": "Dropdown",
+            "name": "textFontFamily",
+            "label": "Heading Text Font Family"
+          },
+          {
+            "type": "Slider",
+            "name": "headTextSize",
+            "label": "Head Text Size",
+            "options": [
+              10,
+              80
+            ]
+          },
+          {
+            "type": "Color Picker",
+            "name": "headTextColor",
+            "label": "Heading Text Color"
+          }
+        ]
+      },
+      {
+        "groupName": "Button Text Settings",
+        "groupControls": [
+          {
+            "type": "Input",
+            "name": "buttonText",
+            "label": "Button Text"
+          },
+          {
+            "type": "Font Style",
+            "name": "buttonTextFontStyle",
+            "label": "Button Text Font Style"
+          },
+          {
+            "type": "Dropdown",
+            "name": "valueTitleFontFamily",
+            "label": "Button Text Font Family"
+          },
+          {
+            "type": "Slider",
+            "name": "buttonTextSize",
+            "label": "Button Text Size",
+            "options": [
+              10,
+              30
+            ]
+          },
+          {
+            "type": "Color Picker",
+            "name": "buttonTextColor",
+            "label": "Button Text Color"
+          }
+        ]
+      },
+      {
+        "groupName": "Button Settings",
+        "groupControls": [
+          {
+            "type": "Color Picker",
+            "name": "buttonColor",
+            "label": "Button Color"
+          },
+          {
+            "type": "Color Picker",
+            "name": "buttonHoverColor",
+            "label": "Button Hover Color"
+          },
+          {
+            "type": "Color Picker",
+            "name": "buttonBorderColor",
+            "label": "Button Border Color"
+          },
+          {
+            "type": "Slider",
+            "name": "buttonBorderRadius",
+            "label": "Button Border Radius",
+            "options": [
+              0,
+              25
+            ]
+          },
+          {
+            "type": "Dropdown",
+            "name": "buttonBorderLocation",
+            "label": "Button Border Location",
+            "options": [
+              {
+                "name": "All",
+                "value": "all"
+              },
+              {
+                "name": "Top",
+                "value": "top"
+              },
+              {
+                "name": "Left",
+                "value": "left"
+              },
+              {
+                "name": "Right",
+                "value": "right"
+              },
+              {
+                "name": "Bottom",
+                "value": "bottom"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "groupName": "Image Settings",
+        "groupControls": [
+          {
+            "type": "ArrayOfObjects",
+            "name": "GiftBannerImages",
+            "label": "Choose banner image"
+          }
+        ]
+      }
+    ]
+  }
+]

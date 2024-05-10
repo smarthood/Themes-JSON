@@ -1,0 +1,97 @@
+[
+  {
+    "sectionId": 1,
+    "details": {
+      "isEditor": true,
+      "logindata": {
+          "glassy": false,
+          "overlay": true,
+          "subText": "Get in touch",
+          "cardFill": true,
+          "cardSize": 56,
+          "imageUrl": "themes/camera/contactbanner.jpeg",
+          "showIcon": true,
+          "alignment": "row",
+          "animation": true,
+          "cardColor": "rgba(0,0,0,0.62)",
+          "fillInput": false,
+          "formTitle": "Sign In For Better Experience",
+          "imageSize": "cover",
+          "showEmail": false,
+          "showImage": true,
+          "appearance": "outline",
+          "buttonSize": 40,
+          "cardBorder": false,
+          "cardGlassy": false,
+          "cardShadow": false,
+          "inputColor": "white",
+          "buttonColor": "#ff4500",
+          "showDivider": false,
+          "showSubText": true,
+          "subTextSize": "24",
+          "formSubtitle": "Still not one of Us?",
+          "iconPosition": "inside",
+          "showMainText": false,
+          "subTextColor": "#ffffff",
+          "subTextStyle": [
+              "B"
+          ],
+          "templateName": "commonLogin",
+          "formTitleSize": "18",
+          "imagePosition": "fill",
+          "verticalAlign": "center",
+          "buttonFontSize": 10,
+          "cardBorderSide": "all",
+          "formTitleColor": "#ffffff",
+          "formTitleStyle": [],
+          "imageAlignment": "top",
+          "isButtonBorder": false,
+          "buttonTextColor": "#ffffff",
+          "cardBorderColor": "#ffffff",
+          "fieldFontFamily": "'Roboto',sans-serif",
+          "horizontalAlign": "center",
+          "normalLineColor": "rgba(255,255,255,0.74)",
+          "showPhoneNumber": false,
+          "cardBorderRadius": 2,
+          "focusedLineColor": "rgba(255,255,255,0.75)",
+          "formSubtitleSize": "12",
+          "normalLabelColor": "#ffffff",
+          "buttonBorderColor": "#000",
+          "focusedLabelColor": "#ffffff",
+          "formSubtitleColor": "#b7aeae",
+          "formSubtitleStyle": [],
+          "secondaryBtnStyle": false,
+          "subTextFontFamily": "'Arial',sans-serif",
+          "buttonBorderRadius": 5,
+          "containerAlignment": "center",
+          "backgroundAnimation": "tear",
+          "backgroundColorFill": "white",
+          "formTitleFontFamily": "'Arial',sans-serif",
+          "leftBackgroundColor": "white",
+          "showSocialMediaIcon": true,
+          "rightBackgroundColor": "#292c2e",
+          "showSecondaryDivider": false,
+          "formSubtitleFontFamily": "'Arial',sans-serif"
+      }
+    },
+    "selectorDetails": {
+      "selector": "phase-ii-storefront-sign-in",
+      "inputData": [
+        {
+          "selectorInput": "displayDetails",
+          "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+        }
+      ],
+      "outputData": [
+        {
+          "selectorOutput": "pageToNavigate",
+          "handlerFunction": "pageToNavigate"
+        }
+      ]
+    },
+    "sectionName": "Login page",
+    "isExistingComponent": true,
+    "sampleData": null,
+    "script": "themes/bundle/shared-theme/storefront-signin.js"
+  }
+]

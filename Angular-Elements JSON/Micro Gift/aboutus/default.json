@@ -1,0 +1,497 @@
+[
+  {
+    "sectionId": 1,
+    "details": {
+      "backGroundColor": "#ffffff",
+      "heading": "About us",
+      "headingSize": 18,
+      "textFontFamily": "Hellix",
+      "headingFontStyle": [
+        ""
+      ],
+      "headingColor": "#333333",
+      "content": "We make gifting and celebrating better for everyone.",
+      "contentSize": 88,
+      "contentColor": "#333333",
+      "contentFontFamily": "Larken",
+      "contentStyle": [
+        "B"
+      ],
+      "GiftBannerImages": [
+        {
+          "imageUrl": "themes/gift/abtbaner1.png"
+        },
+        {
+          "imageUrl": "themes/gift/abtbaner2.png"
+        },
+        {
+          "imageUrl": "themes/gift/abtbaner3.png"
+        },
+        {
+          "imageUrl": "themes/gift/abtbaner4.png"
+        },
+        {
+          "imageUrl": "themes/gift/abtbaner5.png"
+        },
+        {
+          "imageUrl": "themes/gift/abtbaner6.png"
+        }
+      ]
+    },
+    "script": "themes/bundle/speciality-store/gift-theme/gift-aboutus.js",
+    "selectorDetails": {
+      "selector": "phase-ii-gift-aboutus-banner",
+      "inputData": [
+        {
+          "selectorInput": "bannerDetails",
+          "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+        }
+      ],
+      "outputData": [
+        {
+          "selectorOutput": "pageToNavigate",
+          "handlerFunction": "pageToNavigate"
+        }
+      ]
+    },
+    "sectionName": "Gift Banner",
+    "isExistingComponent": true,
+    "sampleData": {}
+  },
+  {
+    "sectionId": 2,
+    "details": {
+      "heading": "How we Started",
+      "headingColor": "#52225e",
+      "headingSize": "55",
+      "headingStyle": [
+        "B"
+      ],
+      "textFontFamily": "'Times New Roman', Times, serif",
+      "image1": "themes/gift/aboutus_journey1.jpg",
+      "image2": "themes/gift/aboutus_journey2.jpg",
+      "smallContent": "<em>Let's Party</em> original artwork designed by Ashley LeQuere",
+      "smallContentColor": "#52225e",
+      "smallContentSize": "12",
+      "smallContentStyle": [
+        ""
+      ],
+      "subtextFontFamily": "Montserrat, sans-serif",
+      "content1": "Nicole and Ben started Givingli with a simple yet bold idea: to redefine digital gifting. They envisioned a platform where modern design meets heartfelt connections, making the act of sending gifts and greetings from phones both meaningful and enjoyable.",
+      "content2": "Today, Givingli proudly serves millions of people who choose to celebrate their special moments with us. It's more than just an app; it's a way for us to connect in life’s most meaningful moments. Showcasing works from dozens of independent artists, Givingli offers not just convenience but a personal touch in every gift and greeting.",
+      "content3": "We hope you enjoy!",
+      "contentColor": "#52225e",
+      "contentStyle": [
+        "B"
+      ],
+      "contentSize": "20",
+      "buttonTextSize": "15",
+      "butttonTextColor": "#c3b2e7",
+      "buttonText": "work with us",
+      "buttonTextStyle": [
+        "B"
+      ],
+      "contentFontFamily": "Montserrat, sans-serif",
+      "buttonBgColor": "#52225e",
+      "buttonLink": "products",
+      "instagram_Link": "https://www.instagram.com/",
+      "twitter_Link": "https://twitter.com/",
+      "facebook_Link": "https://www.facebook.com/",
+      "bgColor": "#ffffff"
+    },
+    "script": "themes/bundle/speciality-store/gift-theme/gift-aboutus.js",
+    "selectorDetails": {
+      "selector": "phase-ii-gift-aboutus-journey",
+      "inputData": [
+        {
+          "selectorInput": "sectionDetails",
+          "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+        }
+      ],
+      "outputData": [
+        {
+          "selectorOutput": "pageToNavigate",
+          "handlerFunction": "pageToNavigate"
+        }
+      ]
+    },
+    "sectionName": "Aboutus journey",
+    "isExistingComponent": true,
+    "sampleData": null
+  },
+  {
+    "sectionId": 3,
+    "details": {
+      "backGroundColor": "#ffffff",
+      "headingColor": "#333333",
+      "heading": "We create products that focus on",
+      "headingSize": 82,
+      "textFontFamily": "Larken",
+      "headingFontStyle": [
+        "B"
+      ],
+      "contentHeadingSize": 41,
+      "contentHeadingColor": "#333333",
+      "subtextFontFamily": "Larken",
+      "contentHeadingStyle": [
+        "B"
+      ],
+      "headingc1": "Design",
+      "content1": "We partner with independent artists to keep our greetings design- forward. We have thousands of beautiful, fun, and creative cards to choose from. Our product is clean and easy to use.",
+      "headingc2": "Connection",
+      "content2": "Our products put an emphasis on helping real people connect with the ones they love.",
+      "headingc3": "Sustainability",
+      "content3": "Our greetings are 100% digital, meaning we don't contribute to the 2.5M trees cut down each year for cards. 75M lbs of plastic goes to waste every year for gift cards. Our gift store is made up of 90% e-gifts so you can send a gift now without compromising the future.",
+      "contentSize": 25,
+      "contentColor": "#333333",
+      "contentFontFamily": "Hellix",
+      "contentStyle": [
+        ""
+      ],
+      "image1": "themes/gift/emojibg1.png",
+      "image2": "themes/gift/emojibg2.png",
+      "image3": "themes/gift/emojibg3.png"
+    },
+    "script": "themes/bundle/speciality-store/gift-theme/gift-aboutus.js",
+    "selectorDetails": {
+      "selector": "phase-ii-gift-aboutus-products-parallax",
+      "inputData": [
+        {
+          "selectorInput": "productDetails",
+          "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+        }
+      ],
+      "outputData": [
+        {
+          "selectorOutput": "pageToNavigate",
+          "handlerFunction": "pageToNavigate"
+        }
+      ]
+    },
+    "sectionName": "Product Detail",
+    "isExistingComponent": true,
+    "sampleData": {}
+  },
+  {
+    "sectionId": 4,
+    "details": {
+      "backGroundColor": "#ffffff",
+      "box1Color": "#c9da8f",
+      "box2Color": "#b8cedc",
+      "box3Color": "#f9a474",
+      "box4Color": "#f682a5",
+      "headingColor": "#333333",
+      "heading": "Gifts in numbers",
+      "headingSize": 70,
+      "textFontFamily": "Larken",
+      "headingFontStyle": [
+        "B"
+      ],
+      "box1heading": "Millions of Gifts Sent",
+      "box1textSize": 70,
+      "box1textColor": "#1c471f",
+      "subtextFontFamily": "Larken",
+      "box1textStyle": [
+        "B"
+      ],
+      "GiftBannerImages": [
+        {
+          "imageUrl": "themes/gift/box1image1.png"
+        },
+        {
+          "imageUrl": "themes/gift/box1image2.png"
+        },
+        {
+          "imageUrl": "themes/gift/box1image3.png"
+        },
+        {
+          "imageUrl": "themes/gift/box1image4.png"
+        },
+        {
+          "imageUrl": "themes/gift/box1image5.png"
+        }
+      ],
+      "box2number": 130,
+      "box2Text": "Independent Artists Globally",
+      "box2textSize": 24,
+      "box2numSize": 110,
+      "box2textColor": "#184363",
+      "cardImageTextFontFamily": "Larken",
+      "box2fontstyle": [
+        "B"
+      ],
+      "box3Text": "Brand partners",
+      "mobileImage": "themes/gift/box4.png",
+      "box4Text": "Want to learn more about us?",
+      "box4btnText": "Follow our Instagram",
+      "box4Link": "https://getzenbasket.com/",
+      "contentFontFamily": "Larken",
+      "buttontextFontFamily": "Hellix",
+      "box4bgColor": "#52225e",
+      "box4btncolor": "#f682a5",
+      "box4btnsize": 18,
+      "box4textSize": 30,
+      "box4txtColor": "#52225e",
+      "box4textStye": [
+        "B"
+      ]
+    },
+    "script": "themes/bundle/speciality-store/gift-theme/gift-aboutus.js",
+    "selectorDetails": {
+      "selector": "phase-ii-gift-aboutus-collab",
+      "inputData": [
+        {
+          "selectorInput": "collabDetails",
+          "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+        },
+        {
+          "selectorInput": "FeaturedProducts",
+          "handlerInput": "sampleData.products",
+          "functionName": "getFeaturedBrands"
+        },
+        {
+          "selectorInput": "brandData",
+          "handlerInput": "sampleData.products",
+          "functionName": "getBrands"
+        }
+      ],
+      "outputData": [
+        {
+          "selectorOutput": "pageToNavigate",
+          "handlerFunction": "pageToNavigate"
+        }
+      ]
+    },
+    "sectionName": "Gift Collab",
+    "isExistingComponent": true,
+    "sampleData": {}
+  },
+  {
+    "sectionId": 5,
+    "details": {
+      "heading": "Let's work together",
+      "headingColor": "#333333",
+      "textFontFamily": "'Times New Roman', Times, serif",
+      "headingStyle": [
+        "B"
+      ],
+      "headingSize": "55",
+      "buttonText": "Explore open positions",
+      "butttonTextColor": "#eceae5",
+      "buttonLink": "products",
+      "buttonTextSize": "16",
+      "buttonBgColor": "#4d4d4d",
+      "buttonTextStyle": [
+        "B"
+      ],
+      "image1": "themes/gift/aboutus_work1.jpg",
+      "image3": "themes/gift/aboutus_work2.jpg",
+      "image2": "themes/gift/aboutus_work3.jpg",
+      "bgColor": "#ffffff",
+      "svgColor": "#000000"
+    },
+    "script": "themes/bundle/speciality-store/gift-theme/gift-aboutus.js",
+    "selectorDetails": {
+      "selector": "phase-ii-gift-aboutus-works",
+      "inputData": [
+        {
+          "selectorInput": "workDetails",
+          "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+        }
+      ],
+      "outputData": [
+        {
+          "selectorOutput": "pageToNavigate",
+          "handlerFunction": "pageToNavigate"
+        }
+      ]
+    },
+    "sectionName": "Work Detail",
+    "isExistingComponent": true,
+    "sampleData": {}
+  },
+  {
+    "sectionId": 6,
+    "details": {
+      "headingSettings": {
+        "headingText": "See what everyone is saying about us",
+        "isBorder": true,
+        "borderStyle": [],
+        "isTextShadow": false,
+        "isBackgroundColor": false,
+        "textAlign": "center",
+        "smallScreenAlign": false,
+        "smallScreenTextAlign": "",
+        "headingTextColor": "#333333",
+        "backgroundColor": "#fff",
+        "headingFontSize": 60,
+        "headingStyle": [
+          "B"
+        ],
+        "titleFontFamily": "Larken",
+        "headingTransform": "none",
+        "borderColor": "#616568",
+        "borderType": "defaultBorder",
+        "defaultBorderType": "solid",
+        "invertBorder": false,
+        "insidePaddingX": 10,
+        "insidePaddingY": 10,
+        "outsidePaddingX": 0,
+        "outsidePaddingY": 0
+      },
+      "blogTextColor": "#fff",
+      "textFontFamily": "Larken",
+      "blogDateTextColor": "#fff",
+      "subtextFontFamily": "Tahoma",
+      "textTwoFontFamily": "Tahoma",
+      "moreBoxColor": "#b8cedc",
+      "moreTextColor": "#184363",
+      "testimonialBoxColor": "#fedf6f",
+      "testamentTextColor": "#4a411e",
+      "textThreeFontFamily": "Larken",
+      "textFourFontFamily": "Hellix",
+      "staffBoxColor": "#f9a474",
+      "staffTextColor": "#582614",
+      "staffImage": "themes/gift/ceo.jpg",
+      "staffReview": "This is as much a social network as it is a gifting platform and it’s been valuable for all sides: artists who design the gifts, brands who are partners, and ultimately the gift givers and receivers who keep coming back and spreading the word.",
+      "staffName": "Zaviera Bateman",
+      "staffRole": "Chief Executive",
+      "textFiveFontFamily": "Hellix"
+    },
+    "script": "themes/bundle/speciality-store/gift-theme/gift-aboutus.js",
+    "selectorDetails": {
+      "selector": "phase-ii-gift-blog-testimonials",
+      "inputData": [
+        {
+          "selectorInput": "testimonialDetails",
+          "handlerInput": "sampleData.testimonials",
+          "functionName": "getTestimonials"
+        },
+        {
+          "selectorInput": "blogDetails",
+          "handlerInput": "sampleData.blogs",
+          "functionName": "getAllBlog"
+        },
+        {
+          "selectorInput": "testimonialDisplay",
+          "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+        }
+      ],
+      "outputData": [
+        {
+          "selectorOutput": "pageToNavigate",
+          "handlerFunction": "pageToNavigate"
+        }
+      ]
+    },
+    "sectionName": "Blogs And Testimonials",
+    "isExistingComponent": true,
+    "sampleData": {
+      "testimonials": [
+        {
+          "imageUrl": "themes/handcraft-harbor/testimonial-1.jpg",
+          "author": "Sophia Reynolds",
+          "designation": "Art Collector",
+          "content": "The commissioned artwork exceeded my expectations. A true reflection of talent and passion, it brings a vibrant energy to my collection. In awe!",
+          "ratings": 4
+        },
+        {
+          "imageUrl": "themes/handcraft-harbor/testimonial-2.jpg",
+          "author": "Emily Turner",
+          "designation": " Interior Designer",
+          "content": "The handmade pottery in my living room is a masterpiece! Each piece tells a unique story, adding a touch of elegance to my designs. Exceptional craftsmanship!",
+          "ratings": 5
+        }
+      ],
+      "blogs": [
+        {
+          "title": "New Shoes On The Collection",
+          "content": "<p>Colorful sneakers, classy heels, comfy boots, and chic loafers grace our latest collection – your ultimate source for enduring style and elegance.</p>",
+          "bannerUrl": "themes/retail/footwearTheme/blog1.jpg",
+          "scheduleDate": "2016-05-26T10:07:44.564Z",
+          "scheduleTime": "15:37:00",
+          "createdAt": "2023-09-26T10:07:44.564Z",
+          "modifiedAt": "2023-08-21T10:07:45.159Z",
+          "authorName": "Roronoa Zoro",
+          "show": true
+        },
+        {
+          "title": "How To Choose The Right Pair Of Shoes?",
+          "content": "<p>Selecting ideal shoes involves assessing comfort, fit, style – an amalgamation where fashion seamlessly intertwines with practicality, reflecting your unique taste.</p>",
+          "bannerUrl": "themes/retail/footwearTheme/blog2.jpg",
+          "scheduleDate": "2016-05-26T10:07:44.564Z",
+          "scheduleTime": "15:37:00",
+          "createdAt": "2018-05-18T10:07:44.564Z",
+          "modifiedAt": "2023-08-21T10:07:45.159Z",
+          "authorName": "Roronoa Zoro",
+          "show": true
+        },
+        {
+          "title": "The Most Popular Types Of Shoes Today",
+          "content": "<p>The most popular types of shoes today include sneakers, boots, sandals, loafers, and flats. Comfort, versatility, and style are key factors driving their popularity.</p>",
+          "bannerUrl": "themes/retail/footwearTheme/blog3.jpg",
+          "scheduleDate": "2016-05-26T10:07:44.564Z",
+          "scheduleTime": "15:37:00",
+          "createdAt": "2016-11-26T10:07:44.564Z",
+          "modifiedAt": "2023-08-21T10:07:45.159Z",
+          "authorName": "Roronoa Zoro",
+          "show": true
+        }
+      ]
+    }
+  },
+  {
+    "sectionId": 7,
+    "details": {
+      "heading": "Ready to start giving?",
+      "headTextFontStyle": [
+        "B"
+      ],
+      "textFontFamily": "Georgia, 'Times New Roman', Times, serif",
+      "headTextSize": 55,
+      "headTextColor": "white",
+      "buttonText": "View Products",
+      "buttonTextFontStyle": [
+        ""
+      ],
+      "valueTitleFontFamily": "",
+      "buttonTextSize": 18,
+      "buttonTextColor": "Black",
+      "buttonColor": "white",
+      "buttonHoverColor": "rgb(236, 235, 235)",
+      "buttonBorderColor": "white",
+      "buttonBorderRadius": 25,
+      "buttonBorderLocation": "all",
+      "GiftBannerImages": [
+        {
+          "imageUrl": "themes/gift/giftcard1.jpg"
+        },
+        {
+          "imageUrl": "themes/gift/image_2024_01_27T04_28_48_049Z.png"
+        },
+        {
+          "imageUrl": "themes/gift/giftcard3.jpg"
+        }
+      ]
+    },
+    "script": "themes/bundle/speciality-store/gift-theme/gift-home.js",
+    "selectorDetails": {
+      "selector": "phase-ii-gift-creditcard",
+      "inputData": [
+        {
+          "selectorInput": "displayDetails",
+          "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+        }
+      ],
+      "outputData": [
+        {
+          "selectorOutput": "pageToNavigate",
+          "handlerFunction": "pageToNavigate"
+        }
+      ]
+    },
+    "sectionName": "creditcard",
+    "isExistingComponent": true,
+    "sampleData": {}
+  }
+]

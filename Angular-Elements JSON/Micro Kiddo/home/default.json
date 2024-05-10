@@ -1,0 +1,444 @@
+[
+    {
+        "sectionId": 1,
+        "isVisible": true,
+        "isExistingComponent": true,
+        "details": {
+            "bookDetails": [
+                {
+                    "imageUrl": "themes/childrentheme/SoftToy.jpg",
+                    "title": "Created to be loved",
+                    "content1": "Friends to have adventure with",
+                    "content2": "Discover Collections"
+                },
+                {
+                    "imageUrl": "themes/childrentheme/TigerToy.jpg",
+                    "title": "Created to be loved",
+                    "content1": "Friends to have adventure with",
+                    "content2": "Discover Collections"
+                },
+                {
+                    "imageUrl": "themes/childrentheme/BirthdayToy.jpg",
+                    "title": "Created to be loved",
+                    "content1": "Friends to have adventure with",
+                    "content2": "Discover Collections"
+                }
+            ],
+            "color": "#d0eded",
+            "subcolor": "#FFFFFF",
+            "titlecolor": "#FFFFFF",
+            "textSize": 50,
+            "fontstyle": [
+                "B"
+            ],
+            "textFontFamily": "'Montserrat',sans-serif",
+            "colorone": "#FFFFFF",
+            "textSizeone": 20,
+            "fontstyleone": [
+                "B"
+            ],
+            "textOneFontFamily": "'Montserrat',sans-serif",
+            "colortwo": "var(--primary-color)",
+            "textSizetwo": 20,
+            "fontstyletwo": [
+                "B"
+            ],
+            "textTwoFontFamily": "'Montserrat',sans-serif",
+            "backgroundColor": "var(--secondary-color)",
+            "buttonLink": "products"
+        },
+        "selectorDetails": {
+            "selector": "phase-ii-children-item-home",
+            "inputData": [
+                {
+                    "selectorInput": "homebanner",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "script": "themes/bundle/retail/kiddo-heaven/children-home.js"
+    },
+    {
+        "sectionId": 2,
+        "isVisible": true,
+        "isExistingComponent": true,
+        "details": {
+            "title": "Best Sellers",
+            "color": "#000000",
+            "textSize": 34,
+            "textalign": "left",
+            "fontstyle": [
+                "B"
+            ],
+            "button": "See All Toys",
+            "buttontextcolor": "#000000",
+            "buttonfontstyle": [
+                ""
+            ],
+            "buttontextFontFamily": "'Montserrat',sans-serif",
+            "textFontFamily": "'Montserrat',sans-serif"
+        },
+        "selectorDetails": {
+            "selector": "phase-ii-children-item-feautured-products",
+            "inputData": [
+                {
+                    "selectorInput": "Productslist",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                },
+                {
+                    "selectorInput": "featuredProducts",
+                    "handlerInput": "sampleData.Products",
+                    "functionName": "getAllFeaturedProducts"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sampleData": {
+            "Products": [
+                {
+                    "featuredImage": "themes/childrentheme/BlueToy.jpg",
+                    "name": "Teddy Bear",
+                    "price": "38.00"
+                },
+                {
+                    "featuredImage": "themes/childrentheme/PigToy.jpg",
+                    "name": "Dog Toy",
+                    "price": "38.00"
+                },
+                {
+                    "featuredImage": "themes/childrentheme/PinkTeddy.jpg",
+                    "name": "Cute Toy",
+                    "price": "38.00"
+                },
+                {
+                    "featuredImage": "themes/childrentheme/RabbitToy.jpg",
+                    "name": "Pink Teddy Bear",
+                    "price": "38.00"
+                }
+            ]
+        },
+        "sectionName": "Product list",
+        "script": "themes/bundle/retail/kiddo-heaven/children-home.js"
+    },
+    {
+        "sectionId": 3,
+        "isVisible": true,
+        "isExistingComponent": true,
+        "details": {
+            "title": "Featured Categories",
+            "color": "#000000",
+            "textSize": 34,
+            "textalign": "left",
+            "fontstyle": [
+                "B"
+            ],
+            "textFontFamily": "'Montserrat',sans-serif"
+        },
+        "selectorDetails": {
+            "selector": "phase-ii-children-item-products-category",
+            "inputData": [
+                {
+                    "selectorInput": "FeaturedProducts",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                },
+                {
+                    "selectorInput": "categories",
+                    "handlerInput": "sampleData.categories",
+                    "functionName": "getAllFeaturedCategories"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sampleData": {
+            "categories": [
+                {
+                    "categoryImageUrl": "themes/childrentheme/DinoToy.jpg",
+                    "categoryName": "Teddy Bear"
+                },
+                {
+                    "categoryImageUrl": "themes/childrentheme/CrocodileToy.jpg",
+                    "categoryName": "Dog Toy"
+                },
+                {
+                    "categoryImageUrl": "themes/childrentheme/ElephantToy.jpg",
+                    "categoryName": "Cute Toy"
+                },
+                {
+                    "categoryImageUrl": "themes/childrentheme/GirafeeToy.jpg",
+                    "categoryName": "Pink Teddy Bear"
+                }
+            ],
+            "sectionName": "Featured Categories"
+        },
+        "script": "themes/bundle/retail/kiddo-heaven/children-home.js"
+    },
+    {
+        "sectionId": 4,
+        "isVisible": true,
+        "details": {
+            "title": "RICE REVIEWS",
+            "color": "#000000",
+            "textSize": 34,
+            "fontstyle": [
+                "B"
+            ],
+            "textFontFamily": "'Montserrat',sans-serif",
+            "backgroundColor": "#b6e0ee42",
+            "colorone": "#000000",
+            "colortwo": "#000000",
+            "textSizeone": 25,
+            "textSizetwo": 18,
+            "fontstyleone": [],
+            "fontstyletwo": [],
+            "textOneFontFamily": "'Montserrat',sans-serif",
+            "textTwoFontFamily": "'Montserrat',sans-serif",
+            "startColor": "#727272",
+            "dotColor": "#f80000",
+            "activeDotColor": "#000000"
+        },
+        "selectorDetails": {
+            "selector": "phase-ii-children-item-testimonials",
+            "inputData": [
+                {
+                    "selectorInput": "Testimonials",
+                    "handlerInput": "sampleData.testimonials",
+                    "functionName": "getTestimonials"
+                },
+                {
+                    "selectorInput": "testimonialDisplay",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": []
+        },
+        "sectionName": "Testimonial",
+        "isExistingComponent": true,
+        "sampleData": {
+            "testimonials": [
+                {
+                    "author": "Alexander Cole",
+                    "content": "These sleek cufflinks instantly elevated my style game. Classy and confident, they are the perfect accessory for any occasion. Highly recommended!",
+                    "ratings": 4
+                },
+                {
+                    "author": "Samuel Bennett",
+                    "content": "The leather wallet I purchased is not only stylish but also incredibly functional. It holds all my essentials and adds a touch of sophistication to my everyday look.",
+                    "ratings": 2
+                },
+                {
+                    "author": "Benjamin Taylor",
+                    "content": "I was skeptical about wearing a tie clip, but this one changed my mind. It adds a subtle yet impactful touch to my outfit, giving me that extra boost of confidence.",
+                    "ratings": 5
+                }
+            ]
+        },
+        "script": "themes/bundle/retail/kiddo-heaven/children-home.js"
+    },
+    {
+        "sectionId": 5,
+        "details": {
+            "date": {
+                "color": "#000000",
+                "format": "mediumDate",
+                "fontSize": 12,
+                "fontStyle": [],
+                "iconColor": "darkgray",
+                "textAlign": "left",
+                "iconEnable": null,
+                "textFamily": "'Montserrat',sans-serif"
+            },
+            "image": {
+                "imagefit": "contain"
+            },
+            "title": {
+                "color": "#000000",
+                "fontSize": 20,
+                "fontStyle": [
+                    "B"
+                ],
+                "textAlign": "left",
+                "textFamily": "'Montserrat',sans-serif"
+            },
+            "author": {
+                "color": "#000000",
+                "fontSize": 12,
+                "fontStyle": [],
+                "textAlign": "left",
+                "textFamily": "'Montserrat',sans-serif"
+            },
+            "isEditor": false,
+            "keywords": {
+                "color": null,
+                "fontStyle": null,
+                "textFamily": null
+            },
+            "blogButton": {
+                "valid": true,
+                "sectionId": 5,
+                "buttonLayout": "row",
+                "buttonEnabled": false
+            },
+            "headingSettings": {
+                "isBorder": false,
+                "textAlign": "left",
+                "borderType": "defaultBorder",
+                "borderColor": "#717171",
+                "borderStyle": null,
+                "headingText": "Latest News And Blogs",
+                "headingStyle": [
+                    "B"
+                ],
+                "invertBorder": false,
+                "isTextShadow": false,
+                "enableHeading": true,
+                "insidePaddingX": 10,
+                "insidePaddingY": 10,
+                "backgroundColor": "#fff",
+                "cutomBorderType": "solid",
+                "headingFontSize": 35,
+                "outsidePaddingX": 20,
+                "outsidePaddingY": 0,
+                "titleFontFamily": "'Montserrat',sans-serif",
+                "customBorderType": "verticalBorder",
+                "headingTextColor": "#000000",
+                "headingTransform": "none",
+                "smallScreenAlign": false,
+                "customBorderWidth": 0,
+                "defaultBorderType": "solid",
+                "isBackgroundColor": false,
+                "customBorderHeight": 3,
+                "diagonalTextBgColor": "#ffffff00",
+                "smallScreenTextAlign": "left",
+                "verticalBorderSpacing": 0,
+                "cutomBorderHorizondalPosition": "center center"
+            },
+            "blogStyleSettings": {
+                "cardColor": "#ffffff",
+                "backgroundColor": "#f7f7f7",
+                "blogDisplayStyle": "kiddoBlogs"
+            },
+            "viewButtonPosition": "end center"
+        },
+        "selectorDetails": {
+            "selector": "phase-ii-common-blogs",
+            "inputData": [
+                {
+                    "selectorInput": "blogsDetails",
+                    "handlerInput": "sampleData.blogs",
+                    "functionName": "getAllBlog"
+                },
+                {
+                    "selectorInput": "displayDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sectionName": "Blog",
+        "isExistingComponent": true,
+        "sampleData": {
+            "blogs": [
+                {
+                    "seoKeywords": "Learning, Toys",
+                    "title": "New Shoes On The Collection",
+                    "content": "<p>Colorful sneakers, classy heels, comfy boots, and chic loafers grace our latest collection – your ultimate source for enduring style and elegance.</p>",
+                    "bannerUrl": "themes/childrentheme/BrownTeddy.jpg",
+                    "scheduleDate": "2016-05-26T10:07:44.564Z",
+                    "scheduleTime": "15:37:00",
+                    "createdAt": "2023-09-26T10:07:44.564Z",
+                    "modifiedAt": "2023-08-21T10:07:45.159Z",
+                    "authorName": "Roronoa Zoro",
+                    "show": true
+                },
+                {
+                    "seoKeywords": "Toys",
+                    "title": "How To Choose The Right Pair Of Shoes?",
+                    "content": "<p>Selecting ideal shoes involves assessing comfort, fit, style – an amalgamation where fashion seamlessly intertwines with practicality, reflecting your unique taste.</p>",
+                    "bannerUrl": "themes/childrentheme/BlueToy.jpg",
+                    "scheduleDate": "2016-05-26T10:07:44.564Z",
+                    "scheduleTime": "15:37:00",
+                    "createdAt": "2018-05-18T10:07:44.564Z",
+                    "modifiedAt": "2023-08-21T10:07:45.159Z",
+                    "authorName": "Roronoa Zoro",
+                    "show": true
+                },
+                {
+                    "title": "The Most Popular Types Of Shoes Today",
+                    "content": "<p>The most popular types of shoes today include sneakers, boots, sandals, loafers, and flats. Comfort, versatility, and style are key factors driving their popularity.</p>",
+                    "bannerUrl": "themes/childrentheme/MonkeyToy.jpg",
+                    "scheduleDate": "2016-05-26T10:07:44.564Z",
+                    "scheduleTime": "15:37:00",
+                    "createdAt": "2016-11-26T10:07:44.564Z",
+                    "modifiedAt": "2023-08-21T10:07:45.159Z",
+                    "authorName": "Roronoa Zoro",
+                    "show": true
+                }
+            ]
+        },
+        "isVisible": true,
+        "isMobileView": true,
+        "isDesktopView": true,
+        "script": "themes/bundle/shared-theme/common-blogs.js",
+        "innerScript": [
+            "themes/bundle/shared-theme/common-button.js",
+            "themes/bundle/shared-theme/common-heading.js"
+        ]
+    },
+    {
+        "sectionId": 6,
+        "details": {},
+        "selectorDetails": {
+            "selector": "phase-ii-recently-viewed-products",
+            "inputData": [
+                {
+                    "selectorInput": "recentlyViewedProducts",
+                    "handlerInput": "sampleData.recentlyViewedProducts",
+                    "functionName": "getRecentlyViewedProducts"
+                }
+            ],
+            "outputData": []
+        },
+        "sectionName": "Recently Viewed Products",
+        "isExistingComponent": true,
+        "sampleData": {
+            "recentlyViewedProducts": [
+                {
+                    "product": {
+                        "featuredImage": "themes/childrentheme/DinoToy.jpg",
+                        "name": "Cute Toy",
+                        "price": "200"
+                    }
+                },
+                {
+                    "product": {
+                        "featuredImage": "themes/childrentheme/GirafeeToy.jpg",
+                        "name": "Toy",
+                        "price": "300"
+                    }
+                }
+            ]
+        },
+        "isVisible": true
+    }
+]

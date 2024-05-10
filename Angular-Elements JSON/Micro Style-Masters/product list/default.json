@@ -1,0 +1,991 @@
+[
+  {
+      "sectionId": 3,
+      "details": {
+          "productListDetails": {
+              "productCardDesign": "retailProductList",
+              "productCount": 20,
+              "gridStyle": "fixed",
+              "columnGap": 25,
+              "rowGap": 25,
+              "aspectWidth": "1",
+              "aspectHeight": "1",
+              "imageSize": "contain",
+              "isDisplayPrice": true,
+              "isFavoriteMainProduct": true,
+              "manyStockLabel": "Many In Stock",
+              "availabilityHeading": "Availability",
+              "taxButtonText": "Inclusive Tax",
+              "isDisplayRating": true,
+              "showNavigationsection": true,
+              "showFilterAndSort": true,
+              "textSize": 16,
+              "columnNo": 4,
+              "isAddButtonEnabled": true,
+              "addToBagButtonText": "Add to Bag",
+              "isStar": true,
+              "ratingColor": "#ffd700",
+              "restaurantFoodCategory": false,
+              "filterData": {
+                  "showSortOption": true,
+                  "showFilterOption": true,
+                  "sortArray": [
+                      {
+                          "isVisible": true,
+                          "display": "Name : Ascending",
+                          "value": {
+                              "fieldName": "name",
+                              "order": "ASC"
+                          }
+                      },
+                      {
+                          "isVisible": true,
+                          "display": "Name : Descending",
+                          "value": {
+                              "fieldName": "name",
+                              "order": "DESC"
+                          }
+                      }
+                  ],
+                  "filterArray": [
+                      {
+                          "filterName": "Price",
+                          "type": "check-box",
+                          "fieldName": "price",
+                          "optionType": "Range",
+                          "isDefault": true,
+                          "isVisible": true,
+                          "options": [
+                              {
+                                  "display": "$0 - $499",
+                                  "value": {
+                                      "begin": 0,
+                                      "end": 499
+                                  }
+                              },
+                              {
+                                  "display": "$500 - $999",
+                                  "value": {
+                                      "begin": 500,
+                                      "end": 999
+                                  }
+                              },
+                              {
+                                  "display": "$1000 - $1999",
+                                  "value": {
+                                      "begin": 1000,
+                                      "end": 1999
+                                  }
+                              },
+                              {
+                                  "display": "$2000 - $3999",
+                                  "value": {
+                                      "begin": 2000,
+                                      "end": 3999
+                                  }
+                              },
+                              {
+                                  "display": "$4000 - $10000",
+                                  "value": {
+                                      "begin": 4000,
+                                      "end": 10000
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "filterName": "Stock",
+                          "type": "radio-option",
+                          "fieldName": "stock",
+                          "optionType": "Simple",
+                          "isDefault": true,
+                          "isVisible": true,
+                          "options": [
+                              {
+                                  "display": "Instock",
+                                  "value": "inStock"
+                              },
+                              {
+                                  "display": "Out of stock",
+                                  "value": "outOfStock"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          }
+      },
+      "script": "themes/bundle/shared-theme/common-parent-product-list.js",
+      "innerScript": [
+          "themes/bundle/shared-theme/common-product-list.js",
+          "themes/bundle/shared-theme/product-filter.js",
+          "themes/bundle/shared-theme/variants-and-modifier.js",
+          "themes/bundle/shared-theme/common-timer.js"
+      ],
+      "selectorDetails": {
+          "selector": "phase-ii-common-parent-product-list",
+          "inputData": [
+              {
+                  "selectorInput": "salesCountdownTimerDiscounts",
+                  "handlerInput": "sampleData.salesCountdownTimerDiscounts",
+                  "functionName": "getAllSalesCountdownTimerDiscounts"
+              },
+              {
+                  "selectorInput": "categoryList",
+                  "handlerInput": "sampleData.categoryList",
+                  "functionName": "getCategories"
+              },
+              {
+                  "selectorInput": "productPageDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent",
+                  "functionName": "getFilterDetails"
+              },
+              {
+                  "selectorInput": "productArray",
+                  "handlerInput": "sampleData.productArray"
+              },
+              {
+                  "selectorInput": "orderId",
+                  "handlerInput": "sampleData.orderId"
+              },
+              {
+                  "selectorInput": "customerId",
+                  "handlerInput": "sampleData.customerId"
+              },
+              {
+                  "selectorInput": "paginationDetails",
+                  "handlerInput": "sampleData.paginationDetails"
+              },
+              {
+                  "selectorInput": "menuCategoryAvailability",
+                  "handlerInput": "sampleData.menuCategoryAvailability"
+              },
+              {
+                  "selectorInput": "productOrders",
+                  "handlerInput": "sampleData.productOrders",
+                  "functionName": "getProductOrders"
+              },
+              {
+                  "selectorInput": "selectedDetails",
+                  "handlerInput": "sampleData.selectedDetails"
+              },
+              {
+                  "selectorInput": "foodCategories",
+                  "handlerInput": "sampleData.foodCategories",
+                  "functionName": "getFoodCategories"
+              },
+              {
+                  "selectorInput": "foodSelectedCategoryId",
+                  "handlerInput": "sampleData.foodSelectedCategoryId"
+              },
+              {
+                  "selectorInput": "cartProductArray",
+                  "handlerInput": "sampleData.cartProductArray"
+              },
+              {
+                  "selectorInput": "productDetails",
+                  "handlerInput": "sampleData.productDetails"
+              },
+              {
+                  "selectorInput": "isWishlist",
+                  "handlerInput": "sampleData.isWishlist"
+              },
+              {
+                  "selectorInput": "salesCountdownTimerOffers",
+                  "handlerInput": "sampleData.salesCountdownTimerOffers"
+              },
+              {
+                  "selectorInput": "salesCountdownTimerOffers",
+                  "handlerInput": "sampleData.salesCountdownTimerOffers"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "filterResult",
+                  "handlerFunction": "filterAction"
+              },
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              },
+              {
+                  "selectorOutput": "updatedQuantity",
+                  "handlerFunction": "addToCartProduct"
+              },
+              {
+                  "selectorOutput": "addRemoveFromWishlist",
+                  "handlerFunction": "addRemoveFromWishlist"
+              },
+              {
+                  "selectorOutput": "emitData",
+                  "handlerFunction": "onDataEmit"
+              },
+              {
+                  "selectorOutput": "selectedCategoryDetails",
+                  "handlerFunction": "selectedCategoryEmit"
+              },
+              {
+                  "selectorOutput": "foodCategory",
+                  "handlerFunction": "getFoodCategory"
+              },
+              {
+                  "selectorOutput": "searchTextEmit",
+                  "handlerFunction": "searchTextEmitRetail"
+              },
+              {
+                  "selectorOutput": "cartData",
+                  "handlerFunction": "addToCart"
+              },
+              {
+                  "selectorOutput": "getCartProductArray",
+                  "handlerFunction": "getCartProducts"
+              },
+              {
+                  "selectorOutput": "getOneProduct",
+                  "handlerFunction": "getOneProductDetails"
+              },
+              {
+                  "selectorOutput": "recentlyViewed",
+                  "handlerFunction": "createRecentlyViewedProducts"
+              },
+              {
+                  "selectorOutput": "selectedVariant",
+                  "handlerFunction": "getWishlistDetails"
+              }
+          ]
+      },
+      "sectionName": "Product List",
+      "isExistingComponent": true,
+      "sampleData": {
+          "categoryList": [
+              {
+                  "id": 1,
+                  "categoryName": "Products",
+                  "subCategory": [
+                      {
+                          "id": 1,
+                          "categoryName": "Conditioners",
+                          "subCategory": []
+                      },
+                      {
+                          "id": 2,
+                          "categoryName": "Sprays",
+                          "subCategory": []
+                      },
+                      {
+                          "id": 3,
+                          "categoryName": "Straighteners",
+                          "subCategory": []
+                      },
+                      {
+                          "id": 4,
+                          "categoryName": "Shampoos",
+                          "subCategory": []
+                      },
+                      {
+                          "id": 5,
+                          "categoryName": "Rinses",
+                          "subCategory": []
+                      }
+                  ]
+              },
+              {
+                  "id": 2,
+                  "categoryName": "Household Cleaning",
+                  "subCategory": []
+              },
+              {
+                  "id": 3,
+                  "categoryName": "Fabric Wash",
+                  "subCategory": []
+              },
+              {
+                  "id": 4,
+                  "categoryName": "Personal Wash",
+                  "subCategory": []
+              },
+              {
+                  "id": 5,
+                  "categoryName": "Facial & Skin Care",
+                  "subCategory": []
+              },
+              {
+                  "id": 6,
+                  "categoryName": "Oral Care",
+                  "subCategory": []
+              }
+          ],
+          "selectedDetails": {
+              "categoryDetails": {
+                  "id": 1,
+                  "categoryName": "Products",
+                  "category": {
+                      "id": 1,
+                      "name": "Products"
+                  }
+              },
+              "filterDetails": {},
+              "searchText": null
+          },
+          "foodCategories": [
+              {
+                  "id": 0,
+                  "name": "All"
+              },
+              {
+                  "id": 1,
+                  "name": "Veg",
+                  "color": "green"
+              },
+              {
+                  "id": 2,
+                  "name": "Non-veg",
+                  "color": "red"
+              }
+          ],
+          "productArray": [
+              {
+                  "id": 1,
+                  "productId": "prod-1",
+                  "name": "Maroon Stoned Tie",
+                  "featuredImage": "themes/retail-theme-4/sampledata/tie1.png",
+                  "price": "599.00",
+                  "costComparePrice": "nan",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 13,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 2,
+                  "productId": "prod-2",
+                  "name": "Pinkish Brown Striped Tie",
+                  "featuredImage": "themes/retail-theme-4/sampledata/tie2.png",
+                  "price": "699.00",
+                  "costComparePrice": "nan",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 10,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 3,
+                  "productId": "prod-3",
+                  "name": "Lilac and Black Striped Tie",
+                  "featuredImage": "themes/retail-theme-4/sampledata/tie3.png",
+                  "price": "899.00",
+                  "costComparePrice": "nan",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 15,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 4,
+                  "productId": "prod-4",
+                  "name": "Ironic Pink Star Tie",
+                  "featuredImage": "themes/retail-theme-4/sampledata/tie4.png",
+                  "price": "799.00",
+                  "costComparePrice": "1000.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 10,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 5,
+                  "productId": "prod-5",
+                  "name": "Maroon Dotted Tie",
+                  "featuredImage": "themes/retail-theme-4/sampledata/tie5.png",
+                  "price": "499.00",
+                  "costComparePrice": "nan",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 5,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 6,
+                  "productId": "prod-6",
+                  "name": "Leafy Style Tie",
+                  "featuredImage": "themes/retail-theme-4/sampledata/tie6.png",
+                  "price": "299.00",
+                  "costComparePrice": "400.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 6,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 7,
+                  "productId": "prod-7",
+                  "name": "Aqua Style Tie",
+                  "featuredImage": "themes/retail-theme-4/sampledata/tie7.png",
+                  "price": "899.00",
+                  "costComparePrice": "1000.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 14,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 8,
+                  "productId": "prod-8",
+                  "name": "Pinkish Dotted Tie",
+                  "featuredImage": "themes/retail-theme-4/sampledata/tie8.png",
+                  "price": "699.00",
+                  "costComparePrice": "1000.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 5,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 9,
+                  "productId": "prod-9",
+                  "name": "Maroon Black Dotted Tie",
+                  "featuredImage": "themes/retail-theme-4/sampledata/tie9.png",
+                  "price": "2899.00",
+                  "costComparePrice": "3000.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 7,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 10,
+                  "productId": "prod-10",
+                  "name": "Sky & Pink Tie",
+                  "featuredImage": "themes/retail-theme-4/sampledata/tie10.png",
+                  "price": "599.00",
+                  "costComparePrice": "799.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 15,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 11,
+                  "productId": "prod-11",
+                  "name": "Lilac and White Checked Tie",
+                  "featuredImage": "themes/retail-theme-4/sampledata/tie11.png",
+                  "price": "1299.00",
+                  "costComparePrice": "1599.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 7,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 12,
+                  "productId": "prod-12",
+                  "name": "Maroon and White Checked Tie",
+                  "featuredImage": "themes/retail-theme-4/sampledata/tie12.png",
+                  "price": "999.00",
+                  "costComparePrice": "nan",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 12,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 13,
+                  "productId": "prod-13",
+                  "name": "Blue Silky Smooth Tie",
+                  "featuredImage": "themes/retail-theme-4/sampledata/tie13.png",
+                  "price": "599.00",
+                  "costComparePrice": "1000.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 14,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 14,
+                  "productId": "prod-14",
+                  "name": "Fun Floral Tie",
+                  "featuredImage": "themes/retail-theme-4/sampledata/tie18.png",
+                  "price": "899.00",
+                  "costComparePrice": "1099.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 7,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 15,
+                  "productId": "prod-15",
+                  "name": "Formal Blue and Grey Tie",
+                  "featuredImage": "themes/retail-theme-4/sampledata/tie15.png",
+                  "price": "2959.00",
+                  "costComparePrice": "3599.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 9,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 16,
+                  "productId": "prod-16",
+                  "name": "Midway Faded Blue & White Tie",
+                  "featuredImage": "themes/retail-theme-4/sampledata/tie14.png",
+                  "price": "1989.00",
+                  "costComparePrice": "2599.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 9,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 17,
+                  "productId": "prod-17",
+                  "name": "Cross Link Blue Tie",
+                  "featuredImage": "themes/retail-theme-4/sampledata/tie17.png",
+                  "price": "829.00",
+                  "costComparePrice": "10099.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 9,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 18,
+                  "productId": "prod-18",
+                  "name": "Pink and Maroon Large Checked Tie",
+                  "featuredImage": "themes/retail-theme-4/sampledata/tie16.png",
+                  "price": "959.00",
+                  "costComparePrice": "1099.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 14,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 19,
+                  "productId": "prod-19",
+                  "name": "Vertical Belt Grey Mens Leather Belt",
+                  "featuredImage": "themes/retail-theme-4/sampledata/belt1.png",
+                  "price": "389.00",
+                  "costComparePrice": "599.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 12,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 20,
+                  "productId": "prod-20",
+                  "name": "Vertical Lena Mens Leather Belt",
+                  "featuredImage": "themes/retail-theme-4/sampledata/belt2.png",
+                  "price": "499.00",
+                  "costComparePrice": "799.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 7,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 21,
+                  "productId": "prod-21",
+                  "name": "Tommy Hilfiger Leroy Non-reversible Mens Leather Belt",
+                  "featuredImage": "themes/retail-theme-4/sampledata/belt4.png",
+                  "price": "999.00",
+                  "costComparePrice": "1500.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 8,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 22,
+                  "productId": "prod-22",
+                  "name": "Tommy Hilfiger Yangy Large Non Reversible Leather Belt",
+                  "featuredImage": "themes/retail-theme-4/sampledata/belt3.png",
+                  "price": "1899.00",
+                  "costComparePrice": "2000.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 7,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 23,
+                  "productId": "prod-23",
+                  "name": "Gear Brown Solid Backpack",
+                  "featuredImage": "themes/retail-theme-4/sampledata/bag7.jpg",
+                  "price": "299.00",
+                  "costComparePrice": "300.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 10,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 24,
+                  "productId": "prod-24",
+                  "name": "Puma Blue Pioneer Backpack",
+                  "featuredImage": "themes/retail-theme-4/sampledata/bag6.jpg",
+                  "price": "299.00",
+                  "costComparePrice": "400.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 5,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 25,
+                  "productId": "prod-25",
+                  "name": "Aristocrat Teal Blue Backpack",
+                  "featuredImage": "themes/retail-theme-4/sampledata/bag3.jpg",
+                  "price": "1072.00",
+                  "costComparePrice": "1500.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 15,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 26,
+                  "productId": "prod-26",
+                  "name": "Green Rain Protect Backpack",
+                  "featuredImage": "themes/retail-theme-4/sampledata/bag4.jpg",
+                  "price": "899.00",
+                  "costComparePrice": "1000.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 15,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 27,
+                  "productId": "prod-27",
+                  "name": "Skybags Navy Blue & Yellow Backpack",
+                  "featuredImage": "themes/retail-theme-4/sampledata/bag5.jpg",
+                  "price": "3599.00",
+                  "costComparePrice": "4000.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 6,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 28,
+                  "productId": "prod-28",
+                  "name": "Tommy Hilfiger Blue Backpack",
+                  "featuredImage": "themes/retail-theme-4/sampledata/bag1.jpg",
+                  "price": "6079.00",
+                  "costComparePrice": "7000.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 13,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 29,
+                  "productId": "prod-29",
+                  "name": "Tommy Hilfiger White & Red Backpack",
+                  "featuredImage": "themes/retail-theme-4/sampledata/bag8.jpg",
+                  "price": "5089.00",
+                  "costComparePrice": "6000.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 15,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 30,
+                  "productId": "prod-30",
+                  "name": "WildCraft Black Ash Backpack",
+                  "featuredImage": "themes/retail-theme-4/sampledata/bag2.jpg",
+                  "price": "1099.00",
+                  "costComparePrice": "1200.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 8,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              }
+          ],
+          "orderId": null,
+          "customerId": 1,
+          "paginationDetails": {
+              "limit": 10,
+              "offset": 0,
+              "itemsCount": 30,
+              "listDataSource": [
+                  {},
+                  {},
+                  {}
+              ]
+          },
+          "menuCategoryAvailability": [],
+          "websiteSettings": {
+              "isDepositEnabled": true,
+              "currency": {
+                  "currencySymbol": "₹",
+                  "currencyCode": "INR"
+              },
+              "isInstructionEnabled": true,
+              "isWholeSaleEnabled": true,
+              "autoReviewApproval": true,
+              "isWishListEnabled": true,
+              "isWaitListEnabled": true
+          },
+          "productOrders": []
+      },
+      "isVisible": true,
+      "salesCountdownTimerOffers": {}
+  },
+  {
+      "sectionId": 4,
+      "details": {},
+      "script": "themes/bundle/shared-theme/scroll-top.js",
+      "selectorDetails": {
+          "selector": "phase-ii-scroll-top",
+          "inputData": [],
+          "outputData": []
+      },
+      "sectionName": "Scroll Top",
+      "isExistingComponent": true,
+      "sampleData": null
+  }
+]

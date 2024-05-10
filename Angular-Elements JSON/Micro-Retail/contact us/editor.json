@@ -1,0 +1,125 @@
+[
+    {
+        "id": 1,
+        "sectionName": "Contact Form",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "General Settings",
+                "groupControls": [
+                    {
+                        "type": "Color Picker",
+                        "name": "formBackgroundColor",
+                        "label": "Form Background Color"
+                    },
+                    {
+                        "type": "Checkbox",
+                        "name": "termsAndPrivacy",
+                        "label": "Show Terms and Privacy"
+                    }
+                ]
+            },
+            {
+                "groupName": "Image Settings",
+                "groupControls": [
+                    {
+                        "type": "Image",
+                        "name": "contactUsPageImage",
+                        "label": "Contact image"
+                    }
+                ]
+            },
+            {
+                "groupName": "Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Text Area",
+                        "name": "contactUsPageText",
+                        "label": "Contact Page Text",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 120
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "textFontStyle",
+                        "label": "Contact Page Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Contact Page Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "textSize",
+                        "label": "Contact Page Text Size",
+                        "options": [
+                            10,
+                            80
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "textColor",
+                        "label": "Contact Page Text Color"
+                    },
+                    {
+                        "type": "Text Area",
+                        "name": "contactUsPageSubTitle",
+                        "label": "Contact Page Sub Title",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "subtextFontStyle",
+                        "label": "Contact Page Sub Title Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "subtextFontFamily",
+                        "label": "Contact Page Sub Title Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "subTextSize",
+                        "label": "Contact Page Sub Title Size",
+                        "options": [
+                            10,
+                            80
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "subTextColor",
+                        "label": "Contact Page Sub Title Color"
+                    }
+                ]
+            },
+            {
+                "groupName": "Contact-us Form Settings",
+                "groupControls": [
+                    {
+                        "type": "Contact Form",
+                        "name": "formSetting",
+                        "label": "Form Settings"
+                    }
+                ]
+            }
+        ]
+    }
+]
