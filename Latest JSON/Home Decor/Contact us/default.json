@@ -1,0 +1,196 @@
+[
+  {
+      "sectionId": 1,
+      "details": {
+          "bannerProperty": 4,
+          "bannerDetails": {
+              "height": 60,
+              "marginTop": 0,
+              "marginBottom": 0,
+              "marginLeftRight": 0,
+              "bannerTextBackGroundEnabled": false,
+              "buttonLayout": "row",
+              "buttonProperties": [],
+              "buttonEnabled": false,
+              "textEnabled": true,
+              "videoOverlay": false,
+              "videooverlayColor": "rgb(0,0,0,0.5)",
+              "animation": "noAnimationTemplate",
+              "textAlign": "Center",
+              "bannerText": "Get in touch!",
+              "textFontFamily": "'Palatino Linotype',serif",
+              "textFontStyle": [
+                  "B"
+              ],
+              "subTextFontStyle": [],
+              "bannerSubText": null,
+              "textColor": "#343643",
+              "subTextColor": "white",
+              "textSize": 60,
+              "subtextSize": 60,
+              "subtextFontFamily": "'Montserrat',sans-serif",
+              "showDivider": false,
+              "bannerColor": "white"
+          },
+          "headingTextEnabled": false,
+          "isNoDocumentUploaded": false
+      },
+      "script": "themes/bundle/shared-theme/banner.js",
+      "selectorDetails": {
+          "selector": "phase-ii-banner",
+          "inputData": [
+              {
+                  "selectorInput": "bannerDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Home banner",
+      "isExistingComponent": true,
+      "sampleData": null
+  },
+  {
+      "sectionId": 2,
+      "isVisible": true,
+      "isExistingComponent": true,
+      "details": {
+          "title": "Send a message",
+          "color": "#000000",
+          "textSize": 15,
+          "textAlign": "left",
+          "fontstyle": [
+              "B"
+          ],
+          "textFontFamily": "'Montserrat',sans-serif",
+          "textone": "Do you have any question?",
+          "textonecolor": "#000000",
+          "textonetextSize": 60,
+          "textonefontstyle": [
+              "B"
+          ],
+          "textOneFontFamily": "'Palatino Linotype',serif",
+          "texttwo": "We are experiencing higher than normal volume and are working to responds as timely as possible.please note that it may take us upto 2 business days to reply.We appreciate your patience during this time.",
+          "texttwocolor": "#000000",
+          "texttwotextSize": 14,
+          "texttwofontstyle": [
+              ""
+          ],
+          "textTwoFontFamily": "'Montserrat',sans-serif",
+          "formSetting": {
+              "formOnly": true,
+              "showTitle": false,
+              "showSubtitle": false,
+              "backgroundColor": "#ff7c64",
+              "backgroundType": "none",
+              "contactusalignment": "center",
+              "formFieldAppearence": "outline",
+              "inputTextColor": "#000",
+              "normalLabelColor": "#a49e9e",
+              "normalLineColor": "#a49e9e",
+              "focusedLabelColor": "#065677",
+              "focusedLineColor": "#065677",
+              "formFieldDesign": "none",
+              "formCard": false,
+              "formBackground": false,
+              "formFieldLabelOut": false,
+              "formFieldFill": false,
+              "suffixIcon": true,
+              "nameSplit": false,
+              "emailField": true,
+              "contactNoField": true,
+              "termsAndPrivacy": true,
+              "buttonText": "Send Message",
+              "buttonBorderColor": "#000",
+              "buttonTextColor": "#fff",
+              "buttonColor": "#000",
+              "buttonRadius": 5,
+              "buttonType": "flat",
+              "buttonAlignment": "center",
+              "templateName": "templateOne"
+          }
+      },
+      "script": "themes/bundle/home-decor/decorator-theme/decorator-contactus-form.js",
+      "innerScript": [
+          "themes/bundle/shared-theme/common-form.js"
+      ],
+      "selectorDetails": {
+          "selector": "phase-ii-decorator-contact-us",
+          "inputData": [
+              {
+                  "selectorInput": "contactUsDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": []
+      }
+  },
+  {
+      "sectionId": 3,
+      "isVisible": true,
+      "isExistingComponent": true,
+      "details": {
+          "image": "themes/home-decor-theme/Background.jpg",
+          "title": "Reason to shop with us",
+          "color": "#FFFFFF",
+          "textSize": 30,
+          "textAlign": "center",
+          "fontstyle": [
+              "B"
+          ],
+          "textFontFamily": "'Palatino Linotype',serif",
+          "textone": "24/7 FRIENDLY SUPPORT",
+          "textonecolor": "#FFFFFF",
+          "textonetextSize": 18,
+          "textonefontstyle": [
+              "B"
+          ],
+          "textOneFontFamily": "'Montserrat',sans-serif",
+          "texttwo": "Our support team is always ready for you, 7 days a week",
+          "texttwocolor": "#FFFFFF",
+          "texttwotextSize": 13,
+          "texttwofontstyle": [],
+          "textTwoFontFamily": "'Montserrat',sans-serif",
+          "textthree": "7 DAYS EASY RETURN",
+          "textthreecolor": "#FFFFFF",
+          "textthreetextSize": 18,
+          "textthreefontstyle": [
+              "B"
+          ],
+          "textThreeFontFamily": "'Montserrat',sans-serif",
+          "textfour": "Return any product with any fault within 7 days for an immediately exchange",
+          "textfourcolor": "#FFFFFF",
+          "textfourtextSize": 13,
+          "textfourfontstyle": [],
+          "textFourFontFamily": "'Montserrat',sans-serif",
+          "textfive": "QUALITY GUARANTEED",
+          "textfivecolor": "#FFFFFF",
+          "textfivetextSize": 18,
+          "textfivefontstyle": [
+              "B"
+          ],
+          "textFiveFontFamily": "'Montserrat',sans-serif",
+          "textsix": "If your products aren't perfect, return them for a full refund.",
+          "textsixcolor": "#FFFFFF",
+          "textsixtextSize": 13,
+          "textsixfontstyle": [],
+          "textSixFontFamily": "'Montserrat',sans-serif"
+      },
+      "script": "themes/bundle/home-decor/decorator-theme/decorator-contactus.js",
+      "selectorDetails": {
+          "selector": "phase-ii-decorator-contact-us-policy",
+          "inputData": [
+              {
+                  "selectorInput": "shop",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": []
+      }
+  }
+]

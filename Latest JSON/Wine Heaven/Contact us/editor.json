@@ -1,0 +1,134 @@
+[
+  {
+      "id": 1,
+      "sectionName": "Home Banner",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "type": "Banner Layout",
+              "name": "bannerDetails",
+              "label": "Banner Details"
+          }
+      ]
+  },
+  {
+      "id": 2,
+      "sectionName": "Contactus form",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Contact-us Form Settings",
+              "groupControls": [
+                  {
+                      "type": "Contact Form",
+                      "name": "formSetting",
+                      "label": "Form Settings"
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 3,
+      "sectionName": "Location Details",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Location Text Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "sectionTitle",
+                      "label": "Location Section Title",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 20
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "titleTextStyle",
+                      "label": "Text Font Style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Text Font Family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "titleTextSize",
+                      "label": "Text Size",
+                      "options": [
+                          10,
+                          80
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "titleTextColor",
+                      "label": "Text Color"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "sectionSubTitle",
+                      "label": "Location Section Sub Title",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 20
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "subtitleTextStyle",
+                      "label": "Text Font Style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "subtextFontFamily",
+                      "label": "Text Font Family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "subTitleTextSize",
+                      "label": "Text Size",
+                      "options": [
+                          10,
+                          80
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "subTitleTextColor",
+                      "label": "Text Color"
+                  }
+              ]
+          },
+          {
+              "groupName": "Location Description Settings",
+              "groupControls": [
+                  {
+                      "type": "ArrayOfObjects",
+                      "name": "locationDescription",
+                      "label": "Location Description"
+                  },
+                  {
+                      "type": "ArrayOfObjects",
+                      "name": "locationBackground",
+                      "label": "Location Background"
+                  }
+              ]
+          }
+      ]
+  }
+]

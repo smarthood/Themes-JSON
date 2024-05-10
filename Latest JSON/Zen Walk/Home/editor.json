@@ -1,0 +1,898 @@
+[
+  {
+      "id": 1,
+      "sectionName": "Home banner",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "type": "Banner Layout",
+              "name": "bannerDetails",
+              "label": "Banner Details"
+          }
+      ]
+  },
+  {
+      "id": 2,
+      "sectionName": "Home Category",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Card Settings",
+              "groupControls": [
+                  {
+                      "type": "Image",
+                      "name": "cardImage1",
+                      "label": "Upload image for first card"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "cardImageText1",
+                      "label": "First card label",
+                      "errors": [
+                          {
+                              "name": "maxlength",
+                              "length": 15
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Image",
+                      "name": "cardImage2",
+                      "label": "Upload image for second card"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "cardImageText2",
+                      "label": "Second card label",
+                      "errors": [
+                          {
+                              "name": "maxlength",
+                              "length": 15
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "cardImageTextFontStyle",
+                      "label": "Card label font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "cardImageTextFontFamily",
+                      "label": "Card label font family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "cardImageTextSize",
+                      "label": "Card label font size",
+                      "options": [
+                          10,
+                          25
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "cardImageTextColor",
+                      "label": "Card label font color"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "cardLayoutGap",
+                      "label": "Card LayoutGap",
+                      "options": [
+                          0,
+                          40
+                      ]
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "layoutGap",
+                      "label": "LayoutGap",
+                      "options": [
+                          0,
+                          10
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Text Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "sectionHeading",
+                      "label": "Section heading",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 50
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textFontStyle",
+                      "label": "Section heading style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Section content font family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Section heading size",
+                      "options": [
+                          22,
+                          50
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textColor",
+                      "label": "Section heading color"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "sectionSubheading",
+                      "label": "Section subheading",
+                      "errors": [
+                          {
+                              "name": "maxlength",
+                              "length": 200
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "subtextSize",
+                      "label": "Section subheading size",
+                      "options": [
+                          8,
+                          24
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "subtextColor",
+                      "label": "Section subheading color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "subtextFontStyle",
+                      "label": "Section heading style"
+                  }
+              ]
+          },
+          {
+              "groupControls": [
+                  {
+                      "label": "Show Button",
+                      "name": "showButton",
+                      "type": "Slider Toggle"
+                  },
+                  {
+                      "label": "Button Design",
+                      "name": "radio",
+                      "options": [
+                          {
+                              "name": "design1",
+                              "value": "design1"
+                          },
+                          {
+                              "name": "design2",
+                              "value": "design2"
+                          }
+                      ],
+                      "type": "Radio"
+                  },
+                  {
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "length": 20,
+                              "name": "maxlength"
+                          }
+                      ],
+                      "label": "Button Text",
+                      "name": "buttonText",
+                      "type": "Input"
+                  },
+                  {
+                      "label": "Button text color",
+                      "name": "buttonTextColor",
+                      "type": "Color Picker"
+                  },
+                  {
+                      "label": "Button Link",
+                      "name": "buttonLink",
+                      "type": "Dropdown"
+                  }
+              ],
+              "groupName": "Button Settings"
+          }
+      ]
+  },
+  {
+      "id": 3,
+      "sectionName": "Collections",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Image Settings",
+              "groupControls": [
+                  {
+                      "type": "Image",
+                      "name": "sectionImage",
+                      "label": "Upload section image"
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "sectionImageSize",
+                      "label": "Section image size type",
+                      "options": [
+                          {
+                              "name": "Crop",
+                              "value": "cover"
+                          },
+                          {
+                              "name": "Fit",
+                              "value": "fill"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "sectionImageBackgroundColor",
+                      "label": "Background underlay color"
+                  }
+              ]
+          },
+          {
+              "groupName": "Text Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "sectionHeading",
+                      "label": "Section heading",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 50
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textFontStyle",
+                      "label": "Section heading style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Section content font family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Section heading size",
+                      "options": [
+                          22,
+                          60
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textColor",
+                      "label": "Section heading color"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "sectionSubHeading",
+                      "label": "Section subheading",
+                      "errors": [
+                          {
+                              "name": "maxlength",
+                              "length": 500
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "subtextSize",
+                      "label": "Section subheading size",
+                      "options": [
+                          8,
+                          28
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "subtextColor",
+                      "label": "Section subheading color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "subtextFontStyle",
+                      "label": "Section subheading style"
+                  }
+              ]
+          },
+          {
+              "groupName": "Button Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider Toggle",
+                      "name": "showButton",
+                      "label": "Show button"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "buttonText",
+                      "label": "Button text",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 20
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttonBackgroundColor",
+                      "label": "Button background color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttonTextColor",
+                      "label": "Button text color"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "buttonLink",
+                      "label": "Button link"
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 4,
+      "sectionName": "Slider Gallery",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "type": "Common Slider Controls",
+              "name": "templateSettings",
+              "label": "Template Settings"
+          }
+      ]
+  },
+  {
+      "id": 5,
+      "sectionName": "Testimonails",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Testimonial Settings",
+              "groupControls": [
+                  {
+                      "type": "Testimonial",
+                      "name": "testimonial",
+                      "label": "Testimonials"
+                  },
+                  {
+                      "type": "Slider Toggle",
+                      "name": "showCustomerName",
+                      "label": "Show / Hide customer name"
+                  },
+                  {
+                      "type": "Slider Toggle",
+                      "name": "showCustomerImage",
+                      "label": "Show / Hide customer image"
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 6,
+      "sectionName": "Blogs",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Blog Style Settings",
+              "groupControls": [
+                  {
+                      "type": "Dropdown",
+                      "name": "blogDisplayStyle",
+                      "label": "Blog Display Settings"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "backgroundColor",
+                      "label": "Background Color",
+                      "sectionInfo": "For All Template"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "cardColor",
+                      "label": "Card Color",
+                      "sectionInfo": "For Some Template"
+                  }
+              ]
+          },
+          {
+              "groupName": "Heading Settings",
+              "groupControls": [
+                  {
+                      "type": "Common Heading",
+                      "name": "headingSettings",
+                      "label": "Heading Settings"
+                  }
+              ]
+          },
+          {
+              "groupName": "Image Settings",
+              "groupControls": [
+                  {
+                      "type": "Radio",
+                      "name": "cardImageSize",
+                      "label": "Card Image Size",
+                      "options": [
+                          {
+                              "name": "Crop",
+                              "value": "cover"
+                          },
+                          {
+                              "name": "Fit",
+                              "value": "fill"
+                          },
+                          {
+                              "name": "Contain",
+                              "value": "contain"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Title Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider Toggle",
+                      "name": "titleShow",
+                      "label": "Title Show/Hide"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "titleColor",
+                      "label": "Title Color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "titleFontStyle",
+                      "label": "Title Font Size"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Title Font Family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "titleFontSize",
+                      "label": "Title Font Size",
+                      "options": [
+                          10,
+                          26
+                      ]
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "titleAlign",
+                      "label": "Title Align",
+                      "options": [
+                          {
+                              "name": "Left",
+                              "value": "start"
+                          },
+                          {
+                              "name": "Center",
+                              "value": "center"
+                          },
+                          {
+                              "name": "Right",
+                              "value": "end"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Category Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider Toggle",
+                      "name": "categoryShow",
+                      "label": "Category Show/Hide"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "categoryColor",
+                      "label": "Category Color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "categoryFontStyle",
+                      "label": "Category Font Size"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "sectionFontFamily",
+                      "label": "Category Font Family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "categoryFontSize",
+                      "label": "Category Font Size",
+                      "options": [
+                          10,
+                          26
+                      ]
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "categoryAlign",
+                      "label": "Category Align",
+                      "options": [
+                          {
+                              "name": "Left",
+                              "value": "start"
+                          },
+                          {
+                              "name": "Center",
+                              "value": "center"
+                          },
+                          {
+                              "name": "Right",
+                              "value": "end"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Author Name Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider Toggle",
+                      "name": "authorShow",
+                      "label": "Author Name Show/Hide"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "authorColor",
+                      "label": "Author Name Color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "authorFontStyle",
+                      "label": "Author Name Font Size"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "subtextFontFamily",
+                      "label": "Author Name Font Family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "authorFontSize",
+                      "label": "Author Name Font Size",
+                      "options": [
+                          10,
+                          26
+                      ]
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "authorAlign",
+                      "label": "Author Name Align",
+                      "options": [
+                          {
+                              "name": "Left",
+                              "value": "start"
+                          },
+                          {
+                              "name": "Center",
+                              "value": "center"
+                          },
+                          {
+                              "name": "Right",
+                              "value": "end"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Date Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider Toggle",
+                      "name": "dateShow",
+                      "label": "Date Show/Hide"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "dateFormat",
+                      "label": "Date Format",
+                      "sectionInfo": "Example date",
+                      "options": [
+                          {
+                              "name": "01 Jan 2024",
+                              "value": "d MMM y"
+                          },
+                          {
+                              "name": "01 January, 2024",
+                              "value": "d MMMM, y"
+                          },
+                          {
+                              "name": "01/20/2024",
+                              "value": "shortDate"
+                          },
+                          {
+                              "name": "Jan 01, 2024",
+                              "value": "mediumDate"
+                          },
+                          {
+                              "name": "January 01, 2024",
+                              "value": "longDate"
+                          },
+                          {
+                              "name": "Monday, January 01, 2024",
+                              "value": "fullDate"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "dateColor",
+                      "label": "Date Color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "dateStyle",
+                      "label": "Date Font Size"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "numberFontFamily",
+                      "label": "Date Font Family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "dateSize",
+                      "label": "Date Font Size",
+                      "options": [
+                          10,
+                          26
+                      ]
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "dateAlign",
+                      "label": "Date Align",
+                      "options": [
+                          {
+                              "name": "Left",
+                              "value": "start"
+                          },
+                          {
+                              "name": "Center",
+                              "value": "center"
+                          },
+                          {
+                              "name": "Right",
+                              "value": "end"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "dateIconColor",
+                      "label": "Date Icon Color"
+                  },
+                  {
+                      "type": "Slider Toggle",
+                      "name": "dateIconEnabel",
+                      "label": "Date Icon Enable"
+                  }
+              ]
+          },
+          {
+              "groupName": "Card Button Settings",
+              "groupControls": [
+                  {
+                      "type": "Button",
+                      "name": "buttonDetails",
+                      "Label": "Card Button Settings"
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "cardButtonPosition",
+                      "label": "Border Position",
+                      "options": [
+                          {
+                              "name": "left",
+                              "value": "start center"
+                          },
+                          {
+                              "name": "center",
+                              "value": "center center"
+                          },
+                          {
+                              "name": "right",
+                              "value": "end center"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Slider Toggle",
+                      "name": "cardButtonShow",
+                      "label": "Show / Hide View Button"
+                  }
+              ]
+          },
+          {
+              "groupName": "View More Button Settings",
+              "groupControls": [
+                  {
+                      "type": "Button",
+                      "name": "blogButton",
+                      "Label": "Common Button Settings"
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "viewButtonPosition",
+                      "label": "Border Position",
+                      "options": [
+                          {
+                              "name": "left",
+                              "value": "start center"
+                          },
+                          {
+                              "name": "center",
+                              "value": "center center"
+                          },
+                          {
+                              "name": "right",
+                              "value": "end center"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Slider Toggle",
+                      "name": "viewButtonShow",
+                      "label": "Show / Hide View Button"
+                  }
+              ]
+          },
+          {
+              "groupName": "Navigation Icon Setings",
+              "groupControls": [
+                  {
+                      "type": "Dropdown",
+                      "name": "iconDesign",
+                      "label": "Slider Icon Design",
+                      "options": [
+                          {
+                              "name": "Design 1",
+                              "value": "keyboard_arrow_left"
+                          },
+                          {
+                              "name": "Design 2",
+                              "value": "arrow_back"
+                          },
+                          {
+                              "name": "Design 3",
+                              "value": "subdirectory_arrow_left"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "navigateButtonsAlignment",
+                      "label": "Navigate Buttons Position",
+                      "options": [
+                          {
+                              "name": "Left",
+                              "value": "start center"
+                          },
+                          {
+                              "name": "Center",
+                              "value": "center center"
+                          },
+                          {
+                              "name": "Right",
+                              "value": "end center"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "navigateButtonsColor",
+                      "label": "Navigate Buttons Color "
+                  },
+                  {
+                      "type": "Slider Toggle",
+                      "name": "roundBorder",
+                      "label": "Round Border"
+                  },
+                  {
+                      "type": "Slider Toggle",
+                      "name": "iconBorder",
+                      "label": "Navigate Button Enabel"
+                  }
+              ]
+          },
+          {
+              "groupName": "Additional Setings",
+              "groupControls": [
+                  {
+                      "type": "Slider Toggle",
+                      "name": "enableBorderLine",
+                      "label": "Top Border Line"
+                  },
+                  {
+                      "type": "Slider Toggle",
+                      "name": "footerLineEnabel",
+                      "label": "Footer Line Enable"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "roundedCard",
+                      "options": [
+                          0,
+                          150
+                      ],
+                      "label": "Adjust the Blog Corner Radius."
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "dividerColor",
+                      "label": "Divider Color ",
+                      "sectionInfo": "Template 4 Settings"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "dividerWidth",
+                      "label": "Divider Width",
+                      "options": [
+                          10,
+                          100
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 7,
+      "sectionName": "Recently Viewed Products",
+      "isExistingComponent": true,
+      "controls": []
+  }
+]

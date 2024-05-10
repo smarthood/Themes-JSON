@@ -1,0 +1,229 @@
+[
+  {
+      "sectionId": 1,
+      "details": {
+          "bannerProperty": 1,
+          "bannerDetails": {
+              "bannerImage": [
+                  {
+                      "image": "themes/beverages/beverage-aboutus-banner.jpg",
+                      "imageZoom": false,
+                      "parallax": false,
+                      "buttonEnabled": false,
+                      "textEnabled": true,
+                      "imageOverlay": true,
+                      "overlayColor": "rgba(45,45,45,0.7)",
+                      "subtextSize": 28,
+                      "buttonLayout": "row",
+                      "index": 0,
+                      "buttonProperties": [],
+                      "animation": "noAnimationTemplate",
+                      "textAlign": "Center",
+                      "bannerText": "Our Story",
+                      "textFontFamily": " 'Helvetica',sans-serif",
+                      "textFontStyle": [],
+                      "subTextFontStyle": [],
+                      "bannerSubText": "Home Our Story",
+                      "textColor": "#f0f6f9",
+                      "subTextColor": "white",
+                      "textSize": 60
+                  }
+              ],
+              "imageBackgroundSizeType": "cover",
+              "height": 80
+          },
+          "inValid": false,
+          "isChildError": false
+      },
+      "script": "themes/bundle/shared-theme/banner.js",
+      "selectorDetails": {
+          "selector": "phase-ii-banner",
+          "inputData": [
+              {
+                  "selectorInput": "bannerDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Home Banner",
+      "isExistingComponent": true,
+      "sampleData": null
+  },
+  {
+      "sectionId": 2,
+      "details": {
+          "timelineHeading": "OUR TIMELINE",
+          "headingTextSize": 20,
+          "headingFontStyle": [],
+          "textFontFamily": " 'Helvetica',sans-serif",
+          "headingTextColor": "#bd7070",
+          "timelineSubHeading": "Important Milestones",
+          "subHeadingTextSize": 45,
+          "subHeadingFontStyle": [],
+          "subtextFontFamily": " 'Helvetica',sans-serif",
+          "subHeadingTextColor": "black",
+          "timelineDetails": [
+              {
+                  "imageUrl": "themes/beverages/vineyard-3.png",
+                  "title": "1967 - Farm Purchase Plan",
+                  "content": "In 1967, the dream of our vineyard began to take shape with the strategic purchase of a picturesque farm. Recognizing its potential for grape cultivation, we embarked on a journey that would bring exceptional wines to life.",
+                  "content1": "The farm's fertile soil and ideal climate provided the perfect foundation for our vineyard, setting the stage for decades of passion and dedication to crafting exquisite wines.",
+                  "content2": "This pivotal moment marked the beginning of our legacy, as we committed ourselves to nurturing the land and cultivating grapes of the highest quality."
+              },
+              {
+                  "imageUrl": "themes/beverages/vineyard-2.png",
+                  "title": "1970 - Building a Vineyard",
+                  "content": "In 1970, we embarked on the exciting endeavor of building our vineyard from the ground up. With meticulous planning and unwavering dedication, we carefully selected and planted the finest grape varietals, ensuring the foundation for exceptional wines.",
+                  "content1": "Our team of skilled viticulturists and winemakers worked tirelessly to create the perfect environment for the vines to thrive, implementing innovative techniques and sustainable practices.",
+                  "content2": "As the vineyard began to take shape, our commitment to producing wines of distinction grew stronger, laying the groundwork for a legacy built on craftsmanship and passion."
+              },
+              {
+                  "imageUrl": "themes/beverages/vineyard-1.png",
+                  "title": "1975 - First Batch of Wine",
+                  "content": "In 1975, our vineyard celebrated a significant milestone with the completion of our first batch of wine. After years of meticulous cultivation, nurturing the vines, and expert winemaking, we were finally able to taste the fruits of our labor. This inaugural vintage represented the culmination of our unwavering commitment to quality and craftsmanship.",
+                  "content1": "With its exceptional flavor profile and distinctive character, the first batch of wine established our vineyard as a respected producer in the region.",
+                  "content2": "This moment marked the beginning of a legacy of excellence, as we continue to craft wines that captivate the senses and showcase the unique terroir of our vineyard."
+              },
+              {
+                  "imageUrl": "themes/beverages/vineyard-4.jpg",
+                  "title": "2019 - Famous Branding",
+                  "content": "In 2019, our vineyard achieved a significant milestone with the launch of our iconic branding. This strategic decision to establish a distinct identity for our wines was met with resounding success. Our carefully crafted branding captured the essence of our vineyard's heritage, showcasing our commitment to quality, tradition, and innovation.",
+                  "content1": "With eye-catching labels and a memorable logo, our wines became instantly recognizable, earning a loyal following of enthusiasts and connoisseurs.",
+                  "content2": "This pivotal moment in our timeline solidified our reputation as a distinguished vineyard, known for producing wines that embody excellence and reflect the unique characteristics of our terroir."
+              }
+          ],
+          "isEditor": false
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-beverage-aboutus-timeline",
+          "inputData": [
+              {
+                  "selectorInput": "milestoneDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": []
+      },
+      "sectionName": "About TimeLine",
+      "isExistingComponent": true,
+      "isVisible": true,
+      "script": "themes/bundle/beverage/beverage-theme/beverage-about-us.js"
+  },
+  {
+      "sectionId": 3,
+      "details": {
+          "sectionTitle1": "CALL US!",
+          "title1FontSize": 15,
+          "title1FontStyle": [],
+          "textOneFontFamily": "'Montserrat',sans-serif",
+          "title1TextColor": "#bd7070",
+          "sectionContent1": "(00) 123 456 789",
+          "content1FontSize": 30,
+          "content1FontStyle": [],
+          "textTwoFontFamily": "'Montserrat',sans-serif",
+          "content1TextColor": "black",
+          "sectionTitle2": "FOLLOW US INSTAGRAM",
+          "title2FontSize": 15,
+          "title2FontStyle": [],
+          "textThreeFontFamily": "'Montserrat',sans-serif",
+          "title2TextColor": "#bd7070",
+          "sectionContent2": "10K FOLLOWERS",
+          "content2FontSize": 30,
+          "content2FontStyle": [],
+          "textFourFontFamily": "'Montserrat',sans-serif",
+          "content2TextColor": "black",
+          "sectionTitle3": "BUSINESS HOURS",
+          "title3FontSize": 15,
+          "title3FontStyle": [],
+          "textFiveFontFamily": "'Montserrat',sans-serif",
+          "title3TextColor": "#bd7070",
+          "sectionContent3": "MON-SUN: 7AM - 9PM",
+          "content3FontSize": 30,
+          "content3FontStyle": [],
+          "textSixFontFamily": "'Montserrat',sans-serif",
+          "content3TextColor": "black",
+          "isEditor": false
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-three-grid-section",
+          "inputData": [
+              {
+                  "selectorInput": "threeGridSectionDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": []
+      },
+      "sectionName": "Three Grid Section",
+      "isExistingComponent": true,
+      "isVisible": true,
+      "script": "themes/bundle/beverage/beverage-theme/beverage-about-us.js"
+  },
+  {
+      "sectionId": 4,
+      "details": {
+          "sectionHeading": "AWARDS",
+          "headingTextSize": 20,
+          "headingFontStyle": [],
+          "textFontFamily": "'Montserrat',sans-serif",
+          "headingColor": "#bd7070",
+          "sectionSubHeading": "Our Achievement",
+          "subHeadingTextSize": 45,
+          "subHeadingFontStyle": [],
+          "subtextFontFamily": "'Montserrat',sans-serif",
+          "subHeadingColor": "black",
+          "achievements": [
+              {
+                  "title": "2019 - The Right Red Wine",
+                  "imageUrl": "themes/beverages/vineyard-4.jpg",
+                  "content": "We're thrilled to announce that in 2019, our dedication to crafting the perfect red wine was recognized with the prestigious 'The Right Red Wine' award. This achievement stands as a testament to our commitment to quality and excellence in every bottle."
+              },
+              {
+                  "title": "2015 - Fairview Cyril Back",
+                  "imageUrl": "themes/beverages/vineyard-3.png",
+                  "content": "We're elated to share that in 2015, our dedication to crafting exceptional wines was honored with the esteemed Fairview Cyril Back Award. This recognition underscores our unwavering commitment to excellence, ensuring that every bottle reflects the passion and expertise poured into its creation."
+              },
+              {
+                  "title": "2012 - Exquisite Lyme Block",
+                  "imageUrl": "themes/beverages/vineyard-2.png",
+                  "content": "In 2012, our journey reached a pinnacle of distinction with the coveted Exquisite Lyme Block Triumph. This accolade isn't just about recognition; it's a testament to our relentless pursuit of perfection and the fusion of artistry and expertise in every pour."
+              },
+              {
+                  "title": "2004 - Luxury Red Wine Six",
+                  "imageUrl": "themes/beverages/vineyard-1.png",
+                  "content": "Transport yourself back to 2004, a year that marked a pivotal moment in our journey with the esteemed Luxury Red Wine Six award. This recognition symbolizes not just our commitment to crafting exceptional wines but also the art of elevating moments of indulgence."
+              },
+              {
+                  "title": "1997 - Van Wyck Liquors",
+                  "imageUrl": "themes/beverages/vineyard-5.png",
+                  "content": "Let's journey back to 1997, a year of triumph for Van Wyck Liquors. It was then that our commitment to excellence was honored with a prestigious award, marking a milestone in our legacy of providing exceptional libations and memorable experiences."
+              },
+              {
+                  "title": "1990 - Aurum Wines Organic Wine",
+                  "imageUrl": "themes/beverages/vineyard-6.png",
+                  "content": "Step back to 1990, a year etched in Aurum Wines' history with the crowning achievement of our Organic Wine. This accolade not only celebrates our dedication to crafting exceptional wines but also underscores our pioneering spirit in sustainable winemaking."
+              }
+          ]
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-awards-and-achievements",
+          "inputData": [
+              {
+                  "selectorInput": "achievementsDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": []
+      },
+      "sectionName": "Awards and Achievements",
+      "isExistingComponent": true,
+      "isVisible": true,
+      "script": "themes/bundle/beverage/beverage-theme/beverage-about-us.js"
+  }
+]

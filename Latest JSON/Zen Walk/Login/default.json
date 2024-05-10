@@ -1,0 +1,86 @@
+[
+  {
+      "sectionId": 1,
+      "details": {
+          "logindata": {
+              "showImage": true,
+              "imagePosition": "center",
+              "imageAlignment": "top",
+              "containerAlignment": "center",
+              "leftBackgroundColor": "white",
+              "alignment": "row",
+              "imageUrl": "themes/shared-assets/shopOpened.png",
+              "animation": true,
+              "animationPosition": "top",
+              "showDivider": true,
+              "dividerLength": 70,
+              "dividerColor": "var(--primary-color)",
+              "showSocialMediaIcon": true,
+              "socialMediaIconPosition": "bottom",
+              "rightBackgroundColor": "white",
+              "cardType": "fill",
+              "cardColor": "white",
+              "cardShadow": true,
+              "cardBorderRadius": "0",
+              "formSubTextPosition": "bottom",
+              "showEmail": true,
+              "showPhoneNumber": true,
+              "cardFill": true,
+              "appearance": "fill",
+              "showMainText": true,
+              "mainText": "Welcome to our store",
+              "mainTextColor": "#000",
+              "mainTextSize": "34",
+              "mainTextStyle": [
+                  "B"
+              ],
+              "mainTextFontFamily": "'Raleway', sans-serif",
+              "showSubText": true,
+              "subText": "Follow us for daily updates!",
+              "subTextColor": "var(--primary-color)",
+              "subTextSize": "24",
+              "subTextStyle": [],
+              "subTextFontFamily": "'Arial',sans-serif",
+              "formTitle": "Sign In For Better Experience",
+              "formTitleColor": "var(--primary-color)",
+              "formTitleSize": "18",
+              "formTitleStyle": [],
+              "formTitleFontFamily": "'Arial',sans-serif",
+              "formSubtitle": "Still not one of Us?",
+              "formSubtitleColor": "var(--primary-color)",
+              "formSubtitleSize": "12",
+              "formSubtitleStyle": [],
+              "formSubtitleFontFamily": "'Arial',sans-serif",
+              "buttonTextColor": "white",
+              "iconPosition": "outside",
+              "showIcon": true,
+              "buttonColor": "var(--primary-color)",
+              "glassy": false,
+              "overlay": false,
+              "showSecondaryDivider": true,
+              "secondaryDividerColor": "#000000",
+              "buttonBorderRadius": 10,
+              "buttonSize": 50
+          }
+      },
+      "script": "themes/bundle/shared-theme/storefront-signin.js",
+      "selectorDetails": {
+          "selector": "phase-ii-storefront-sign-in",
+          "inputData": [
+              {
+                  "selectorInput": "displayDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Login page",
+      "isExistingComponent": true,
+      "sampleData": null
+  }
+]

@@ -1,0 +1,445 @@
+[
+  {
+      "sectionId": 1,
+      "sectionName": "Product List",
+      "details": {
+          "productListDetails": {
+              "productCardDesign": "womenAccessoriesProductList",
+              "productCount": 20,
+              "gridStyle": "fixed",
+              "columnGap": 25,
+              "rowGap": 25,
+              "aspectWidth": "1",
+              "aspectHeight": "1",
+              "imageSize": "contain",
+              "isDisplayPrice": true,
+              "isFavoriteMainProduct": true,
+              "manyStockLabel": "Many In Stock",
+              "availabilityHeading": "Availability",
+              "taxButtonText": "Inclusive Tax",
+              "isDisplayRating": true,
+              "showNavigationsection": true,
+              "showFilterAndSort": true,
+              "textSize": 16,
+              "columnNo": 4,
+              "isAddButtonEnabled": true,
+              "addToBagButtonText": "Add to Bag",
+              "isStar": true,
+              "ratingColor": "#ffd700",
+              "restaurantFoodCategory": false,
+              "filterData": {
+                  "showSortOption": true,
+                  "showFilterOption": true,
+                  "sortArray": [
+                      {
+                          "isVisible": true,
+                          "display": "Name : Ascending",
+                          "value": {
+                              "fieldName": "name",
+                              "order": "ASC"
+                          }
+                      },
+                      {
+                          "isVisible": true,
+                          "display": "Name : Descending",
+                          "value": {
+                              "fieldName": "name",
+                              "order": "DESC"
+                          }
+                      }
+                  ],
+                  "filterArray": [
+                      {
+                          "filterName": "Price",
+                          "type": "check-box",
+                          "fieldName": "price",
+                          "optionType": "Range",
+                          "isDefault": true,
+                          "isVisible": true,
+                          "options": [
+                              {
+                                  "display": "$0 - $499",
+                                  "value": {
+                                      "begin": 0,
+                                      "end": 499
+                                  }
+                              },
+                              {
+                                  "display": "$500 - $999",
+                                  "value": {
+                                      "begin": 500,
+                                      "end": 999
+                                  }
+                              },
+                              {
+                                  "display": "$1000 - $1999",
+                                  "value": {
+                                      "begin": 1000,
+                                      "end": 1999
+                                  }
+                              },
+                              {
+                                  "display": "$2000 - $3999",
+                                  "value": {
+                                      "begin": 2000,
+                                      "end": 3999
+                                  }
+                              },
+                              {
+                                  "display": "$4000 - $10000",
+                                  "value": {
+                                      "begin": 4000,
+                                      "end": 10000
+                                  }
+                              }
+                          ]
+                      },
+                      {
+                          "filterName": "Stock",
+                          "type": "radio-option",
+                          "fieldName": "stock",
+                          "optionType": "Simple",
+                          "isDefault": true,
+                          "isVisible": true,
+                          "options": [
+                              {
+                                  "display": "Instock",
+                                  "value": "inStock"
+                              },
+                              {
+                                  "display": "Out of stock",
+                                  "value": "outOfStock"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          }
+      },
+      "script": "themes/bundle/shared-theme/common-parent-product-list.js",
+      "innerScript": [
+          "themes/bundle/shared-theme/common-product-list.js",
+          "themes/bundle/shared-theme/product-filter.js",
+          "themes/bundle/shared-theme/variants-and-modifier.js",
+          "themes/bundle/shared-theme/common-timer.js"
+      ],
+      "selectorDetails": {
+          "selector": "phase-ii-common-parent-product-list",
+          "inputData": [
+              {
+                  "selectorInput": "categoryList",
+                  "handlerInput": "sampleData.categoryList",
+                  "functionName": "getCategories"
+              },
+              {
+                  "selectorInput": "productPageDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent",
+                  "functionName": "getFilterDetails"
+              },
+              {
+                  "selectorInput": "customerId",
+                  "handlerInput": "sampleData.customerId"
+              },
+              {
+                  "selectorInput": "menuCategoryAvailability",
+                  "handlerInput": "sampleData.menuCategoryAvailability"
+              },
+              {
+                  "selectorInput": "orderId",
+                  "handlerInput": "sampleData.orderId"
+              },
+              {
+                  "selectorInput": "foodCategories",
+                  "handlerInput": "sampleData.foodCategories",
+                  "functionName": "getFoodCategories"
+              },
+              {
+                  "selectorInput": "paginationDetails",
+                  "handlerInput": "sampleData.paginationDetails"
+              },
+              {
+                  "selectorInput": "websiteSettings",
+                  "handlerInput": "sampleData.websiteSettings"
+              },
+              {
+                  "selectorInput": "productOrders",
+                  "handlerInput": "sampleData.productOrders",
+                  "functionName": "getProductOrders"
+              },
+              {
+                  "selectorInput": "productArray",
+                  "handlerInput": "sampleData.productArray"
+              },
+              {
+                  "selectorInput": "selectedDetails",
+                  "handlerInput": "sampleData.selectedDetails"
+              },
+              {
+                  "selectorInput": "foodSelectedCategoryId",
+                  "handlerInput": "sampleData.foodSelectedCategoryId"
+              },
+              {
+                  "selectorInput": "cartProductArray",
+                  "handlerInput": "sampleData.cartProductArray"
+              },
+              {
+                  "selectorInput": "productDetails",
+                  "handlerInput": "sampleData.productDetails"
+              },
+              {
+                  "selectorInput": "isWishlist",
+                  "handlerInput": "sampleData.isWishlist"
+              },
+              {
+                  "selectorInput": "salesCountdownTimerDiscounts",
+                  "functionName": "getAllSalesCountdownTimerDiscounts",
+                  "handlerInput": "sampleData.salesCountdownTimerOffers"
+              },
+              {
+                  "selectorInput": "salesCountdownTimerOffers",
+                  "handlerInput": "sampleData.salesCountdownTimerOffers"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "filterResult",
+                  "handlerFunction": "filterAction"
+              },
+              {
+                  "selectorOutput": "foodCategory",
+                  "handlerFunction": "getFoodCategory"
+              },
+              {
+                  "selectorOutput": "searchTextEmit",
+                  "handlerFunction": "searchTextEmitRetail"
+              },
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              },
+              {
+                  "selectorOutput": "addToCartEmit",
+                  "handlerFunction": "addToCartProduct"
+              },
+              {
+                  "selectorOutput": "updatedQuantity",
+                  "handlerFunction": "addToCartProduct"
+              },
+              {
+                  "selectorOutput": "emitData",
+                  "handlerFunction": "onDataEmit"
+              },
+              {
+                  "selectorOutput": "addToWishlistEmit",
+                  "handlerFunction": "addRemoveFromWishlist"
+              },
+              {
+                  "selectorOutput": "getOneProduct",
+                  "handlerFunction": "getOneProductDetails"
+              },
+              {
+                  "selectorOutput": "cartData",
+                  "handlerFunction": "addToCart"
+              },
+              {
+                  "selectorOutput": "getCartProductArray",
+                  "handlerFunction": "getCartProducts"
+              },
+              {
+                  "selectorOutput": "recentlyViewed",
+                  "handlerFunction": "createRecentlyViewedProducts"
+              },
+              {
+                  "selectorOutput": "selectedVariant",
+                  "handlerFunction": "getWishlistDetails"
+              }
+          ]
+      },
+      "isExistingComponent": true,
+      "sampleData": {
+          "categoryList": [
+              {
+                  "id": 1,
+                  "categoryName": "Office Decor",
+                  "subCategory": []
+              }
+          ],
+          "selectedDetails": {
+              "categoryDetails": {
+                  "id": 1,
+                  "categoryName": "Office Decor",
+                  "category": {
+                      "id": 1,
+                      "name": "Office Decor"
+                  }
+              },
+              "filterDetails": {},
+              "searchText": null
+          },
+          "foodCategories": [
+              {
+                  "id": 0,
+                  "name": "All"
+              },
+              {
+                  "id": 1,
+                  "name": "Veg",
+                  "color": "green"
+              },
+              {
+                  "id": 2,
+                  "name": "Non-veg",
+                  "color": "red"
+              }
+          ],
+          "productArray": [
+              {
+                  "id": 1,
+                  "productId": "prod-1",
+                  "name": "Double Handle Glossy Vase - Black & Grey",
+                  "featuredImage": "themes/home-decor-theme/Double Handle Glossy Vase - Black & Grey.jpg",
+                  "price": "825.00",
+                  "costComparePrice": "1000.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 7,
+                          "stock": 55,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "ratings": 4,
+                  "qty": 4,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 2,
+                  "productId": "prod-2",
+                  "name": "Double Handle Glossy Vase - Sandal & Mustard",
+                  "featuredImage": "themes/home-decor-theme/Double Handle Glossy Vase - Sandal & Mustard.jpg",
+                  "price": "420.00",
+                  "costComparePrice": "635.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 8,
+                          "stock": 50,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "ratings": 3,
+                  "qty": 3,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 3,
+                  "productId": "prod-3",
+                  "name": "Ombre Glass Vase - Brown White",
+                  "featuredImage": "themes/home-decor-theme/Ombre Glass Vase - Brown White.jpg",
+                  "price": "1599.00",
+                  "costComparePrice": "2500.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 9,
+                          "stock": 0,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "ratings": 5,
+                  "qty": 2,
+                  "quantity": 0,
+                  "show": true
+              },
+              {
+                  "id": 4,
+                  "productId": "prod-4",
+                  "name": "Painted Vase - Vessel White",
+                  "featuredImage": "themes/home-decor-theme/Painted Vase - Vessel White.jpg",
+                  "price": "800.00",
+                  "costComparePrice": "1000.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 10,
+                          "stock": 55,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "ratings": 2.5,
+                  "qty": 5,
+                  "quantity": 0
+              },
+              {
+                  "id": 5,
+                  "productId": "prod-5",
+                  "name": "Thick Soled Glass Vase - Blue",
+                  "featuredImage": "themes/home-decor-theme/Thick Soled Glass Vase - Blue.jpg",
+                  "price": "500.00",
+                  "costComparePrice": "800.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [],
+                  "ratings": 1.5,
+                  "qty": 4,
+                  "quantity": 0
+              },
+              {
+                  "id": 6,
+                  "productId": "prod-6",
+                  "name": "Two Piece Vase - Brown Beige",
+                  "featuredImage": "themes/home-decor-theme/Two Piece Vase - Brown Beige.jpg",
+                  "price": "200.00",
+                  "costComparePrice": "250.00",
+                  "propertyValueId": null,
+                  "multiLocationProductStocks": [],
+                  "multiLocationVariantStocks": [
+                      {
+                          "id": 12,
+                          "stock": 50,
+                          "qtyOnHold": null
+                      }
+                  ],
+                  "ratings": 2,
+                  "qty": 3,
+                  "quantity": 0
+              }
+          ],
+          "orderId": null,
+          "customerId": 1,
+          "paginationDetails": {
+              "limit": 10,
+              "offset": 0,
+              "itemsCount": 30,
+              "listDataSource": [
+                  {},
+                  {},
+                  {}
+              ]
+          },
+          "menuCategoryAvailability": [],
+          "productOrders": [],
+          "salesCountdownTimerOffers": {}
+      },
+      "isVisible": true
+  },
+  {
+      "sectionId": 2,
+      "details": {},
+      "script": "themes/bundle/shared-theme/scroll-top.js",
+      "selectorDetails": {
+          "selector": "phase-ii-scroll-top",
+          "inputData": [],
+          "outputData": []
+      },
+      "sectionName": "Scroll Top",
+      "isExistingComponent": true,
+      "sampleData": null
+  }
+]

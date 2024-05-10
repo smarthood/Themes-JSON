@@ -348,7 +348,8 @@
           "buttonVisiblity": true,
           "buttonBorderRadius": 0,
           "buttonBorderLocation": "all",
-          "textAlignment": "center"
+          "textAlignment": "center",
+          "isButtonBorder":false
       },
       "script": "themes/bundle/retail/zen-fashion/zenfashion-home.js",
       "selectorDetails": {

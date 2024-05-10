@@ -1,0 +1,545 @@
+[
+  {
+      "sectionId": 1,
+      "details": {
+          "bannerProperty": 1,
+          "bannerDetails": {
+              "bannerImage": [
+                  {
+                      "image": "themes/beverages/image_2023_07_24T12_33_17_263Z.png",
+                      "imageZoom": false,
+                      "parallax": false,
+                      "buttonEnabled": false,
+                      "textEnabled": true,
+                      "imageOverlay": true,
+                      "overlayColor": "rgba(124,96,96,0.7)",
+                      "subtextSize": null,
+                      "buttonLayout": "row",
+                      "index": 0,
+                      "buttonProperties": [],
+                      "animation": "noAnimationTemplate",
+                      "textAlign": "Center",
+                      "bannerText": "Contact",
+                      "textFontFamily": " 'Helvetica',sans-serif",
+                      "textFontStyle": [],
+                      "subTextFontStyle": [],
+                      "bannerSubText": null,
+                      "textColor": "white",
+                      "subTextColor": null,
+                      "textSize": 50
+                  }
+              ],
+              "imageBackgroundSizeType": "cover",
+              "height": 60
+          },
+          "inValid": false,
+          "isChildError": false
+      },
+      "script": "themes/bundle/shared-theme/banner.js",
+      "selectorDetails": {
+          "selector": "phase-ii-banner",
+          "inputData": [
+              {
+                  "selectorInput": "bannerDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Home Banner",
+      "isExistingComponent": true,
+      "sampleData": null
+  },
+  {
+      "sectionId": 2,
+      "details": {
+          "formSetting": {
+              "formOnly": false,
+              "textAlingment": "left",
+              "showTitle": true,
+              "formTitle": "Questions? Get in touch",
+              "titleColor": "#000",
+              "titleFontSize": 30,
+              "titleFontFamily": "Helvetica,sans-serif",
+              "titleFontStyle": [
+                  "B"
+              ],
+              "showSubtitle": false,
+              "textOutside": false,
+              "backgroundColor": "#ff7c64",
+              "backgroundType": "none",
+              "contactusImage": "/themes/img.jpg",
+              "imageFill": false,
+              "contactusalignment": "center",
+              "formFieldAppearence": "outline",
+              "inputTextColor": "#000000",
+              "normalLabelColor": "#a49e9e",
+              "normalLineColor": "#a49e9e",
+              "focusedLabelColor": "#065677",
+              "focusedLineColor": "#065677",
+              "formFieldDesign": "none",
+              "formCard": false,
+              "formCardColor": "rgba(0, 0, 0, 0.25)",
+              "formCardRadius": 10,
+              "formBackground": false,
+              "formFieldLabelOut": false,
+              "formFieldFill": false,
+              "formFieldColor": "rgba(0, 0, 0, 0.25)",
+              "suffixIcon": true,
+              "nameSplit": false,
+              "emailField": true,
+              "contactNoField": true,
+              "termsAndPrivacy": true,
+              "buttonText": "Submit",
+              "buttonBorderColor": "#000",
+              "buttonTextColor": "#fff",
+              "buttonColor": "#7d0516",
+              "buttonRadius": 5,
+              "buttonType": "flat",
+              "buttonAlignment": "center",
+              "templateName": "templateOne"
+          }
+      },
+      "script": "themes/bundle/shared-theme/common-form.js",
+      "selectorDetails": {
+          "selector": "phase-ii-common-form",
+          "inputData": [
+              {
+                  "selectorInput": "contactFields",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": []
+      },
+      "sectionName": "Contactus form",
+      "isExistingComponent": true,
+      "sampleData": null
+  },
+  {
+      "sectionId": 3,
+      "details": {
+          "sectionTitle": "STORES WORLDWIDE",
+          "titleTextStyle": [],
+          "textFontFamily": "'Helvetica',sans-serif",
+          "titleTextSize": 16,
+          "titleTextColor": "#bd7070",
+          "sectionSubTitle": "Our Stores",
+          "subtitleTextStyle": [],
+          "subtextFontFamily": "'Helvetica',sans-serif",
+          "subTitleTextSize": 40,
+          "subTitleTextColor": "black",
+          "locationDescription": [
+              {
+                  "imageUrl": "themes/beverages/pexels-matthew-hintz-1712737.jpg",
+                  "title": "ESTD. 1899",
+                  "subtitle": "Our Brooklyn Store",
+                  "description": "In 1899, a pioneering wine store emerged, marking the beginning of a rich history in the world of wine. With a passion for fine wines, this establishment sought to bring a diverse selection of vintages to connoisseurs and enthusiasts alike. Since then, it has continued to evolve, leaving an indelible mark as the first wine store to grace the scene, laying the foundation for a vibrant wine culture that thrives to this day."
+              },
+              {
+                  "imageUrl": "themes/beverages/pexels-brett-sayles-1374552.jpg",
+                  "title": "ESTD. 2004",
+                  "subtitle": "Our Manhattan Store",
+                  "description": "Fast forward to 2004, a new chapter unfolds as our Manhattan boutique is established, offering a curated selection of wines from around the globe. Nestled in the heart of the city, this boutique quickly becomes a haven for urbanites seeking exceptional wines and personalized service. With a commitment to excellence, it embodies the spirit of innovation while staying true to our century-old tradition."
+              },
+              {
+                  "imageUrl": "themes/beverages/red-wine-gc7c3d563c_1920.jpg",
+                  "title": "ESTD. 2014",
+                  "subtitle": "Our Hamptons Store",
+                  "description": "In 2014, we ventured into the serene landscapes of the Hamptons, bringing our passion for wine to this idyllic coastal retreat. Surrounded by lush vineyards and ocean breezes, our Hamptons location offers a unique experience, blending the sophistication of fine wines with the relaxed ambiance of beachside living. It has become a destination for discerning oenophiles seeking refuge from the hustle and bustle of city life."
+              },
+              {
+                  "imageUrl": "themes/beverages/pexels-matthew-hintz-1712737.jpg",
+                  "title": "ESTD. 2004",
+                  "subtitle": "Our Brooklyn Store",
+                  "description": "In 1899, a pioneering wine store emerged, marking the beginning of a rich history in the world of wine. With a passion for fine wines, this establishment sought to bring a diverse selection of vintages to connoisseurs and enthusiasts alike. Since then, it has continued to evolve, leaving an indelible mark as the first wine store to grace the scene, laying the foundation for a vibrant wine culture that thrives to this day."
+              },
+              {
+                  "imageUrl": "themes/beverages/pexels-brett-sayles-1374552.jpg",
+                  "title": "ESTD. 1899",
+                  "subtitle": "Our Brooklyn Store",
+                  "description": "In 1899, a pioneering wine store emerged, marking the beginning of a rich history in the world of wine. With a passion for fine wines, this establishment sought to bring a diverse selection of vintages to connoisseurs and enthusiasts alike. Since then, it has continued to evolve, leaving an indelible mark as the first wine store to grace the scene, laying the foundation for a vibrant wine culture that thrives to this day."
+              }
+          ],
+          "locationBackground": [
+              {
+                  "imageUrl": "themes/beverages/pexels-samson-katt-5225234.jpg"
+              },
+              {
+                  "imageUrl": "themes/beverages/pexels-satish-kumar-15498232.jpg"
+              },
+              {
+                  "imageUrl": "themes/beverages/pexels-samson-katt-5225234.jpg"
+              },
+              {
+                  "imageUrl": "themes/beverages/pexels-satish-kumar-15498232.jpg"
+              },
+              {
+                  "imageUrl": "themes/beverages/pexels-samson-katt-5225234.jpg"
+              }
+          ]
+      },
+      "sampleData": {
+          "locationDetails": [
+              {
+                  "id": 75,
+                  "addressId": 160,
+                  "locationName": "Beaverton",
+                  "pickupInstructions": null,
+                  "locationDescription": null,
+                  "latitude": "23.343534",
+                  "longitude": "34",
+                  "storeId": 2,
+                  "shopClosedDays": [],
+                  "timeZone": "America/Tijuana",
+                  "isOrderSpecificTiming": true,
+                  "orderAmountLimit": 50,
+                  "isDefault": false,
+                  "isGlobal": true,
+                  "allowedZipcodes": null,
+                  "storeWorkingHours": [
+                      {
+                          "id": 621,
+                          "productBoxId": null,
+                          "shippingMethodId": null,
+                          "startTime": "09:00 AM",
+                          "endTime": "12:00 PM",
+                          "sun": null,
+                          "mon": null,
+                          "tue": null,
+                          "wed": null,
+                          "thu": null,
+                          "fri": true,
+                          "sat": true,
+                          "isDelivery": null,
+                          "isPickup": null,
+                          "isOrder": null,
+                          "isDineIn": null,
+                          "isStoreActive": null
+                      },
+                      {
+                          "id": 622,
+                          "productBoxId": null,
+                          "shippingMethodId": null,
+                          "startTime": "12:00 PM",
+                          "endTime": "07:00 PM",
+                          "sun": null,
+                          "mon": null,
+                          "tue": null,
+                          "wed": null,
+                          "thu": null,
+                          "fri": true,
+                          "sat": true,
+                          "isDelivery": null,
+                          "isPickup": null,
+                          "isOrder": null,
+                          "isDineIn": null,
+                          "isStoreActive": null
+                      }
+                  ],
+                  "workingHoursData": [
+                      {
+                          "days": "Mon",
+                          "time": "09:00 AM - 12:00 PM",
+                          "isStoreActive": null
+                      },
+                      {
+                          "days": "Tue",
+                          "time": "09:00 AM - 12:00 PM",
+                          "isStoreActive": null
+                      }
+                  ],
+                  "closingHoursData": [
+                      {
+                          "days": "Sun",
+                          "time": "12:00 AM - 12:00 AM",
+                          "isStoreActive": null
+                      }
+                  ],
+                  "orderPlacingTimes": [
+                      {
+                          "id": 156,
+                          "startTime": "12:00 AM",
+                          "endTime": "12:00 PM",
+                          "sun": null,
+                          "mon": true,
+                          "tue": true,
+                          "wed": true,
+                          "thu": true,
+                          "fri": true,
+                          "sat": true,
+                          "isStoreActive": null
+                      }
+                  ],
+                  "address": {
+                      "id": 160,
+                      "importId": null,
+                      "addressLine1": "12725 SW Millikan Way, #300",
+                      "addressLine2": null,
+                      "city": "Beaverton",
+                      "state": "Beaverton",
+                      "name": null,
+                      "country": "US",
+                      "zipCode": "97005",
+                      "mobileNumber": "(971) 420-1700",
+                      "email": "contact@getzenbasket.com",
+                      "faxNumber": null,
+                      "stateAbbreviation": null,
+                      "countryCode": null,
+                      "isDeleted": false,
+                      "isDefault": null,
+                      "createdAt": "2022-01-27T05:12:46.297Z",
+                      "modifiedAt": "2022-03-10T04:24:43.334Z",
+                      "userId": null
+                  }
+              },
+              {
+                  "id": 76,
+                  "addressId": 161,
+                  "locationName": "Canada",
+                  "pickupInstructions": null,
+                  "locationDescription": null,
+                  "latitude": "23.343534",
+                  "longitude": "34",
+                  "storeId": 2,
+                  "shopClosedDays": [],
+                  "timeZone": "America/Tijuana",
+                  "isOrderSpecificTiming": true,
+                  "orderAmountLimit": 50,
+                  "isDefault": false,
+                  "isGlobal": true,
+                  "allowedZipcodes": null,
+                  "storeWorkingHours": [
+                      {
+                          "id": 621,
+                          "productBoxId": null,
+                          "shippingMethodId": null,
+                          "startTime": "09:00 AM",
+                          "endTime": "12:00 PM",
+                          "sun": null,
+                          "mon": null,
+                          "tue": null,
+                          "wed": null,
+                          "thu": null,
+                          "fri": true,
+                          "sat": true,
+                          "isDelivery": null,
+                          "isPickup": null,
+                          "isOrder": null,
+                          "isDineIn": null,
+                          "isStoreActive": null
+                      },
+                      {
+                          "id": 622,
+                          "productBoxId": null,
+                          "shippingMethodId": null,
+                          "startTime": "12:00 PM",
+                          "endTime": "07:00 PM",
+                          "sun": null,
+                          "mon": null,
+                          "tue": null,
+                          "wed": null,
+                          "thu": null,
+                          "fri": true,
+                          "sat": true,
+                          "isDelivery": null,
+                          "isPickup": null,
+                          "isOrder": null,
+                          "isDineIn": null,
+                          "isStoreActive": null
+                      }
+                  ],
+                  "workingHoursData": [
+                      {
+                          "days": "Mon",
+                          "time": "09:00 AM - 12:00 PM",
+                          "isStoreActive": null
+                      },
+                      {
+                          "days": "Tue",
+                          "time": "09:00 AM - 12:00 PM",
+                          "isStoreActive": null
+                      }
+                  ],
+                  "closingHoursData": [
+                      {
+                          "days": "Sun",
+                          "time": "12:00 AM - 12:00 AM",
+                          "isStoreActive": null
+                      }
+                  ],
+                  "orderPlacingTimes": [
+                      {
+                          "id": 156,
+                          "startTime": "12:00 AM",
+                          "endTime": "12:00 PM",
+                          "sun": null,
+                          "mon": true,
+                          "tue": true,
+                          "wed": true,
+                          "thu": true,
+                          "fri": true,
+                          "sat": true,
+                          "isStoreActive": null
+                      }
+                  ],
+                  "address": {
+                      "id": 160,
+                      "importId": null,
+                      "addressLine1": "151 York St,",
+                      "addressLine2": null,
+                      "city": "London",
+                      "state": "London",
+                      "name": null,
+                      "country": "London",
+                      "zipCode": "97005",
+                      "mobileNumber": "(971) 420-1700",
+                      "email": "contact@getzenbasket.com",
+                      "faxNumber": null,
+                      "stateAbbreviation": null,
+                      "countryCode": null,
+                      "isDeleted": false,
+                      "isDefault": null,
+                      "createdAt": "2022-01-27T05:12:46.297Z",
+                      "modifiedAt": "2022-03-10T04:24:43.334Z",
+                      "userId": null
+                  }
+              },
+              {
+                  "id": 76,
+                  "addressId": 161,
+                  "locationName": "India",
+                  "pickupInstructions": null,
+                  "locationDescription": null,
+                  "latitude": "23.343534",
+                  "longitude": "34",
+                  "storeId": 2,
+                  "shopClosedDays": [],
+                  "timeZone": "America/Tijuana",
+                  "isOrderSpecificTiming": true,
+                  "orderAmountLimit": 50,
+                  "isDefault": false,
+                  "isGlobal": true,
+                  "allowedZipcodes": null,
+                  "storeWorkingHours": [
+                      {
+                          "id": 621,
+                          "productBoxId": null,
+                          "shippingMethodId": null,
+                          "startTime": "09:00 AM",
+                          "endTime": "12:00 PM",
+                          "sun": null,
+                          "mon": null,
+                          "tue": null,
+                          "wed": null,
+                          "thu": null,
+                          "fri": true,
+                          "sat": true,
+                          "isDelivery": null,
+                          "isPickup": null,
+                          "isOrder": null,
+                          "isDineIn": null,
+                          "isStoreActive": null
+                      },
+                      {
+                          "id": 622,
+                          "productBoxId": null,
+                          "shippingMethodId": null,
+                          "startTime": "12:00 PM",
+                          "endTime": "07:00 PM",
+                          "sun": null,
+                          "mon": null,
+                          "tue": null,
+                          "wed": null,
+                          "thu": null,
+                          "fri": true,
+                          "sat": true,
+                          "isDelivery": null,
+                          "isPickup": null,
+                          "isOrder": null,
+                          "isDineIn": null,
+                          "isStoreActive": null
+                      }
+                  ],
+                  "workingHoursData": [
+                      {
+                          "days": "Mon",
+                          "time": "09:00 AM - 12:00 PM",
+                          "isStoreActive": null
+                      },
+                      {
+                          "days": "Tue",
+                          "time": "09:00 AM - 12:00 PM",
+                          "isStoreActive": null
+                      }
+                  ],
+                  "closingHoursData": [
+                      {
+                          "days": "Sun",
+                          "time": "12:00 AM - 12:00 AM",
+                          "isStoreActive": null
+                      }
+                  ],
+                  "orderPlacingTimes": [
+                      {
+                          "id": 156,
+                          "startTime": "12:00 AM",
+                          "endTime": "12:00 PM",
+                          "sun": null,
+                          "mon": true,
+                          "tue": true,
+                          "wed": true,
+                          "thu": true,
+                          "fri": true,
+                          "sat": true,
+                          "isStoreActive": null
+                      }
+                  ],
+                  "address": {
+                      "id": 162,
+                      "importId": null,
+                      "addressLine1": "25 Vinayagar Nagar, NGO Colony,",
+                      "addressLine2": null,
+                      "city": "Tirunelveli",
+                      "state": "Tirunelveli",
+                      "name": null,
+                      "country": "India",
+                      "zipCode": "97005",
+                      "mobileNumber": "(971) 420-1700",
+                      "email": "contact@getzenbasket.com",
+                      "faxNumber": null,
+                      "stateAbbreviation": null,
+                      "countryCode": null,
+                      "isDeleted": false,
+                      "isDefault": null,
+                      "createdAt": "2022-01-27T05:12:46.297Z",
+                      "modifiedAt": "2022-03-10T04:24:43.334Z",
+                      "userId": null
+                  }
+              }
+          ]
+      },
+      "script": "themes/bundle/beverage/beverage-theme/beverage-contact-us.js",
+      "selectorDetails": {
+          "selector": "phase-ii-location-template2",
+          "inputData": [
+              {
+                  "selectorInput": "aboutLocation",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "locationDetails",
+                  "handlerInput": "sampleData.locationDetails",
+                  "functionName": "setWorkingDays"
+              }
+          ],
+          "outputData": []
+      },
+      "sectionName": "Location Details",
+      "isExistingComponent": true
+  }
+]

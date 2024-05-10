@@ -1,0 +1,552 @@
+[
+  {
+      "sectionId": 1,
+      "details": {
+          "bannerProperty": 1,
+          "bannerDetails": {
+              "bannerImage": [
+                  {
+                      "image": "themes/retail/footwearTheme/shoebanner.jpg",
+                      "imageAnimation": "none",
+                      "buttonEnabled": false,
+                      "textEnabled": true,
+                      "bannerTextBackGroundEnabled": false,
+                      "imageOverlay": true,
+                      "overlayColor": "rgb(0,0,0,0.5)",
+                      "subtextSize": 38,
+                      "buttonLayout": "row",
+                      "buttonAlign": "center",
+                      "index": 0,
+                      "buttonProperties": [],
+                      "animation": "noAnimationTemplate",
+                      "textAlign": "Center",
+                      "bannerText": "Elevate Your Footwear Game with Trendsetting Designs and Unmatched Comfort.",
+                      "textFontFamily": "Montserrat",
+                      "textFontStyle": [
+                          "B"
+                      ],
+                      "subTextFontStyle": [],
+                      "bannerSubText": "",
+                      "textColor": "#FFFFFF",
+                      "subTextColor": "#FFFFFF",
+                      "textSize": 38,
+                      "subtextFontFamily": "'Montserrat',sans-serif",
+                      "bannerTextLeft": 0,
+                      "showSemiHeading": false,
+                      "showDivider": false
+                  }
+              ],
+              "imageBackgroundSizeType": "cover",
+              "bannerImageXAlign": 100,
+              "bannerImageYAlign": 100,
+              "height": 90,
+              "marginLeftRight": 0,
+              "marginTop": 0,
+              "marginBottom": 0,
+              "pausebutton": false
+          },
+          "headingTextEnabled": false,
+          "inValid": false,
+          "isChildError": false,
+          "isNoDocumentUploaded": false,
+          "sectionId": 1
+      },
+      "script": "themes/bundle/shared-theme/banner.js",
+      "selectorDetails": {
+          "selector": "phase-ii-banner",
+          "inputData": [
+              {
+                  "selectorInput": "bannerDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Home banner",
+      "isExistingComponent": true,
+      "sampleData": null
+  },
+  {
+      "sectionId": 2,
+      "details": {
+          "sectionHeading": "Get Your Fashion Style",
+          "textSize": 50,
+          "textColor": "#050505",
+          "textFontFamily": "'Jost', sans-serif",
+          "textFontStyle": [
+              "B"
+          ],
+          "sectionSubheading": "You will always be fashionable with our shoe collection",
+          "subtextSize": 14,
+          "subtextColor": "#474747",
+          "subtextFontStyle": [
+              "B"
+          ],
+          "cardImage1": "themes/retail/footwearTheme/shoe2.jpg",
+          "cardImageText1": "Mens",
+          "cardImage2": "themes/retail/footwearTheme/shoe1.jpg",
+          "cardImageText2": "Womens",
+          "cardImageTextSize": 16,
+          "cardImageTextColor": "#050505",
+          "cardImageTextFontFamily": "'Jost', sans-serif",
+          "cardImageTextFontStyle": [],
+          "showButton": true,
+          "buttonText": "SHOP NOW",
+          "buttonTextColor": "#050505",
+          "buttonLink": "products",
+          "radio": "design1",
+          "layoutGap": 1,
+          "cardLayoutGap": 4
+      },
+      "script": "themes/bundle/retail/zen-walk/zenwalk-home.js",
+      "selectorDetails": {
+          "selector": "phase-ii-retail-theme3-home-catagory",
+          "inputData": [
+              {
+                  "selectorInput": "categoryDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Home Category",
+      "isExistingComponent": true,
+      "sampleData": null
+  },
+  {
+      "sectionId": 3,
+      "details": {
+          "sectionImage": "themes/retail/footwearTheme/shoe4.png",
+          "sectionImageSize": "fill",
+          "sectionImageBackgroundColor": "#ebf3f7",
+          "sectionHeading": "Shoes Collection",
+          "textSize": 40,
+          "textColor": "#050505",
+          "textFontFamily": "'Jost', sans-serif",
+          "textFontStyle": [
+              "B"
+          ],
+          "sectionSubHeading": "Sports shoes are shoes used in sports activities or used when exercising to improve health. Now, sports shoes are also used in daily activities such as going to work, school, going out,. because of its convenience and fashion. It is no coincidence that sports shoes are created and used every time you exercise or exercise.",
+          "subtextSize": 14,
+          "subtextColor": "#050505",
+          "subtextFontStyle": [],
+          "showButton": true,
+          "buttonText": "SHOP NOW",
+          "buttonBackgroundColor": "#050505",
+          "buttonTextColor": "whitesmoke",
+          "buttonLink": "products"
+      },
+      "script": "themes/bundle/retail/zen-walk/zenwalk-home.js",
+      "selectorDetails": {
+          "selector": "phase-ii-retail-theme3-collections",
+          "inputData": [
+              {
+                  "selectorInput": "collectionsDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Collections",
+      "isExistingComponent": true,
+      "isVisible": true
+  },
+  {
+      "sectionId": 4,
+      "details": {
+          "templateSettings": {
+              "displayProduct": "featuredProducts",
+              "cardDisplayStyle": "CardStyle1",
+              "cardContentHeight": 10,
+              "textFontFamily": "'Montserrat',sans-serif",
+              "textFontStyle": [],
+              "textColor": "black",
+              "onHover": "Nothing",
+              "productInfoAlignment": "center",
+              "buttonAnimation": "none",
+              "displayButton": true,
+              "buttonPosition": "top",
+              "buttonText": "View More",
+              "buttonTextAlign": "center",
+              "buttonFontStyle": [],
+              "buttonBorderRadius": 1,
+              "buttonColor": "black",
+              "buttonTextColor": "white",
+              "buttonHoverColor": "white",
+              "buttonHoverTextColor": "black",
+              "isDisplayBorder": true,
+              "buttonBorderColor": "white",
+              "buttonBorderSize": 1,
+              "buttonTextSize": 16,
+              "buttonPadding": 13,
+              "borderPositions": [
+                  "t",
+                  "b",
+                  "l",
+                  "r"
+              ],
+              "isbuttonIcon": false,
+              "buttonIconType": "normal",
+              "buttonHeight": 12,
+              "buttonAlignWithHeading": false,
+              "sliderType": "slider",
+              "isAutomatic": "manualSlider",
+              "iconType": "normal",
+              "showArrowsOnHover": true,
+              "isBackground": false,
+              "displayHeading": true,
+              "headingText": "TRENDING NOW",
+              "headingColor": "black",
+              "headingFontFamily": "'Jost', sans-serif",
+              "headingFontSize": 30,
+              "headingFontStyle": [
+                  "B"
+              ],
+              "headingHeight": 20,
+              "textAlign": "center",
+              "displaySubHeading": true,
+              "subHeadingText": "Featured Shoes",
+              "subHeadingColor": "#939393",
+              "subHeadingFontFamily": "'Jost', sans-serif",
+              "subHeadingFontSize": 16,
+              "subHeadingFontStyle": [],
+              "subHeadingHeight": 4,
+              "displayDivider": true,
+              "dividerColor": "#ffa500",
+              "dividerWidth": 103,
+              "dividerHeight": 10
+          }
+      },
+      "script": "themes/bundle/shared-theme/common-slider.js",
+      "selectorDetails": {
+          "selector": "phase-ii-common-slider",
+          "inputData": [
+              {
+                  "selectorInput": "sectionDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "displayData",
+                  "handlerInput": "sampleData.displayData",
+                  "functionName": "getCommonSliderData"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              },
+              {
+                  "selectorOutput": "setInput",
+                  "handlerFunction": "getCommonSliderData"
+              }
+          ]
+      },
+      "sectionName": "Slider Gallery",
+      "isExistingComponent": true,
+      "sampleData": {
+          "displayData": {
+              "selectedDetail": "featuredProducts",
+              "data": [
+                  {
+                      "id": 1,
+                      "name": "Mens Blue Sneakers",
+                      "featuredImage": "themes/retail/footwearTheme/mens-blue-sneakers.png",
+                      "description": null,
+                      "isVariants": false,
+                      "productCategories": [
+                          {
+                              "categoryId": 1606
+                          }
+                      ],
+                      "variantCombinationDetails": [],
+                      "ribbon": {},
+                      "price": "825.00",
+                      "multiLocationVariantStocks": [
+                          {
+                              "stock": -1,
+                              "id": 53057,
+                              "qtyOnHold": null
+                          }
+                      ]
+                  },
+                  {
+                      "id": 2,
+                      "name": "Mens Rust Brown Leather Sneakers",
+                      "featuredImage": "themes/retail/footwearTheme/mens-rust-brown-leather-sneakers.png",
+                      "description": null,
+                      "isVariants": false,
+                      "productCategories": [
+                          {
+                              "categoryId": 1606
+                          }
+                      ],
+                      "variantCombinationDetails": [],
+                      "ribbon": {},
+                      "price": "420.00",
+                      "multiLocationVariantStocks": [
+                          {
+                              "stock": -1,
+                              "id": 53057,
+                              "qtyOnHold": null
+                          }
+                      ]
+                  },
+                  {
+                      "id": 3,
+                      "name": "Mens Grey Colourblocked Leather Sneakers",
+                      "featuredImage": "themes/retail/footwearTheme/mens-grey-colourblocked-leather-sneakers.png",
+                      "description": null,
+                      "isVariants": false,
+                      "productCategories": [
+                          {
+                              "categoryId": 1606
+                          }
+                      ],
+                      "variantCombinationDetails": [],
+                      "ribbon": {},
+                      "price": "599.99",
+                      "multiLocationVariantStocks": [
+                          {
+                              "stock": -1,
+                              "id": 53057,
+                              "qtyOnHold": null
+                          }
+                      ]
+                  },
+                  {
+                      "id": 4,
+                      "name": "Mens Grey Colourblocked Cushioned Foot Leather Sneakers",
+                      "featuredImage": "themes/retail/footwearTheme/mens-grey-colourblocked-cushioned-foot-leather-sneakers.png",
+                      "description": null,
+                      "isVariants": false,
+                      "productCategories": [
+                          {
+                              "categoryId": 1606
+                          }
+                      ],
+                      "variantCombinationDetails": [],
+                      "ribbon": {},
+                      "price": "800.00",
+                      "multiLocationVariantStocks": [
+                          {
+                              "stock": -1,
+                              "id": 53057,
+                              "qtyOnHold": null
+                          }
+                      ]
+                  },
+                  {
+                      "id": 5,
+                      "name": "Mens Tan Leather Sneakers",
+                      "featuredImage": "themes/retail/footwearTheme/mens-tan-leather-sneakers.png",
+                      "description": null,
+                      "isVariants": false,
+                      "productCategories": [
+                          {
+                              "categoryId": 1606
+                          }
+                      ],
+                      "variantCombinationDetails": [],
+                      "ribbon": {},
+                      "price": "500.00",
+                      "multiLocationVariantStocks": [
+                          {
+                              "stock": -1,
+                              "id": 53057,
+                              "qtyOnHold": null
+                          }
+                      ]
+                  }
+              ],
+              "sectionId": 4
+          }
+      },
+      "isVisible": true
+  },
+  {
+      "sectionId": 5,
+      "sectionName": "Testimonails",
+      "isExistingComponent": true,
+      "isVisible": true,
+      "details": {
+          "showCustomerName": true,
+          "showCustomerImage": true
+      },
+      "script": "themes/bundle/retail/zen-walk/zenwalk-home.js",
+      "selectorDetails": {
+          "selector": "phase-ii-retail-theme3-testimonials",
+          "inputData": [
+              {
+                  "selectorInput": "testimonialData",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "testimonials",
+                  "handlerInput": "sampleData.testimonials",
+                  "functionName": "getTestimonials"
+              }
+          ],
+          "outputData": []
+      },
+      "sampleData": {
+          "testimonials": [
+              {
+                  "id": 1,
+                  "heading": "Bengaluru, Karnataka",
+                  "subHeading": null,
+                  "content": "I was blown away by the amazing selection and high-quality shoes at this store. The staff was incredibly helpful and friendly, and I found the perfect pair of shoes for my needs. I will definitely be back!",
+                  "imageUrl": "testimonial/testimonial-1.jpeg",
+                  "author": "Deepa Nair",
+                  "storeId": 272,
+                  "designation": null
+              },
+              {
+                  "id": 2,
+                  "heading": "Thiruvananthapuram, Kerala",
+                  "subHeading": null,
+                  "content": "I have been searching for comfortable shoes for ages, and I finally found them at this shoe shop! The staff took the time to listen to my needs and recommended the perfect pair of shoes. I can wear them all day without any discomfort. Highly recommend!",
+                  "imageUrl": "testimonial/testimonial-2.jpg",
+                  "author": "Ramesh Kumar",
+                  "storeId": 272,
+                  "designation": null
+              },
+              {
+                  "id": 3,
+                  "heading": "Chennai, Tamil Nadu",
+                  "subHeading": null,
+                  "content": "I have been shopping at this shoe store for years, and I always find great shoes at reasonable prices. The staff is friendly and helpful, and they always have the latest styles and trends in stock. I highly recommend this shop to anyone looking for high-quality shoes",
+                  "imageUrl": "testimonial/testimonial-3.jpg",
+                  "author": "Rajeshwari Iyer",
+                  "storeId": 272,
+                  "designation": null
+              }
+          ]
+      }
+  },
+  {
+      "sectionId": 6,
+      "details": {
+          "sectionHeading": "LATEST UPDATES",
+          "textSize": 30,
+          "textColor": "#050505",
+          "textFontFamily": "'Jost', sans-serif",
+          "textFontStyle": [
+              "B"
+          ],
+          "dividerColor": "#FFA500",
+          "cardImageSize": "fill",
+          "subtextFontFamily": "'Jost', sans-serif",
+          "cardHeadingColor": "darkgray",
+          "cardTitleColor": "#050505",
+          "cardDescriptionColor": "#6c6666",
+          "titleDividerColor": "#FFA500",
+          "buttonText": "View More"
+      },
+      "script": "themes/bundle/retail/zen-walk/zenwalk-home.js",
+      "selectorDetails": {
+          "selector": "phase-ii-common-blogs",
+          "inputData": [
+              {
+                  "selectorInput": "blogsDetails",
+                  "handlerInput": "sampleData.blogs",
+                  "functionName": "getAllBlog"
+              },
+              {
+                  "selectorInput": "displayDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Blog",
+      "isExistingComponent": true,
+      "sampleData": {
+          "blogs": [
+              {
+                  "title": "New Shoes On The Collection",
+                  "content": "<p>Colorful sneakers, classy heels, comfy boots, and chic loafers grace our latest collection – your ultimate source for enduring style and elegance.</p>",
+                  "bannerUrl": "themes/retail/footwearTheme/blog1.jpg",
+                  "scheduleDate": "2016-05-26T10:07:44.564Z",
+                  "scheduleTime": "15:37:00",
+                  "createdAt": "2023-09-26T10:07:44.564Z",
+                  "modifiedAt": "2023-08-21T10:07:45.159Z",
+                  "authorName": "Roronoa Zoro",
+                  "show": true
+              },
+              {
+                  "title": "How To Choose The Right Pair Of Shoes?",
+                  "content": "<p>Selecting ideal shoes involves assessing comfort, fit, style – an amalgamation where fashion seamlessly intertwines with practicality, reflecting your unique taste.</p>",
+                  "bannerUrl": "themes/retail/footwearTheme/blog2.jpg",
+                  "scheduleDate": "2016-05-26T10:07:44.564Z",
+                  "scheduleTime": "15:37:00",
+                  "createdAt": "2018-05-18T10:07:44.564Z",
+                  "modifiedAt": "2023-08-21T10:07:45.159Z",
+                  "authorName": "Roronoa Zoro",
+                  "show": true
+              },
+              {
+                  "title": "The Most Popular Types Of Shoes Today",
+                  "content": "<p>The most popular types of shoes today include sneakers, boots, sandals, loafers, and flats. Comfort, versatility, and style are key factors driving their popularity.</p>",
+                  "bannerUrl": "themes/retail/footwearTheme/blog3.jpg",
+                  "scheduleDate": "2016-05-26T10:07:44.564Z",
+                  "scheduleTime": "15:37:00",
+                  "createdAt": "2016-11-26T10:07:44.564Z",
+                  "modifiedAt": "2023-08-21T10:07:45.159Z",
+                  "authorName": "Roronoa Zoro",
+                  "show": true
+              }
+          ]
+      },
+      "isVisible": true
+  },
+  {
+      "sectionId": 7,
+      "sectionName": "Recently Viewed Products",
+      "isExistingComponent": true,
+      "sampleData": {},
+      "script": "themes/bundle/shared-theme/recently-viewed-products.js",
+      "isVisible": true,
+      "details": {},
+      "selectorDetails": {
+          "selector": "phase-ii-recently-viewed-products",
+          "inputData": [
+              {
+                  "selectorInput": "recentlyViewedProducts",
+                  "handlerInput": "sampleData.recentlyViewedProducts",
+                  "functionName": "getRecentlyViewedProducts"
+              },
+              {
+                  "selectorInput": "websiteSettings",
+                  "handlerInput": "sampleData.websiteSettings"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      }
+  }
+]

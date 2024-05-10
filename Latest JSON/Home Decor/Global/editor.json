@@ -1,0 +1,296 @@
+[
+  {
+      "id": 1,
+      "isExistingComponent": true,
+      "sectionName": "Navbar Properties",
+      "controls": [
+          {
+              "groupName": "Navbar Color Settings",
+              "groupControls": [
+                  {
+                      "type": "Color Picker",
+                      "name": "navbarColor",
+                      "label": "Search button color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "color",
+                      "label": "Search icon color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "backgroundColor",
+                      "label": "Background color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textColor",
+                      "label": "Text color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "cartIconColor",
+                      "label": "Cart icon color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "cartBadgeColor",
+                      "label": "Cart badge color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "iconColor",
+                      "label": "Location icon color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "hoverBackgroundColor",
+                      "label": "Background color on hover"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "hoverTextColor",
+                      "label": "Text color on hover"
+                  }
+              ]
+          },
+          {
+              "groupName": "Navbar Category Type Settings",
+              "groupControls": [
+                  {
+                      "type": "Radio",
+                      "name": "navbarCategory",
+                      "label": "Navbar category type",
+                      "options": [
+                          {
+                              "name": "Category without image",
+                              "value": "withCategory"
+                          },
+                          {
+                              "name": "Category with image",
+                              "value": "withCategory2"
+                          },
+                          {
+                              "name": "No categories",
+                              "value": "noCategory"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "categoryBackground",
+                      "label": "Category bar background color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "menuIconColor",
+                      "label": "Menu icon color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "menuColor",
+                      "label": "Menu text color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "categoryColor",
+                      "label": "Category text color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "categoryHover",
+                      "label": "Category text color on hover"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "scrollThumbColor",
+                      "label": "Scroll thumb color"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "categoryImageRadius",
+                      "label": "Image border radius",
+                      "sectionInfo": "This border radius is applied to the type 'Category with image'.",
+                      "options": [
+                          0,
+                          50
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Attention Banner Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider Toggle",
+                      "name": "showAttentionBanner",
+                      "label": "Show attention banner"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "attentionBannerText",
+                      "label": "Attention banner text",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "attentionBannerBackgroundColor",
+                      "label": "Background color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "attentionBannerTextColor",
+                      "label": "Text color"
+                  }
+              ]
+          },
+          {
+              "groupName": "Navbar Menus",
+              "groupControls": [
+                  {
+                      "type": "Slider Toggle",
+                      "name": "showSingleLocation",
+                      "label": "Hide location name",
+                      "sectionInfo": "This control hides the location name when there is only one location."
+                  },
+                  {
+                      "type": "Horizontal Sorting",
+                      "name": "navbarSections",
+                      "label": "Sort navbar menus"
+                  }
+              ]
+          },
+          {
+              "groupName": "Search Bar Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider",
+                      "name": "searchBarSize",
+                      "label": "Search bar size",
+                      "options": [
+                          25,
+                          50
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Search Bar Category Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider Toggle",
+                      "name": "showSearchCategory",
+                      "label": "Show category on search bar"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "searchCategoryTextColor",
+                      "label": "Category text color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "searchCategoryBackgroundColor",
+                      "label": "Category background color"
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 2,
+      "isExistingComponent": true,
+      "sectionName": "Color",
+      "controls": [
+          {
+              "groupName": "Color Settings",
+              "groupControls": [
+                  {
+                      "type": "Color Picker",
+                      "name": "primary-color",
+                      "label": "Primary color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "secondary-color",
+                      "label": "Secondary color"
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 3,
+      "isExistingComponent": true,
+      "sectionName": "Loader",
+      "controls": [
+          {
+              "groupName": "Loader Settings",
+              "groupControls": [
+                  {
+                      "type": "Image",
+                      "name": "loaderImage",
+                      "label": "Load image",
+                      "errors": [
+                          {
+                              "name": "required"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "ArrayOfObjects",
+                      "name": "loaderArray",
+                      "label": "Loader image"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "loaderText",
+                      "label": "Loader text",
+                      "errors": [
+                          {
+                              "name": "maxlength",
+                              "length": 10
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textColor",
+                      "label": "Loader text color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textStyle",
+                      "label": "Loader font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Loader font family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textFontSize",
+                      "label": "Loader text size",
+                      "options": [
+                          10,
+                          20
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "backgroundColor",
+                      "label": "Loader background color"
+                  }
+              ]
+          }
+      ]
+  }
+]

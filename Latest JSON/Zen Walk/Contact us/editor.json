@@ -1,0 +1,345 @@
+[
+  {
+      "id": 1,
+      "sectionName": "Contact Form",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Banner Settings",
+              "groupControls": [
+                  {
+                      "type": "Image",
+                      "name": "bannerImage",
+                      "label": "Banner background image"
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "bannerImageSize",
+                      "label": "Banner image size",
+                      "options": [
+                          {
+                              "name": "Crop",
+                              "value": "cover"
+                          },
+                          {
+                              "name": "Fit",
+                              "value": "fill"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Input",
+                      "name": "bannerText",
+                      "label": "Banner text",
+                      "errors": [
+                          {
+                              "name": "maxlength",
+                              "length": 20
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textFontStyle",
+                      "label": "Banner text font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Banner text font family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Banner text size",
+                      "options": [
+                          10,
+                          80
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textColor",
+                      "label": "Banner text color"
+                  },
+                  {
+                      "name": "showBanner"
+                  }
+              ]
+          },
+          {
+              "groupName": "Heading and Icon Settings",
+              "groupControls": [
+                  {
+                      "name": "Heading",
+                      "type": "Input",
+                      "label": "Heading",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 25
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "Headingfontsize",
+                      "label": "Heading Size",
+                      "options": [
+                          25,
+                          40
+                      ]
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textTwoFontFamily",
+                      "label": "Heading Font-Family"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "Headingcolor",
+                      "label": "Heading color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "Headingstyle",
+                      "label": "Heading style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "label": "Heading Alignment",
+                      "name": "mainheadingTextAlign",
+                      "options": [
+                          {
+                              "name": "Left",
+                              "value": "left"
+                          },
+                          {
+                              "name": "Center",
+                              "value": "center"
+                          },
+                          {
+                              "name": "Right",
+                              "value": "right"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "iconColor",
+                      "label": "Icon color"
+                  }
+              ]
+          },
+          {
+              "groupName": "Title Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider",
+                      "name": "titlefontsize",
+                      "label": "Title Size",
+                      "options": [
+                          10,
+                          25
+                      ]
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "titleFontFamily",
+                      "label": "Title Font-Family"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "titlecolor",
+                      "label": "Title color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "titlestyle",
+                      "label": "Title style"
+                  }
+              ]
+          },
+          {
+              "groupName": "Location Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider",
+                      "name": "namefontsize",
+                      "label": "Location Size",
+                      "options": [
+                          10,
+                          25
+                      ]
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "subtextFontFamily",
+                      "label": "Location Font-Family"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "namecolor",
+                      "label": "Location color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "namestyle",
+                      "label": "Location style"
+                  }
+              ]
+          },
+          {
+              "groupName": "Phone no Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider",
+                      "name": "desfontsize",
+                      "label": "Phone no Size",
+                      "options": [
+                          10,
+                          25
+                      ]
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "contentFontFamily",
+                      "label": "Phone no Font-Family"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "descolor",
+                      "label": "Phone no color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "desstyle",
+                      "label": "Phone no style"
+                  }
+              ]
+          },
+          {
+              "groupName": "Email Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider",
+                      "name": "locfontsize",
+                      "label": "Email Size",
+                      "options": [
+                          10,
+                          20
+                      ]
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "sectionFontFamily",
+                      "label": "Email Font-Family"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "locolor",
+                      "label": "Email color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "locstyle",
+                      "label": "Email style"
+                  }
+              ]
+          },
+          {
+              "groupName": "Contact-us Image Settings",
+              "groupControls": [
+                  {
+                      "type": "Image",
+                      "name": "image1",
+                      "label": "Form image 1"
+                  },
+                  {
+                      "type": "Image",
+                      "name": "image2",
+                      "label": "Form image 2"
+                  }
+              ]
+          },
+          {
+              "groupName": "Form Heading Settings",
+              "groupControls": [
+                  {
+                      "name": "formHeading",
+                      "type": "Input",
+                      "label": "Form Heading",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 25
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "formHeadingfontsize",
+                      "label": "Form Heading Size",
+                      "options": [
+                          25,
+                          40
+                      ]
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textThreeFontFamily",
+                      "label": "Form Heading Font-Family"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "formHeadingcolor",
+                      "label": "Form Heading color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "formHeadingstyle",
+                      "label": "Form Heading style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "label": "Heading Alignment",
+                      "name": "formheadingTextAlign",
+                      "options": [
+                          {
+                              "name": "Left",
+                              "value": "left"
+                          },
+                          {
+                              "name": "Center",
+                              "value": "center"
+                          },
+                          {
+                              "name": "Right",
+                              "value": "right"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Contact-us Form Settings",
+              "groupControls": [
+                  {
+                      "type": "Contact Form",
+                      "name": "formSetting",
+                      "label": "Form Settings"
+                  },
+                  {
+                      "name": "showBanner"
+                  }
+              ]
+          }
+      ]
+  }
+]

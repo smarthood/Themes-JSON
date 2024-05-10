@@ -13,9 +13,6 @@
               },
               {
                   "imageUrl": "themes/product_details_return_policy/Secure_transaction.png"
-              },
-              {
-                  "imageUrl": "themes/product_details_return_policy/replace.png"
               }
           ],
           "layoutName": "layoutOne",
@@ -1294,7 +1291,12 @@
                   "handlerFunction": "pageToNavigate"
               }
           ],
-          "outputData": []
+          "outputData": [
+            {
+              "selectorOutput": "pageToNavigate",
+              "handlerFunction": "pageToNavigate"
+          }
+          ]
       }
   },
   {
@@ -1517,7 +1519,11 @@
               {
                   "selectorOutput": "dislikeClicked",
                   "handlerFunction": "dislikeClicked"
-              }
+              },
+              {
+                "selectorOutput": "pageToNavigate",
+                "handlerFunction": "pageToNavigate"
+            }
           ]
       }
   },

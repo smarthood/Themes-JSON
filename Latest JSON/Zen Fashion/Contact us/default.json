@@ -21,7 +21,7 @@
               "backgroundType": "none",
               "contactusalignment": "center",
               "formFieldAppearence": "outline",
-              "inputTextColor": "light",
+              "inputTextColor": "#000000",
               "normalLabelColor": "#000",
               "normalLineColor": "#000",
               "focusedLabelColor": "#065677",

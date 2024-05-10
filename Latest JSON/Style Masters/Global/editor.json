@@ -110,7 +110,7 @@
                       "type": "Slider",
                       "name": "categoryImageRadius",
                       "label": "Image border radius",
-                      "sectionInfo": "This is only for navbar category style - Category with image.",
+                      "sectionInfo": "This border radius is applied to the type 'Category with image'.",
                       "options": [
                           0,
                           50

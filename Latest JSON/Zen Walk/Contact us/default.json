@@ -1,0 +1,144 @@
+[
+  {
+      "sectionId": 1,
+      "details": {
+          "bannerImage": "themes/retail/footwearTheme/contactUsBanner.png",
+          "bannerImageSize": "fill",
+          "bannerText": "Contact Us",
+          "textFontFamily": "'Jost', sans-serif",
+          "textColor": "black",
+          "textFontStyle": [
+              "B"
+          ],
+          "textSize": 70,
+          "showBanner": true,
+          "Heading": "GET-IN-TOUCH",
+          "mainheadingTextAlign": "center",
+          "formheadingTextAlign": "center",
+          "iconColor": "var(--primary-color)",
+          "Headingfontsize": "36",
+          "textTwoFontFamily": "'Jost', sans-serif",
+          "Headingcolor": "var(--primary-color)",
+          "Headingstyle": [
+              "B"
+          ],
+          "titlefontsize": "23",
+          "titleFontFamily": "'Jost', sans-serif",
+          "titlecolor": "var(--primary-color)",
+          "titlestyle": [
+              "B"
+          ],
+          "namefontsize": "22",
+          "subtextFontFamily": "'Jost', sans-serif",
+          "namecolor": "var(--secondary-color)",
+          "namestyle": [],
+          "desfontsize": "20",
+          "contentFontFamily": "'Jost', sans-serif",
+          "descolor": "var(--secondary-color)",
+          "desstyle": [],
+          "locfontsize": "19",
+          "sectionFontFamily": "'Jost', sans-serif",
+          "locolor": "var(--secondary-color)",
+          "locstyle": [],
+          "formHeading": "REACH US",
+          "formHeadingfontsize": "36",
+          "textThreeFontFamily": "'Jost', sans-serif",
+          "formHeadingcolor": "var(--primary-color)",
+          "formHeadingstyle": [
+              "B"
+          ],
+          "image1": "themes/retail/footwearTheme/contact-us-boy.jpg",
+          "image2": "themes/retail/footwearTheme/contact-us-girl.jpg",
+          "formSetting": {
+              "formOnly": true,
+              "showTitle": false,
+              "showSubtitle": false,
+              "backgroundColor": "#ff7c64",
+              "backgroundType": "none",
+              "contactusalignment": "center",
+              "formFieldAppearence": "outline",
+              "inputTextColor": "#000000",
+              "normalLabelColor": "#a49e9e",
+              "normalLineColor": "#a49e9e",
+              "focusedLabelColor": "#065677",
+              "focusedLineColor": "#065677",
+              "formFieldDesign": "none",
+              "formCard": false,
+              "formBackground": false,
+              "formFieldLabelOut": false,
+              "formFieldFill": false,
+              "suffixIcon": false,
+              "nameSplit": false,
+              "emailField": true,
+              "contactNoField": true,
+              "termsAndPrivacy": false,
+              "buttonText": "Let's Talk",
+              "buttonBorderColor": "#000",
+              "buttonTextColor": "#fff",
+              "buttonColor": "var(--primary-color)",
+              "buttonRadius": 6,
+              "buttonType": "flat",
+              "buttonAlignment": "center",
+              "templateName": "templateOne"
+          }
+      },
+      "script": "themes/bundle/retail/zen-walk/zenwalk-contact-us.js",
+      "innerScript": [
+          "themes/bundle/shared-theme/common-form.js"
+      ],
+      "selectorDetails": {
+          "selector": "phase-ii-retail-theme3-contact-us",
+          "inputData": [
+              {
+                  "selectorInput": "contactUsDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "currentLocation",
+                  "handlerInput": "sampleData.currentLocation",
+                  "functionName": "getCurrentLocation"
+              },
+              {
+                  "selectorInput": "websiteSettings",
+                  "handlerInput": "sampleData.websiteSettings"
+              }
+          ],
+          "outputData": []
+      },
+      "sectionName": "Contact Form",
+      "isExistingComponent": true,
+      "sampleData": {
+          "currentLocation": {
+              "id": 206,
+              "importId": null,
+              "addressLine1": "pavoorchatram ,tenkasi district ,panchaty taluk",
+              "addressLine2": null,
+              "city": "das",
+              "state": 2303,
+              "name": null,
+              "country": 145,
+              "zipCode": "321233",
+              "mobileNumber": "9025894499",
+              "email": "selvi9068@gmail.com"
+          },
+          "websiteSettings": {
+              "currency": {
+                  "id": 2,
+                  "currencySymbol": "₹",
+                  "currencyCode": "INR",
+                  "currencyName": "Indian Rupees",
+                  "createdAt": null,
+                  "modifiedAt": null
+              },
+              "store": {
+                  "id": 7,
+                  "name": "ZENBASKET COMPANY"
+              },
+              "email": "zenbasket@mailinator.com",
+              "contactNo": "7373994426",
+              "countryCode": 91,
+              "currencyCode": "INR"
+          }
+      }
+  }
+]

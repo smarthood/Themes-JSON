@@ -53,7 +53,7 @@
               "imageFill": false,
               "contactusalignment": "center",
               "formFieldAppearence": "outline",
-              "inputTextColor": "light",
+              "inputTextColor": "#000000",
               "normalLabelColor": "#a49e9e",
               "normalLineColor": "#a49e9e",
               "focusedLabelColor": "#065677",
