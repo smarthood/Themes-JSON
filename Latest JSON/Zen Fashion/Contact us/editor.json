@@ -20,16 +20,6 @@
               ]
           },
           {
-              "groupName": "Image Settings",
-              "groupControls": [
-                  {
-                      "type": "Image",
-                      "name": "contactUsPageImage",
-                      "label": "Contact image"
-                  }
-              ]
-          },
-          {
               "groupName": "Text Settings",
               "groupControls": [
                   {

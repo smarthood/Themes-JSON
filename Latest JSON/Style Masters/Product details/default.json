@@ -242,7 +242,7 @@
               "preorderDiff": "INCREASE",
               "isProductAddOns": false,
               "productAvailability": true,
-              "isReturnable": false,
+              "isReturnable": true,
               "variantCombinationDetails": [],
               "digitalProducts": [],
               "productCategories": [
@@ -303,7 +303,7 @@
                                               "sku": "STYLa001234567",
                                               "price": 599,
                                               "isDefault": true,
-                                              "customLabel": "Mens Woven Premium Silk Necktie With Pocket Square and Golden Tie (Style Masters) - Dark Blue",
+                                              "customLabel": "Mens Woven Premium Silk Necktie With Pocket Square and Golden Tie - Dark Blue",
                                               "description": null,
                                               "variantName": "Dark Blue",
                                               "weightCount": 1,
@@ -600,7 +600,71 @@
                   "customerEligibilityType": 4
               }
           ],
-          "sizeChartDetails": {},
+          "sizeChartDetails": {
+            "productSizeChart": {
+                "id": 686,
+                "sizeChartName": "Tie width",
+                "description": null,
+                "sizeChart": [
+                    {
+                        "title": "Size",
+                        "measurements": [
+                            "Broad",
+                            "Standard",
+                            "Thin"
+                        ]
+                    },
+                    {
+                        "title": "Width(cm)",
+                        "measurements": [
+                            "2.76",
+                            "1.97",
+                            "1.18"
+                        ]
+                    }
+                ],
+                "sizeChartCentimeters": [
+                    {
+                        "title": "Size",
+                        "measurements": [
+                            "Broad",
+                            "Standard",
+                            "Thin"
+                        ]
+                    },
+                    {
+                        "title": "Width(cm)",
+                        "measurements": [
+                            "7",
+                            "5",
+                            "3"
+                        ]
+                    }
+                ],
+                "isProductBased": true,
+                "isCategoryBased": null,
+                "isBrandBased": null,
+                "imageUrl": "themes/retail-theme-4/sizeCharts/Style_Masters_size_chart1715344237201.png",
+                "brandId": null,
+                "categoryId": null,
+                "productId": 186642,
+                "availability": true
+            },
+            "sizeChartStyleDetails": {
+                "fontColor": "#000000",
+                "popUpOverlayColor": "#000000",
+                "headerSubText": "how to measure",
+                "defaultMeasurementSystem": "Metric (Centimeters)",
+                "fontFamily": "Times New Roman",
+                "fontStyles": [
+                    "Bold"
+                ],
+                "fontSize": "18",
+                "displayBothSystems": "true",
+                "sizeChartLabel": "Size chart",
+                "sizeChartView": "Inline"
+            }
+        },
           "salesCountdownTimerOffers": [
               {
                   "id": 199,

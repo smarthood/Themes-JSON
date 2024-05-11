@@ -201,7 +201,8 @@
           ],
           "buttonLink": "aboutus",
           "buttonColor": "#ffffff00",
-          "buttonTextColor": "#ffffff"
+          "buttonTextColor": "#ffffff",
+          "isButtonBorder":true
       },
       "script": "themes/bundle/retail/zen-fashion/zenfashion-home.js",
       "selectorDetails": {
@@ -327,7 +328,8 @@
           "buttonBorderLocation": "bottom",
           "buttonLink": "products",
           "buttonColor": "#ffffff00",
-          "buttonTextColor": "#000000"
+          "buttonTextColor": "#000000",
+          "isButtonBorder":true
       },
       "script": "themes/bundle/retail/zen-fashion/zenfashion-home.js",
       "selectorDetails": {
@@ -443,5 +445,75 @@
       "sectionName": "Video Banner",
       "isExistingComponent": true,
       "sampleData": null
-  }
+  },
+  {
+    "sectionId": 8,
+    "details": {},
+    "script": "themes/bundle/shared-theme/recently-viewed-products.js",
+    "selectorDetails": {
+        "selector": "phase-ii-recently-viewed-products",
+        "inputData": [
+            {
+                "selectorInput": "recentlyViewedProducts",
+                "handlerInput": "sampleData.recentlyViewedProducts",
+                "functionName": "getRecentlyViewedProducts"
+            }
+        ],
+        "outputData": [
+            {
+                "selectorOutput": "pageToNavigate",
+                "handlerFunction": "pageToNavigate"
+            }
+        ]
+    },
+    "sectionName": "Recently Viewed Products",
+    "isExistingComponent": true,
+    "sampleData": {
+        "recentlyViewedProducts": [
+            {
+                "product": {
+                    "featuredImage": "themes/retail-theme-4/sampledata/tie1.png",
+                    "name": "Maroon Stoned Tie",
+                    "price": "599.00"
+                }
+            },
+            {
+                "product": {
+                    "featuredImage": "themes/retail-theme-4/sampledata/tie2.png",
+                    "name": "Pinkish Brown Striped Tie",
+                    "price": "699.00"
+                }
+            },
+            {
+                "product": {
+                    "featuredImage": "themes/retail-theme-4/sampledata/tie3.png",
+                    "name": "Lilac and Black Striped Tie",
+                    "price": "899.00"
+                }
+            },
+            {
+                "product": {
+                    "featuredImage": "themes/retail-theme-4/sampledata/tie4.png",
+                    "name": "Ironic Pink Star Tie",
+                    "price": "799.00"
+                }
+            },
+            {
+                "product": {
+                    "featuredImage": "themes/retail-theme-4/sampledata/tie5.png",
+                    "name": "Maroon Dotted Tie",
+                    "price": "499.00"
+                }
+            },
+            {
+                "product": {
+                    "featuredImage": "themes/retail-theme-4/sampledata/tie6.png",
+                    "name": "Leafy Style Tie",
+                    "price": "299.00"
+                }
+            }
+        ]
+    },
+    "isVisible": true
+}
 ]

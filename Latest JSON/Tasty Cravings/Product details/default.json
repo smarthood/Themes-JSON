@@ -217,93 +217,336 @@
               }
           ],
           "productDetails": {
-              "id": 186588,
-              "featuredImage": "themes/restaurant/Andhra_Spciy_Chicken_Curry__Pieces_2.jpg",
-              "isDigitalProduct": false,
-              "name": "Andhra Spicy Chicken Curry - Pieces",
-              "qty": null,
-              "orderQuantityMinimum": null,
-              "orderQuantityMaximum": null,
-              "isTaxable": false,
-              "isSubscription": false,
-              "description": null,
-              "shortDescription": "The price may vary based on the additionals chosen.",
-              "isVariants": false,
-              "featuredVideo": "themes/restaurant/Andhra_Spicy_Chicken_Curry__Pieces_video.mp4",
-              "weightUnitId": null,
-              "allowPreorder": false,
-              "preorderAmount": null,
-              "isPreOrderLimit": false,
-              "preOrderTotalUsageLimit": null,
-              "preOrderLimitPerCustomer": null,
-              "isNotifyMe": true,
-              "preOrderMessage": null,
-              "preOrderDiscountType": "PERCENTAGE",
-              "preorderDiff": "INCREASE",
-              "isProductAddOns": false,
-              "productAvailability": true,
-              "isReturnable": false,
-              "variantCombinationDetails": [
-                  {
-                      "price": 11.99,
-                      "description": null,
-                      "wholeSalePrice": null,
-                      "id": 247830,
-                      "costComparePrice": 23.99,
-                      "weightCount": 1,
-                      "sku": "TAST0001234567",
-                      "hasLicenseKey": null,
-                      "digitalProductLocation": null,
-                      "multiLocationVariantStocks": [
-                          {
-                              "id": 336263,
-                              "stock": -1,
-                              "isPreorder": false,
-                              "variantSkuId": 247830,
-                              "inventoryLocationId": 33
-                          }
-                      ]
-                  }
-              ],
-              "digitalProducts": [],
-              "productCategories": [
-                  {
-                      "id": 203783,
-                      "category": {
-                          "id": 15084,
-                          "isDefault": false
-                      }
-                  }
-              ],
-              "productModifiers": [],
-              "productAddOnsImages": [],
-              "productOptionMappings": [],
-              "badges": null,
-              "averageRatings": {
-                  "count": 6,
-                  "rows": [
-                      {
-                          "avgRatings": "4.8333333333333333"
-                      }
-                  ]
-              },
-              "variantImages": [
-                  {
-                      "id": 4645,
-                      "itemId": 247830,
-                      "attachmentCategoryTypesMappings": [
-                          {
-                              "id": 9986,
-                              "ext": "jpg",
-                              "fileUrl": "themes/restaurant/Andhra_Spciy_Chicken_Curry__Pieces_1.jpg"
-                          }
-                      ],
-                      "attachmentCategory": {
-                          "id": 2
-                      }
-                  }
-              ]
-          },
+            "id": 186590,
+            "featuredImage": "themes/restaurant/Aloo_Paratha_1684845791815_S511712726545502_S46.png",
+            "isDigitalProduct": false,
+            "name": "Aloo Paratha",
+            "qty": null,
+            "orderQuantityMinimum": null,
+            "orderQuantityMaximum": null,
+            "isTaxable": false,
+            "isSubscription": false,
+            "description": null,
+            "shortDescription": "The price may vary based on the addtionals chosen.",
+            "isVariants": true,
+            "featuredVideo": "themes/restaurant/Untitled_design_1712727355534_S46.mp4",
+            "weightUnitId": null,
+            "allowPreorder": false,
+            "preorderAmount": null,
+            "isPreOrderLimit": false,
+            "preOrderTotalUsageLimit": null,
+            "preOrderLimitPerCustomer": null,
+            "isNotifyMe": true,
+            "preOrderMessage": null,
+            "preOrderDiscountType": "PERCENTAGE",
+            "preorderDiff": "INCREASE",
+            "isProductAddOns": false,
+            "productAvailability": true,
+            "isReturnable": true,
+            "isReplaceable": false,
+            "variantCombinationDetails": [],
+            "digitalProducts": [],
+            "productCategories": [
+                {
+                    "id": 203861,
+                    "category": {
+                        "id": 15084,
+                        "isDefault": false
+                    }
+                }
+            ],
+            "productModifiers": [
+                {
+                    "modifierId": 428,
+                    "maxModifiers": null,
+                    "minModifiers": null,
+                    "defaultOptionsId": null,
+                    "modifierData": {
+                        "id": 428,
+                        "modifierName": "Side Dishes",
+                        "modifierSetMappings": [
+                            {
+                                "id": 1357,
+                                "storeId": 46,
+                                "sortOrder": 1,
+                                "isDeleted": false,
+                                "modifierSetId": 428,
+                                "modifierControlId": 748,
+                                "modifier": {
+                                    "id": 748,
+                                    "optionValue": "Onion Raita",
+                                    "price": 3
+                                }
+                            },
+                            {
+                                "id": 1358,
+                                "storeId": 46,
+                                "sortOrder": 2,
+                                "isDeleted": false,
+                                "modifierSetId": 428,
+                                "modifierControlId": 747,
+                                "modifier": {
+                                    "id": 747,
+                                    "optionValue": "Cucumber Raita",
+                                    "price": 3
+                                }
+                            },
+                            {
+                                "id": 1359,
+                                "storeId": 46,
+                                "sortOrder": 3,
+                                "isDeleted": false,
+                                "modifierSetId": 428,
+                                "modifierControlId": 746,
+                                "modifier": {
+                                    "id": 746,
+                                    "optionValue": "Butter",
+                                    "price": 2.55
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "productAddOnsImages": [],
+            "productOptionMappings": [
+                {
+                    "optionId": 1192,
+                    "productId": 186590,
+                    "option": {
+                        "name": "Size",
+                        "sortOrder": 1,
+                        "showColors": false,
+                        "optionValues": [
+                            {
+                                "id": 2177,
+                                "color": "#000000",
+                                "sortOrder": 41,
+                                "optionValue": "Small",
+                                "productVariantMappings": [
+                                    {
+                                        "skuId": 247838,
+                                        "variantCombinationDetail": {
+                                            "sku": "TASTa001234567",
+                                            "price": 5.99,
+                                            "isDefault": true,
+                                            "customLabel": "Aloo Paratha - Small",
+                                            "description": null,
+                                            "variantName": "Small",
+                                            "weightCount": 1,
+                                            "wholeSalePrice": null,
+                                            "costComparePrice": null,
+                                            "multiLocationVariantStocks": [
+                                                {
+                                                    "id": 336289,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247838,
+                                                    "inventoryLocationId": 33
+                                                },
+                                                {
+                                                    "id": 336532,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247838,
+                                                    "inventoryLocationId": 34
+                                                },
+                                                {
+                                                    "id": 336533,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247838,
+                                                    "inventoryLocationId": 798
+                                                },
+                                                {
+                                                    "id": 336534,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247838,
+                                                    "inventoryLocationId": 800
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 2176,
+                                "color": "#000000",
+                                "sortOrder": 42,
+                                "optionValue": "Medium",
+                                "productVariantMappings": [
+                                    {
+                                        "skuId": 247839,
+                                        "variantCombinationDetail": {
+                                            "sku": "TASTb001234567",
+                                            "price": 8.99,
+                                            "isDefault": false,
+                                            "customLabel": "Aloo Paratha - Medium",
+                                            "description": null,
+                                            "variantName": "Medium",
+                                            "weightCount": 1,
+                                            "wholeSalePrice": null,
+                                            "costComparePrice": null,
+                                            "multiLocationVariantStocks": [
+                                                {
+                                                    "id": 336290,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247839,
+                                                    "inventoryLocationId": 33
+                                                },
+                                                {
+                                                    "id": 336535,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247839,
+                                                    "inventoryLocationId": 34
+                                                },
+                                                {
+                                                    "id": 336536,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247839,
+                                                    "inventoryLocationId": 798
+                                                },
+                                                {
+                                                    "id": 336537,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247839,
+                                                    "inventoryLocationId": 800
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 4470,
+                                "color": "#000000",
+                                "sortOrder": 43,
+                                "optionValue": "Large",
+                                "productVariantMappings": [
+                                    {
+                                        "skuId": 247840,
+                                        "variantCombinationDetail": {
+                                            "sku": "TASTc001234567",
+                                            "price": 11,
+                                            "isDefault": false,
+                                            "customLabel": "Aloo Paratha - Large",
+                                            "description": null,
+                                            "variantName": "Large",
+                                            "weightCount": 1,
+                                            "wholeSalePrice": null,
+                                            "costComparePrice": null,
+                                            "multiLocationVariantStocks": [
+                                                {
+                                                    "id": 336291,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247840,
+                                                    "inventoryLocationId": 33
+                                                },
+                                                {
+                                                    "id": 336538,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247840,
+                                                    "inventoryLocationId": 34
+                                                },
+                                                {
+                                                    "id": 336539,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247840,
+                                                    "inventoryLocationId": 798
+                                                },
+                                                {
+                                                    "id": 336540,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247840,
+                                                    "inventoryLocationId": 800
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "badges": null,
+            "averageRatings": {
+                "count": 6,
+                "rows": [
+                    {
+                        "avgRatings": "4.6666666666666667"
+                    }
+                ]
+            },
+            "variantImages": [
+                {
+                    "id": 4714,
+                    "itemId": 247838,
+                    "attachmentCategoryTypesMappings": [
+                        {
+                            "id": 10157,
+                            "ext": "png",
+                            "fileUrl": "themes/restaurant/Aloo_Paratha_11712741750000_S46.png"
+                        },
+                        {
+                            "id": 10158,
+                            "ext": "jpg",
+                            "fileUrl": "themes/restaurant/Aloo_Paratha_21712741759699_S46.jpg"
+                        }
+                    ],
+                    "attachmentCategory": {
+                        "id": 2
+                    }
+                },
+                {
+                    "id": 4715,
+                    "itemId": 247839,
+                    "attachmentCategoryTypesMappings": [
+                        {
+                            "id": 10159,
+                            "ext": "png",
+                            "fileUrl": "themes/restaurant/Aloo_Paratha_11712741790425_S46.png"
+                        },
+                        {
+                            "id": 10160,
+                            "ext": "jpg",
+                            "fileUrl": "themes/restaurant/Aloo_Paratha_21712741800142_S46.jpg"
+                        }
+                    ],
+                    "attachmentCategory": {
+                        "id": 2
+                    }
+                },
+                {
+                    "id": 4716,
+                    "itemId": 247840,
+                    "attachmentCategoryTypesMappings": [
+                        {
+                            "id": 10161,
+                            "ext": "png",
+                            "fileUrl": "themes/restaurant/Aloo_Paratha_11712741867656_S46.png"
+                        },
+                        {
+                            "id": 10162,
+                            "ext": "jpg",
+                            "fileUrl": "themes/restaurant/Aloo_Paratha_21712741877868_S46.jpg"
+                        }
+                    ],
+                    "attachmentCategory": {
+                        "id": 2
+                    }
+                }
+            ]
+        },
           "categoryDetails": {
               "parentCategory": {
                   "id": 1,
@@ -455,7 +698,71 @@
                   "customerEligibilityType": 4
               }
           ],
-          "sizeChartDetails": {},
+          "sizeChartDetails": {
+            "productSizeChart": {
+                "id": 650,
+                "sizeChartName": "Paratha size",
+                "description": null,
+                "sizeChart": [
+                    {
+                        "title": "Size",
+                        "measurements": [
+                            "Small",
+                            "Medium",
+                            "Large"
+                        ]
+                    },
+                    {
+                        "title": "Inches",
+                        "measurements": [
+                            "5\"",
+                            "6\"",
+                            "7\""
+                        ]
+                    }
+                ],
+                "sizeChartCentimeters": [
+                    {
+                        "title": "Size",
+                        "measurements": [
+                            "Small",
+                            "Medium",
+                            "Large"
+                        ]
+                    },
+                    {
+                        "title": "Inches",
+                        "measurements": [
+                            "5\"",
+                            "6\"",
+                            "7\""
+                        ]
+                    }
+                ],
+                "isProductBased": true,
+                "isCategoryBased": null,
+                "isBrandBased": null,
+                "imageUrl": "themes/restaurant/sizeCharts/Tasty_Cravings_aize_chart1715333293235.png",
+                "brandId": null,
+                "categoryId": null,
+                "productId": 186590,
+                "availability": true
+            },
+            "sizeChartStyleDetails": {
+                "fontColor": "#000000",
+                "popUpOverlayColor": "#000000",
+                "headerSubText": "how to measure",
+                "defaultMeasurementSystem": "Metric (Centimeters)",
+                "fontFamily": "Times New Roman",
+                "fontStyles": [
+                    "Bold"
+                ],
+                "fontSize": "18",
+                "displayBothSystems": "true",
+                "sizeChartLabel": "Size chart",
+                "sizeChartView": "Inline"
+            }
+        },
           "salesCountdownTimerOffers": [
               {
                   "id": 199,

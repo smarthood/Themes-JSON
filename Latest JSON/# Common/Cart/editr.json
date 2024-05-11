@@ -1,103 +1,154 @@
 [
-  {
-      "id": 1,
-      "sectionName": "Checkout",
-      "controls": [
-          {
-              "type": "Slider Toggle",
-              "name": "stepperEnable",
-              "label": "Enable Stepper Type Checkout"
-          },
-          {
-              "type": "Checkbox",
-              "name": "enablePrivacyPolicy",
-              "label": "Enable Privacy Policy"
-          },
-          {
-              "type": "Checkbox",
-              "name": "enableAllowMarketing",
-              "label": "Enable Allow Marketing"
-          },
-          {
-              "type": "Checkbox",
-              "name": "enableMakeShippingAsBilling",
-              "label": "Enable Make Shipping As Billing"
-          },
-          {
-              "type": "Checkbox",
-              "name": "enableMakeDefaultAsBilling",
-              "label": "Enable Make Default As Billing"
-          },
-          {
-              "type": "Checkbox",
-              "name": "enableNewBilling",
-              "label": "Enable New Billing"
-          },
-          {
-              "type": "Input",
-              "name": "shoppingButtonText",
-              "label": "Shopping Button Label"
-          },
-          {
-              "type": "Input",
-              "name": "viewCartLink",
-              "label": "View Cart Link Label"
-          },
-          {
-              "type": "Checkbox",
-              "name": "showProductsCount",
-              "label": "Show Products Count"
-          },
-          {
-              "type": "Slider Toggle",
-              "name": "applyCoupon",
-              "label": "Apply Coupon"
-          },
-          {
-              "type": "Text Area",
-              "name": "offerDescription",
-              "label": "Offer Description"
-          },
-          {
-              "type": "Slider Toggle",
-              "name": "applyStoreCredit",
-              "label": "Apply Store Credit"
-          },
-          {
-              "type": "Text Area",
-              "name": "storeCreditDescription",
-              "label": "Store Credit Description"
-          },
-          {
-              "type": "Slider Toggle",
-              "name": "applyGiftCard",
-              "label": "Apply Gift Card"
-          },
-          {
-              "type": "Text Area",
-              "name": "giftCardDescription",
-              "label": "Gift Card Description"
-          },
-          {
-              "type": "Custom Question",
-              "name": "contactQuestions",
-              "label": "Contact Questions"
-          },
-          {
-              "type": "Custom Question",
-              "name": "shippingQuestions",
-              "label": "Shipping Questions"
-          },
-          {
-              "type": "Custom Question",
-              "name": "billingQuestions",
-              "label": "Billing Questions"
-          },
-          {
-              "type": "Custom Question",
-              "name": "paymentQuestions",
-              "label": "Payment Questions"
-          }
-      ]
-  }
+    {
+        "id": 1,
+        "sectionName": "Cart",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "type": "Input",
+                "name": "preferenceHeading",
+                "label": "Preference Heading"
+            },
+            {
+                "type": "Text Area",
+                "name": "substitutionCardContent",
+                "label": "Substitution Card Content"
+            },
+            {
+                "type": "Input",
+                "name": "removeButtonText",
+                "label": "Remove Button Label"
+            },
+            {
+                "type": "Input",
+                "name": "replaceButtonText",
+                "label": "Replace Button Label"
+            },
+            {
+                "type": "Input",
+                "name": "shippingNoteText",
+                "label": "Shipping Note Text"
+            },
+            {
+                "type": "Text Area",
+                "name": "removeInstruction",
+                "label": "Remove Instruction"
+            },
+            {
+                "type": "Text Area",
+                "name": "replaceInstruction",
+                "label": "Replace Instruction"
+            },
+            {
+                "type": "Input",
+                "name": "summaryHeading",
+                "label": "Summary Heading"
+            },
+            {
+                "type": "Input",
+                "name": "totalText",
+                "label": "Total Text"
+            },
+            {
+                "type": "Input",
+                "name": "TaxNoteText",
+                "label": "Tax Note Text"
+            },
+            {
+                "type": "Input",
+                "name": "shareCartButtonText",
+                "label": "Share Cart Button Text"
+            },
+            {
+                "type": "Input",
+                "name": "checkoutButtonText",
+                "label": "Checkout Button Label"
+            },
+            {
+                "type": "Input",
+                "name": "continueOrderingButtonText",
+                "label": "Continue Ordering Button Label"
+            },
+            {
+                "type": "Input",
+                "name": "cartTitle",
+                "label": "cart Title"
+            },
+            {
+                "type": "Input",
+                "name": "productListHeading",
+                "label": "Product list"
+            },
+            {
+                "type": "Input",
+                "name": "removeItemButtonText",
+                "label": "Remove Item Button Label"
+            },
+            {
+                "type": "Input",
+                "name": "replaceItemButtonText",
+                "label": "Replace Item Button Label"
+            },
+            {
+                "type": "Input",
+                "name": "subscriptionListHeading",
+                "label": "Subscription List Heading"
+            },
+            {
+                "type": "Input",
+                "name": "substitutionCardHeading",
+                "label": "Substitution Card Heading"
+            },
+            {
+                "type": "Input",
+                "name": "instructionHeading",
+                "label": "Instruction Heading"
+            },
+            {
+                "type": "Slider Toggle",
+                "name": "isDisplayQuoteRequest",
+                "label": "Display Quote Request"
+            },
+            {
+                "type": "Input",
+                "name": "quoteRequestHeading",
+                "label": "Quote Request Heading"
+            },
+            {
+                "type": "Input",
+                "name": "quoteRequestButtonText",
+                "label": "QuoteRequest Button Label"
+            },
+            {
+                "type": "Text Area",
+                "name": "closedAlertText",
+                "label": "Closed Alert Text"
+            },
+            {
+                "type": "Input",
+                "name": "startOrderingButtonText",
+                "label": "Start Ordering Button Text"
+            },
+            {
+                "type": "Slider Toggle",
+                "name": "isEmptyCart",
+                "label": "Empty Cart View"
+            },
+            {
+                "type": "Image",
+                "name": "emptyCartImage",
+                "label": "Empty Cart Image"
+            },
+            {
+                "type": "Input",
+                "name": "cartEmptyText",
+                "label": "Cart Empty Text"
+            },
+            {
+                "type": "Input",
+                "name": "cartEmptyDetails",
+                "label": "Cart Empty Details"
+            }
+        ]
+    }
 ]

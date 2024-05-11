@@ -217,250 +217,310 @@
               }
           ],
           "productDetails": {
-              "id": 186579,
-              "featuredImage": "themes/retail-theme4/timez-prod-1.png",
-              "isDigitalProduct": false,
-              "name": "Approach S12 -Golf Watch (TimeZ)",
-              "qty": null,
-              "orderQuantityMinimum": null,
-              "orderQuantityMaximum": null,
-              "isTaxable": false,
-              "isSubscription": false,
-              "description": "<p>Introducing the Approach S12, the sleek and user-friendly golf GPS watch designed to enhance your game on the links.&nbsp;<br><br>With its intuitive interface and easy-to-read display, the Approach S12 provides accurate yardage information to the front, back, and middle of the green, as well as hazards and doglegs. This allows you to make more informed club selections and strategic decisions, ultimately improving your overall performance on the course.&nbsp;<br><br>The Approach S12 comes preloaded with thousands of golf courses worldwide, so you can tee off with confidence no matter where you play. Plus, with automatic course updates via Garmin Express, you'll always have access to the latest information and features.&nbsp;<br><br>In addition to its golf-specific features, the Approach S12 also functions as a stylish everyday watch, with a comfortable silicone band and long-lasting battery life. Whether you're on the course or off, you can wear it with confidence and style.</p>",
-              "shortDescription": "For return, Unboxing video is must.",
-              "isVariants": true,
-              "featuredVideo": "themes/retail-theme4/timez-video.mp4",
-              "weightUnitId": null,
-              "allowPreorder": false,
-              "preorderAmount": null,
-              "isPreOrderLimit": false,
-              "preOrderTotalUsageLimit": null,
-              "preOrderLimitPerCustomer": null,
-              "isNotifyMe": true,
-              "preOrderMessage": null,
-              "preOrderDiscountType": "PERCENTAGE",
-              "preorderDiff": "INCREASE",
-              "isProductAddOns": true,
-              "productAvailability": true,
-              "isReturnable": false,
-              "variantCombinationDetails": [],
-              "digitalProducts": [],
-              "productCategories": [
-                  {
-                      "id": 204300,
-                      "category": {
-                          "id": 15084,
-                          "isDefault": false
-                      }
-                  }
-              ],
-              "productModifiers": [
-                  {
-                      "modifierId": 422,
-                      "maxModifiers": null,
-                      "minModifiers": null,
-                      "defaultOptionsId": null,
-                      "modifierData": {
-                          "id": 422,
-                          "modifierName": "Want this gift wrapped?",
-                          "modifierSetMappings": [
-                              {
-                                  "id": 1342,
-                                  "storeId": 46,
-                                  "sortOrder": 1,
-                                  "isDeleted": false,
-                                  "modifierSetId": 422,
-                                  "modifierControlId": 731,
-                                  "modifier": {
-                                      "id": 731,
-                                      "optionValue": "Yes",
-                                      "price": 5
-                                  }
-                              }
-                          ]
-                      }
-                  }
-              ],
-              "productAddOnsImages": [
-                  {
-                      "id": 340,
-                      "name": "Image",
-                      "price": 0,
-                      "requiredStatus": false
-                  },
-                  {
-                      "id": 341,
-                      "name": "Size",
-                      "price": 0,
-                      "requiredStatus": false
-                  }
-              ],
-              "productOptionMappings": [
-                  {
-                      "optionId": 346,
-                      "productId": 186579,
-                      "option": {
-                          "name": "Color",
-                          "sortOrder": null,
-                          "showColors": false,
-                          "optionValues": [
-                              {
-                                  "id": 4460,
-                                  "color": "#000000",
-                                  "sortOrder": 2,
-                                  "optionValue": "Black",
-                                  "productVariantMappings": [
-                                      {
-                                          "skuId": 247816,
-                                          "variantCombinationDetail": {
-                                              "sku": "TIMEa001234567",
-                                              "price": 269.59,
-                                              "isDefault": true,
-                                              "customLabel": "Approach S12 -Golf Watch - Black",
-                                              "description": null,
-                                              "variantName": "Black",
-                                              "weightCount": 1,
-                                              "wholeSalePrice": null,
-                                              "costComparePrice": null,
-                                              "multiLocationVariantStocks": [
-                                                  {
-                                                      "id": 336166,
-                                                      "stock": -1,
-                                                      "isPreorder": true,
-                                                      "variantSkuId": 247816,
-                                                      "inventoryLocationId": 33
-                                                  },
-                                                  {
-                                                      "id": 337413,
-                                                      "stock": -1,
-                                                      "isPreorder": true,
-                                                      "variantSkuId": 247816,
-                                                      "inventoryLocationId": 798
-                                                  },
-                                                  {
-                                                      "id": 337411,
-                                                      "stock": -1,
-                                                      "isPreorder": true,
-                                                      "variantSkuId": 247816,
-                                                      "inventoryLocationId": 34
-                                                  },
-                                                  {
-                                                      "id": 337412,
-                                                      "stock": -1,
-                                                      "isPreorder": true,
-                                                      "variantSkuId": 247816,
-                                                      "inventoryLocationId": 800
-                                                  }
-                                              ]
-                                          }
-                                      }
-                                  ]
-                              },
-                              {
-                                  "id": 4444,
-                                  "color": "#000000",
-                                  "sortOrder": 6,
-                                  "optionValue": "White",
-                                  "productVariantMappings": [
-                                      {
-                                          "skuId": 247817,
-                                          "variantCombinationDetail": {
-                                              "sku": "TIMEa001234567",
-                                              "price": 269.59,
-                                              "isDefault": false,
-                                              "customLabel": "Approach S12 -Golf Watch - White",
-                                              "description": null,
-                                              "variantName": "White",
-                                              "weightCount": 1,
-                                              "wholeSalePrice": null,
-                                              "costComparePrice": null,
-                                              "multiLocationVariantStocks": [
-                                                  {
-                                                      "id": 336167,
-                                                      "stock": 12,
-                                                      "isPreorder": true,
-                                                      "variantSkuId": 247817,
-                                                      "inventoryLocationId": 175
-                                                  }
-                                              ]
-                                          }
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  }
-              ],
-              "badges": null,
-              "averageRatings": {
-                  "count": 6,
-                  "rows": [
-                      {
-                          "avgRatings": "4.8333333333333333"
-                      }
-                  ]
-              },
-              "variantImages": [
-                  {
-                      "id": 4608,
-                      "itemId": 247816,
-                      "attachmentCategoryTypesMappings": [
-                          {
-                              "id": 9876,
-                              "ext": "png",
-                              "fileUrl": "themes/retail-theme4/prod-black-varient-1.png"
-                          },
-                          {
-                              "id": 9877,
-                              "ext": "png",
-                              "fileUrl": "themes/retail-theme4/prod-black-varient-2.png"
-                          },
-                          {
-                              "id": 9878,
-                              "ext": "png",
-                              "fileUrl": "themes/retail-theme4/prod-black-varient-3.png"
-                          },
-                          {
-                              "id": 9879,
-                              "ext": "png",
-                              "fileUrl": "themes/retail-theme4/prod-black-varient-4.png"
-                          }
-                      ],
-                      "attachmentCategory": {
-                          "id": 2
-                      }
-                  },
-                  {
-                      "id": 4609,
-                      "itemId": 247817,
-                      "attachmentCategoryTypesMappings": [
-                          {
-                              "id": 9880,
-                              "ext": "png",
-                              "fileUrl": "themes/retail-theme4/prod-white-varient-1.png"
-                          },
-                          {
-                              "id": 9881,
-                              "ext": "png",
-                              "fileUrl": "themes/retail-theme4/prod-white-varient-2.png"
-                          },
-                          {
-                              "id": 9882,
-                              "ext": "png",
-                              "fileUrl": "themes/retail-theme4/prod-white-varient-3.png"
-                          },
-                          {
-                              "id": 9883,
-                              "ext": "png",
-                              "fileUrl": "themes/retail-theme4/prod-white-varient-4.png"
-                          }
-                      ],
-                      "attachmentCategory": {
-                          "id": 2
-                      }
-                  }
-              ]
-          },
+            "id": 186602,
+            "featuredImage": "themes/retail/Apple_Red_Zariwork_Velvet_Readymade_Lehenga_11712733514701_S46.jpg",
+            "isDigitalProduct": false,
+            "name": "Apple Red Zariwork Velvet Readymade Lehenga",
+            "qty": null,
+            "orderQuantityMinimum": null,
+            "orderQuantityMaximum": null,
+            "isTaxable": false,
+            "isSubscription": false,
+            "description": "<p><span style=\"color:rgb(0,0,0);\">Introducing our&nbsp;Red Readymade Lehenga&nbsp;in velvet fabric, a captivating ensemble that effortlessly combines grace with contemporary style.&nbsp;Elevate your ethnic wardrobe with our Red Readymade Lehenga, a stunning choice for special occasions and celebrations. The lehenga&nbsp;is embellished with Zariwork embroidery. This&nbsp;set is crafted from premium quality velvet fabric and accomplished with a readymade blouse and dupatta&nbsp;offering a lightweight and comfortable feel while ensuring a graceful drape.&nbsp; &nbsp;&nbsp;</span></p>",
+            "shortDescription": "For return, Unboxing video is must.",
+            "isVariants": true,
+            "featuredVideo": "themes/retail/Apple_Red_Zariwork_Velvet_Readymade_Lehenga_video_1712733661826_S46.mp4",
+            "weightUnitId": null,
+            "allowPreorder": false,
+            "preorderAmount": null,
+            "isPreOrderLimit": false,
+            "preOrderTotalUsageLimit": null,
+            "preOrderLimitPerCustomer": null,
+            "isNotifyMe": true,
+            "preOrderMessage": null,
+            "preOrderDiscountType": "PERCENTAGE",
+            "preorderDiff": "INCREASE",
+            "isProductAddOns": false,
+            "productAvailability": true,
+            "isReturnable": true,
+            "isReplaceable": false,
+            "variantCombinationDetails": [],
+            "digitalProducts": [],
+            "productCategories": [
+                {
+                    "id": 203826,
+                    "category": {
+                        "id": 15084,
+                        "isDefault": false
+                    }
+                }
+            ],
+            "productModifiers": [
+                {
+                    "modifierId": 422,
+                    "maxModifiers": null,
+                    "minModifiers": null,
+                    "defaultOptionsId": null,
+                    "modifierData": {
+                        "id": 422,
+                        "modifierName": "Want this gift wrapped?",
+                        "modifierSetMappings": [
+                            {
+                                "id": 1342,
+                                "storeId": 46,
+                                "sortOrder": 1,
+                                "isDeleted": false,
+                                "modifierSetId": 422,
+                                "modifierControlId": 731,
+                                "modifier": {
+                                    "id": 731,
+                                    "optionValue": "Yes",
+                                    "price": 5
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "productAddOnsImages": [],
+            "productOptionMappings": [
+                {
+                    "optionId": 1192,
+                    "productId": 186602,
+                    "option": {
+                        "name": "Size",
+                        "sortOrder": 1,
+                        "showColors": false,
+                        "optionValues": [
+                            {
+                                "id": 2177,
+                                "color": "#000000",
+                                "sortOrder": 41,
+                                "optionValue": "Small",
+                                "productVariantMappings": [
+                                    {
+                                        "skuId": 247869,
+                                        "variantCombinationDetail": {
+                                            "sku": "ZENFa001234567",
+                                            "price": 11000,
+                                            "isDefault": true,
+                                            "customLabel": "Apple Red Zariwork Velvet Readymade Lehenga (Zen Fashion) - Small",
+                                            "description": null,
+                                            "variantName": "Small",
+                                            "weightCount": 1,
+                                            "wholeSalePrice": null,
+                                            "costComparePrice": 12000,
+                                            "multiLocationVariantStocks": [
+                                                {
+                                                    "id": 336397,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247869,
+                                                    "inventoryLocationId": 33
+                                                },
+                                                {
+                                                    "id": 336398,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247869,
+                                                    "inventoryLocationId": 34
+                                                },
+                                                {
+                                                    "id": 336399,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247869,
+                                                    "inventoryLocationId": 798
+                                                },
+                                                {
+                                                    "id": 336400,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247869,
+                                                    "inventoryLocationId": 800
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 2176,
+                                "color": "#000000",
+                                "sortOrder": 42,
+                                "optionValue": "Medium",
+                                "productVariantMappings": [
+                                    {
+                                        "skuId": 247870,
+                                        "variantCombinationDetail": {
+                                            "sku": "ZENFb001234567",
+                                            "price": 14000,
+                                            "isDefault": false,
+                                            "customLabel": "Apple Red Zariwork Velvet Readymade Lehenga (Zen Fashion) - Medium",
+                                            "description": null,
+                                            "variantName": "Medium",
+                                            "weightCount": 1,
+                                            "wholeSalePrice": null,
+                                            "costComparePrice": 16000,
+                                            "multiLocationVariantStocks": [
+                                                {
+                                                    "id": 336401,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247870,
+                                                    "inventoryLocationId": 33
+                                                },
+                                                {
+                                                    "id": 336402,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247870,
+                                                    "inventoryLocationId": 34
+                                                },
+                                                {
+                                                    "id": 336403,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247870,
+                                                    "inventoryLocationId": 798
+                                                },
+                                                {
+                                                    "id": 336404,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247870,
+                                                    "inventoryLocationId": 800
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 4470,
+                                "color": "#000000",
+                                "sortOrder": 43,
+                                "optionValue": "Large",
+                                "productVariantMappings": [
+                                    {
+                                        "skuId": 247871,
+                                        "variantCombinationDetail": {
+                                            "sku": "ZENFc001234567",
+                                            "price": 15000,
+                                            "isDefault": false,
+                                            "customLabel": "Apple Red Zariwork Velvet Readymade Lehenga (Zen Fashion) - Large",
+                                            "description": null,
+                                            "variantName": "Large",
+                                            "weightCount": 1,
+                                            "wholeSalePrice": null,
+                                            "costComparePrice": 20000,
+                                            "multiLocationVariantStocks": [
+                                                {
+                                                    "id": 336405,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247871,
+                                                    "inventoryLocationId": 33
+                                                },
+                                                {
+                                                    "id": 336406,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247871,
+                                                    "inventoryLocationId": 34
+                                                },
+                                                {
+                                                    "id": 336407,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247871,
+                                                    "inventoryLocationId": 798
+                                                },
+                                                {
+                                                    "id": 336408,
+                                                    "stock": -1,
+                                                    "isPreorder": false,
+                                                    "variantSkuId": 247871,
+                                                    "inventoryLocationId": 800
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "badges": null,
+            "averageRatings": {
+                "count": 6,
+                "rows": [
+                    {
+                        "avgRatings": "4.6666666666666667"
+                    }
+                ]
+            },
+            "variantImages": [
+                {
+                    "id": 4683,
+                    "itemId": 247869,
+                    "attachmentCategoryTypesMappings": [
+                        {
+                            "id": 10070,
+                            "ext": "jpg",
+                            "fileUrl": "themes/retail/Apple_Red_Zariwork_Velvet_Readymade_Lehenga_11712733514701_S46.jpg"
+                        },
+                        {
+                            "id": 10071,
+                            "ext": "jpg",
+                            "fileUrl": "themes/retail/Apple_Red_Zariwork_Velvet_Readymade_Lehenga_21712733555956_S46.jpg"
+                        }
+                    ],
+                    "attachmentCategory": {
+                        "id": 2
+                    }
+                },
+                {
+                    "id": 4684,
+                    "itemId": 247870,
+                    "attachmentCategoryTypesMappings": [
+                        {
+                            "id": 10072,
+                            "ext": "jpg",
+                            "fileUrl": "themes/retail/Apple_Red_Zariwork_Velvet_Readymade_Lehenga_11712733514701_S46.jpg"
+                        },
+                        {
+                            "id": 10073,
+                            "ext": "jpg",
+                            "fileUrl": "themes/retail/Apple_Red_Zariwork_Velvet_Readymade_Lehenga_21712733555956_S46.jpg"
+                        }
+                    ],
+                    "attachmentCategory": {
+                        "id": 2
+                    }
+                },
+                {
+                    "id": 4685,
+                    "itemId": 247871,
+                    "attachmentCategoryTypesMappings": [
+                        {
+                            "id": 10074,
+                            "ext": "jpg",
+                            "fileUrl": "themes/retail/Apple_Red_Zariwork_Velvet_Readymade_Lehenga_11712733514701_S46.jpg"
+                        },
+                        {
+                            "id": 10075,
+                            "ext": "jpg",
+                            "fileUrl": "themes/retail/Apple_Red_Zariwork_Velvet_Readymade_Lehenga_21712733555956_S46.jpg"
+                        }
+                    ],
+                    "attachmentCategory": {
+                        "id": 2
+                    }
+                }
+            ]
+        },
           "categoryDetails": {
               "parentCategory": {
                   "id": 1,
@@ -613,129 +673,128 @@
               }
           ],
           "sizeChartDetails": {
-              "productSizeChart": {
-                  "id": 1368,
-                  "sizeChartName": "Size Guide",
-                  "description": "Special Notes - Before Ordering Please Check Your Measurement to Make Sure the Item Fits You. Select the Correct Size from Dropdown; - For Detail of Measurements Please Refer to Our Size Chart",
-                  "sizeChart": [
-                      {
-                          "title": "Size",
-                          "measurements": [
-                              "M",
-                              "L",
-                              "XL",
-                              "XXL"
-                          ]
-                      },
-                      {
-                          "title": "Bust",
-                          "measurements": [
-                              "35.83",
-                              "36.22",
-                              "36.61",
-                              "37.01"
-                          ]
-                      },
-                      {
-                          "title": "Waist",
-                          "measurements": [
-                              "32.68",
-                              "33.07",
-                              "33.46",
-                              "33.86"
-                          ]
-                      },
-                      {
-                          "title": "Hip",
-                          "measurements": [
-                              "27.56",
-                              "27.95",
-                              "28.35",
-                              "28.74"
-                          ]
-                      },
-                      {
-                          "title": "Length",
-                          "measurements": [
-                              "35.43",
-                              "39.37",
-                              "39.76",
-                              "40.16"
-                          ]
-                      }
-                  ],
-                  "sizeChartCentimeters": [
-                      {
-                          "title": "Size",
-                          "measurements": [
-                              "M",
-                              "L",
-                              "XL",
-                              "XXL"
-                          ]
-                      },
-                      {
-                          "title": "Bust",
-                          "measurements": [
-                              "91",
-                              "92",
-                              "93",
-                              "94"
-                          ]
-                      },
-                      {
-                          "title": "Waist",
-                          "measurements": [
-                              "83",
-                              "84",
-                              "85",
-                              "86"
-                          ]
-                      },
-                      {
-                          "title": "Hip",
-                          "measurements": [
-                              "70",
-                              "71",
-                              "72",
-                              "73"
-                          ]
-                      },
-                      {
-                          "title": "Length",
-                          "measurements": [
-                              "90",
-                              "100",
-                              "101",
-                              "102"
-                          ]
-                      }
-                  ],
-                  "isProductBased": true,
-                  "isCategoryBased": null,
-                  "isBrandBased": null,
-                  "imageUrl": "STORE_154/products/sizeCharts/Screenshot_20240404_1421571712220846415.png",
-                  "brandId": null,
-                  "categoryId": null,
-                  "productId": 249040,
-                  "availability": true
-              },
-              "sizeChartStyleDetails": {
-                  "popUpOverlayColor": "#554444",
-                  "displayBothSystems": "true",
-                  "fontSize": "16",
-                  "fontFamily": "Montserrat",
-                  "fontStyles": [
-                      "Bold"
-                  ],
-                  "fontColor": "var(--primary-color)",
-                  "sizeChartLabel": "Size chart",
-                  "sizeChartView": "Inline",
-                  "linkPosition": "Before add to cart",
-                  "defaultMeasurementSystem": "Metric (Centimeters)",
-                  "headerSubText": "How to measure"
-              }
-          },
+            "productSizeChart": {
+                "id": 666,
+                "sizeChartName": "Lehenga size",
+                "description": null,
+                "sizeChart": [
+                    {
+                        "title": "Size",
+                        "measurements": [
+                            "S",
+                            "M",
+                            "L",
+                            "XL"
+                        ]
+                    },
+                    {
+                        "title": "Blouse Length",
+                        "measurements": [
+                            "5.12",
+                            "5.12",
+                            "5.51",
+                            "5.91"
+                        ]
+                    },
+                    {
+                        "title": "Skirt Length",
+                        "measurements": [
+                            "14.17",
+                            "14.96",
+                            "15.75",
+                            "16.54"
+                        ]
+                    },
+                    {
+                        "title": "Waist",
+                        "measurements": [
+                            "10.24",
+                            "11.02",
+                            "11.81",
+                            "12.60"
+                        ]
+                    },
+                    {
+                        "title": "Chest",
+                        "measurements": [
+                            "12.60",
+                            "13.39",
+                            "14.17",
+                            "14.96"
+                        ]
+                    }
+                ],
+                "sizeChartCentimeters": [
+                    {
+                        "title": "Size",
+                        "measurements": [
+                            "S",
+                            "M",
+                            "L",
+                            "XL"
+                        ]
+                    },
+                    {
+                        "title": "Blouse Length",
+                        "measurements": [
+                            "13",
+                            "13",
+                            "14",
+                            "15"
+                        ]
+                    },
+                    {
+                        "title": "Skirt Length",
+                        "measurements": [
+                            "36",
+                            "38",
+                            "40",
+                            "42"
+                        ]
+                    },
+                    {
+                        "title": "Waist",
+                        "measurements": [
+                            "26",
+                            "28",
+                            "30",
+                            "32"
+                        ]
+                    },
+                    {
+                        "title": "Chest",
+                        "measurements": [
+                            "32",
+                            "34",
+                            "36",
+                            "38"
+                        ]
+                    }
+                ],
+                "isProductBased": true,
+                "isCategoryBased": null,
+                "isBrandBased": null,
+                "imageUrl": "themes/retail/sizeCharts/Zen_Fashion_size_chart1715335025421.png",
+                "brandId": null,
+                "categoryId": null,
+                "productId": 186602,
+                "availability": true
+            },
+            "sizeChartStyleDetails": {
+                "fontColor": "#000000",
+                "popUpOverlayColor": "#000000",
+                "headerSubText": "how to measure",
+                "defaultMeasurementSystem": "Metric (Centimeters)",
+                "fontFamily": "Times New Roman",
+                "fontStyles": [
+                    "Bold"
+                ],
+                "fontSize": "18",
+                "displayBothSystems": "true",
+                "sizeChartLabel": "Size chart",
+                "sizeChartView": "Inline"
+            }
+        },
           "salesCountdownTimerOffers": [
               {
                   "id": 199,
