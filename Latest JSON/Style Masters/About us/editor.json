@@ -1,45 +1,45 @@
 [
-  {
-      "id": 1,
-      "sectionName": "AboutUs banner",
-      "isExistingComponent": true,
-      "controls": [
-          {
-              "type": "Banner Layout",
-              "name": "bannerDetails",
-              "label": "Banner Details"
-          }
-      ]
-  },
-  {
-      "id": 2,
-      "sectionName": "Image Gallery",
-      "isExistingComponent": true,
-      "controls": [
-          {
-              "groupName": "Image Settings",
-              "groupControls": [
-                  {
-                      "type": "Image Gallery",
-                      "name": "gallerImages",
-                      "label": "Background Colour"
-                  }
-              ]
-          }
-      ]
-  },
-  {
-      "id": 3,
-      "sectionName": "Our Promise",
-      "isExistingComponent": true,
-      "controls": [
+    {
+        "id": 1,
+        "sectionName": "AboutUs banner",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "type": "Banner Layout",
+                "name": "bannerDetails",
+                "label": "Banner Details"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "sectionName": "Image Gallery",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Image Settings",
+                "groupControls": [
+                    {
+                        "type": "Image Gallery",
+                        "name": "gallerImages",
+                        "label": "Background Colour"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "sectionName": "Our Promise",
+        "isExistingComponent": true,
+        "controls": [
           {
               "groupName": "Image Settings",
               "groupControls": [
                   {
                       "type": "Radio",
                       "name": "alignment",
-                      "label": "Image Alignment",
+                      "label": "Image alignment",
                       "options": [
                           {
                               "name": "Left",
@@ -64,17 +64,7 @@
                   {
                       "type": "Color Picker",
                       "name": "formBackgroundColor",
-                      "label": "Form Background Color"
-                  },
-                  {
-                      "type": "Checkbox",
-                      "name": "isGlobalBackground",
-                      "label": "Use global background"
-                  },
-                  {
-                      "type": "Color Picker",
-                      "name": "localBackground",
-                      "label": "Background color"
+                      "label": "Form background color"
                   }
               ]
           },
@@ -84,7 +74,7 @@
                   {
                       "type": "Radio",
                       "name": "textAlignment",
-                      "label": "Text Alignment",
+                      "label": "Text alignment",
                       "options": [
                           {
                               "name": "Left",
@@ -103,7 +93,54 @@
                   {
                       "type": "Input",
                       "name": "headingText",
-                      "label": "Heading Text",
+                      "label": "Heading text",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "pattern",
+                              "patternName": "emptySpace"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textColor",
+                      "label": "Heading text color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textFontStyle",
+                      "label": "Font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Text font family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Heading size",
+                      "options": [
+                          10,
+                          80
+                      ]
+                  },
+                  {
+                      "type": "Slider Toggle",
+                      "name": "showSubText",
+                      "label": "Show subtext"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "subText",
+                      "label": "Subtext",
                       "errors": [
                           {
                               "name": "required"
@@ -115,71 +152,28 @@
                       ]
                   },
                   {
-                      "type": "Font Style",
-                      "name": "textFontStyle",
-                      "label": "Font Style"
-                  },
-                  {
-                      "type": "Dropdown",
-                      "name": "textFontFamily",
-                      "label": "Text Font Family"
-                  },
-                  {
-                      "type": "Slider",
-                      "name": "textSize",
-                      "label": "Heading Size",
-                      "options": [
-                          10,
-                          36
-                      ]
-                  },
-                  {
                       "type": "Color Picker",
-                      "name": "textColor",
-                      "label": "Heading Text Color"
-                  },
-                  {
-                      "type": "Input",
-                      "name": "subText",
-                      "label": "Sub Text",
-                      "errors": [
-                          {
-                              "name": "required"
-                          },
-                          {
-                              "name": "maxlength",
-                              "length": 200
-                          }
-                      ]
-                  },
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showSubText",
-                      "label": "Show subtext"
+                      "name": "subTextColor",
+                      "label": "Subtext color"
                   },
                   {
                       "type": "Font Style",
                       "name": "subtextFontStyle",
-                      "label": "Font Style"
+                      "label": "Font style"
                   },
                   {
                       "type": "Dropdown",
                       "name": "subtextFontFamily",
-                      "label": "Subtext Font Family"
+                      "label": "Subtext font family"
                   },
                   {
                       "type": "Slider",
                       "name": "subTextSize",
-                      "label": "Sub Text Size",
+                      "label": "Subtext size",
                       "options": [
                           10,
-                          18
+                          40
                       ]
-                  },
-                  {
-                      "type": "Color Picker",
-                      "name": "subTextColor",
-                      "label": "Sub Text Color"
                   }
               ]
           },
@@ -187,58 +181,71 @@
               "groupName": "Button Settings",
               "groupControls": [
                   {
-                      "type": "Checkbox",
+                      "type": "Slider Toggle",
                       "name": "buttonVisiblity",
-                      "label": "Show Button"
+                      "label": "Show button"
                   },
                   {
                       "type": "Input",
                       "name": "buttonText",
-                      "label": "Button Text",
+                      "label": "Button text",
                       "errors": [
                           {
                               "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 20
                           }
                       ]
                   },
                   {
                       "type": "Dropdown",
                       "name": "buttonLink",
-                      "label": "Redirect To",
+                      "label": "Redirect to",
                       "errors": [
                           {
                               "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
                           }
                       ]
                   },
                   {
                       "type": "Color Picker",
                       "name": "buttonColor",
-                      "label": "Button Color"
+                      "label": "Button color"
                   },
                   {
                       "type": "Color Picker",
                       "name": "buttonTextColor",
-                      "label": "Button Text Color"
+                      "label": "Button text color"
                   },
                   {
                       "type": "Color Picker",
                       "name": "buttonBorderColor",
-                      "label": "Button Border Color"
+                      "label": "Button border color"
                   },
                   {
                       "type": "Slider",
                       "name": "buttonBorderRadius",
-                      "label": "Button Border Radius",
+                      "label": "Button border radius",
                       "options": [
                           0,
                           25
                       ]
                   },
                   {
+                      "type": "Slider Toggle",
+                      "name": "isButtonBorder",
+                      "label": "Enable button border"
+                  },
+                  {
                       "type": "Dropdown",
                       "name": "buttonBorderLocation",
-                      "label": "Button Border Location",
+                      "label": "Button border location",
                       "options": [
                           {
                               "name": "All",
@@ -265,73 +272,73 @@
               ]
           }
       ]
-  },
-  {
-      "id": 4,
-      "sectionName": "Quote banner",
-      "isExistingComponent": true,
-      "controls": [
-          {
-              "type": "Banner Layout",
-              "name": "bannerDetails",
-              "label": "Banner Details"
-          }
-      ]
-  },
-  {
-      "id": 5,
-      "sectionName": "Testimonial",
-      "isExistingComponent": true,
-      "controls": [
-          {
-              "groupName": "Background Settings",
-              "groupControls": [
-                  {
-                      "type": "Color Picker",
-                      "name": "backgroundColor",
-                      "label": "Background Colour"
-                  }
-              ]
-          },
-          {
-              "groupName": "Title Settings",
-              "groupControls": [
-                  {
-                      "type": "Input",
-                      "name": "title",
-                      "label": "Title"
-                  },
-                  {
-                      "type": "Color Picker",
-                      "name": "textColor",
-                      "label": "Title Colour"
-                  },
-                  {
-                      "type": "Input",
-                      "name": "subTitle",
-                      "label": "Sub-title"
-                  }
-              ]
-          },
-          {
-              "groupName": "Animation Settings",
-              "groupControls": [
-                  {
-                      "type": "Checkbox",
-                      "name": "animationCheck",
-                      "label": "Auto Slide"
-                  },
-                  {
-                      "type": "Slider",
-                      "name": "animationDuration",
-                      "label": "Autoslide Delay",
-                      "options": [
-                          1,
-                          10
-                      ]
-                  }
-              ]
-          }
-      ]
-  }
-]
+    },
+    {
+        "id": 4,
+        "sectionName": "Quote banner",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "type": "Banner Layout",
+                "name": "bannerDetails",
+                "label": "Banner Details"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "sectionName": "Testimonial",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Background Settings",
+                "groupControls": [
+                    {
+                        "type": "Color Picker",
+                        "name": "backgroundColor",
+                        "label": "Background Colour"
+                    }
+                ]
+            },
+            {
+                "groupName": "Title Settings",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "title",
+                        "label": "Title"
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "textColor",
+                        "label": "Title Colour"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "subTitle",
+                        "label": "Sub-title"
+                    }
+                ]
+            },
+            {
+                "groupName": "Animation Settings",
+                "groupControls": [
+                    {
+                        "type": "Checkbox",
+                        "name": "animationCheck",
+                        "label": "Auto Slide"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "animationDuration",
+                        "label": "Autoslide Delay",
+                        "options": [
+                            1,
+                            10
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+  ]

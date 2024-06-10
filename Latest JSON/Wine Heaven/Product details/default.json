@@ -376,8 +376,8 @@
               "twitter": "https://twitter.com/",
               "youtube": "https://youtube.com/",
               "currency": {
-                  "currencyCode": "INR",
-                  "currencySymbol": "₹"
+                  "currencyCode": "USD",
+                  "currencySymbol": "$"
               },
               "faceBook": "https://facebook.com/",
               "linkedIn": "https://linkedin.com/",
@@ -386,7 +386,7 @@
               "favIconUrl": null,
               "isPreorder": true,
               "seoKeyword": "seo1,seo2",
-              "currencyCode": "INR",
+              "currencyCode": "USD",
               "isShopClosed": false,
               "countryIsoCode": "IN",
               "isSubscription": true,
@@ -1229,7 +1229,7 @@
           "websiteSettings": {
               "currency": {
                   "currencySymbol": "竄ｹ",
-                  "currencyCode": "INR"
+                  "currencyCode": "USD"
               },
               "isInstructionEnabled": true,
               "isWholeSaleEnabled": true,

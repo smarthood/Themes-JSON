@@ -572,8 +572,8 @@
               "twitter": "https://twitter.com/",
               "youtube": "https://youtube.com/",
               "currency": {
-                  "currencyCode": "INR",
-                  "currencySymbol": "₹"
+                  "currencyCode": "USD",
+                  "currencySymbol": "$"
               },
               "faceBook": "https://facebook.com/",
               "linkedIn": "https://linkedin.com/",
@@ -582,7 +582,7 @@
               "favIconUrl": null,
               "isPreorder": true,
               "seoKeyword": "seo1,seo2",
-              "currencyCode": "INR",
+              "currencyCode": "USD",
               "isShopClosed": false,
               "countryIsoCode": "IN",
               "isSubscription": true,
@@ -742,7 +742,7 @@
                 "isProductBased": true,
                 "isCategoryBased": null,
                 "isBrandBased": null,
-                "imageUrl": "themes/restaurant/sizeCharts/Tasty_Cravings_aize_chart1715333293235.png",
+                "imageUrl": "themes/restaurant/Tasty_Cravings_aize_chart1715333293235.png",
                 "brandId": null,
                 "categoryId": null,
                 "productId": 186590,
@@ -1489,7 +1489,7 @@
           "websiteSettings": {
               "currency": {
                   "currencySymbol": "竄ｹ",
-                  "currencyCode": "INR"
+                  "currencyCode": "USD"
               },
               "isInstructionEnabled": true,
               "isWholeSaleEnabled": true,
@@ -1558,7 +1558,7 @@
       },
       "script": "themes/bundle/shared-theme/related-products.js",
       "selectorDetails": {
-          "selector": "phase-ii-related-products",
+          "selector": "phase-ii-upsell-cross-sell",
           "inputData": [
               {
                   "selectorInput": "displayDetails",

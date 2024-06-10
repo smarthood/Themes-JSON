@@ -1,40 +1,162 @@
 [
-  {
-      "id": 1,
-      "sectionName": "Mens Banner",
-      "isExistingComponent": true,
-      "controls": [
+    {
+        "id": 1,
+        "sectionName": "Mens Banner",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Banner Settings",
+                "groupControls": [
+                    {
+                        "label": "Template",
+                        "name": "templateName"
+                    },
+                    {
+                        "type": "Number",
+                        "name": "height",
+                        "label": "Banner Height",
+                        "limit": {
+                            "min": 50,
+                            "max": 100
+                        },
+                        "errors": [
+                            {
+                                "name": "min"
+                            },
+                            {
+                                "name": "max"
+                            },
+                            {
+                                "name": "required"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "ArrayOfObjects",
+                        "name": "getcontentdetails",
+                        "label": "Banner Details"
+                    }
+                ]
+            },
+            {
+                "groupName": "Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Font Style",
+                        "name": "titleFontStyle",
+                        "label": "Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Text Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "titleSize",
+                        "label": "Heading Size",
+                        "options": [
+                            10,
+                            52
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "titleColor",
+                        "label": "Heading Text Color"
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "subtitleFontStyle",
+                        "label": "Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "subtextFontFamily",
+                        "label": "Subtext Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "subtitleSize",
+                        "label": "Sub Text Size",
+                        "options": [
+                            10,
+                            24
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "subtitleColor",
+                        "label": "Sub Text Color"
+                    },
+                    {
+                        "type": "Radio",
+                        "name": "alignment",
+                        "label": "Text Alignment",
+                        "options": [
+                            {
+                                "name": "Center",
+                                "value": "center"
+                            },
+                            {
+                                "name": "Bottom",
+                                "value": "end"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "sectionName": "Mens Image Gallery",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "type": "Image Banner",
+                "name": "imageDetails",
+                "label": "Image Banner Details"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "sectionName": "Mens Shop for",
+        "isExistingComponent": true,
+        "controls": [
           {
-              "groupName": "Banner Settings",
+              "groupName": "Image Settings",
               "groupControls": [
                   {
-                      "label": "Template",
-                      "name": "templateName"
-                  },
-                  {
-                      "type": "Number",
-                      "name": "height",
-                      "label": "Banner Height",
-                      "limit": {
-                          "min": 50,
-                          "max": 100
-                      },
-                      "errors": [
+                      "type": "Radio",
+                      "name": "alignment",
+                      "label": "Image alignment",
+                      "options": [
                           {
-                              "name": "min"
+                              "name": "Left",
+                              "value": "row"
                           },
                           {
-                              "name": "max"
-                          },
-                          {
-                              "name": "required"
+                              "name": "Right",
+                              "value": "column"
                           }
                       ]
                   },
                   {
-                      "type": "ArrayOfObjects",
-                      "name": "getcontentdetails",
-                      "label": "Banner Details"
+                      "type": "Image",
+                      "name": "descriptionImage",
+                      "label": "Description image"
+                  }
+              ]
+          },
+          {
+              "groupName": "Color Settings",
+              "groupControls": [
+                  {
+                      "type": "Color Picker",
+                      "name": "formBackgroundColor",
+                      "label": "Form background color"
                   }
               ]
           },
@@ -42,592 +164,480 @@
               "groupName": "Text Settings",
               "groupControls": [
                   {
-                      "type": "Font Style",
-                      "name": "titleFontStyle",
-                      "label": "Font Style"
-                  },
-                  {
-                      "type": "Dropdown",
-                      "name": "textFontFamily",
-                      "label": "Text Font Family"
-                  },
-                  {
-                      "type": "Slider",
-                      "name": "titleSize",
-                      "label": "Heading Size",
-                      "options": [
-                          10,
-                          52
-                      ]
-                  },
-                  {
-                      "type": "Color Picker",
-                      "name": "titleColor",
-                      "label": "Heading Text Color"
-                  },
-                  {
-                      "type": "Font Style",
-                      "name": "subtitleFontStyle",
-                      "label": "Font Style"
-                  },
-                  {
-                      "type": "Dropdown",
-                      "name": "subtextFontFamily",
-                      "label": "Subtext Font Family"
-                  },
-                  {
-                      "type": "Slider",
-                      "name": "subtitleSize",
-                      "label": "Sub Text Size",
-                      "options": [
-                          10,
-                          24
-                      ]
-                  },
-                  {
-                      "type": "Color Picker",
-                      "name": "subtitleColor",
-                      "label": "Sub Text Color"
-                  },
-                  {
                       "type": "Radio",
-                      "name": "alignment",
-                      "label": "Text Alignment",
+                      "name": "textAlignment",
+                      "label": "Text alignment",
                       "options": [
+                          {
+                              "name": "Left",
+                              "value": "start"
+                          },
                           {
                               "name": "Center",
                               "value": "center"
                           },
                           {
-                              "name": "Bottom",
+                              "name": "Right",
                               "value": "end"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Input",
+                      "name": "headingText",
+                      "label": "Heading text",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "pattern",
+                              "patternName": "emptySpace"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textColor",
+                      "label": "Heading text color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textFontStyle",
+                      "label": "Font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Text font family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Heading size",
+                      "options": [
+                          10,
+                          80
+                      ]
+                  },
+                  {
+                      "type": "Slider Toggle",
+                      "name": "showSubText",
+                      "label": "Show subtext"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "subText",
+                      "label": "Subtext",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "subTextColor",
+                      "label": "Subtext color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "subtextFontStyle",
+                      "label": "Font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "subtextFontFamily",
+                      "label": "Subtext font family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "subTextSize",
+                      "label": "Subtext size",
+                      "options": [
+                          10,
+                          40
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Button Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider Toggle",
+                      "name": "buttonVisiblity",
+                      "label": "Show button"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "buttonText",
+                      "label": "Button text",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 20
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "buttonLink",
+                      "label": "Redirect to",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttonColor",
+                      "label": "Button color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttonTextColor",
+                      "label": "Button text color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttonBorderColor",
+                      "label": "Button border color"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "buttonBorderRadius",
+                      "label": "Button border radius",
+                      "options": [
+                          0,
+                          25
+                      ]
+                  },
+                  {
+                      "type": "Slider Toggle",
+                      "name": "isButtonBorder",
+                      "label": "Enable button border"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "buttonBorderLocation",
+                      "label": "Button border location",
+                      "options": [
+                          {
+                              "name": "All",
+                              "value": "all"
+                          },
+                          {
+                              "name": "Top",
+                              "value": "top"
+                          },
+                          {
+                              "name": "Left",
+                              "value": "left"
+                          },
+                          {
+                              "name": "Right",
+                              "value": "right"
+                          },
+                          {
+                              "name": "Bottom",
+                              "value": "bottom"
                           }
                       ]
                   }
               ]
           }
       ]
-  },
-  {
-      "id": 2,
-      "sectionName": "Mens Image Gallery",
-      "isExistingComponent": true,
-      "controls": [
+    },
+    {
+        "id": 5,
+        "sectionName": "Single Product",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "type": "Single Product",
+                "name": "singleProductSettings",
+                "label": "Single Product Settings"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "sectionName": "Mens Shop Discount",
+        "isExistingComponent": true,
+        "controls": [
           {
-              "type": "Image Banner",
-              "name": "imageDetails",
-              "label": "Image Banner Details"
+              "groupName": "Image Settings",
+              "groupControls": [
+                  {
+                      "type": "Radio",
+                      "name": "alignment",
+                      "label": "Image alignment",
+                      "options": [
+                          {
+                              "name": "Left",
+                              "value": "row"
+                          },
+                          {
+                              "name": "Right",
+                              "value": "column"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Image",
+                      "name": "descriptionImage",
+                      "label": "Description image"
+                  }
+              ]
+          },
+          {
+              "groupName": "Color Settings",
+              "groupControls": [
+                  {
+                      "type": "Color Picker",
+                      "name": "formBackgroundColor",
+                      "label": "Form background color"
+                  }
+              ]
+          },
+          {
+              "groupName": "Text Settings",
+              "groupControls": [
+                  {
+                      "type": "Radio",
+                      "name": "textAlignment",
+                      "label": "Text alignment",
+                      "options": [
+                          {
+                              "name": "Left",
+                              "value": "start"
+                          },
+                          {
+                              "name": "Center",
+                              "value": "center"
+                          },
+                          {
+                              "name": "Right",
+                              "value": "end"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Input",
+                      "name": "headingText",
+                      "label": "Heading text",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "pattern",
+                              "patternName": "emptySpace"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textColor",
+                      "label": "Heading text color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textFontStyle",
+                      "label": "Font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Text font family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Heading size",
+                      "options": [
+                          10,
+                          80
+                      ]
+                  },
+                  {
+                      "type": "Slider Toggle",
+                      "name": "showSubText",
+                      "label": "Show subtext"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "subText",
+                      "label": "Subtext",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "subTextColor",
+                      "label": "Subtext color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "subtextFontStyle",
+                      "label": "Font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "subtextFontFamily",
+                      "label": "Subtext font family"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "subTextSize",
+                      "label": "Subtext size",
+                      "options": [
+                          10,
+                          40
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Button Settings",
+              "groupControls": [
+                  {
+                      "type": "Slider Toggle",
+                      "name": "buttonVisiblity",
+                      "label": "Show button"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "buttonText",
+                      "label": "Button text",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 20
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "buttonLink",
+                      "label": "Redirect to",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttonColor",
+                      "label": "Button color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttonTextColor",
+                      "label": "Button text color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttonBorderColor",
+                      "label": "Button border color"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "buttonBorderRadius",
+                      "label": "Button border radius",
+                      "options": [
+                          0,
+                          25
+                      ]
+                  },
+                  {
+                      "type": "Slider Toggle",
+                      "name": "isButtonBorder",
+                      "label": "Enable button border"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "buttonBorderLocation",
+                      "label": "Button border location",
+                      "options": [
+                          {
+                              "name": "All",
+                              "value": "all"
+                          },
+                          {
+                              "name": "Top",
+                              "value": "top"
+                          },
+                          {
+                              "name": "Left",
+                              "value": "left"
+                          },
+                          {
+                              "name": "Right",
+                              "value": "right"
+                          },
+                          {
+                              "name": "Bottom",
+                              "value": "bottom"
+                          }
+                      ]
+                  }
+              ]
           }
       ]
-  },
-  {
-      "id": 3,
-      "sectionName": "Mens Shop for",
-      "isExistingComponent": true,
-      "controls": [
-        {
-            "groupName": "Image Settings",
-            "groupControls": [
-                {
-                    "type": "Radio",
-                    "name": "alignment",
-                    "label": "Image alignment",
-                    "options": [
-                        {
-                            "name": "Left",
-                            "value": "row"
-                        },
-                        {
-                            "name": "Right",
-                            "value": "column"
-                        }
-                    ]
-                },
-                {
-                    "type": "Image",
-                    "name": "descriptionImage",
-                    "label": "Description image"
-                }
-            ]
-        },
-        {
-            "groupName": "Color Settings",
-            "groupControls": [
-                {
-                    "type": "Color Picker",
-                    "name": "formBackgroundColor",
-                    "label": "Form background color"
-                }
-            ]
-        },
-        {
-            "groupName": "Text Settings",
-            "groupControls": [
-                {
-                    "type": "Radio",
-                    "name": "textAlignment",
-                    "label": "Text alignment",
-                    "options": [
-                        {
-                            "name": "Left",
-                            "value": "start"
-                        },
-                        {
-                            "name": "Center",
-                            "value": "center"
-                        },
-                        {
-                            "name": "Right",
-                            "value": "end"
-                        }
-                    ]
-                },
-                {
-                    "type": "Input",
-                    "name": "headingText",
-                    "label": "Heading text",
-                    "errors": [
-                        {
-                            "name": "required"
-                        },
-                        {
-                            "name": "pattern",
-                            "patternName": "emptySpace"
-                        },
-                        {
-                            "name": "maxlength",
-                            "length": 100
-                        }
-                    ]
-                },
-                {
-                    "type": "Font Style",
-                    "name": "textFontStyle",
-                    "label": "Font style"
-                },
-                {
-                    "type": "Dropdown",
-                    "name": "textFontFamily",
-                    "label": "Text font family"
-                },
-                {
-                    "type": "Slider",
-                    "name": "textSize",
-                    "label": "Heading size",
-                    "options": [
-                        10,
-                        80
-                    ]
-                },
-                {
-                    "type": "Color Picker",
-                    "name": "textColor",
-                    "label": "Heading text color"
-                },
-                {
-                    "type": "Checkbox",
-                    "name": "showSubText",
-                    "label": "Show subtext"
-                },
-                {
-                    "type": "Input",
-                    "name": "subText",
-                    "label": "Subtext",
-                    "errors": [
-                        {
-                            "name": "required"
-                        },
-                        {
-                            "name": "maxlength",
-                            "length": 100
-                        }
-                    ]
-                },
-                {
-                    "type": "Font Style",
-                    "name": "subtextFontStyle",
-                    "label": "Font style"
-                },
-                {
-                    "type": "Dropdown",
-                    "name": "subtextFontFamily",
-                    "label": "Subtext font family"
-                },
-                {
-                    "type": "Slider",
-                    "name": "subTextSize",
-                    "label": "Subtext size",
-                    "options": [
-                        10,
-                        80
-                    ]
-                },
-                {
-                    "type": "Color Picker",
-                    "name": "subTextColor",
-                    "label": "Subtext color"
-                }
-            ]
-        },
-        {
-            "groupName": "Button Settings",
-            "groupControls": [
-                {
-                    "type": "Checkbox",
-                    "name": "buttonVisiblity",
-                    "label": "Show button"
-                },
-                {
-                    "type": "Input",
-                    "name": "buttonText",
-                    "label": "Button text",
-                    "errors": [
-                        {
-                            "name": "required"
-                        },
-                        {
-                            "name": "maxlength",
-                            "length": 20
-                        }
-                    ]
-                },
-                {
-                    "type": "Dropdown",
-                    "name": "buttonLink",
-                    "label": "Redirect to",
-                    "errors": [
-                        {
-                            "name": "required"
-                        },
-                        {
-                            "name": "maxlength",
-                            "length": 100
-                        }
-                    ]
-                },
-                {
-                    "type": "Color Picker",
-                    "name": "buttonColor",
-                    "label": "Button color"
-                },
-                {
-                    "type": "Color Picker",
-                    "name": "buttonTextColor",
-                    "label": "Button text color"
-                },
-                {
-                    "type": "Color Picker",
-                    "name": "buttonBorderColor",
-                    "label": "Button border color"
-                },
-                {
-                    "type": "Slider",
-                    "name": "buttonBorderRadius",
-                    "label": "Button border radius",
-                    "options": [
-                        0,
-                        25
-                    ]
-                },
-                {
-                    "type": "Dropdown",
-                    "name": "buttonBorderLocation",
-                    "label": "Button border location",
-                    "options": [
-                        {
-                            "name": "All",
-                            "value": "all"
-                        },
-                        {
-                            "name": "Top",
-                            "value": "top"
-                        },
-                        {
-                            "name": "Left",
-                            "value": "left"
-                        },
-                        {
-                            "name": "Right",
-                            "value": "right"
-                        },
-                        {
-                            "name": "Bottom",
-                            "value": "bottom"
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
-  },
-  {
-      "id": 5,
-      "sectionName": "Single Product",
-      "isExistingComponent": true,
-      "controls": [
-          {
-              "type": "Single Product",
-              "name": "singleProductSettings",
-              "label": "Single Product Settings"
-          }
-      ]
-  },
-  {
-      "id": 6,
-      "sectionName": "Mens Shop Discount",
-      "isExistingComponent": true,
-      "controls": [
-        {
-            "groupName": "Image Settings",
-            "groupControls": [
-                {
-                    "type": "Radio",
-                    "name": "alignment",
-                    "label": "Image alignment",
-                    "options": [
-                        {
-                            "name": "Left",
-                            "value": "row"
-                        },
-                        {
-                            "name": "Right",
-                            "value": "column"
-                        }
-                    ]
-                },
-                {
-                    "type": "Image",
-                    "name": "descriptionImage",
-                    "label": "Description image"
-                }
-            ]
-        },
-        {
-            "groupName": "Color Settings",
-            "groupControls": [
-                {
-                    "type": "Color Picker",
-                    "name": "formBackgroundColor",
-                    "label": "Form background color"
-                }
-            ]
-        },
-        {
-            "groupName": "Text Settings",
-            "groupControls": [
-                {
-                    "type": "Radio",
-                    "name": "textAlignment",
-                    "label": "Text alignment",
-                    "options": [
-                        {
-                            "name": "Left",
-                            "value": "start"
-                        },
-                        {
-                            "name": "Center",
-                            "value": "center"
-                        },
-                        {
-                            "name": "Right",
-                            "value": "end"
-                        }
-                    ]
-                },
-                {
-                    "type": "Input",
-                    "name": "headingText",
-                    "label": "Heading text",
-                    "errors": [
-                        {
-                            "name": "required"
-                        },
-                        {
-                            "name": "pattern",
-                            "patternName": "emptySpace"
-                        },
-                        {
-                            "name": "maxlength",
-                            "length": 100
-                        }
-                    ]
-                },
-                {
-                    "type": "Font Style",
-                    "name": "textFontStyle",
-                    "label": "Font style"
-                },
-                {
-                    "type": "Dropdown",
-                    "name": "textFontFamily",
-                    "label": "Text font family"
-                },
-                {
-                    "type": "Slider",
-                    "name": "textSize",
-                    "label": "Heading size",
-                    "options": [
-                        10,
-                        80
-                    ]
-                },
-                {
-                    "type": "Color Picker",
-                    "name": "textColor",
-                    "label": "Heading text color"
-                },
-                {
-                    "type": "Checkbox",
-                    "name": "showSubText",
-                    "label": "Show subtext"
-                },
-                {
-                    "type": "Input",
-                    "name": "subText",
-                    "label": "Subtext",
-                    "errors": [
-                        {
-                            "name": "required"
-                        },
-                        {
-                            "name": "maxlength",
-                            "length": 100
-                        }
-                    ]
-                },
-                {
-                    "type": "Font Style",
-                    "name": "subtextFontStyle",
-                    "label": "Font style"
-                },
-                {
-                    "type": "Dropdown",
-                    "name": "subtextFontFamily",
-                    "label": "Subtext font family"
-                },
-                {
-                    "type": "Slider",
-                    "name": "subTextSize",
-                    "label": "Subtext size",
-                    "options": [
-                        10,
-                        80
-                    ]
-                },
-                {
-                    "type": "Color Picker",
-                    "name": "subTextColor",
-                    "label": "Subtext color"
-                }
-            ]
-        },
-        {
-            "groupName": "Button Settings",
-            "groupControls": [
-                {
-                    "type": "Checkbox",
-                    "name": "buttonVisiblity",
-                    "label": "Show button"
-                },
-                {
-                    "type": "Input",
-                    "name": "buttonText",
-                    "label": "Button text",
-                    "errors": [
-                        {
-                            "name": "required"
-                        },
-                        {
-                            "name": "maxlength",
-                            "length": 20
-                        }
-                    ]
-                },
-                {
-                    "type": "Dropdown",
-                    "name": "buttonLink",
-                    "label": "Redirect to",
-                    "errors": [
-                        {
-                            "name": "required"
-                        },
-                        {
-                            "name": "maxlength",
-                            "length": 100
-                        }
-                    ]
-                },
-                {
-                    "type": "Color Picker",
-                    "name": "buttonColor",
-                    "label": "Button color"
-                },
-                {
-                    "type": "Color Picker",
-                    "name": "buttonTextColor",
-                    "label": "Button text color"
-                },
-                {
-                    "type": "Color Picker",
-                    "name": "buttonBorderColor",
-                    "label": "Button border color"
-                },
-                {
-                    "type": "Slider",
-                    "name": "buttonBorderRadius",
-                    "label": "Button border radius",
-                    "options": [
-                        0,
-                        25
-                    ]
-                },
-                {
-                    "type": "Dropdown",
-                    "name": "buttonBorderLocation",
-                    "label": "Button border location",
-                    "options": [
-                        {
-                            "name": "All",
-                            "value": "all"
-                        },
-                        {
-                            "name": "Top",
-                            "value": "top"
-                        },
-                        {
-                            "name": "Left",
-                            "value": "left"
-                        },
-                        {
-                            "name": "Right",
-                            "value": "right"
-                        },
-                        {
-                            "name": "Bottom",
-                            "value": "bottom"
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
-  },
-  {
-      "id": 7,
-      "isExistingComponent": true,
-      "sectionName": "Video Banner",
-      "controls": [
-          {
-              "type": "Banner Layout",
-              "name": "bannerDetails",
-              "label": "Banner Details"
-          }
-      ]
-  },
-  {
-    "id": 8,
-    "sectionName": "Recently Viewed Products",
-    "isExistingComponent": true,
-    "controls": []
-}
-]
+    },
+    {
+        "id": 7,
+        "isExistingComponent": true,
+        "sectionName": "Video Banner",
+        "controls": [
+            {
+                "type": "Banner Layout",
+                "name": "bannerDetails",
+                "label": "Banner Details"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "sectionName": "Recently Viewed Products",
+        "isExistingComponent": true,
+        "controls": []
+    }
+  ]

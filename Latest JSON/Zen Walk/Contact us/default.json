@@ -124,8 +124,8 @@
           "websiteSettings": {
               "currency": {
                   "id": 2,
-                  "currencySymbol": "₹",
-                  "currencyCode": "INR",
+                  "currencySymbol": "$",
+                  "currencyCode": "USD",
                   "currencyName": "Indian Rupees",
                   "createdAt": null,
                   "modifiedAt": null
@@ -137,7 +137,7 @@
               "email": "zenbasket@mailinator.com",
               "contactNo": "7373994426",
               "countryCode": 91,
-              "currencyCode": "INR"
+              "currencyCode": "USD"
           }
       }
   }

@@ -1,0 +1,927 @@
+[
+  {
+    "sectionId": 1,
+    "details": {
+        "bannerProperty": 2,
+        "bannerDetails": {
+            "bannerImage": [
+                {
+                    "image": "themes/Tasty_craving_about_us_first_banner_1687773552374_S51.jpg",
+                    "imageZoom": false,
+                    "parallax": true,
+                    "buttonEnabled": false,
+                    "textEnabled": true,
+                    "bannerTextBackGroundEnabled": false,
+                    "imageOverlay": false,
+                    "overlayColor": "rgb(0,0,0,0.5)",
+                    "subtextSize": 26,
+                    "buttonLayout": "row",
+                    "index": 0,
+                    "buttonProperties": [],
+                    "animation": "slideInText",
+                    "textAlign": "Right",
+                    "bannerText": "Tasty Cravings Welcomes You!",
+                    "textFontFamily": "'Montserrat',sans-serif",
+                    "textFontStyle": [],
+                    "subTextFontStyle": [],
+                    "bannerSubText": null,
+                    "textColor": "#ffffff",
+                    "bannerTextBackGroundColor": "white",
+                    "subTextColor": "#1f1e26",
+                    "textSize": 40
+                },
+                {
+                    "image": "themes/Tasty_craving_about_us_second_banner_1687773560069_S51.jpg",
+                    "imageZoom": true,
+                    "parallax": true,
+                    "buttonEnabled": false,
+                    "textEnabled": true,
+                    "bannerTextBackGroundEnabled": false,
+                    "imageOverlay": true,
+                    "overlayColor": "rgba(165,144,144,0.5)",
+                    "subtextSize": 18,
+                    "buttonLayout": "row",
+                    "index": 1,
+                    "buttonProperties": [],
+                    "animation": "boxTemplate",
+                    "textAlign": "Top Left",
+                    "bannerText": "With love from Us",
+                    "textFontFamily": "'Montserrat',sans-serif",
+                    "textFontStyle": [],
+                    "subTextFontStyle": [],
+                    "bannerSubText": "and all over the world",
+                    "textColor": "#ffffff",
+                    "bannerTextBackGroundColor": "white",
+                    "subTextColor": "#ffffff",
+                    "textSize": 28
+                },
+                {
+                    "image": "themes/Noodles_with_Corn_and_Chicken_Broth_jpg_1687775645565_S51.jpg",
+                    "imageZoom": false,
+                    "parallax": true,
+                    "buttonEnabled": true,
+                    "textEnabled": true,
+                    "bannerTextBackGroundEnabled": false,
+                    "imageOverlay": true,
+                    "overlayColor": "rgba(80,68,68,0.5)",
+                    "subtextSize": 18,
+                    "buttonLayout": "row",
+                    "index": 2,
+                    "buttonProperties": [
+                        {
+                            "buttonLink": "products",
+                            "buttonColor": "var(--primary-color)",
+                            "buttonText": "Explore!",
+                            "buttonTextColor": "white"
+                        }
+                    ],
+                    "animation": "slideInText",
+                    "textAlign": "Center",
+                    "bannerText": "Enjoy your meal!",
+                    "textFontFamily": "'Montserrat',sans-serif",
+                    "textFontStyle": [],
+                    "subTextFontStyle": [],
+                    "bannerSubText": null,
+                    "textColor": "#ffffff",
+                    "bannerTextBackGroundColor": "white",
+                    "subTextColor": "white",
+                    "textSize": 30
+                }
+            ],
+            "imageBackgroundSizeType": "cover",
+            "height": 70,
+            "timeInterval": 10,
+            "slideAutomatically": true
+        },
+        "inValid": false,
+        "isChildError": false
+    },
+    "selectorDetails": {
+        "selector": "phase-ii-banner",
+        "inputData": [
+            {
+                "selectorInput": "bannerDetails",
+                "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+            }
+        ],
+        "outputData": [
+            {
+                "selectorOutput": "pageToNavigate",
+                "handlerFunction": "pageToNavigate"
+            }
+        ]
+    },
+    "sectionName": "About Us Banner",
+    "isExistingComponent": true,
+    "sampleData": null,
+    "isVisible": true,
+    "script": "themes/bundle/shared-theme/banner.js"
+},
+{
+  "sectionId": 2,
+  "details": {
+      "infoHeading": "It all starts with, 'Why?'",
+      "infoHeadingColorStyle": [
+          "B"
+      ],
+      "textFontFamily": "'Montserrat',sans-serif",
+      "infoHeadingSize": 32,
+      "infoHeadingColor": "black",
+      "infoDescription": "<div>Love traditional food? So do we! And it is this authentic, delicious and subtly aromatic food we offer. &#34;Tasty Cravings Foods&#34; is known for its' warm decor, authentic cuisine, and time honored recipes giving a big city experience in a welcoming environment.</div><div><br></div><div>Stepping into the front door, customers are immediately greeted with delicious fragrances of coriander, ginger, turmeric and more; since carefully blended spices are infused into &#8220;real&#8221; traditional cuisine.</div><div><br></div><div><span>Our customers trust our quality of food, and we have many repeat customers because they know we are a family owned and operated restaurant. They enjoy Flavor of famous mesquite-charcoal lamb chops, as well as various seafood, and chicken specialties. (We also have vegetarian entrees.)</span><br></div><div><br></div><div>We look forward to serve you soon. (Order on-line for fast carry out.)</div>",
+      "showTimeline": true,
+      "storyHeading": "Our Story",
+      "storyHeadingColorStyle": [
+          "B"
+      ],
+      "subtextFontFamily": "'Montserrat',sans-serif",
+      "storyHeadingSize": 32,
+      "storyHeadingColor": "black",
+      "story": [
+          {
+              "year": 2010,
+              "achievements": "Started in 2010 by our CEO Mr. Anil, From there we have come a long way",
+              "color": "#00FF7F"
+          },
+          {
+              "year": 2012,
+              "achievements": "Best Outstanding restaurant of the year award from the American Chefs. Also opened a restaurant across United States.",
+              "color": "#00CED1"
+          },
+          {
+              "year": 2014,
+              "achievements": "Opened 10 restaurants in 2 years in 4 countries.",
+              "color": "#FFD700"
+          },
+          {
+              "year": 2018,
+              "achievements": "Best food journal cover magazine.",
+              "color": "#FFA500"
+          },
+          {
+              "year": 2021,
+              "achievements": "Provided food for the needy during the lockdown.",
+              "color": "#DC143C"
+          }
+      ],
+      "showAdditionalInfo": true,
+      "backgroundColor": "var(--primary-color)",
+      "heading": "Our Vision",
+      "description": "To serve happiness to our customers through delicious, quality meals and extraordinary restaurant experience while working toward the greater good for our employees, community and environment.",
+      "textColor": "white",
+      "aboutImage": "themes/tasty_craving_about_us_history_side_image_1687854331545_S51.jpg",
+      "buttonEnabled": true,
+      "buttonText": "Contact Us",
+      "buttonLink": "contactus",
+      "buttonColor": "var(--primary-color)",
+      "buttonTextColor": "white"
+  },
+  "selectorDetails": {
+      "selector": "phase-ii-restaurant-story",
+      "inputData": [
+          {
+              "selectorInput": "storyDetails",
+              "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+          }
+      ],
+      "outputData": [
+          {
+              "selectorOutput": "pageToNavigate",
+              "handlerFunction": "pageToNavigate"
+          }
+      ]
+  },
+  "sectionName": "Story and Timeline",
+  "isExistingComponent": true,
+  "sampleData": null,
+  "isVisible": true,
+  "script": "themes/bundle/restaurant/zen-cravings/zencravings-home.js"
+},
+{
+  "sectionId": 3,
+  "details": {
+      "galleryHeading": "Wall of Chefs",
+      "textFontStyle": [
+          "B"
+      ],
+      "textFontFamily": "'Montserrat',sans-serif",
+      "textSize": 30,
+      "textColor": "#000000",
+      "background": "themes/wall_bg_1687858938353_S51.jpg",
+      "imageBackgroundSizeType": "100% 100%",
+      "galleryImages": [
+          {
+              "imageUrl": "themes/beardedmasterchefpreparesfreshsalmon_1687861795797_S51.jpg"
+          },
+          {
+              "imageUrl": "themes/wall_of_chef_6_with_fire_1687861635831_S51.jpg"
+          },
+          {
+              "imageUrl": "themes/headchefaddingfreshchoppedgreenherbspanwhilecookinggourmetdishrestaurantprofessionalkitchenfoodindustryworkerspreparingdeliciousmealusingorganicvegetab_1687861804835_S51.jpg"
+          },
+          {
+              "imageUrl": "themes/cookputtingvegetableplatewithsalad_1687860965004_S51.jpg"
+          },
+          {
+              "imageUrl": "themes/happycookpouringsauceplatewithsalad_1687861820127_S51.jpg"
+          },
+          {
+              "imageUrl": "themes/closeupchefdecoratingdishaftercooking_1687860659277_S51.jpg"
+          },
+          {
+              "imageUrl": "themes/happymalechefcookrestaurantkitchen_1687860974527_S51.jpg"
+          },
+          {
+              "imageUrl": "themes/closeupshotchefcookingwithblurredbackground_1687861142815_S51.jpg"
+          }
+      ]
+  },
+  "selectorDetails": {
+      "selector": "phase-ii-restaurant-gallery",
+      "inputData": [
+          {
+              "selectorInput": "galleryDetails",
+              "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+          }
+      ],
+      "outputData": []
+  },
+  "sectionName": "Gallery",
+  "isExistingComponent": true,
+  "sampleData": null,
+  "isVisible": true,
+  "script": "themes/bundle/restaurant/zen-cravings/zencravings-aboutus.js"
+},
+{
+  "sectionId": 4,
+  "details": {
+      "sectionTitle": "Our Team",
+      "textFontStyle": [
+          "B"
+      ],
+      "textFontFamily": "'Montserrat',sans-serif",
+      "textSize": 32,
+      "textColor": "#000000",
+      "retailQuote": "Restaurant is all about detail",
+      "subtextFontStyle": [
+          "I",
+          "B"
+      ],
+      "subtextFontFamily": "'Montserrat',sans-serif",
+      "subTextSize": 26,
+      "subTextColor": "#000000",
+      "teamContent": null,
+      "showProfession": true,
+      "showImage": true,
+      "teamDetails": [
+          {
+              "caption": "An accomplished  Computer Engineer, Thomas shows a keen interest in building high impact teams and scalable software platforms. He brings his years of experience working at companies like Oracle Corporation, TriVium Systems, Amazon and Tradus.com to the table and is the main man leading our Tech and Product teams.",
+              "imageUrl": "themes/restaurant/teammember1.png",
+              "name": "Thomas",
+              "profession": "CTO"
+          },
+          {
+              "caption": "Reena joined us in 2016 as CEO, the private label arm of Tasty Cravings. With her 20+ years of experience in the restaurant industry, she has developed a reputation for being a strategist and an astute business planner and has been instrumental in taking the Tasty Craving's private label to new heights by introducing new product lines and increasing distribution.",
+              "imageUrl": "themes/restaurant/teammember2.png",
+              "name": "Reena",
+              "profession": "CEO"
+          },
+          {
+              "caption": "Daniel joined Tasty Craving as VP Operations and Chief Supply Chain Officer and has ensured the processes and operations run like clockwork. With over a decade of experience in companies like Seventymm Services Pvt.Ltd, Future Group and ibibo Group, he is responsible for designing d-commerce, m-commerce & e-commerce specific creative implementations for sourcing, order fulfillment, inventory management & warehouse operations.",
+              "imageUrl": "themes/restaurant/teammember3.png",
+              "name": "Daniel T",
+              "profession": "VP, Operations & CSO"
+          },
+          {
+              "caption": "An IIMA alumnus, he is a qualified Chartered Accountant, Company Secretary and financial professional with over two decades of experience with market leaders. Francis has honed his skills across a financial gamut that includes accounting, reporting, financial controls and regulatory matters on one side, and commercially orientated business partnering and financial planning and analysis on other side. Francis will as part of the leadership team drive the company's growth plan and set financial milestones and targets for the future.",
+              "imageUrl": "themes/restaurant/teammember4.png",
+              "name": "Francis",
+              "profession": "Chief Financial Officer"
+          }
+      ]
+  },
+  "selectorDetails": {
+      "selector": "phase-ii-retail-aboutus-team",
+      "inputData": [
+          {
+              "selectorInput": "teamData",
+              "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+          }
+      ],
+      "outputData": []
+  },
+  "sectionName": "Team",
+  "isExistingComponent": true,
+  "sampleData": null,
+  "isVisible": false,
+  "script": "themes/bundle/retail/zen-fashion/zenfashion-aboutus.js"
+},
+{
+  "sectionId": 5,
+  "details": {
+      "sectionTitle": "What Our Customers Are Saying About Us",
+      "textFontStyle": [
+          "B"
+      ],
+      "textFontFamily": "'Montserrat',sans-serif",
+      "textSize": 30,
+      "textColor": "#000000",
+      "showCustomerName": true,
+      "showCustomerImage": true,
+      "testimonial": null,
+      "isEditor": false
+  },
+  "selectorDetails": {
+      "selector": "phase-ii-retail-aboutus-testimonials",
+      "inputData": [
+          {
+              "selectorInput": "testimonialData",
+              "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+          },
+          {
+              "selectorInput": "testimonials",
+              "handlerInput": "sampleData.testimonials",
+              "functionName": "getTestimonials"
+          }
+      ],
+      "outputData": []
+  },
+  "sectionName": "Testimonials",
+  "isExistingComponent": true,
+  "sampleData": {
+      "testimonials": [
+          {
+              "id": 1,
+              "heading": "Bengaluru, Karnataka",
+              "subHeading": null,
+              "content": "The food at Zen-Buffet is simply amazing! The flavors are authentic and the spices are perfectly balanced. I especially love their chettinad dishes.",
+              "imageUrl": "testimonial/testimonial-1.jpeg",
+              "author": "Ramesh Kumar",
+              "storeId": 272,
+              "designation": null
+          },
+          {
+              "id": 2,
+              "heading": "Thiruvananthapuram, Kerala",
+              "subHeading": null,
+              "content": "I'm so glad I discovered Zen-Buffet! The service is excellent and the food is outstanding. The rasam and vada are my personal favorites.",
+              "imageUrl": "testimonial/testimonial-2.jpg",
+              "author": "Deepa Nair",
+              "storeId": 272,
+              "designation": null
+          },
+          {
+              "id": 3,
+              "heading": "Chennai, Tamil Nadu",
+              "subHeading": null,
+              "content": "Zen-Buffet is the perfect place for a vegetarian feast. Their selection of dosas, idlis, and uttapams is extensive and all of them are delicious.",
+              "imageUrl": "testimonial/testimonial-3.jpg",
+              "author": "Rajeshwari Iyer",
+              "storeId": 272,
+              "designation": null
+          },
+          {
+              "id": 4,
+              "heading": "Hyderabad, Telangana",
+              "subHeading": null,
+              "content": "As someone who loves spicy food, Zen-Buffet has become my new favorite restaurant. Their biryani and chicken curry are some of the spiciest and most flavorful dishes I've ever had.",
+              "imageUrl": "testimonial/testimonial-4.png",
+              "author": "Suresh Babu",
+              "storeId": 272,
+              "designation": null
+          }
+      ]
+  },
+  "isVisible": true,
+  "script": "themes/bundle/retail/zen-fashion/zenfashion-aboutus.js"
+},
+{
+  "sectionId": 6,
+  "details": {
+      "showBackgroundImage": true,
+      "backgroundImage": "themes/shared/location_background.jpg",
+      "locationHeading": "Our Branches",
+      "textSize": 30,
+      "textColor": "#000000",
+      "textFontFamily": "'Montserrat',sans-serif",
+      "textFontStyle": [
+          "B"
+      ],
+      "showFilter": false,
+      "imageBackgroundSizeType": "100% 100%"
+  },
+  "selectorDetails": {
+      "selector": "phase-ii-contact-location-map",
+      "inputData": [
+          {
+              "selectorInput": "contactUsDetails",
+              "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+          },
+          {
+              "selectorInput": "locationDetails",
+              "handlerInput": "sampleData.locationDetails",
+              "functionName": "setWorkingDays"
+          }
+      ],
+      "outputData": [
+          {
+              "selectorOutput": "searchBy",
+              "handlerFunction": "searchBy"
+          },
+          {
+              "selectorOutput": "searchValue",
+              "handlerFunction": "searchValue"
+          }
+      ]
+  },
+  "sectionName": "Location Details",
+  "isExistingComponent": true,
+  "sampleData": {
+      "locationDetails": [
+          {
+              "id": 75,
+              "addressId": 160,
+              "locationName": "location three",
+              "pickupInstructions": null,
+              "locationDescription": null,
+              "latitude": "23.343534",
+              "longitude": "34",
+              "storeId": 2,
+              "shopClosedDays": [],
+              "timeZone": "America/Tijuana",
+              "isOrderSpecificTiming": true,
+              "orderAmountLimit": 50,
+              "isDefault": false,
+              "isGlobal": true,
+              "allowedZipcodes": null,
+              "storeWorkingHours": [
+                  {
+                      "id": 621,
+                      "productBoxId": null,
+                      "shippingMethodId": null,
+                      "startTime": "09:00 AM",
+                      "endTime": "12:00 PM",
+                      "sun": null,
+                      "mon": null,
+                      "tue": null,
+                      "wed": null,
+                      "thu": null,
+                      "fri": true,
+                      "sat": true,
+                      "isDelivery": null,
+                      "isPickup": null,
+                      "isOrder": null,
+                      "isDineIn": null,
+                      "isStoreActive": null
+                  },
+                  {
+                      "id": 622,
+                      "productBoxId": null,
+                      "shippingMethodId": null,
+                      "startTime": "12:00 PM",
+                      "endTime": "07:00 PM",
+                      "sun": null,
+                      "mon": null,
+                      "tue": null,
+                      "wed": null,
+                      "thu": null,
+                      "fri": true,
+                      "sat": true,
+                      "isDelivery": null,
+                      "isPickup": null,
+                      "isOrder": null,
+                      "isDineIn": null,
+                      "isStoreActive": null
+                  }
+              ],
+              "workingHoursData": [
+                  {
+                      "days": "Mon",
+                      "time": "09:00 AM - 12:00 PM",
+                      "isStoreActive": null
+                  },
+                  {
+                      "days": "Tue",
+                      "time": "09:00 AM - 12:00 PM",
+                      "isStoreActive": null
+                  }
+              ],
+              "closingHoursData": [
+                  {
+                      "days": "Sun",
+                      "time": "12:00 AM - 12:00 AM",
+                      "isStoreActive": null
+                  }
+              ],
+              "orderPlacingTimes": [
+                  {
+                      "id": 156,
+                      "startTime": "12:00 AM",
+                      "endTime": "12:00 PM",
+                      "sun": null,
+                      "mon": true,
+                      "tue": true,
+                      "wed": true,
+                      "thu": true,
+                      "fri": true,
+                      "sat": true,
+                      "isStoreActive": null
+                  }
+              ],
+              "address": {
+                  "id": 160,
+                  "importId": null,
+                  "addressLine1": "no 600, North street",
+                  "addressLine2": null,
+                  "city": "Tirunelveli",
+                  "state": "Tamilnadu",
+                  "name": null,
+                  "country": "India",
+                  "zipCode": "627807",
+                  "mobileNumber": "8767890987",
+                  "email": "zenbasket@mailinatorcom",
+                  "faxNumber": null,
+                  "stateAbbreviation": null,
+                  "countryCode": null,
+                  "isDeleted": false,
+                  "isDefault": null,
+                  "createdAt": "2022-01-27T05:12:46.297Z",
+                  "modifiedAt": "2022-03-10T04:24:43.334Z",
+                  "userId": null
+              }
+          },
+          {
+              "id": 50,
+              "addressId": 157,
+              "locationName": "location two",
+              "pickupInstructions": null,
+              "locationDescription": null,
+              "latitude": null,
+              "longitude": null,
+              "storeId": 2,
+              "shopClosedDays": null,
+              "timeZone": "America/Los_Angeles",
+              "isOrderSpecificTiming": false,
+              "orderAmountLimit": 50,
+              "isDefault": false,
+              "isGlobal": true,
+              "allowedZipcodes": "97045,97005",
+              "workingHoursData": [
+                  {
+                      "days": "Wed",
+                      "time": "09:00 AM - 12:00 PM",
+                      "isStoreActive": null
+                  }
+              ],
+              "closingHoursData": [
+                  {
+                      "days": "Sun",
+                      "time": "12:00 AM - 12:00 AM",
+                      "isStoreActive": null
+                  }
+              ],
+              "storeWorkingHours": [
+                  {
+                      "id": 621,
+                      "productBoxId": null,
+                      "shippingMethodId": null,
+                      "startTime": "09:00 AM",
+                      "endTime": "12:00 PM",
+                      "sun": null,
+                      "mon": null,
+                      "tue": null,
+                      "wed": null,
+                      "thu": null,
+                      "fri": true,
+                      "sat": true,
+                      "isDelivery": null,
+                      "isPickup": null,
+                      "isOrder": null,
+                      "isDineIn": null,
+                      "isStoreActive": null
+                  },
+                  {
+                      "id": 622,
+                      "productBoxId": null,
+                      "shippingMethodId": null,
+                      "startTime": "12:00 PM",
+                      "endTime": "07:00 PM",
+                      "sun": null,
+                      "mon": null,
+                      "tue": null,
+                      "wed": null,
+                      "thu": null,
+                      "fri": true,
+                      "sat": true,
+                      "isDelivery": null,
+                      "isPickup": null,
+                      "isOrder": null,
+                      "isDineIn": null,
+                      "isStoreActive": null
+                  }
+              ],
+              "orderPlacingTimes": [],
+              "address": {
+                  "id": 157,
+                  "importId": null,
+                  "addressLine1": "no 2022,South street",
+                  "addressLine2": null,
+                  "city": "tenkasi",
+                  "state": "Tamilnadu",
+                  "name": null,
+                  "country": "India",
+                  "zipCode": "627802",
+                  "mobileNumber": "9876543210",
+                  "email": "centizen@mailinator.com",
+                  "faxNumber": null,
+                  "stateAbbreviation": null,
+                  "countryCode": "91",
+                  "isDeleted": false,
+                  "isDefault": null,
+                  "createdAt": "2022-01-25T08:58:19.893Z",
+                  "modifiedAt": "2022-03-10T04:24:43.589Z",
+                  "userId": null
+              }
+          },
+          {
+              "id": 52,
+              "addressId": 156,
+              "locationName": "location one",
+              "pickupInstructions": null,
+              "locationDescription": null,
+              "latitude": null,
+              "longitude": null,
+              "storeId": 2,
+              "shopClosedDays": null,
+              "timeZone": "America/Los_Angeles",
+              "isOrderSpecificTiming": false,
+              "orderAmountLimit": 60,
+              "isDefault": false,
+              "isGlobal": true,
+              "allowedZipcodes": null,
+              "storeWorkingHours": [
+                  {
+                      "id": 621,
+                      "productBoxId": null,
+                      "shippingMethodId": null,
+                      "startTime": "09:00 AM",
+                      "endTime": "12:00 PM",
+                      "sun": null,
+                      "mon": null,
+                      "tue": null,
+                      "wed": null,
+                      "thu": null,
+                      "fri": true,
+                      "sat": true,
+                      "isDelivery": null,
+                      "isPickup": null,
+                      "isOrder": null,
+                      "isDineIn": null,
+                      "isStoreActive": null
+                  },
+                  {
+                      "id": 622,
+                      "productBoxId": null,
+                      "shippingMethodId": null,
+                      "startTime": "12:00 PM",
+                      "endTime": "07:00 PM",
+                      "sun": null,
+                      "mon": null,
+                      "tue": null,
+                      "wed": null,
+                      "thu": null,
+                      "fri": true,
+                      "sat": true,
+                      "isDelivery": null,
+                      "isPickup": null,
+                      "isOrder": null,
+                      "isDineIn": null,
+                      "isStoreActive": null
+                  }
+              ],
+              "workingHoursData": [
+                  {
+                      "days": "Mon",
+                      "time": "09:00 AM - 12:00 PM",
+                      "isStoreActive": null
+                  },
+                  {
+                      "days": "Tue",
+                      "time": "09:00 AM - 12:00 PM",
+                      "isStoreActive": null
+                  },
+                  {
+                      "days": "Wed",
+                      "time": "09:00 AM - 12:00 PM",
+                      "isStoreActive": null
+                  }
+              ],
+              "closingHoursData": [
+                  {
+                      "days": "Sat",
+                      "time": "12:00 AM - 12:00 AM",
+                      "isStoreActive": null
+                  },
+                  {
+                      "days": "Sun",
+                      "time": "12:00 AM - 12:00 AM",
+                      "isStoreActive": null
+                  }
+              ],
+              "orderPlacingTimes": [],
+              "address": {
+                  "id": 156,
+                  "importId": null,
+                  "addressLine1": "no 13, First car street",
+                  "addressLine2": null,
+                  "city": "Tenkasi",
+                  "state": "Tamilnadu",
+                  "name": null,
+                  "country": "India",
+                  "zipCode": "627803",
+                  "mobileNumber": "9876543234",
+                  "email": "centizen123@mailinator.com",
+                  "faxNumber": null,
+                  "stateAbbreviation": null,
+                  "countryCode": "91",
+                  "isDeleted": false,
+                  "isDefault": null,
+                  "createdAt": "2022-01-25T08:56:18.660Z",
+                  "modifiedAt": "2022-03-10T04:24:43.443Z",
+                  "userId": null
+              }
+          },
+          {
+              "id": 79,
+              "addressId": 261,
+              "locationName": "Location four",
+              "pickupInstructions": null,
+              "locationDescription": null,
+              "latitude": null,
+              "longitude": null,
+              "storeId": 2,
+              "shopClosedDays": null,
+              "timeZone": "America/Tijuana",
+              "isOrderSpecificTiming": false,
+              "orderAmountLimit": null,
+              "isDefault": false,
+              "isGlobal": true,
+              "allowedZipcodes": null,
+              "storeWorkingHours": [
+                  {
+                      "id": 616,
+                      "productBoxId": null,
+                      "shippingMethodId": null,
+                      "startTime": "12:00 AM",
+                      "endTime": "12:00 PM",
+                      "sun": null,
+                      "mon": true,
+                      "tue": null,
+                      "wed": null,
+                      "thu": null,
+                      "fri": null,
+                      "sat": null,
+                      "isDelivery": null,
+                      "isPickup": null,
+                      "isOrder": null,
+                      "isDineIn": null,
+                      "isStoreActive": null
+                  }
+              ],
+              "workingHoursData": [
+                  {
+                      "days": "Mon",
+                      "time": "09:00 AM - 12:00 PM",
+                      "isStoreActive": null
+                  },
+                  {
+                      "days": "Tue",
+                      "time": "09:00 AM - 12:00 PM",
+                      "isStoreActive": null
+                  },
+                  {
+                      "days": "Wed",
+                      "time": "09:00 AM - 12:00 PM",
+                      "isStoreActive": null
+                  },
+                  {
+                      "days": "Thu",
+                      "time": "09:00 AM - 12:00 PM",
+                      "isStoreActive": null
+                  },
+                  {
+                      "days": "Fri",
+                      "time": "09:00 AM - 12:00 PM",
+                      "isStoreActive": null
+                  }
+              ],
+              "closingHoursData": [
+                  {
+                      "days": "Sat",
+                      "time": "12:00 AM - 12:00 AM",
+                      "isStoreActive": null
+                  },
+                  {
+                      "days": "Sun",
+                      "time": "12:00 AM - 12:00 AM",
+                      "isStoreActive": null
+                  }
+              ],
+              "orderPlacingTimes": [],
+              "address": {
+                  "id": 261,
+                  "importId": null,
+                  "addressLine1": "24, Second cross Street",
+                  "addressLine2": null,
+                  "city": "Tenkasi",
+                  "state": "Tamilnadu",
+                  "name": null,
+                  "country": "India",
+                  "zipCode": "627810",
+                  "mobileNumber": "9876567890",
+                  "email": "mvl@mailnator.com",
+                  "faxNumber": null,
+                  "stateAbbreviation": null,
+                  "countryCode": "91",
+                  "isDeleted": false,
+                  "isDefault": null,
+                  "createdAt": "2022-03-04T11:04:40.418Z",
+                  "modifiedAt": "2022-03-10T04:24:43.240Z",
+                  "userId": null
+              }
+          }
+      ]
+  },
+  "isVisible": true,
+  "script": "themes/bundle/shared-theme/contact-location-map.js"
+},
+{
+  "sectionId": 7,
+  "details": {
+      "sectionTitle": "TESTIMONIALS",
+      "sectionDescription": "Connect with customers who have shared positive feedback about their experience with our product.",
+      "sectionTitleStyle": null,
+      "textFontFamily": "Tahoma",
+      "sectionTitleSize": 45,
+      "sectionDescriptionSize": 22,
+      "sectionTitleColor": "#fff",
+      "sampleData": [
+          {
+              "author": "Sarah Jefferson",
+              "content": "Great selection of headphones and knowledgeable staff. I found the perfect pair and had a great shopping experience.",
+              "heading": "Jefferson",
+              "id": 1,
+              "imageUrl": "themes/electronics/testimonials/one.jpg"
+          },
+          {
+              "author": "John Snow",
+              "content": "If you''re looking for headphones, this is the place to go. The staff is friendly and helpful, and they have a wide variety of headphones to choose from.",
+              "heading": "Snow",
+              "id": 2,
+              "imageUrl": "themes/electronics/testimonials/two.jpg"
+          },
+          {
+              "author": "Snow John",
+              "content": "I was impressed by the customer service at this headphone store. The staff was patient and helpful in guiding me through the selection process.",
+              "designation": "master",
+              "heading": "John",
+              "id": 3,
+              "imageUrl": "themes/electronics/testimonials/three.jpg"
+          },
+          {
+              "author": "Martin Moore",
+              "content": "Highly recommend this store for anyone in the market for headphones. They have a fantastic selection and great prices.",
+              "heading": "Moore",
+              "id": 4,
+              "imageUrl": "themes/electronics/testimonials/four.jpg"
+          }
+      ],
+      "backgroundImage": "themes/electronics/testimonials/testimonial-banner.webp",
+      "testimonial": null,
+      "showCustomerName": true,
+      "showCustomerProfession": null,
+      "showCustomerImage": true,
+      "showSampleData": true
+  },
+  "selectorDetails": {
+      "selector": "phase-ii-electronic-testimonial",
+      "inputData": [
+          {
+              "selectorInput": "testimonialData",
+              "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+          },
+          {
+              "selectorInput": "testimonials",
+              "handlerInput": "testimonials",
+              "functionName": "getTestimonials"
+          }
+      ],
+      "outputData": []
+  },
+  "sectionName": "Testimonials Template 5",
+  "isExistingComponent": true,
+  "sampleData": null,
+  "isVisible": false,
+  
+  "script": "themes/bundle/electronic/electronics-theme/electronic-aboutus-page.js"
+}
+]

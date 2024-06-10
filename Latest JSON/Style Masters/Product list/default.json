@@ -961,8 +961,8 @@
           "websiteSettings": {
               "isDepositEnabled": true,
               "currency": {
-                  "currencySymbol": "₹",
-                  "currencyCode": "INR"
+                  "currencySymbol": "$",
+                  "currencyCode": "USD"
               },
               "isInstructionEnabled": true,
               "isWholeSaleEnabled": true,
