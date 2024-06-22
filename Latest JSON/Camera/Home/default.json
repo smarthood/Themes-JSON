@@ -1,0 +1,392 @@
+[
+  {
+      "sectionId": 1,
+      "details": {
+          "image": "themes/camera/camerabanner.jpeg",
+          "imagetwo": "themes/camera/camerabannertwo.png",
+          "title": "SHUTTER HARMONY",
+          "color": "#ffffff",
+          "textSize": 34,
+          "fontstyle": [
+              "B"
+          ],
+          "textFontFamily": "'Palatino Linotype',serif",
+          "textone": "A celestial melody playing in the background would complement the shot perfectly",
+          "textonecolor": "#ffffff",
+          "textonetextSize": 16,
+          "textonefontstyle": [
+              "B"
+          ],
+          "textOneFontFamily": "'Palatino Linotype',serif",
+          "button": "EXPLORE MORE",
+          "buttontextcolor": "#ffffff",
+          "buttonBackgroundColor": "#ff4500",
+          "buttonfontstyle": [
+              ""
+          ],
+          "buttontextFontFamily": "'Palatino Linotype',serif",
+          "texttwo": "DYNAMIC FOCUS",
+          "texttwocolor": "#ffffff",
+          "texttwotextSize": 34,
+          "texttwofontstyle": [
+              "B"
+          ],
+          "textTwoFontFamily": "'Palatino Linotype',serif",
+          "textthree": "Check out our Lenses",
+          "textthreecolor": "#ffffff",
+          "textthreetextSize": 16,
+          "textthreefontstyle": [
+              "B"
+          ],
+          "textThreeFontFamily": "'Palatino Linotype',serif",
+          "textfour": "EXPLORE MORE",
+          "textfourcolor": "#ffffff",
+          "textfourtextSize": 16,
+          "textfourfontstyle": [
+              "B"
+          ],
+          "textFourFontFamily": "'Palatino Linotype',serif",
+          "textfive": "DYNAMIC FOCUS",
+          "textfivecolor": "#ffffff",
+          "textfivetextSize": 34,
+          "textfivefontstyle": [
+              "B"
+          ],
+          "textFiveFontFamily": "'Palatino Linotype',serif",
+          "textsix": "Check out our Lenses",
+          "textsixcolor": "#ffffff",
+          "textsixtextSize": 16,
+          "textsixfontstyle": [
+              "B"
+          ],
+          "textSixFontFamily": "'Palatino Linotype',serif",
+          "textseven": "EXPLORE MORE",
+          "textsevencolor": "#ffffff",
+          "textseventextSize": 16,
+          "textsevenfontstyle": [
+              "B"
+          ],
+          "textSevenFontFamily": "'Palatino Linotype',serif",
+          "texteight": "DYNAMIC FOCUS",
+          "texteightcolor": "#ffffff",
+          "texteighttextSize": 34,
+          "texteightfontstyle": [
+              "B"
+          ],
+          "textEightFontFamily": "'Palatino Linotype',serif",
+          "textnine": "Check out our Lenses",
+          "textninecolor": "#ffffff",
+          "textninetextSize": 16,
+          "textninefontstyle": [
+              "B"
+          ],
+          "textNineFontFamily": "'Palatino Linotype',serif",
+          "textten": "EXPLORE MORE",
+          "texttencolor": "#ffffff",
+          "texttentextSize": 16,
+          "texttenfontstyle": [
+              "B"
+          ],
+          "textTenFontFamily": "'Palatino Linotype',serif"
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-camera-theme-banner",
+          "inputData": [
+              {
+                  "selectorInput": "banner",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "banner",
+      "isExistingComponent": true,
+      "sampleData": {},
+      "isVisible": true,
+      "script": "themes/bundle/electronic/camera-theme/camera-home.js"
+  },
+  {
+      "sectionId": 2,
+      "details": {
+          "image": "themes/camera/shopnow.jpg",
+          "backgroundcolor": "#000000",
+          "title": "EXPLORE OUR PREMIUM CAMERA GEAR COLLECTION NOW",
+          "color": "#808080",
+          "textSize": 34,
+          "fontstyle": [
+              "B"
+          ],
+          "textFontFamily": "'Palatino Linotype',serif",
+          "textone": "Unleash the Excitement and grab Exclusive Offers on Our Products Today",
+          "textonecolor": "#808080",
+          "textonetextSize": 16,
+          "textonefontstyle": [
+              "B"
+          ],
+          "textOneFontFamily": "'Palatino Linotype',serif",
+          "button": "SHOP NOW",
+          "buttontextcolor": "#ffffff",
+          "buttonBackgroundColor": "#ff4500",
+          "buttonfontstyle": [
+              ""
+          ],
+          "buttontextFontFamily": "'Palatino Linotype',serif"
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-camera-theme-products",
+          "inputData": [
+              {
+                  "selectorInput": "products",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "FeaturedProducts",
+                  "handlerInput": "sampleData.products",
+                  "functionName": "getAllFeaturedProducts"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "products",
+      "isExistingComponent": true,
+      "sampleData": {},
+      "isVisible": true,
+      "script": "themes/bundle/electronic/camera-theme/camera-home.js"
+  },
+  {
+      "sectionId": 3,
+      "details": {
+        "isTitle":false,
+          "image": "themes/camera/select.png"
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-camera-aboutus-banner",
+          "inputData": [
+              {
+                  "selectorInput": "displayDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "image",
+      "isExistingComponent": true,
+      "sampleData": {},
+      "isVisible": true,
+      "script": "themes/bundle/electronic/camera-theme/camera-about-us.js"
+  },
+  {
+      "sectionId": 4,
+      "details": {
+          "image": "themes/camera/shopnow.jpg",
+          "imagetwo": "themes/camera/shopnow.jpg",
+          "imagethree": "themes/camera/shopnow.jpg",
+          "imagefour": "themes/camera/shopnow.jpg",
+          "backgroundcolor": "#000000",
+          "title": "LENS WIZARD 9000",
+          "color": "#ffffff",
+          "textSize": 34,
+          "fontstyle": [
+              "B"
+          ],
+          "textFontFamily": "'Palatino Linotype',serif",
+          "textone": "$700",
+          "textonecolor": "#808080",
+          "textonetextSize": 16,
+          "textonefontstyle": [
+              "B"
+          ],
+          "textOneFontFamily": "'Palatino Linotype',serif",
+          "texttwo": "Unleash the Excitement and grab Exclusive Offers on Our Products Today.Eliminate your photograph with lumino capture too.",
+          "texttwocolor": "#808080",
+          "texttwotextSize": 16,
+          "texttwofontstyle": [
+              "B"
+          ],
+          "textTwoFontFamily": "'Palatino Linotype',serif",
+          "button": "ADD TO CART",
+          "buttontextcolor": "#ffffff",
+          "buttonBackgroundColor": "#000000",
+          "buttonfontstyle": [
+              ""
+          ],
+          "buttontextFontFamily": "'Palatino Linotype',serif",
+          "buttontwo": "SHOP NOW",
+          "buttontwotextcolor": "#ffffff",
+          "buttontwoBackgroundColor": "#ff4500",
+          "buttontwofontstyle": [
+              ""
+          ],
+          "SubtextFontFamily": "'Palatino Linotype',serif"
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-camera-theme-addtocart",
+          "inputData": [
+              {
+                  "selectorInput": "addtocart",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "addtocart",
+      "isExistingComponent": true,
+      "sampleData": {},
+      "isVisible": true,
+      "script": "themes/bundle/electronic/camera-theme/camera-home.js"
+  },
+  {
+      "sectionId": 5,
+      "details": {
+          "image": "themes/camera/shopnow.jpg",
+          "title": "Quantum Quasar Sale Warp Savings",
+          "color": "#ffffff",
+          "textSize": 34,
+          "fontstyle": [
+              "B"
+          ],
+          "textFontFamily": "'Palatino Linotype',serif",
+          "timerday": "0",
+          "timerhour": "0",
+          "timermin": "0",
+          "timersec": "0",
+          "dbDate": "2023-03-18T15:27:06.515Z",
+          "oldmillisec": "0"
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-camera-theme-category",
+          "inputData": [
+              {
+                  "selectorInput": "Offers",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "FeaturedProducts",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "categoryDetails",
+                  "handlerInput": "sampleData.categories",
+                  "functionName": "getAllFeaturedCategories"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "Offers",
+      "isExistingComponent": true,
+      "sampleData": {},
+      "isVisible": true,
+      "script": "themes/bundle/electronic/camera-theme/camera-home.js"
+  },
+  {
+      "sectionId": 6,
+      "details": {
+          "image": "themes/camera/chooseone.png",
+          "imagetwo": "themes/camera/choosetwo.png",
+          "imagethree": "themes/camera/choosethree.png",
+          "imagefour": "themes/camera/choosefour.png",
+          "backgroundcolor": "#000000",
+          "textone": "Security",
+          "textonecolor": "#ffffff",
+          "textonetextSize": 24,
+          "textonefontstyle": [
+              "B"
+          ],
+          "textOneFontFamily": "'Palatino Linotype',serif",
+          "texttwo": "We priorotize your safety always",
+          "texttwocolor": "#ffffff",
+          "texttwotextSize": 16,
+          "texttwofontstyle": [
+              "B"
+          ],
+          "textTwoFontFamily": "'Palatino Linotype',serif",
+          "textthree": "Fast Delivery",
+          "textthreecolor": "#ffffff",
+          "textthreetextSize": 24,
+          "textthreefontstyle": [
+              "B"
+          ],
+          "textThreeFontFamily": "'Palatino Linotype',serif",
+          "textfour": "Orders are delievered within 24 hours",
+          "textfourcolor": "#ffffff",
+          "textfourtextSize": 16,
+          "textfourfontstyle": [
+              "B"
+          ],
+          "textFourFontFamily": "'Palatino Linotype',serif",
+          "textfive": "DCustomer Support",
+          "textfivecolor": "#ffffff",
+          "textfivetextSize": 24,
+          "textfivefontstyle": [
+              "B"
+          ],
+          "textFiveFontFamily": "'Palatino Linotype',serif",
+          "textsix": "Our team ensures prompt,corteous assistance",
+          "textsixcolor": "#ffffff",
+          "textsixtextSize": 16,
+          "textsixfontstyle": [
+              "B"
+          ],
+          "textSixFontFamily": "'Palatino Linotype',serif",
+          "textseven": "Return Policy",
+          "textsevencolor": "#ffffff",
+          "textseventextSize": 24,
+          "textsevenfontstyle": [
+              "B"
+          ],
+          "textSevenFontFamily": "'Palatino Linotype',serif",
+          "texteight": "Our return policy assures one-week returns",
+          "texteightcolor": "#ffffff",
+          "texteighttextSize": 16,
+          "texteightfontstyle": [
+              "B"
+          ],
+          "textEightFontFamily": "'Palatino Linotype',serif"
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-camera-theme-chooseus",
+          "inputData": [
+              {
+                  "selectorInput": "chooseus",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "chooseus",
+      "isExistingComponent": true,
+      "sampleData": {},
+      "isVisible": true,
+      "script": "themes/bundle/electronic/camera-theme/camera-home.js"
+  }
+]

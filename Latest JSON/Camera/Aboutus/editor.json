@@ -1,0 +1,734 @@
+[
+  {
+      "id": 1,
+      "sectionName": "aboutus_banner",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Banner Settings",
+              "groupControls": [
+                  {
+                      "type": "Image",
+                      "name": "image",
+                      "label": "Upload image"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "title",
+                      "label": "Text",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "color",
+                      "label": "Font color"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Font size",
+                      "options": [
+                          10,
+                          50
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "fontstyle",
+                      "label": "Font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": " Font family"
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 2,
+      "sectionName": "aboutus",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Header Settings",
+              "groupControls": [
+                  {
+                      "type": "Image",
+                      "name": "image",
+                      "label": "Upload image"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "backgroundcolor",
+                      "label": "Background color"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "title",
+                      "label": "Heading",
+                      "errors": [
+                          {
+                              "name": "maxlength",
+                              "length": 50
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "color",
+                      "label": "Heading font color"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Heading font size",
+                      "options": [
+                          10,
+                          34
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "fontstyle",
+                      "label": "Heading font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Heading font family"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "textone",
+                      "label": "Subtext One",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textonecolor",
+                      "label": "Subtext one font color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textonefontstyle",
+                      "label": "Subtext one font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textOneFontFamily",
+                      "label": "Subtext one font family"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "texttwo",
+                      "label": "Subtext Two",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "texttwocolor",
+                      "label": "Subtext fwo font folor"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "texttwofontstyle",
+                      "label": "Subtext fwo font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textTwoFontFamily",
+                      "label": "Subtext fwo font family"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "textthree",
+                      "label": "Subtext Three",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textthreecolor",
+                      "label": "Subtext three font color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textthreefontstyle",
+                      "label": "Subtext three font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textThreeFontFamily",
+                      "label": "Subtext three font family"
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 3,
+      "sectionName": "category",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "General Settings",
+              "groupControls": [
+                  {
+                      "type": "Image",
+                      "name": "image",
+                      "label": "image"
+                  },
+                  {
+                      "type": "Image",
+                      "name": "imagetwo",
+                      "label": "image"
+                  },
+                  {
+                      "type": "Image",
+                      "name": "imagethree",
+                      "label": "image"
+                  },
+                  {
+                      "type": "Image",
+                      "name": "imagefour",
+                      "label": "image"
+                  },
+                  {
+                      "type": "Image",
+                      "name": "imagefive",
+                      "label": "image"
+                  },
+                  {
+                      "type": "Image",
+                      "name": "imagesix",
+                      "label": "image"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "backgroundColor",
+                      "label": "Background color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "startColor",
+                      "label": "Star color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "dotColor",
+                      "label": "Slider dots color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "activeDotColor",
+                      "label": "Active dots color"
+                  }
+              ]
+          },
+          {
+              "groupName": "Header Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "title",
+                      "label": "Heading text",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 40
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "color",
+                      "label": "Font color"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Font size",
+                      "options": [
+                          10,
+                          40
+                      ]
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "textalign",
+                      "label": "Section heading alignment",
+                      "options": [
+                          {
+                              "name": "Left",
+                              "value": "left"
+                          },
+                          {
+                              "name": "Center",
+                              "value": "center"
+                          },
+                          {
+                              "name": "Right",
+                              "value": "right"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "fontstyle",
+                      "label": "Heading style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Font family"
+                  }
+              ]
+          },
+          {
+              "groupName": "Testimonial Settings",
+              "groupControls": [
+                  {
+                      "type": "Color Picker",
+                      "name": "colorone",
+                      "label": "Content color"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSizeone",
+                      "label": "Content font size",
+                      "options": [
+                          10,
+                          32
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "fontstyleone",
+                      "label": "Content font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textOneFontFamily",
+                      "label": "Content font family"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "colortwo",
+                      "label": "Author color"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSizetwo",
+                      "label": "Author font size",
+                      "options": [
+                          10,
+                          26
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "fontstyletwo",
+                      "label": "Author font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textTwoFontFamily",
+                      "label": "Author font family"
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 4,
+      "sectionName": "buynow",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Header Settings",
+              "groupControls": [
+                  {
+                      "type": "Image",
+                      "name": "image",
+                      "label": "image"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "backgroundcolor",
+                      "label": "Background color"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "title",
+                      "label": "Heading",
+                      "errors": [
+                          {
+                              "name": "maxlength",
+                              "length": 50
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "color",
+                      "label": "Heading font color"
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Heading font size",
+                      "options": [
+                          10,
+                          34
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "fontstyle",
+                      "label": "Heading font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Heading font family"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "textone",
+                      "label": "Subtext",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textonecolor",
+                      "label": "Subtext font color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textonefontstyle",
+                      "label": "Subtext font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textOneFontFamily",
+                      "label": "Subtext font family"
+                  }
+              ]
+          },
+          {
+              "groupName": "Button Settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "button",
+                      "label": "Button text",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 20
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "buttonLink",
+                      "label": "Redirect to",
+                      "errors": [
+                          {
+                              "name": "required"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttontextcolor",
+                      "label": "Button font color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "buttonfontstyle",
+                      "label": "Button Font Style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "buttontextFontFamily",
+                      "label": "Button font family"
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "buttonType",
+                      "label": "Button type",
+                      "options": [
+                          {
+                              "name": "Fill",
+                              "value": "fill"
+                          },
+                          {
+                              "name": "Stroked",
+                              "value": "stroked"
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttonBackgroundColor",
+                      "label": "Background / Border color"
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 5,
+      "sectionName": "footer",
+      "isExistingComponent": true,
+      "controls": [
+          {
+              "groupName": "Header Settings",
+              "groupControls": [
+                  {
+                      "type": "Image",
+                      "name": "image",
+                      "label": "image"
+                  },
+                  {
+                      "type": "Image",
+                      "name": "imagetwo",
+                      "label": "image"
+                  },
+                  {
+                      "type": "Image",
+                      "name": "imagethree",
+                      "label": "image"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "backgroundcolor",
+                      "label": "Background color"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "textone",
+                      "label": "Date",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 50
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textonecolor",
+                      "label": "Font color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textonefontstyle",
+                      "label": "Font Style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textOneFontFamily",
+                      "label": "Font family"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "texttwo",
+                      "label": "Text",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 60
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "texttwocolor",
+                      "label": "Font folor"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "texttwofontstyle",
+                      "label": "Font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textTwoFontFamily",
+                      "label": "Font family"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "textthree",
+                      "label": "Subtext",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 100
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textthreecolor",
+                      "label": "Subtext font color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textthreefontstyle",
+                      "label": "Subtext font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textThreeFontFamily",
+                      "label": "Subtext font family"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "textfour",
+                      "label": "Button",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 50
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textfourcolor",
+                      "label": "Button font color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textfourfontstyle",
+                      "label": "Button font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFourFontFamily",
+                      "label": "Button font family"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "textfive",
+                      "label": "Date",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 50
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textfivecolor",
+                      "label": "Font color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textfivefontstyle",
+                      "label": "Font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFiveFontFamily",
+                      "label": "Font family"
+                  },
+                  {
+                      "type": "Input",
+                      "name": "textsix",
+                      "label": "Text",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 50
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textsixcolor",
+                      "label": "Font color"
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "textsixfontstyle",
+                      "label": "Font style"
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textSixFontFamily",
+                      "label": "Font family"
+                  }
+              ]
+          }
+      ]
+  }
+]

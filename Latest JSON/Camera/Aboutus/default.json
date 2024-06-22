@@ -1,0 +1,288 @@
+[
+  {
+      "sectionId": 1,
+      "details": {
+        "isTitle":true,
+          "image": "themes/camera/camerabanner.jpeg",
+          "title": "ABOUT US",
+          "color": "#FFFFFF",
+          "textSize": 34,
+          "fontstyle": [
+              "B"
+          ],
+          "textFontFamily": "'Palatino Linotype',serif"
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-camera-aboutus-banner",
+          "inputData": [
+              {
+                  "selectorInput": "displayDetails",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "aboutus_banner",
+      "isExistingComponent": true,
+      "sampleData": {},
+      "isVisible": true,
+      "script": "themes/bundle/electronic/camera-theme/camera-about-us.js"
+  },
+  {
+      "sectionId": 2,
+      "details": {
+          "image": "themes/camera/explorenow.jpg",
+          "backgroundcolor": "#000000",
+          "title": "PRECISION IN EVERY PIECE",
+          "color": "#ffffff",
+          "textSize": 34,
+          "fontstyle": [
+              "B"
+          ],
+          "textFontFamily": "'Palatino Linotype',serif",
+          "textone": "We prioritize excellence, delivering premium optics to elevate your experience",
+          "textonecolor": "#ffffff",
+          "textonetextSize": 16,
+          "textonefontstyle": [
+              "B"
+          ],
+          "textOneFontFamily": "'Palatino Linotype',serif",
+          "texttwo": "With precision, we curate top-tier lenses to enhance your visual experience",
+          "texttwocolor": "#ffffff",
+          "texttwotextSize": 16,
+          "texttwofontstyle": [
+              "B"
+          ],
+          "textTwoFontFamily": "'Palatino Linotype',serif",
+          "textthree": "We're devoted to excellence, curating superior optics to elevate your visual journey.:",
+          "textthreecolor": "#ffffff",
+          "textthreetextSize": 16,
+          "textthreefontstyle": [
+              "B"
+          ],
+          "textThreeFontFamily": "'Palatino Linotype',serif"
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-camera-theme-aboutus",
+          "inputData": [
+              {
+                  "selectorInput": "aboutus",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "aboutus",
+      "isExistingComponent": true,
+      "sampleData": {},
+      "isVisible": true,
+      "script": "themes/bundle/electronic/camera-theme/camera-about-us.js"
+  },
+  {
+      "sectionId": 3,
+      "details": {
+          "image": "themes/camera/explorenow.jpg",
+          "imagetwo": "themes/camera/explorenow.jpg",
+          "imagethree": "themes/camera/explorenow.jpg",
+          "imagefour": "themes/camera/explorenow.jpg",
+          "imagefive": "themes/camera/explorenow.jpg",
+          "backgroundcolor": "#000000",
+          "imagesix": "themes/camera/test.png",
+          "title": "RICE REVIEWS",
+          "color": "#ffffff",
+          "textSize": 34,
+          "textalign": "center",
+          "fontstyle": [
+              "B"
+          ],
+          "textFontFamily": "'Montserrat',sans-serif",
+          "colorone": "#ffffff",
+          "colortwo": "#ffffff",
+          "textSizeone": 25,
+          "textSizetwo": 18,
+          "fontstyleone": [],
+          "fontstyletwo": [],
+          "textOneFontFamily": "'Montserrat',sans-serif",
+          "textTwoFontFamily": "'Montserrat',sans-serif",
+          "startColor": "#727272",
+          "dotColor": "#f80000",
+          "activeDotColor": "#ffffff"
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-camera-aboutus-testimonial",
+          "inputData": [
+              {
+                  "selectorInput": "category",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              },
+              {
+                  "selectorInput": "Testimonials",
+                  "handlerInput": "sampleData.testimonials",
+                  "functionName": "getTestimonials"
+              },
+              {
+                  "selectorInput": "testimonialDisplay",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "testimonial",
+      "isExistingComponent": true,
+      "sampleData": {
+          "testimonials": [
+              {
+                  "author": "Alexander Cole",
+                  "content": "These sleek cufflinks instantly elevated my style game. Classy and confident, they are the perfect accessory for any occasion. Highly recommended!",
+                  "ratings": 4
+              },
+              {
+                  "author": "Samuel Bennett",
+                  "content": "The leather wallet I purchased is not only stylish but also incredibly functional. It holds all my essentials and adds a touch of sophistication to my everyday look.",
+                  "ratings": 2
+              },
+              {
+                  "author": "Benjamin Taylor",
+                  "content": "I was skeptical about wearing a tie clip, but this one changed my mind. It adds a subtle yet impactful touch to my outfit, giving me that extra boost of confidence.",
+                  "ratings": 5
+              }
+          ]
+      },
+      "isVisible": true,
+      "script": "themes/bundle/electronic/camera-theme/camera-about-us.js"
+  },
+  {
+      "sectionId": 4,
+      "details": {
+          "image": "themes/camera/explorenow.jpg",
+          "backgroundcolor": "#000000",
+          "title": "LUMINO FOCUS",
+          "color": "#ffffff",
+          "textSize": 34,
+          "fontstyle": [
+              "B"
+          ],
+          "textFontFamily": "'Palatino Linotype',serif",
+          "textone": "We prioritize excellence, delivering premium optics to elevate your experience",
+          "textonecolor": "#ffffff",
+          "textonetextSize": 16,
+          "textonefontstyle": [
+              "B"
+          ],
+          "textOneFontFamily": "'Palatino Linotype',serif",
+          "button": "Order Today!",
+          "buttontextcolor": "#ffffff",
+          "buttonBackgroundColor": "#ff4500",
+          "buttonfontstyle": [
+              ""
+          ],
+          "buttontextFontFamily": "'Palatino Linotype',serif"
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-camera-aboutus-buynow",
+          "inputData": [
+              {
+                  "selectorInput": "buynow",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "buynow",
+      "isExistingComponent": true,
+      "sampleData": {},
+      "isVisible": true,
+      "script": "themes/bundle/electronic/camera-theme/camera-about-us.js"
+  },
+  {
+      "sectionId": 5,
+      "details": {
+          "image": "themes/camera/footone.jpeg",
+          "imagetwo": "themes/camera/foottwo.jpeg",
+          "imagethree": "themes/camera/footthree.jpg",
+          "backgroundcolor": "#000000",
+          "textone": "CHEF'S DELIGHTFUL CREATIONS",
+          "textonecolor": "#ffffff",
+          "textonetextSize": 20,
+          "textonefontstyle": [
+              "B"
+          ],
+          "textOneFontFamily": "'Palatino Linotype',serif",
+          "texttwo": "OCTOBER 29, 2020",
+          "texttwocolor": "#ffffff",
+          "texttwotextSize": 16,
+          "texttwofontstyle": [
+              "B"
+          ],
+          "textTwoFontFamily": "'Palatino Linotype',serif",
+          "textthree": "KITCHENWEAR'S IMPACT ON HEALTH:",
+          "textthreecolor": "#ffffff",
+          "textthreetextSize": 20,
+          "textthreefontstyle": [
+              "B"
+          ],
+          "textThreeFontFamily": "'Palatino Linotype',serif",
+          "textfour": "OCTOBER 29, 2020",
+          "textfourcolor": "#ffffff",
+          "textfourtextSize": 16,
+          "textfourfontstyle": [
+              "B"
+          ],
+          "textFourFontFamily": "'Palatino Linotype',serif",
+          "textfive": "ECHO FRIENDLY KITCHEN PRACTICE :",
+          "textfivecolor": "#ffffff",
+          "textfivetextSize": 20,
+          "textfivefontstyle": [
+              "B"
+          ],
+          "textFiveFontFamily": "'Palatino Linotype',serif",
+          "textsix": "OCTOBER 29, 2020",
+          "textsixcolor": "#ffffff",
+          "textsixtextSize": 16,
+          "textsixfontstyle": [
+              "B"
+          ],
+          "textSixFontFamily": "'Palatino Linotype',serif"
+      },
+      "selectorDetails": {
+          "selector": "phase-ii-camera-aboutus-footer",
+          "inputData": [
+              {
+                  "selectorInput": "footer",
+                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+              }
+          ],
+          "outputData": [
+              {
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
+          ]
+      },
+      "sectionName": "footer",
+      "isExistingComponent": true,
+      "sampleData": {},
+      "isVisible": true,
+      "script": "themes/bundle/electronic/camera-theme/camera-about-us.js"
+  }
+]
