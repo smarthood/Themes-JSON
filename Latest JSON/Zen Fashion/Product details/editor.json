@@ -1,297 +1,297 @@
 [
-  {
-      "id": 1,
-      "sectionName": "Product Details",
-      "isExistingComponent": true,
-      "controls": [
-          {
-              "type": "Product Details Controls",
-              "name": "productDetailsControls",
-              "label": "Product Details Controls"
-          }
-      ]
-  },
-  {
-      "id": 2,
-      "sectionName": "Buy X Get Y Discount Details",
-      "isExistingComponent": true,
-      "controls": [
-          {
-              "groupName": "Text Settings",
-              "groupControls": [
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showDiscountTitle",
-                      "label": "Show Discount Title"
-                  },
-                  {
-                      "type": "Input",
-                      "name": "discountTitle",
-                      "label": "Discount Title"
-                  },
-                  {
-                      "type": "Input",
-                      "name": "seeMoreText",
-                      "label": "See more discounts text"
-                  }
-              ]
-          }
-      ]
-  },
-  {
-      "id": 3,
-      "sectionName": "Additional Information",
-      "isExistingComponent": true,
-      "controls": [
-          {
-              "groupName": "Design Settings",
-              "groupControls": [
-                  {
-                      "type": "Radio",
-                      "name": "pageDesign",
-                      "label": "Designs",
-                      "options": [
-                          {
-                              "name": "Template I",
-                              "value": "designTemplateOne"
-                          },
-                          {
-                              "name": "Template II",
-                              "value": "designTemplateTwo"
-                          }
-                      ]
-                  }
-              ]
-          },
-          {
-              "groupName": "Description Settings",
-              "groupControls": [
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showProductDescriptionTab",
-                      "label": "Show Product Description"
-                  },
-                  {
-                      "type": "Input",
-                      "name": "productDescriptionTabText",
-                      "label": "Product Description Heading",
-                      "sectionInfo": "Add the title for your product's detailed description."
-                  }
-              ]
-          },
-          {
-              "groupName": "Review Settings",
-              "groupControls": [
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showReviewTab",
-                      "label": "Show Review"
-                  },
-                  {
-                      "type": "Input",
-                      "name": "reviewTabText",
-                      "label": "Review Heading",
-                      "sectionInfo": "Add the title for your customer reviews."
-                  },
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showRatingTitle",
-                      "label": "Show OverAll Rating Title"
-                  },
-                  {
-                      "type": "Input",
-                      "name": "ratingTitle",
-                      "label": "Overall Rating Title",
-                      "sectionInfo": "Add the title for the overall ratings given by your customers."
-                  },
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showStarRatings",
-                      "label": "Show Star Ratings"
-                  },
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showVerifiedRatings",
-                      "label": "Show Rating Count"
-                  },
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showRatingBar",
-                      "label": "Show Rating Bar"
-                  }
-              ]
-          },
-          {
-              "groupName": "Review Display Settings",
-              "groupControls": [
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showUserFullName",
-                      "label": "Show User Full Name"
-                  },
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showUploadedImages",
-                      "label": "Show Uploaded Images"
-                  },
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showVerfiedPurchase",
-                      "label": "Show Verified Buyer"
-                  },
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showReviewDate",
-                      "label": "Show Review Date"
-                  },
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showReviewTitle",
-                      "label": "Show Review Title"
-                  },
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showReviewMessage",
-                      "label": "Show Review Message"
-                  },
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showHelpfulButton",
-                      "label": "Show Helpful Button"
-                  },
-                  {
-                      "type": "Slider Toggle",
-                      "name": "shownotSatisfiedButton",
-                      "label": "Show Not Satisfied Button"
-                  }
-              ]
-          },
-          {
-              "groupName": "Add Review Text Settings",
-              "groupControls": [
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showReviewDescription",
-                      "label": "Show Review Description"
-                  },
-                  {
-                      "type": "Text Area",
-                      "name": "newReviewDescription",
-                      "label": "New Review Description",
-                      "sectionInfo": "Add the title for your new review description"
-                  },
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showWriteReviewButton",
-                      "label": "Show Write Review Button"
-                  },
-                  {
-                      "type": "Input",
-                      "name": "newReviewButtonText",
-                      "label": "Write Review Button Text",
-                      "sectionInfo": "Add the title for your write review button label."
-                  }
-              ]
-          },
-          {
-              "groupName": "Add Review Dialog Settings",
-              "groupControls": [
-                  {
-                      "type": "Input",
-                      "name": "experienceText",
-                      "label": "Experience Text",
-                      "sectionInfo": "Add the title for your product's experience text."
-                  },
-                  {
-                      "type": "Input",
-                      "name": "uploadImageTitle",
-                      "label": "Upload Image Title",
-                      "sectionInfo": "Add the title for your product's upload image."
-                  },
-                  {
-                      "type": "Text Area",
-                      "name": "uploadImageDescription",
-                      "label": "Upload Image Description",
-                      "sectionInfo": "Add the title for your upload image description."
-                  },
-                  {
-                      "type": "Input",
-                      "name": "uploadImageButtonText",
-                      "label": "Upload Image Button Label",
-                      "sectionInfo": "Add the title for your upload image button label."
-                  }
-              ]
-          },
-          {
-              "groupName": "Specification Settings",
-              "groupControls": [
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showSpecificationTab",
-                      "label": "Specification Heading"
-                  },
-                  {
-                      "type": "Input",
-                      "name": "specificationTabText",
-                      "label": "Specification Heading",
-                      "sectionInfo": "Add the title for the overall specifications of your product."
-                  }
-              ]
-          },
-          {
-              "groupName": "FAQ Settings",
-              "groupControls": [
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showFaqTab",
-                      "label": "Show FAQ"
-                  },
-                  {
-                      "type": "Input",
-                      "name": "faqTabText",
-                      "label": "FAQ Heading",
-                      "sectionInfo": "Add the title for your frequently asked questions section."
-                  }
-              ]
-          }
-      ]
-  },
-  {
-      "id": 4,
-      "sectionName": "Related Products",
-      "isExistingComponent": true,
-      "controls": [
-          {
-              "groupName": "Related Product Text Settings",
-              "groupControls": [
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showUpsellProducts",
-                      "label": "Show Upsell products"
-                  },
-                  {
-                      "type": "Input",
-                      "name": "upsellProductsTitle",
-                      "label": "Upsell products Heading"
-                  },
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showCrosssellProducts",
-                      "label": "Show Cross-sell products"
-                  },
-                  {
-                      "type": "Input",
-                      "name": "crosssellProductsTitle",
-                      "label": "Cross-sell products Heading"
-                  }
-              ]
-          }
-      ]
-  },
-  {
-      "id": 5,
-      "sectionName": "Frequently bought together",
-      "isExistingComponent": true,
-      "controls": []
-  }
+    {
+        "id": 1,
+        "sectionName": "Product Details",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "type": "Product Details Controls",
+                "name": "productDetailsControls",
+                "label": "Product Details Controls"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "sectionName": "Buy X Get Y Discount Details",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showDiscountTitle",
+                        "label": "Show Discount Title"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "discountTitle",
+                        "label": "Discount Title"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "seeMoreText",
+                        "label": "See more discounts text"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "sectionName": "Additional Information",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Design Settings",
+                "groupControls": [
+                    {
+                        "type": "Radio",
+                        "name": "pageDesign",
+                        "label": "Designs",
+                        "options": [
+                            {
+                                "name": "Template I",
+                                "value": "designTemplateOne"
+                            },
+                            {
+                                "name": "Template II",
+                                "value": "designTemplateTwo"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "groupName": "Description Settings",
+                "groupControls": [
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showProductDescriptionTab",
+                        "label": "Show Product Description"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "productDescriptionTabText",
+                        "label": "Product Description Heading",
+                        "sectionInfo": "Add the title for your product's detailed description."
+                    }
+                ]
+            },
+            {
+                "groupName": "Review Settings",
+                "groupControls": [
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showReviewTab",
+                        "label": "Show Review"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "reviewTabText",
+                        "label": "Review Heading",
+                        "sectionInfo": "Add the title for your customer reviews."
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showRatingTitle",
+                        "label": "Show OverAll Rating Title"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "ratingTitle",
+                        "label": "Overall Rating Title",
+                        "sectionInfo": "Add the title for the overall ratings given by your customers."
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showStarRatings",
+                        "label": "Show Star Ratings"
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showVerifiedRatings",
+                        "label": "Show Rating Count"
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showRatingBar",
+                        "label": "Show Rating Bar"
+                    }
+                ]
+            },
+            {
+                "groupName": "Review Display Settings",
+                "groupControls": [
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showUserFullName",
+                        "label": "Show User Full Name"
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showUploadedImages",
+                        "label": "Show Uploaded Images"
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showVerfiedPurchase",
+                        "label": "Show Verified Buyer"
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showReviewDate",
+                        "label": "Show Review Date"
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showReviewTitle",
+                        "label": "Show Review Title"
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showReviewMessage",
+                        "label": "Show Review Message"
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showHelpfulButton",
+                        "label": "Show Helpful Button"
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "shownotSatisfiedButton",
+                        "label": "Show Not Satisfied Button"
+                    }
+                ]
+            },
+            {
+                "groupName": "Add Review Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showReviewDescription",
+                        "label": "Show Review Description"
+                    },
+                    {
+                        "type": "Text Area",
+                        "name": "newReviewDescription",
+                        "label": "New Review Description",
+                        "sectionInfo": "Add the title for your new review description"
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showWriteReviewButton",
+                        "label": "Show Write Review Button"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "newReviewButtonText",
+                        "label": "Write Review Button Text",
+                        "sectionInfo": "Add the title for your write review button label."
+                    }
+                ]
+            },
+            {
+                "groupName": "Add Review Dialog Settings",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "experienceText",
+                        "label": "Experience Text",
+                        "sectionInfo": "Add the title for your product's experience text."
+                    },
+                    {
+                        "type": "Input",
+                        "name": "uploadImageTitle",
+                        "label": "Upload Image Title",
+                        "sectionInfo": "Add the title for your product's upload image."
+                    },
+                    {
+                        "type": "Text Area",
+                        "name": "uploadImageDescription",
+                        "label": "Upload Image Description",
+                        "sectionInfo": "Add the title for your upload image description."
+                    },
+                    {
+                        "type": "Input",
+                        "name": "uploadImageButtonText",
+                        "label": "Upload Image Button Label",
+                        "sectionInfo": "Add the title for your upload image button label."
+                    }
+                ]
+            },
+            {
+                "groupName": "Specification Settings",
+                "groupControls": [
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showSpecificationTab",
+                        "label": "Specification Heading"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "specificationTabText",
+                        "label": "Specification Heading",
+                        "sectionInfo": "Add the title for the overall specifications of your product."
+                    }
+                ]
+            },
+            {
+                "groupName": "FAQ Settings",
+                "groupControls": [
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showFaqTab",
+                        "label": "Show FAQ"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "faqTabText",
+                        "label": "FAQ Heading",
+                        "sectionInfo": "Add the title for your frequently asked questions section."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "sectionName": "Related Products",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Related Product Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showUpsellProducts",
+                        "label": "Show Upsell products"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "upsellProductsTitle",
+                        "label": "Upsell products Heading"
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showCrosssellProducts",
+                        "label": "Show Cross-sell products"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "crosssellProductsTitle",
+                        "label": "Cross-sell products Heading"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "sectionName": "Frequently bought together",
+        "isExistingComponent": true,
+        "controls": []
+    }
 ]

@@ -442,6 +442,166 @@
         ]
     },
     {
+        "id": 5,
+        "sectionName": "Testimonials",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "sectionTitle",
+                        "label": "Features title",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "textFontStyle",
+                        "label": "Features title style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Features title family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "textSize",
+                        "label": "Features title size",
+                        "options": [
+                            20,
+                            80
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "textColor",
+                        "label": "Features title color"
+                    }
+                ]
+            },
+            {
+                "groupName": "Testimonials Settings",
+                "groupControls": [
+                    {
+                        "type": "Checkbox",
+                        "name": "showCustomerName",
+                        "label": "Show customer name"
+                    },
+                    {
+                        "type": "Checkbox",
+                        "name": "showCustomerImage",
+                        "label": "Show customer image"
+                    },
+                    {
+                        "type": "Testimonial",
+                        "name": "testimonial",
+                        "label": "Testimonials"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "sectionName": "Location Details",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "General Settings",
+                "groupControls": [
+                    {
+                        "type": "Checkbox",
+                        "name": "showFilter",
+                        "label": "Show location filter"
+                    }
+                ]
+            },
+            {
+                "groupName": "Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "locationHeading",
+                        "label": "Location heading",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "textFontStyle",
+                        "label": "Location heading style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Location heading family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "textSize",
+                        "label": "Location heading size",
+                        "options": [
+                            20,
+                            80
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "textColor",
+                        "label": "Location heading color"
+                    }
+                ]
+            },
+            {
+                "groupName": "Background Image Settings",
+                "groupControls": [
+                    {
+                        "type": "Checkbox",
+                        "name": "showBackgroundImage",
+                        "label": "Show background image"
+                    },
+                    {
+                        "type": "Image",
+                        "name": "backgroundImage",
+                        "label": "Background image"
+                    },
+                    {
+                        "type": "Radio",
+                        "name": "imageBackgroundSizeType",
+                        "label": "Image background size type",
+                        "options": [
+                            {
+                                "name": "Cover",
+                                "value": "cover"
+                            },
+                            {
+                                "name": "Fill (100% 100%)",
+                                "value": "100% 100%"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": 7,
         "sectionName": "Testimonials Template 5",
         "isExistingComponent": true,
@@ -557,375 +717,5 @@
             }
         ],
         "isAddedSection": true
-    },
-    {
-        "id": 5,
-        "sectionName": "Testimonials",
-        "isExistingComponent": true,
-        "controls": [
-            {
-                "groupName": "Text Settings",
-                "groupControls": [
-                    {
-                        "type": "Input",
-                        "name": "sectionTitle",
-                        "label": "Features title",
-                        "errors": [
-                            {
-                                "name": "required"
-                            },
-                            {
-                                "name": "maxlength",
-                                "length": 100
-                            }
-                        ]
-                    },
-                    {
-                        "type": "Font Style",
-                        "name": "textFontStyle",
-                        "label": "Features title style"
-                    },
-                    {
-                        "type": "Dropdown",
-                        "name": "textFontFamily",
-                        "label": "Features title family"
-                    },
-                    {
-                        "type": "Slider",
-                        "name": "textSize",
-                        "label": "Features title size",
-                        "options": [
-                            20,
-                            80
-                        ]
-                    },
-                    {
-                        "type": "Color Picker",
-                        "name": "textColor",
-                        "label": "Features title color"
-                    }
-                ]
-            },
-            {
-                "groupName": "Testimonials Settings",
-                "groupControls": [
-                    {
-                        "type": "Checkbox",
-                        "name": "showCustomerName",
-                        "label": "Show customer name"
-                    },
-                    {
-                        "type": "Checkbox",
-                        "name": "showCustomerImage",
-                        "label": "Show customer image"
-                    },
-                    {
-                        "type": "Testimonial",
-                        "name": "testimonial",
-                        "label": "Testimonials"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": 9,
-        "sectionName": "About Us Display",
-        "isExistingComponent": true,
-        "controls": [
-            {
-                "groupName": "About Us Settings",
-                "groupControls": [
-                    {
-                        "type": "Slider Toggle",
-                        "name": "showAboutUs",
-                        "label": "Show about us section"
-                    },
-                    {
-                        "type": "Input",
-                        "name": "aboutUsTitle",
-                        "label": "About us title",
-                        "showHideControl": "showAboutUs",
-                        "errors": [
-                            {
-                                "name": "required"
-                            },
-                            {
-                                "name": "maxlength",
-                                "length": 100
-                            }
-                        ]
-                    },
-                    {
-                        "type": "Input",
-                        "name": "aboutUsContent",
-                        "label": "About us content",
-                        "showHideControl": "showAboutUs",
-                        "errors": [
-                            {
-                                "name": "required"
-                            },
-                            {
-                                "name": "maxlength",
-                                "length": 600
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "groupName": "Founder Name Settings",
-                "groupControls": [
-                    {
-                        "type": "Input",
-                        "name": "founderName",
-                        "label": "Founder name",
-                        "showHideControl": "showAboutUs",
-                        "errors": [
-                            {
-                                "name": "required"
-                            },
-                            {
-                                "name": "maxlength",
-                                "length": 100
-                            }
-                        ]
-                    },
-                    {
-                        "type": "Input",
-                        "name": "position",
-                        "label": "Position of work",
-                        "showHideControl": "showAboutUs",
-                        "errors": [
-                            {
-                                "name": "required"
-                            },
-                            {
-                                "name": "maxlength",
-                                "length": 100
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "groupName": "Gallery Settings",
-                "groupControls": [
-                    {
-                        "type": "Slider Toggle",
-                        "name": "showGallery",
-                        "label": "Show gallery"
-                    },
-                    {
-                        "type": "Input",
-                        "name": "galleryTitle",
-                        "label": "Gallery title",
-                        "showHideControl": "showGallery",
-                        "errors": [
-                            {
-                                "name": "required"
-                            },
-                            {
-                                "name": "maxlength",
-                                "length": 100
-                            }
-                        ]
-                    },
-                    {
-                        "type": "Image",
-                        "name": "productImage",
-                        "label": "Gallery icon image",
-                        "showHideControl": "showGallery",
-                        "errors": [
-                            {
-                                "name": "required"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "ArrayOfObjects",
-                        "name": "galaryImage",
-                        "label": "Gallery images"
-                    }
-                ]
-            },
-            {
-                "groupName": "Offers Settings",
-                "groupControls": [
-                    {
-                        "type": "Slider Toggle",
-                        "name": "showOffer",
-                        "label": "Show offer"
-                    },
-                    {
-                        "type": "Input",
-                        "name": "offerHeading",
-                        "label": "Offer heading",
-                        "showHideControl": "showOffer",
-                        "errors": [
-                            {
-                                "name": "required"
-                            },
-                            {
-                                "name": "maxlength",
-                                "length": 100
-                            }
-                        ]
-                    },
-                    {
-                        "type": "Input",
-                        "name": "offerSubHeading",
-                        "label": "Offer subheading",
-                        "showHideControl": "showOffer",
-                        "errors": [
-                            {
-                                "name": "required"
-                            },
-                            {
-                                "name": "maxlength",
-                                "length": 100
-                            }
-                        ]
-                    },
-                    {
-                        "type": "Text Area",
-                        "name": "offerDescription",
-                        "label": "Offer description",
-                        "showHideControl": "showOffer",
-                        "errors": [
-                            {
-                                "name": "required"
-                            },
-                            {
-                                "name": "maxlength",
-                                "length": 250
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "groupName": "Background Image Settings",
-                "groupControls": [
-                    {
-                        "type": "Image",
-                        "name": "backgroundImage",
-                        "label": "Background image",
-                        "showHideControl": "showOffer",
-                        "errors": [
-                            {
-                                "name": "required"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "Radio",
-                        "name": "imageBackgroundSizeType",
-                        "label": "Image background size type",
-                        "options": [
-                            {
-                                "name": "Cover",
-                                "value": "cover"
-                            },
-                            {
-                                "name": "Fill (100% 100%)",
-                                "value": "100% 100%"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        "isAddedSection": true
-    },
-    {
-        "id": 6,
-        "sectionName": "Location Details",
-        "isExistingComponent": true,
-        "controls": [
-            {
-                "groupName": "General Settings",
-                "groupControls": [
-                    {
-                        "type": "Checkbox",
-                        "name": "showFilter",
-                        "label": "Show location filter"
-                    }
-                ]
-            },
-            {
-                "groupName": "Text Settings",
-                "groupControls": [
-                    {
-                        "type": "Input",
-                        "name": "locationHeading",
-                        "label": "Location heading",
-                        "errors": [
-                            {
-                                "name": "required"
-                            },
-                            {
-                                "name": "maxlength",
-                                "length": 100
-                            }
-                        ]
-                    },
-                    {
-                        "type": "Font Style",
-                        "name": "textFontStyle",
-                        "label": "Location heading style"
-                    },
-                    {
-                        "type": "Dropdown",
-                        "name": "textFontFamily",
-                        "label": "Location heading family"
-                    },
-                    {
-                        "type": "Slider",
-                        "name": "textSize",
-                        "label": "Location heading size",
-                        "options": [
-                            20,
-                            80
-                        ]
-                    },
-                    {
-                        "type": "Color Picker",
-                        "name": "textColor",
-                        "label": "Location heading color"
-                    }
-                ]
-            },
-            {
-                "groupName": "Background Image Settings",
-                "groupControls": [
-                    {
-                        "type": "Checkbox",
-                        "name": "showBackgroundImage",
-                        "label": "Show background image"
-                    },
-                    {
-                        "type": "Image",
-                        "name": "backgroundImage",
-                        "label": "Background image"
-                    },
-                    {
-                        "type": "Radio",
-                        "name": "imageBackgroundSizeType",
-                        "label": "Image background size type",
-                        "options": [
-                            {
-                                "name": "Cover",
-                                "value": "cover"
-                            },
-                            {
-                                "name": "Fill (100% 100%)",
-                                "value": "100% 100%"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
     }
 ]

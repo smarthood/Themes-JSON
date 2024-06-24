@@ -1,663 +1,663 @@
 [
-  {
-      "id": 1,
-      "sectionName": "Story and Values",
-      "isExistingComponent": true,
-      "controls": [
-          {
-              "groupName": "Story Settings",
-              "groupControls": [
-                  {
-                      "type": "Slider Toggle",
-                      "name": "storyEnable",
-                      "label": "Show / Hide Story"
-                  },
-                  {
-                      "type": "Input",
-                      "name": "sectionTitle",
-                      "label": "Story Title",
-                      "errors": [
-                          {
-                              "name": "required"
-                          },
-                          {
-                              "name": "maxlength",
-                              "length": 100
-                          }
-                      ]
-                  },
-                  {
-                      "type": "Font Style",
-                      "name": "textFontStyle",
-                      "label": "Font Style"
-                  },
-                  {
-                      "type": "Dropdown",
-                      "name": "textFontFamily",
-                      "label": "Text Font Family"
-                  },
-                  {
-                      "type": "Slider",
-                      "name": "textSize",
-                      "label": "Title Text Size",
-                      "options": [
-                          10,
-                          80
-                      ]
-                  },
-                  {
-                      "type": "Color Picker",
-                      "name": "textColor",
-                      "label": "Heading Text Color"
-                  },
-                  {
-                      "type": "Text Area",
-                      "name": "companyQuote",
-                      "label": "Quote about company",
-                      "errors": [
-                          {
-                              "name": "required"
-                          },
-                          {
-                              "name": "maxlength",
-                              "length": 200
-                          }
-                      ]
-                  },
-                  {
-                      "type": "Font Style",
-                      "name": "subtextFontStyle",
-                      "label": "Font Style"
-                  },
-                  {
-                      "type": "Dropdown",
-                      "name": "subtextFontFamily",
-                      "label": "Text Font Family"
-                  },
-                  {
-                      "type": "Slider",
-                      "name": "subTextSize",
-                      "label": "Title Text Size",
-                      "options": [
-                          10,
-                          80
-                      ]
-                  },
-                  {
-                      "type": "Color Picker",
-                      "name": "subTextColor",
-                      "label": "Heading Text Color"
-                  },
-                  {
-                      "type": "Text Area",
-                      "name": "companyStoryPara1",
-                      "label": "Story Paragraph 1",
-                      "errors": [
-                          {
-                              "name": "required"
-                          }
-                      ]
-                  },
-                  {
-                      "type": "Text Area",
-                      "name": "companyStoryPara2",
-                      "label": "Story Paragraph 2",
-                      "errors": [
-                          {
-                              "name": "required"
-                          }
-                      ]
-                  },
-                  {
-                      "type": "Image",
-                      "name": "backgroundImage",
-                      "label": "Background Image",
-                      "errors": [
-                          {
-                              "name": "required"
-                          }
-                      ]
-                  },
-                  {
-                      "type": "Radio",
-                      "name": "imageBackgroundSizeType",
-                      "label": "Image Background Size Type",
-                      "options": [
-                          {
-                              "name": "Cover",
-                              "value": "cover"
-                          },
-                          {
-                              "name": "Fill (100% 100%)",
-                              "value": "100% 100%"
-                          }
-                      ]
-                  }
-              ]
-          },
-          {
-              "groupName": "Value Settings",
-              "groupControls": [
-                  {
-                      "type": "Slider Toggle",
-                      "name": "valuesEnable",
-                      "label": "Show / Hide Values"
-                  },
-                  {
-                      "type": "Input",
-                      "name": "valuesHeading",
-                      "label": "Values Title",
-                      "errors": [
-                          {
-                              "name": "required"
-                          },
-                          {
-                              "name": "maxlength",
-                              "length": 100
-                          }
-                      ]
-                  },
-                  {
-                      "type": "Font Style",
-                      "name": "valueTitleFontStyle",
-                      "label": "Font Style"
-                  },
-                  {
-                      "type": "Dropdown",
-                      "name": "valueTitleFontFamily",
-                      "label": "Text Font Family"
-                  },
-                  {
-                      "type": "Slider",
-                      "name": "valueTitleSize",
-                      "label": "Text Size",
-                      "options": [
-                          10,
-                          80
-                      ]
-                  },
-                  {
-                      "type": "Color Picker",
-                      "name": "valueTitleColor",
-                      "label": "Text Color"
-                  },
-                  {
-                      "type": "Text Area",
-                      "name": "values",
-                      "label": "Our Values",
-                      "errors": [
-                          {
-                              "name": "required"
-                          }
-                      ]
-                  }
-              ]
-          }
-      ]
-  },
-  {
-      "id": 2,
-      "sectionName": "Gallery",
-      "isExistingComponent": true,
-      "controls": [
-          {
-              "groupName": "Text Settings",
-              "groupControls": [
-                  {
-                      "type": "Slider Toggle",
-                      "name": "isCaption",
-                      "label": "Show / Hide caption"
-                  },
-                  {
-                      "type": "Input",
-                      "name": "sectionTitle",
-                      "label": "Gallery Title",
-                      "errors": [
-                          {
-                              "name": "required"
-                          },
-                          {
-                              "name": "maxlength",
-                              "length": 200
-                          }
-                      ]
-                  },
-                  {
-                      "type": "Font Style",
-                      "name": "textFontStyle",
-                      "label": "Font Style"
-                  },
-                  {
-                      "type": "Dropdown",
-                      "name": "textFontFamily",
-                      "label": "Text Font Family"
-                  },
-                  {
-                      "type": "Slider",
-                      "name": "textSize",
-                      "label": "Title Text Size",
-                      "options": [
-                          10,
-                          80
-                      ]
-                  },
-                  {
-                      "type": "Color Picker",
-                      "name": "textColor",
-                      "label": "Heading Text Color"
-                  }
-              ]
-          },
-          {
-              "groupName": "Image Settings",
-              "groupControls": [
-                  {
-                      "type": "ArrayOfObjects",
-                      "name": "galleryImages",
-                      "label": "Gallery Images"
-                  }
-              ]
-          }
-      ]
-  },
-  {
-      "id": 3,
-      "sectionName": "Team",
-      "isExistingComponent": true,
-      "controls": [
-          {
-              "groupName": "Text Settings",
-              "groupControls": [
-                  {
-                      "type": "Input",
-                      "name": "sectionTitle",
-                      "label": "Team Title",
-                      "errors": [
-                          {
-                              "name": "required"
-                          },
-                          {
-                              "name": "maxlength",
-                              "length": 100
-                          }
-                      ]
-                  },
-                  {
-                      "type": "Font Style",
-                      "name": "textFontStyle",
-                      "label": "Title Font Style"
-                  },
-                  {
-                      "type": "Dropdown",
-                      "name": "textFontFamily",
-                      "label": "Title Font Family"
-                  },
-                  {
-                      "type": "Slider",
-                      "name": "textSize",
-                      "label": "Title Text Size",
-                      "options": [
-                          10,
-                          80
-                      ]
-                  },
-                  {
-                      "type": "Color Picker",
-                      "name": "textColor",
-                      "label": "Title Color"
-                  },
-                  {
-                      "type": "Input",
-                      "name": "retailQuote",
-                      "label": "Quote About Team / Company",
-                      "errors": [
-                          {
-                              "name": "required"
-                          },
-                          {
-                              "name": "maxlength",
-                              "length": 100
-                          }
-                      ]
-                  },
-                  {
-                      "type": "Font Style",
-                      "name": "subtextFontStyle",
-                      "label": "Title Font Style"
-                  },
-                  {
-                      "type": "Dropdown",
-                      "name": "subtextFontFamily",
-                      "label": "Title Font Family"
-                  },
-                  {
-                      "type": "Slider",
-                      "name": "subTextSize",
-                      "label": "Title Text Size",
-                      "options": [
-                          10,
-                          80
-                      ]
-                  },
-                  {
-                      "type": "Color Picker",
-                      "name": "subTextColor",
-                      "label": "Title Color"
-                  },
-                  {
-                      "type": "Text Area",
-                      "name": "teamContent",
-                      "label": "Content About Team",
-                      "errors": [
-                          {
-                              "name": "required"
-                          }
-                      ]
-                  }
-              ]
-          },
-          {
-              "groupName": "Team Settings",
-              "groupControls": [
-                  {
-                      "type": "ArrayOfObjects",
-                      "name": "teamDetails",
-                      "label": "Team member details"
-                  },
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showImage",
-                      "label": "Show / Hide Image"
-                  },
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showProfession",
-                      "label": "Show / Hide Profession"
-                  }
-              ]
-          }
-      ]
-  },
-  {
-      "id": 4,
-      "sectionName": "Features",
-      "isExistingComponent": true,
-      "controls": [
-          {
-              "groupName": "Text Settings",
-              "groupControls": [
-                  {
-                      "type": "Input",
-                      "name": "sectionTitle",
-                      "label": "Features Title",
-                      "errors": [
-                          {
-                              "name": "required"
-                          },
-                          {
-                              "name": "maxlength",
-                              "length": 100
-                          }
-                      ]
-                  },
-                  {
-                      "type": "Font Style",
-                      "name": "textFontStyle",
-                      "label": "Title Font Style"
-                  },
-                  {
-                      "type": "Dropdown",
-                      "name": "textFontFamily",
-                      "label": "Title Font Family"
-                  },
-                  {
-                      "type": "Slider",
-                      "name": "textSize",
-                      "label": "Title Text Size",
-                      "options": [
-                          10,
-                          80
-                      ]
-                  },
-                  {
-                      "type": "Color Picker",
-                      "name": "textColor",
-                      "label": "Title Color"
-                  }
-              ]
-          },
-          {
-              "groupName": "Feature Settings",
-              "groupControls": [
-                  {
-                      "type": "ArrayOfObjects",
-                      "name": "whoWeAreContent",
-                      "label": "Features"
-                  }
-              ]
-          }
-      ]
-  },
-  {
-      "id": 5,
-      "sectionName": "Testimonials",
-      "isExistingComponent": true,
-      "controls": [
-          {
-              "groupName": "Text Settings",
-              "groupControls": [
-                  {
-                      "type": "Input",
-                      "name": "sectionTitle",
-                      "label": "Features Title",
-                      "errors": [
-                          {
-                              "name": "required"
-                          },
-                          {
-                              "name": "maxlength",
-                              "length": 100
-                          }
-                      ]
-                  },
-                  {
-                      "type": "Font Style",
-                      "name": "textFontStyle",
-                      "label": "Font Style"
-                  },
-                  {
-                      "type": "Dropdown",
-                      "name": "textFontFamily",
-                      "label": "Text Font Family"
-                  },
-                  {
-                      "type": "Slider",
-                      "name": "textSize",
-                      "label": "Title Text Size",
-                      "options": [
-                          10,
-                          80
-                      ]
-                  },
-                  {
-                      "type": "Color Picker",
-                      "name": "textColor",
-                      "label": "Heading Text Color"
-                  }
-              ]
-          },
-          {
-              "groupName": "Testimonial Settings",
-              "groupControls": [
-                  {
-                      "type": "Testimonial",
-                      "name": "testimonial",
-                      "label": "Testimonials"
-                  },
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showCustomerName",
-                      "label": "Show / Hide Customer Name"
-                  },
-                  {
-                      "type": "Slider Toggle",
-                      "name": "showCustomerImage",
-                      "label": "Show / Hide Customer Image"
-                  }
-              ]
-          }
-      ]
-  },
-  {
-      "id": 6,
-      "sectionName": "Know About Us",
-      "isExistingComponent": true,
-      "controls": [
-          {
-              "groupName": "Text Settings",
-              "groupControls": [
-                  {
-                      "type": "Slider Toggle",
-                      "name": "knowAboutUsEnable",
-                      "label": "Show / Hide Know About Us"
-                  },
-                  {
-                      "type": "Input",
-                      "name": "sectionTitle",
-                      "label": "Know About Us Title",
-                      "errors": [
-                          {
-                              "name": "required"
-                          },
-                          {
-                              "name": "maxlength",
-                              "length": 200
-                          }
-                      ]
-                  },
-                  {
-                      "type": "Font Style",
-                      "name": "textFontStyle",
-                      "label": "Title Font Style"
-                  },
-                  {
-                      "type": "Dropdown",
-                      "name": "textFontFamily",
-                      "label": "Title Font Family"
-                  },
-                  {
-                      "type": "Slider",
-                      "name": "textSize",
-                      "label": "Title Text Size",
-                      "options": [
-                          10,
-                          80
-                      ]
-                  },
-                  {
-                      "type": "Color Picker",
-                      "name": "textColor",
-                      "label": "Title Color"
-                  },
-                  {
-                      "type": "Input",
-                      "name": "subHeader",
-                      "label": "Sub Title",
-                      "errors": [
-                          {
-                              "name": "required"
-                          },
-                          {
-                              "name": "maxlength",
-                              "length": 100
-                          }
-                      ]
-                  },
-                  {
-                      "type": "Font Style",
-                      "name": "subtextFontStyle",
-                      "label": "Sub Title Font Style"
-                  },
-                  {
-                      "type": "Dropdown",
-                      "name": "subtextFontFamily",
-                      "label": "Sub Title Font Family"
-                  },
-                  {
-                      "type": "Slider",
-                      "name": "subTextSize",
-                      "label": "Sub Title Text Size",
-                      "options": [
-                          10,
-                          80
-                      ]
-                  },
-                  {
-                      "type": "Color Picker",
-                      "name": "subTextColor",
-                      "label": "Sub Title Color"
-                  }
-              ]
-          },
-          {
-              "groupName": "About Us Settings",
-              "groupControls": [
-                  {
-                      "type": "ArrayOfObjects",
-                      "name": "knowAboutUs",
-                      "label": "Know About Us Data"
-                  }
-              ]
-          },
-          {
-              "groupName": "Text Settings",
-              "groupControls": [
-                  {
-                      "type": "Slider Toggle",
-                      "name": "awardsEnable",
-                      "label": "Show / Hide Awards"
-                  },
-                  {
-                      "type": "Input",
-                      "name": "awardHeading",
-                      "label": "Awards Title"
-                  },
-                  {
-                      "type": "Font Style",
-                      "name": "awardHeadingFontStyle",
-                      "label": "Awards Heading Font Style"
-                  },
-                  {
-                      "type": "Dropdown",
-                      "name": "awardHeadingFontFamily",
-                      "label": "Awards Heading Font Family"
-                  },
-                  {
-                      "type": "Slider",
-                      "name": "awardHeadingSize",
-                      "label": "Awards Heading Text Size",
-                      "options": [
-                          10,
-                          80
-                      ]
-                  },
-                  {
-                      "type": "Color Picker",
-                      "name": "awardHeadingColor",
-                      "label": "Awards Heading Color"
-                  }
-              ]
-          },
-          {
-              "groupName": "Award Settings",
-              "groupControls": [
-                  {
-                      "type": "ArrayOfObjects",
-                      "name": "awardDetail",
-                      "label": "Award Details"
-                  }
-              ]
-          }
-      ]
-  }
+    {
+        "id": 1,
+        "sectionName": "Story and Values",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Story Settings",
+                "groupControls": [
+                    {
+                        "type": "Slider Toggle",
+                        "name": "storyEnable",
+                        "label": "Show / Hide Story"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "sectionTitle",
+                        "label": "Story Title",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "textFontStyle",
+                        "label": "Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Text Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "textSize",
+                        "label": "Title Text Size",
+                        "options": [
+                            10,
+                            80
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "textColor",
+                        "label": "Heading Text Color"
+                    },
+                    {
+                        "type": "Text Area",
+                        "name": "companyQuote",
+                        "label": "Quote about company",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 200
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "subtextFontStyle",
+                        "label": "Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "subtextFontFamily",
+                        "label": "Text Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "subTextSize",
+                        "label": "Title Text Size",
+                        "options": [
+                            10,
+                            80
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "subTextColor",
+                        "label": "Heading Text Color"
+                    },
+                    {
+                        "type": "Text Area",
+                        "name": "companyStoryPara1",
+                        "label": "Story Paragraph 1",
+                        "errors": [
+                            {
+                                "name": "required"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Text Area",
+                        "name": "companyStoryPara2",
+                        "label": "Story Paragraph 2",
+                        "errors": [
+                            {
+                                "name": "required"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Image",
+                        "name": "backgroundImage",
+                        "label": "Background Image",
+                        "errors": [
+                            {
+                                "name": "required"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Radio",
+                        "name": "imageBackgroundSizeType",
+                        "label": "Image Background Size Type",
+                        "options": [
+                            {
+                                "name": "Cover",
+                                "value": "cover"
+                            },
+                            {
+                                "name": "Fill (100% 100%)",
+                                "value": "100% 100%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "groupName": "Value Settings",
+                "groupControls": [
+                    {
+                        "type": "Slider Toggle",
+                        "name": "valuesEnable",
+                        "label": "Show / Hide Values"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "valuesHeading",
+                        "label": "Values Title",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "valueTitleFontStyle",
+                        "label": "Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "valueTitleFontFamily",
+                        "label": "Text Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "valueTitleSize",
+                        "label": "Text Size",
+                        "options": [
+                            10,
+                            80
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "valueTitleColor",
+                        "label": "Text Color"
+                    },
+                    {
+                        "type": "Text Area",
+                        "name": "values",
+                        "label": "Our Values",
+                        "errors": [
+                            {
+                                "name": "required"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "sectionName": "Gallery",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Slider Toggle",
+                        "name": "isCaption",
+                        "label": "Show / Hide caption"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "sectionTitle",
+                        "label": "Gallery Title",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 200
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "textFontStyle",
+                        "label": "Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Text Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "textSize",
+                        "label": "Title Text Size",
+                        "options": [
+                            10,
+                            80
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "textColor",
+                        "label": "Heading Text Color"
+                    }
+                ]
+            },
+            {
+                "groupName": "Image Settings",
+                "groupControls": [
+                    {
+                        "type": "ArrayOfObjects",
+                        "name": "galleryImages",
+                        "label": "Gallery Images"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "sectionName": "Team",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "sectionTitle",
+                        "label": "Team Title",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "textFontStyle",
+                        "label": "Title Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Title Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "textSize",
+                        "label": "Title Text Size",
+                        "options": [
+                            10,
+                            80
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "textColor",
+                        "label": "Title Color"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "retailQuote",
+                        "label": "Quote About Team / Company",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "subtextFontStyle",
+                        "label": "Title Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "subtextFontFamily",
+                        "label": "Title Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "subTextSize",
+                        "label": "Title Text Size",
+                        "options": [
+                            10,
+                            80
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "subTextColor",
+                        "label": "Title Color"
+                    },
+                    {
+                        "type": "Text Area",
+                        "name": "teamContent",
+                        "label": "Content About Team",
+                        "errors": [
+                            {
+                                "name": "required"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "groupName": "Team Settings",
+                "groupControls": [
+                    {
+                        "type": "ArrayOfObjects",
+                        "name": "teamDetails",
+                        "label": "Team member details"
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showImage",
+                        "label": "Show / Hide Image"
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showProfession",
+                        "label": "Show / Hide Profession"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "sectionName": "Features",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "sectionTitle",
+                        "label": "Features Title",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "textFontStyle",
+                        "label": "Title Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Title Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "textSize",
+                        "label": "Title Text Size",
+                        "options": [
+                            10,
+                            80
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "textColor",
+                        "label": "Title Color"
+                    }
+                ]
+            },
+            {
+                "groupName": "Feature Settings",
+                "groupControls": [
+                    {
+                        "type": "ArrayOfObjects",
+                        "name": "whoWeAreContent",
+                        "label": "Features"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "sectionName": "Testimonials",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "sectionTitle",
+                        "label": "Features Title",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "textFontStyle",
+                        "label": "Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Text Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "textSize",
+                        "label": "Title Text Size",
+                        "options": [
+                            10,
+                            80
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "textColor",
+                        "label": "Heading Text Color"
+                    }
+                ]
+            },
+            {
+                "groupName": "Testimonial Settings",
+                "groupControls": [
+                    {
+                        "type": "Testimonial",
+                        "name": "testimonial",
+                        "label": "Testimonials"
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showCustomerName",
+                        "label": "Show / Hide Customer Name"
+                    },
+                    {
+                        "type": "Slider Toggle",
+                        "name": "showCustomerImage",
+                        "label": "Show / Hide Customer Image"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "sectionName": "Know About Us",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Slider Toggle",
+                        "name": "knowAboutUsEnable",
+                        "label": "Show / Hide Know About Us"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "sectionTitle",
+                        "label": "Know About Us Title",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 200
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "textFontStyle",
+                        "label": "Title Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Title Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "textSize",
+                        "label": "Title Text Size",
+                        "options": [
+                            10,
+                            80
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "textColor",
+                        "label": "Title Color"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "subHeader",
+                        "label": "Sub Title",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "subtextFontStyle",
+                        "label": "Sub Title Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "subtextFontFamily",
+                        "label": "Sub Title Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "subTextSize",
+                        "label": "Sub Title Text Size",
+                        "options": [
+                            10,
+                            80
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "subTextColor",
+                        "label": "Sub Title Color"
+                    }
+                ]
+            },
+            {
+                "groupName": "About Us Settings",
+                "groupControls": [
+                    {
+                        "type": "ArrayOfObjects",
+                        "name": "knowAboutUs",
+                        "label": "Know About Us Data"
+                    }
+                ]
+            },
+            {
+                "groupName": "Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Slider Toggle",
+                        "name": "awardsEnable",
+                        "label": "Show / Hide Awards"
+                    },
+                    {
+                        "type": "Input",
+                        "name": "awardHeading",
+                        "label": "Awards Title"
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "awardHeadingFontStyle",
+                        "label": "Awards Heading Font Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "awardHeadingFontFamily",
+                        "label": "Awards Heading Font Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "awardHeadingSize",
+                        "label": "Awards Heading Text Size",
+                        "options": [
+                            10,
+                            80
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "awardHeadingColor",
+                        "label": "Awards Heading Color"
+                    }
+                ]
+            },
+            {
+                "groupName": "Award Settings",
+                "groupControls": [
+                    {
+                        "type": "ArrayOfObjects",
+                        "name": "awardDetail",
+                        "label": "Award Details"
+                    }
+                ]
+            }
+        ]
+    }
 ]

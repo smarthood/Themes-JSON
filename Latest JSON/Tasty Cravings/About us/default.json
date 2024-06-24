@@ -252,63 +252,6 @@
         "script": "themes/bundle/restaurant/zen-cravings/zencravings-aboutus.js"
     },
     {
-        "sectionId": 9,
-        "details": {
-            "showAboutUs": null,
-            "aboutUsTitle": "Chairman's words",
-            "aboutUsContent": "<span>We strive to create a truly exceptional food experience for each and every customers. </span><span>Our team is driven by a shared love for gastronomy, innovation, and providing impeccable service. Here are some of the awards we have won listed below.</span>",
-            "founderName": "- Anil",
-            "position": "Chairman",
-            "showGallery": true,
-            "galleryTitle": "Unforgettable Honors and Landmark Achievements",
-            "productImage": "themes/pexelscottonbrostudio6565255_1_1688123802663_S51.jpg",
-            "galaryImage": [
-                {
-                    "caption": "2021's Best Food Award winner",
-                    "imageUrl": "themes/pexelsnataliyavaitkevich6120398_1_1688123801678_S51.jpg",
-                    "link": null
-                },
-                {
-                    "caption": "Culinary Excellence Award",
-                    "imageUrl": "themes/pexelsenginakyurt2098604_1688123802420_S51.jpg",
-                    "link": null
-                },
-                {
-                    "caption": "Taste Sensation Award",
-                    "imageUrl": "themes/pexelsrdnestockproject7005064_1688123826602_S51.jpg",
-                    "link": null
-                }
-            ],
-            "showOffer": null,
-            "offerHeading": "Pizza Home Offers",
-            "offerSubHeading": "Our Latest Offers",
-            "offerDescription": "People feel really comfortable when they come here, because we are a family owned restaurant, and we are dedicated to deliver the finest of Indian foods with the freshest ingredients says owner Mr XXX.",
-            "backgroundImage": "themes/restaurant/aboutusBackground.jpg",
-            "imageBackgroundSizeType": "100% 100%",
-            "inValid": false
-        },
-        "selectorDetails": {
-            "selector": "phase-ii-restaurant-theme2-about-us",
-            "inputData": [
-                {
-                    "selectorInput": "aboutus",
-                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
-                }
-            ],
-            "outputData": [
-                {
-                    "selectorOutput": "pageToNavigate",
-                    "handlerFunction": "pageToNavigate"
-                }
-            ]
-        },
-        "sectionName": "About Us Display",
-        "isExistingComponent": true,
-        "sampleData": {},
-        "isVisible": true,
-        "script": "themes/bundle/retail/wedding-emporium/wedding-emporium-aboutus.js"
-    },
-    {
         "sectionId": 4,
         "details": {
             "sectionTitle": "Our Team",
@@ -371,76 +314,6 @@
         "sampleData": null,
         "isVisible": false,
         "script": "themes/bundle/retail/zen-fashion/zenfashion-aboutus.js"
-    },
-    {
-        "sectionId": 7,
-        "details": {
-            "sectionTitle": "TESTIMONIALS",
-            "sectionDescription": "Connect with customers who have shared positive feedback about their experience with our product.",
-            "sectionTitleStyle": null,
-            "textFontFamily": "Tahoma",
-            "sectionTitleSize": 45,
-            "sectionDescriptionSize": 22,
-            "sectionTitleColor": "#fff",
-            "sampleData": [
-                {
-                    "author": "Sarah Jefferson",
-                    "content": "Great selection of headphones and knowledgeable staff. I found the perfect pair and had a great shopping experience.",
-                    "heading": "Jefferson",
-                    "id": 1,
-                    "imageUrl": "themes/electronics/testimonials/one.jpg"
-                },
-                {
-                    "author": "John Snow",
-                    "content": "If you''re looking for headphones, this is the place to go. The staff is friendly and helpful, and they have a wide variety of headphones to choose from.",
-                    "heading": "Snow",
-                    "id": 2,
-                    "imageUrl": "themes/electronics/testimonials/two.jpg"
-                },
-                {
-                    "author": "Snow John",
-                    "content": "I was impressed by the customer service at this headphone store. The staff was patient and helpful in guiding me through the selection process.",
-                    "designation": "master",
-                    "heading": "John",
-                    "id": 3,
-                    "imageUrl": "themes/electronics/testimonials/three.jpg"
-                },
-                {
-                    "author": "Martin Moore",
-                    "content": "Highly recommend this store for anyone in the market for headphones. They have a fantastic selection and great prices.",
-                    "heading": "Moore",
-                    "id": 4,
-                    "imageUrl": "themes/electronics/testimonials/four.jpg"
-                }
-            ],
-            "backgroundImage": "themes/electronics/testimonials/testimonial-banner.webp",
-            "testimonial": null,
-            "showCustomerName": true,
-            "showCustomerProfession": null,
-            "showCustomerImage": true,
-            "showSampleData": true
-        },
-        "selectorDetails": {
-            "selector": "phase-ii-electronic-testimonial",
-            "inputData": [
-                {
-                    "selectorInput": "testimonialData",
-                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
-                },
-                {
-                    "selectorInput": "testimonials",
-                    "handlerInput": "testimonials",
-                    "functionName": "getTestimonials"
-                }
-            ],
-            "outputData": []
-        },
-        "sectionName": "Testimonials Template 5",
-        "isExistingComponent": true,
-        "sampleData": null,
-        "isVisible": false,
-        
-        "script": "themes/bundle/electronic/electronics-theme/electronic-aboutus-page.js"
     },
     {
         "sectionId": 5,
@@ -980,5 +853,74 @@
         },
         "isVisible": true,
         "script": "themes/bundle/shared-theme/contact-location-map.js"
+    },
+    {
+        "sectionId": 7,
+        "details": {
+            "sectionTitle": "TESTIMONIALS",
+            "sectionDescription": "Connect with customers who have shared positive feedback about their experience with our product.",
+            "sectionTitleStyle": null,
+            "textFontFamily": "Tahoma",
+            "sectionTitleSize": 45,
+            "sectionDescriptionSize": 22,
+            "sectionTitleColor": "#fff",
+            "sampleData": [
+                {
+                    "author": "Sarah Jefferson",
+                    "content": "Great selection of headphones and knowledgeable staff. I found the perfect pair and had a great shopping experience.",
+                    "heading": "Jefferson",
+                    "id": 1,
+                    "imageUrl": "themes/electronics/testimonials/one.jpg"
+                },
+                {
+                    "author": "John Snow",
+                    "content": "If you''re looking for headphones, this is the place to go. The staff is friendly and helpful, and they have a wide variety of headphones to choose from.",
+                    "heading": "Snow",
+                    "id": 2,
+                    "imageUrl": "themes/electronics/testimonials/two.jpg"
+                },
+                {
+                    "author": "Snow John",
+                    "content": "I was impressed by the customer service at this headphone store. The staff was patient and helpful in guiding me through the selection process.",
+                    "designation": "master",
+                    "heading": "John",
+                    "id": 3,
+                    "imageUrl": "themes/electronics/testimonials/three.jpg"
+                },
+                {
+                    "author": "Martin Moore",
+                    "content": "Highly recommend this store for anyone in the market for headphones. They have a fantastic selection and great prices.",
+                    "heading": "Moore",
+                    "id": 4,
+                    "imageUrl": "themes/electronics/testimonials/four.jpg"
+                }
+            ],
+            "backgroundImage": "themes/electronics/testimonials/testimonial-banner.webp",
+            "testimonial": null,
+            "showCustomerName": true,
+            "showCustomerProfession": null,
+            "showCustomerImage": true,
+            "showSampleData": true
+        },
+        "selectorDetails": {
+            "selector": "phase-ii-electronic-testimonial",
+            "inputData": [
+                {
+                    "selectorInput": "testimonialData",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                },
+                {
+                    "selectorInput": "testimonials",
+                    "handlerInput": "testimonials",
+                    "functionName": "getTestimonials"
+                }
+            ],
+            "outputData": []
+        },
+        "sectionName": "Testimonials Template 5",
+        "isExistingComponent": true,
+        "sampleData": null,
+        "isVisible": false,
+        "script": "themes/bundle/electronic/electronics-theme/electronic-aboutus-page.js"
     }
 ]

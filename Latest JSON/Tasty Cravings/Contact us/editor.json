@@ -1,77 +1,77 @@
 [
-  {
-      "id": 1,
-      "sectionName": "Contact Us Form",
-      "isExistingComponent": true,
-      "controls": [
-          {
-              "groupName": "Image Settings",
-              "groupControls": [
-                  {
-                      "type": "Image",
-                      "name": "backgroundImage",
-                      "label": "Form Background Image",
-                      "errors": [
-                          {
-                              "name": "required"
-                          }
-                      ]
-                  }
-              ]
-          },
-          {
-              "groupName": "Text Settings",
-              "groupControls": [
-                  {
-                      "type": "Input",
-                      "name": "formTitle",
-                      "label": "Form Title",
-                      "errors": [
-                          {
-                              "name": "required"
-                          },
-                          {
-                              "name": "maxlength",
-                              "length": 100
-                          }
-                      ]
-                  },
-                  {
-                      "type": "Font Style",
-                      "name": "textFontStyle",
-                      "label": "Form Title Style"
-                  },
-                  {
-                      "type": "Dropdown",
-                      "name": "textFontFamily",
-                      "label": "Form Title Family"
-                  },
-                  {
-                      "type": "Slider",
-                      "name": "textSize",
-                      "label": "Form Title Size",
-                      "options": [
-                          20,
-                          80
-                      ]
-                  },
-                  {
-                      "type": "Color Picker",
-                      "name": "textColor",
-                      "label": "Form Title Color"
-                  }
-              ]
-          },
-          {
-              "groupName": "Contact-us Form Settings",
-              "groupControls": [
-                  {
-                      "type": "Contact Form",
-                      "name": "formSetting",
-                      "label": "Form Settings"
-                  }
-              ]
-          }
-      ]
-  }
+    {
+        "id": 1,
+        "sectionName": "Contact Us Form",
+        "isExistingComponent": true,
+        "controls": [
+            {
+                "groupName": "Image Settings",
+                "groupControls": [
+                    {
+                        "type": "Image",
+                        "name": "backgroundImage",
+                        "label": "Form Background Image",
+                        "errors": [
+                            {
+                                "name": "required"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "groupName": "Text Settings",
+                "groupControls": [
+                    {
+                        "type": "Input",
+                        "name": "formTitle",
+                        "label": "Form Title",
+                        "errors": [
+                            {
+                                "name": "required"
+                            },
+                            {
+                                "name": "maxlength",
+                                "length": 100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Font Style",
+                        "name": "textFontStyle",
+                        "label": "Form Title Style"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "name": "textFontFamily",
+                        "label": "Form Title Family"
+                    },
+                    {
+                        "type": "Slider",
+                        "name": "textSize",
+                        "label": "Form Title Size",
+                        "options": [
+                            20,
+                            80
+                        ]
+                    },
+                    {
+                        "type": "Color Picker",
+                        "name": "textColor",
+                        "label": "Form Title Color"
+                    }
+                ]
+            },
+            {
+                "groupName": "Contact-us Form Settings",
+                "groupControls": [
+                    {
+                        "type": "Contact Form",
+                        "name": "formSetting",
+                        "label": "Form Settings"
+                    }
+                ]
+            }
+        ]
+    }
 ]

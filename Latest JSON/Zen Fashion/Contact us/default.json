@@ -1,114 +1,115 @@
 [
-  {
-      "details": {
-          "formBackgroundColor": "#1486a4",
-          "contactUsPageText": "Fill out the contact form below. Please provide as much information as possible to help us understand your inquiry.",
-          "textFontFamily": "Montserrat",
-          "subtextFontFamily": "Montserrat",
-          "bannerSubText": null,
-          "textColor": "white",
-          "subTextColor": "white",
-          "textFontStyle": [],
-          "subtextFontStyle": [],
-          "textSize": 16,
-          "subTextSize": 25,
-          "contactUsPageSubTitle": "HOW TO GET IN TOUCH?",
-          "formSetting": {
-              "formOnly": true,
-              "showTitle": false,
-              "showSubtitle": false,
-              "backgroundColor": "#ff7c64",
-              "backgroundType": "none",
-              "contactusalignment": "center",
-              "formFieldAppearence": "outline",
-              "inputTextColor": "#000000",
-              "normalLabelColor": "#000",
-              "normalLineColor": "#000",
-              "focusedLabelColor": "#065677",
-              "focusedLineColor": "#065677",
-              "formFieldDesign": "none",
-              "formCard": false,
-              "formBackground": false,
-              "formFieldLabelOut": false,
-              "formFieldFill": false,
-              "suffixIcon": true,
-              "nameSplit": false,
-              "emailField": true,
-              "contactNoField": true,
-              "termsAndPrivacy": true,
-              "buttonText": "Get in Touch",
-              "buttonBorderColor": "#000",
-              "buttonTextColor": "#fff",
-              "buttonColor": "#F24141",
-              "buttonRadius": 5,
-              "buttonType": "flat",
-              "buttonAlignment": "center",
-              "templateName": "templateOne"
-          }
-      },
-      "script": "themes/bundle/retail/zen-fashion/zenfashion-contactus.js",
-      "innerScript": [
-          "themes/bundle/shared-theme/common-form.js"
-      ],
-      "selectorDetails": {
-          "selector": "phase-ii-retail-contactus-form",
-          "inputData": [
-              {
-                  "selectorInput": "contactUsDetails",
-                  "handlerInput": "previewDetails.storePageSetup.savedPageContent"
-              },
-              {
-                  "selectorInput": "currentLocation",
-                  "handlerInput": "sampleData.currentLocation",
-                  "functionName": "getCurrentLocation"
-              },
-              {
-                  "selectorInput": "websiteSettings",
-                  "handlerInput": "sampleData.websiteSettings"
-              }
-          ],
-          "outputData": [
-              {
-                  "selectorOutput": "pageToNavigate",
-                  "handlerFunction": "pageToNavigate"
-              }
-          ]
-      },
-      "sectionName": "Contact Form",
-      "isExistingComponent": true,
-      "sampleData": {
-          "currentLocation": {
-              "id": 206,
-              "importId": null,
-              "addressLine1": "pavoorchatram ,tenkasi district ,panchaty taluk",
-              "addressLine2": null,
-              "city": "das",
-              "state": 2303,
-              "name": null,
-              "country": 145,
-              "zipCode": "321233",
-              "mobileNumber": "9025894499",
-              "email": "selvi9068@gmail.com"
-          },
-          "websiteSettings": {
-              "currency": {
-                  "id": 2,
-                  "currencySymbol": "$",
-                  "currencyCode": "USD",
-                  "currencyName": "Indian Rupees",
-                  "createdAt": null,
-                  "modifiedAt": null
-              },
-              "store": {
-                  "id": 7,
-                  "name": "ZENBASKET COMPANY"
-              },
-              "email": "zenbasket@mailinator.com",
-              "contactNo": "7373994426",
-              "countryCode": 91,
-              "currencyCode": "USD"
-          }
-      },
-      "sectionId": 1
-  }
+    {
+        "details": {
+            "formBackgroundColor": "#1486a4",
+            "contactUsPageText": "Fill out the contact form below. Please provide as much information as possible to help us understand your inquiry.",
+            "contactUsPageImage": "themes/retail/contact-us.png",
+            "textFontFamily": "Montserrat",
+            "subtextFontFamily": "Montserrat",
+            "bannerSubText": null,
+            "textColor": "white",
+            "subTextColor": "white",
+            "textFontStyle": [],
+            "subtextFontStyle": [],
+            "textSize": 16,
+            "subTextSize": 25,
+            "contactUsPageSubTitle": "HOW TO GET IN TOUCH?",
+            "formSetting": {
+                "formOnly": true,
+                "showTitle": false,
+                "showSubtitle": false,
+                "backgroundColor": "#ff7c64",
+                "backgroundType": "none",
+                "contactusalignment": "center",
+                "formFieldAppearence": "outline",
+                "inputTextColor": "#000000",
+                "normalLabelColor": "#000",
+                "normalLineColor": "#000",
+                "focusedLabelColor": "#065677",
+                "focusedLineColor": "#065677",
+                "formFieldDesign": "none",
+                "formCard": false,
+                "formBackground": false,
+                "formFieldLabelOut": false,
+                "formFieldFill": false,
+                "suffixIcon": true,
+                "nameSplit": false,
+                "emailField": true,
+                "contactNoField": true,
+                "termsAndPrivacy": true,
+                "buttonText": "Get in Touch",
+                "buttonBorderColor": "#000",
+                "buttonTextColor": "#fff",
+                "buttonColor": "#F24141",
+                "buttonRadius": 5,
+                "buttonType": "flat",
+                "buttonAlignment": "center",
+                "templateName": "templateOne"
+            }
+        },
+        "script": "themes/bundle/retail/zen-fashion/zenfashion-contactus.js",
+        "innerScript": [
+            "themes/bundle/shared-theme/common-form.js"
+        ],
+        "selectorDetails": {
+            "selector": "phase-ii-retail-contactus-form",
+            "inputData": [
+                {
+                    "selectorInput": "contactUsDetails",
+                    "handlerInput": "previewDetails.storePageSetup.savedPageContent"
+                },
+                {
+                    "selectorInput": "currentLocation",
+                    "handlerInput": "sampleData.currentLocation",
+                    "functionName": "getCurrentLocation"
+                },
+                {
+                    "selectorInput": "websiteSettings",
+                    "handlerInput": "sampleData.websiteSettings"
+                }
+            ],
+            "outputData": [
+                {
+                    "selectorOutput": "pageToNavigate",
+                    "handlerFunction": "pageToNavigate"
+                }
+            ]
+        },
+        "sectionName": "Contact Form",
+        "isExistingComponent": true,
+        "sampleData": {
+            "currentLocation": {
+                "id": 206,
+                "importId": null,
+                "addressLine1": "pavoorchatram ,tenkasi district ,panchaty taluk",
+                "addressLine2": null,
+                "city": "das",
+                "state": 2303,
+                "name": null,
+                "country": 145,
+                "zipCode": "321233",
+                "mobileNumber": "9025894499",
+                "email": "selvi9068@gmail.com"
+            },
+            "websiteSettings": {
+                "currency": {
+                    "id": 2,
+                    "currencySymbol": "₹",
+                    "currencyCode": "INR",
+                    "currencyName": "Indian Rupees",
+                    "createdAt": null,
+                    "modifiedAt": null
+                },
+                "store": {
+                    "id": 7,
+                    "name": "ZENBASKET COMPANY"
+                },
+                "email": "zenbasket@mailinator.com",
+                "contactNo": "7373994426",
+                "countryCode": 91,
+                "currencyCode": "INR"
+            }
+        },
+        "sectionId": 1
+    }
 ]
