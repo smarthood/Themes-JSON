@@ -126,6 +126,9 @@
               }
           }
       },
+      "translatePath":[
+        "productListDetails.addToCartLabel","productListDetails.manyStockLabel","productListDetails.availabilityHeading","productListDetails.addToBagButtonText"
+      ],
       "script": "themes/bundle/shared-theme/common-parent-product-list.js",
       "innerScript": [
           "themes/bundle/shared-theme/common-product-list.js",

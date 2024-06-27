@@ -292,6 +292,176 @@
       "id": 5,
       "sectionName": "Frequently bought together",
       "isExistingComponent": true,
-      "controls": []
+      "controls": [
+          {
+              "groupName": "Heading settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "heading",
+                      "label": "Enter heading text*",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 30
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Dropdown",
+                      "name": "textFontFamily",
+                      "label": "Choose heading font family"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "headingColor",
+                      "label": "Choose heading color",
+                      "sectionInfo": "If you didn't choose heading color, store primary color will choosen."
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "headingSize",
+                      "label": "Choose heading font size",
+                      "options": [
+                          10,
+                          20
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "headingStyle",
+                      "label": "Choose heading style"
+                  },
+                  {
+                      "type": "Radio",
+                      "name": "headingAlign",
+                      "label": "Choose heading alignment",
+                      "options": [
+                          {
+                              "name": "Left",
+                              "value": "left"
+                          },
+                          {
+                              "name": "Center",
+                              "value": "center"
+                          },
+                          {
+                              "name": "Right",
+                              "value": "right"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "groupName": "Product details settings",
+              "groupControls": [
+                  {
+                      "type": "Dropdown",
+                      "name": "subtextFontFamily",
+                      "label": "Choose text font family"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "textColor",
+                      "label": "Choose product name color",
+                      "sectionInfo": "If you didn't choose product name color, store primary color will choosen."
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "priceColor",
+                      "label": "Choose product price color"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "priceHoverColor",
+                      "label": "Choose product price hover color",
+                      "sectionInfo": "If you didn't choose product price hover color, store primary color will choosen."
+                  },
+                  {
+                      "type": "Slider",
+                      "name": "textSize",
+                      "label": "Choose text font size",
+                      "options": [
+                          1,
+                          14
+                      ]
+                  },
+                  {
+                      "type": "Font Style",
+                      "name": "productNameStyle",
+                      "label": "Choose product text style"
+                  }
+              ]
+          },
+          {
+              "groupName": "Offer badge settings",
+              "groupControls": [
+                  {
+                      "type": "Color Picker",
+                      "name": "badgeColor",
+                      "label": "Choose badge color",
+                      "sectionInfo": "If you didn't choose badge color, red color will choosen."
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "badgeTextColor",
+                      "label": "Choose badge text color",
+                      "sectionInfo": "If you didn't choose badge text color, white color will choosen."
+                  }
+              ]
+          },
+          {
+              "groupName": "Button settings",
+              "groupControls": [
+                  {
+                      "type": "Input",
+                      "name": "totalPrice",
+                      "label": "Enter text to display*",
+                      "errors": [
+                          {
+                              "name": "required"
+                          },
+                          {
+                              "name": "maxlength",
+                              "length": 30
+                          }
+                      ]
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttonColor",
+                      "label": "Choose button color",
+                      "sectionInfo": "If you didn't choose button color, store primary color will choosen."
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "buttonTextColor",
+                      "label": "Choose button text color",
+                      "sectionInfo": "If you didn't choose button color, white color will choosen."
+                  }
+              ]
+          },
+          {
+              "groupName": "Card settings",
+              "groupControls": [
+                  {
+                      "type": "Color Picker",
+                      "name": "checkboxColor",
+                      "label": "Choose checkbox color",
+                      "sectionInfo": "If you didn't choose checkbox color, default store primary color will choosen"
+                  },
+                  {
+                      "type": "Color Picker",
+                      "name": "backgroundColor",
+                      "label": "Choose background color",
+                      "sectionInfo": "If you didn't choose background color, default grey color will choosen"
+                  }
+              ]
+          }
+      ]
   }
 ]

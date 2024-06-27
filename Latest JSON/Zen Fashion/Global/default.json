@@ -52,10 +52,15 @@
                     "templateName": "customMenuTemplate"
                 },
                 {
+                    "name": "Wishlist",
+                    "templateName": "wishlistTemplate"
+               },
+                {
                     "name": "Cart",
                     "templateName": "cartTemplate"
                 }
             ],
+             "wishlistIconColor": "#777777",
             "menuIconColor": "#F24141",
             "menuColor": "black",
             "categoryColor": "black",

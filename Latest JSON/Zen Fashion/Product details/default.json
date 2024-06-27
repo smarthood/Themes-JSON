@@ -125,6 +125,11 @@
                     "isVisible": true
                 },
                 {
+                    "name": "Customise Product Editor",
+                    "templateName": "customiseProductEditor",
+                    "isVisible": true
+                },
+                {
                     "name": "Notify",
                     "templateName": "productNotify",
                     "isVisible": true
@@ -224,7 +229,8 @@
                 "qty": null,
                 "orderQuantityMinimum": null,
                 "orderQuantityMaximum": null,
-                "isTaxable": false,
+                "isTaxable": true,
+"isInclusiveTax": true,
                 "isSubscription": false,
                 "description": "<p><span style=\"color:rgb(0,0,0);\">Introducing our&nbsp;Red Readymade Lehenga&nbsp;in velvet fabric, a captivating ensemble that effortlessly combines grace with contemporary style.&nbsp;Elevate your ethnic wardrobe with our Red Readymade Lehenga, a stunning choice for special occasions and celebrations. The lehenga&nbsp;is embellished with Zariwork embroidery. This&nbsp;set is crafted from premium quality velvet fabric and accomplished with a readymade blouse and dupatta&nbsp;offering a lightweight and comfortable feel while ensuring a graceful drape.&nbsp; &nbsp;&nbsp;</span></p>",
                 "shortDescription": "For return, Unboxing video is must.",
@@ -1593,9 +1599,9 @@
         "isExistingComponent": true,
         "details": {
             "showCrosssellProducts": true,
-            "crosssellProductsTitle": "You may also like",
+            "crosssellProductsTitle": "Related Products",
             "showUpsellProducts": true,
-            "upsellProductsTitle": "Related Products"
+            "upsellProductsTitle": "You may also like"
         },
         "script": "themes/bundle/shared-theme/related-products.js",
         "selectorDetails": {
@@ -1733,8 +1739,33 @@
         "sectionName": "Frequently bought together",
         "isExistingComponent": true,
         "details": {
+            "heading": "Frequently Bought Together",
+            "textFontFamily": "'Montserrat',sans-serif",
+            "headingColor": "var(--primary-color)",
+            "headingSize": 20,
+            "headingStyle": [
+                "B"
+            ],
+            "headingAlign": "center",
             "textAlign": "center",
-            "heading": "Frequently Bought Together"
+            "subtextFontFamily": "'Montserrat',sans-serif",
+            "textColor": "var(--primary-color)",
+            "priceColor": "#000",
+            "priceHoverColor": "var(--primary-color)",
+            "textSize": 14,
+            "productNameStyle": [
+                "B"
+            ],
+            "discounttextFontFamily": "'Montserrat',sans-serif",
+            "badgeColor": "#ff0000",
+            "badgeTextColor": "#fff",
+            "discountStyle": [],
+            "totalPrice": "Total price: ",
+            "buttontextFontFamily": "'Montserrat',sans-serif",
+            "buttonColor": "var(--primary-color)",
+            "buttonTextColor": "#fff",
+            "buttonStyle": [],
+            "backgroundColor": "#efefefef"
         },
         "sampleData": {
             "getFrequentlyBoughtTogether": {

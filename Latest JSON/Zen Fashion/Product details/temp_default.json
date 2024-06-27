@@ -18,9 +18,11 @@
           "layoutName": "layoutOne",
           "showRatingsCount": true,
           "showPrice": true,
-          "showSku": false,
+          "showSku": true,
           "showProductDescription": true,
           "showAvailabilityText": true,
+          "inclusiveTaxTitle": "Inclusive of all taxes",
+          "inclusiveTaxTitleColor": "#0f1111",
           "showProductManyInStockText": true,
           "showProductOutOfStockText": true,
           "showProductUnavailabilityText": true,
@@ -66,7 +68,7 @@
           "loopVideo": true,
           "showWishlistStyle": "icon",
           "wishlistIconColor": "var(--secondary-color)",
-          "wishlistIconOpacity": "1",
+          "wishlistIconOpacity": "100",
           "wishlistIconBorderSize": "0",
           "wishlistIconBorderRadius": "0",
           "wishlistIconBorderColor": "var(--primary-color)",
@@ -203,164 +205,289 @@
               "isWholesale": false
           },
           "categoryId": 1,
-          "locationId": 175,
+          "locationId": 273,
           "ogsDetails": {},
           "isNoProduct": false,
           "navBarDetails": {
               "isTransparent": false
           },
           "productOrders": [],
-          "frequencyArray": [
-              {
-                  "id": 8,
-                  "deliver_frequency": "daily"
-              }
-          ],
           "productDetails": {
-              "id": 186571,
-              "featuredImage": "themes/beverages/CHARDONNAY__Clos_Du_Val_White_Wine_.jpg",
-              "isDigitalProduct": false,
-              "name": "White & Simi Wine",
+              "id": 238395,
               "qty": null,
-              "orderQuantityMinimum": null,
-              "orderQuantityMaximum": null,
-              "isTaxable": false,
-              "isSubscription": false,
-              "description": "<p>Pale gold in color with aromas of creme brulee accented with hints of pear, white peach and apricot. The palate is met with rich, tropical fruit flavors and a subtle touch of citrus. While creamy and full bodied, this chardonnay exhibits a balance and elegance which are characteristic of Clos Du Val's style. The result is a wine that complements food and culminates in a long, crisp finish. Enjoy now and always.<br>&nbsp;</p>",
-              "shortDescription": "For return, Unboxing video is must.",
-              "isVariants": false,
-              "featuredVideo": "themes/beverages/CHARDONNAY__Simi_White_Wine_171112945567_S59_1712732111750_S46.mp4",
-              "weightUnitId": null,
-              "allowPreorder": false,
-              "preorderAmount": null,
-              "isPreOrderLimit": false,
-              "preOrderTotalUsageLimit": null,
-              "preOrderLimitPerCustomer": null,
+              "name": "Lehenga",
+              "badges": null,
+              "isTaxable": true,
+              "isInclusiveTax": true,
               "isNotifyMe": true,
-              "preOrderMessage": null,
-              "preOrderDiscountType": "PERCENTAGE",
+              "isVariants": true,
+              "description": "<p><span style=\"background-color:rgb(255,255,255);color:rgb(0,0,0);\">Our 2-piece,wool blend kurta set features a straight-fit kurta with a round neckline, three-quarter sleeves, and a statement yoke. Complemented with trousers with a partially elasticated waistband and roomy pockets. Adorned with sequins detailing and thread work, this style is perfect for casual outings.</span></p><p>&nbsp;</p><ul><li>Top Fabric: Wool Blend</li><li>Bottom Fabric: Wool Blend</li><li>Dupatta Fabric: nan</li><li>Gentle Hand Wash</li></ul>",
+              "isReturnable": true,
               "preorderDiff": "INCREASE",
-              "isProductAddOns": false,
-              "productAvailability": true,
-              "isReturnable": false,
-              "variantCombinationDetails": [
+              "weightUnit": "item",
+              "allowPreorder": false,
+              "featuredImage": "themes/retail/sample/lehanga-1.jpg",
+              "featuredVideo": "themes/retail/sample/lehanga_video_1.mp4",
+              "variantImages": [
                   {
-                      "price": 500,
-                      "description": null,
-                      "wholeSalePrice": null,
-                      "id": 247793,
-                      "costComparePrice": 700,
-                      "weightCount": 1,
-                      "sku": "WINE0001234567",
-                      "hasLicenseKey": null,
-                      "digitalProductLocation": null,
-                      "multiLocationVariantStocks": [
+                      "id": 18057,
+                      "itemId": 428540,
+                      "attachmentCategoryTypesMappings": [
                           {
-                              "id": 336134,
-                              "stock": -1,
-                              "isPreorder": false,
-                              "variantSkuId": 247793,
-                              "inventoryLocationId": 34
+                              "id": 30540,
+                              "ext": "jpg",
+                              "fileUrl": "themes/retail/sample/lehanga-2.jpg"
                           },
                           {
-                              "id": 336381,
-                              "stock": -1,
-                              "isPreorder": false,
-                              "variantSkuId": 247793,
-                              "inventoryLocationId": 33
+                              "id": 30541,
+                              "ext": "jpg",
+                              "fileUrl": "themes/retail/sample/lehanga-3.jpg"
                           },
                           {
-                              "id": 336382,
-                              "stock": -1,
-                              "isPreorder": false,
-                              "variantSkuId": 247793,
-                              "inventoryLocationId": 800
-                          },
-                          {
-                              "id": 336383,
-                              "stock": -1,
-                              "isPreorder": false,
-                              "variantSkuId": 247793,
-                              "inventoryLocationId": 798
+                              "id": 30542,
+                              "ext": "jpg",
+                              "fileUrl": "themes/retail/sample/lehanga-4.jpg"
                           }
-                      ]
-                  }
-              ],
-              "digitalProducts": [],
-              "productCategories": [
-                  {
-                      "id": 203813,
-                      "category": {
-                          "id": 15084,
-                          "isDefault": false
+                      ],
+                      "attachmentCategory": {
+                          "id": 2
                       }
                   }
               ],
+              "averageRatings": {
+                  "rows": [
+                      {
+                          "avgRatings": "3.5000000000000000"
+                      }
+                  ],
+                  "count": 4
+              },
+              "isSubscription": false,
+              "preorderAmount": null,
+              "digitalProducts": [],
+              "isPreOrderLimit": false,
+              "isProductAddOns": true,
+              "preOrderMessage": null,
+              "isDigitalProduct": false,
               "productModifiers": [
                   {
-                      "modifierId": 422,
+                      "modifierId": 255,
                       "maxModifiers": null,
-                      "minModifiers": null,
-                      "defaultOptionsId": null,
+                      "minModifiers": 1,
+                      "defaultOptionsId": 236,
                       "modifierData": {
-                          "id": 422,
-                          "modifierName": "Want this gift wrapped?",
+                          "id": 255,
+                          "modifierName": "Embroidery Style",
                           "modifierSetMappings": [
                               {
-                                  "id": 1342,
-                                  "storeId": 46,
+                                  "id": 1914,
+                                  "storeId": 391,
                                   "sortOrder": 1,
                                   "isDeleted": false,
-                                  "modifierSetId": 422,
-                                  "modifierControlId": 731,
+                                  "modifierControlId": 234,
+                                  "modifierSetId": 255,
                                   "modifier": {
-                                      "id": 731,
-                                      "optionValue": "Yes",
-                                      "price": 5
+                                      "id": 234,
+                                      "optionValue": "Traditional Embroidery",
+                                      "price": 100
+                                  }
+                              },
+                              {
+                                  "id": 1915,
+                                  "storeId": 391,
+                                  "sortOrder": 2,
+                                  "isDeleted": false,
+                                  "modifierControlId": 235,
+                                  "modifierSetId": 255,
+                                  "modifier": {
+                                      "id": 235,
+                                      "optionValue": "Contemporary Embroidery",
+                                      "price": 200
+                                  }
+                              },
+                              {
+                                  "id": 1916,
+                                  "storeId": 391,
+                                  "sortOrder": 3,
+                                  "isDeleted": false,
+                                  "modifierControlId": 236,
+                                  "modifierSetId": 255,
+                                  "modifier": {
+                                      "id": 236,
+                                      "optionValue": "Floral Embroidery",
+                                      "price": 300
                                   }
                               }
                           ]
                       }
                   }
               ],
-              "productAddOnsImages": [],
-              "productOptionMappings": [],
-              "badges": null,
-              "averageRatings": {
-                  "count": 6,
-                  "rows": [
+              "shortDescription": "We assure the authenticity and quality of our products",
+              "productCategories": [
+                  {
+                      "id": 186802,
+                      "category": {
+                          "id": 776,
+                          "isDefault": true
+                      }
+                  }
+              ],
+              "productAddOnsImages": [
+                  {
+                      "id": 395,
+                      "name": "Neckline",
+                      "price": 50,
+                      "requiredStatus": true
+                  },
+                  {
+                      "id": 396,
+                      "name": "Sleeve style",
+                      "price": 50,
+                      "requiredStatus": false
+                  }
+              ],
+              "productAvailability": true,
+              "orderQuantityMaximum": null,
+              "orderQuantityMinimum": "1.00",
+              "preOrderDiscountType": "PERCENTAGE",
+              "productOptionMappings": [
+                  {
+                      "optionId": 645,
+                      "productId": 249606,
+                      "option": {
+                          "name": "Size",
+                          "sortOrder": null,
+                          "showColors": false,
+                          "optionValues": [
+                              {
+                                  "id": 1450,
+                                  "color": "#000000",
+                                  "sortOrder": 1,
+                                  "optionValue": "S",
+                                  "productVariantMappings": [
+                                      {
+                                          "skuId": 428540,
+                                          "variantCombinationDetail": {
+                                              "sku": 428540,
+                                              "price": 2999,
+                                              "isDefault": true,
+                                              "customLabel": "Lehanga - S",
+                                              "description": null,
+                                              "variantName": "S",
+                                              "weightCount": 1,
+                                              "wholeSalePrice": null,
+                                              "costComparePrice": 3999,
+                                              "multiLocationVariantStocks": [
+                                                  {
+                                                      "id": 556701,
+                                                      "stock": -1,
+                                                      "isPreorder": true,
+                                                      "variantSkuId": 428540,
+                                                      "inventoryLocationId": 273
+                                                  }
+                                              ]
+                                          }
+                                      }
+                                  ]
+                              },
+                              {
+                                  "id": 1449,
+                                  "color": "#000000",
+                                  "sortOrder": 2,
+                                  "optionValue": "M",
+                                  "productVariantMappings": [
+                                      {
+                                          "skuId": 428541,
+                                          "variantCombinationDetail": {
+                                              "sku": null,
+                                              "price": 1999,
+                                              "isDefault": false,
+                                              "customLabel": "Lehanga - M",
+                                              "description": null,
+                                              "variantName": "M",
+                                              "weightCount": 1,
+                                              "wholeSalePrice": null,
+                                              "costComparePrice": 2999,
+                                              "multiLocationVariantStocks": [
+                                                  {
+                                                      "id": 556702,
+                                                      "stock": -1,
+                                                      "isPreorder": false,
+                                                      "variantSkuId": 428541,
+                                                      "inventoryLocationId": 275
+                                                  }
+                                              ]
+                                          }
+                                      }
+                                  ]
+                              },
+                              {
+                                  "id": 1448,
+                                  "color": "#000000",
+                                  "sortOrder": 3,
+                                  "optionValue": "L",
+                                  "productVariantMappings": [
+                                      {
+                                          "skuId": 428542,
+                                          "variantCombinationDetail": {
+                                              "sku": null,
+                                              "price": 599,
+                                              "isDefault": false,
+                                              "customLabel": "Lehanga - L",
+                                              "description": null,
+                                              "variantName": "L",
+                                              "weightCount": 1,
+                                              "wholeSalePrice": null,
+                                              "costComparePrice": 799,
+                                              "multiLocationVariantStocks": [
+                                                  {
+                                                      "id": 556703,
+                                                      "stock": 0,
+                                                      "isPreorder": false,
+                                                      "variantSkuId": 428542,
+                                                      "inventoryLocationId": 273
+                                                  }
+                                              ]
+                                          }
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  }
+              ],
+              "preOrderTotalUsageLimit": null,
+              "preOrderLimitPerCustomer": null,
+              "variantCombinationDetails": [
+                  {
+                      "multiLocationVariantStocks": [
+                          {
+                              "id": 556703,
+                              "stock": -1,
+                              "isPreorder": false,
+                              "variantSkuId": 428542,
+                              "inventoryLocationId": 273
+                          }
+                      ]
+                  }
+              ],
+              "selectedVariant": {
+                  "stockCount": [
                       {
-                          "avgRatings": "4.5000000000000000"
+                          "inventoryLocationId": 273
                       }
                   ]
               },
-              "variantImages": [
-                  {
-                      "id": 4676,
-                      "itemId": 247793,
-                      "attachmentCategoryTypesMappings": [
-                          {
-                              "id": 10060,
-                              "ext": "png",
-                              "fileUrl": "themes/beverages/Bedfords_Marionberry_Cream_Soda.png"
-                          }
-                      ],
-                      "attachmentCategory": {
-                          "id": 1
-                      }
-                  }
-              ]
+              "selectedModifier": {}
           },
           "categoryDetails": {
               "parentCategory": {
                   "id": 1,
-                  "categoryName": "wines",
+                  "categoryName": "Lehenga's",
                   "parentCategoryId": null
               }
           },
           "websiteSettings": {
-              "isAuthorizeNetEnabled": true,
-              "isCashOnDelivery": true,
               "store": {
                   "id": 154,
                   "name": "Roronoa Zorooe",
@@ -376,8 +503,8 @@
               "twitter": "https://twitter.com/",
               "youtube": "https://youtube.com/",
               "currency": {
-                  "currencyCode": "USD",
-                  "currencySymbol": "$"
+                  "currencyCode": "INR",
+                  "currencySymbol": "₹"
               },
               "faceBook": "https://facebook.com/",
               "linkedIn": "https://linkedin.com/",
@@ -386,7 +513,7 @@
               "favIconUrl": null,
               "isPreorder": true,
               "seoKeyword": "seo1,seo2",
-              "currencyCode": "USD",
+              "currencyCode": "INR",
               "isShopClosed": false,
               "countryIsoCode": "IN",
               "isSubscription": true,
@@ -410,50 +537,11 @@
               "isSpecificationEnabled": true,
               "isOptionsVariantsEnabled": true,
               "siteUnderConstructionMessage": null,
-              "isQuickOrderPagePluginEnabled": true
+              "isQuickOrderPagePluginEnabled": true,
+              "isAuthorizeNetEnabled": true,
+              "isCashOnDelivery": true
           },
           "cartProductArray": [],
-          "subscriptionSetting": {
-              "id": 11,
-              "uuid": "01f711c0-09af-11ee-b67e-9b41be7eadd7",
-              "storeId": 212,
-              "isCancel": true,
-              "createdAt": "2023-06-13T05:56:15.196Z",
-              "frequency": [
-                  53,
-                  43
-              ],
-              "isAllowCod": false,
-              "isSkipable": true,
-              "modifiedAt": "2023-06-13T05:56:15.196Z",
-              "discountType": null,
-              "isReschedule": true,
-              "isReactivated": true,
-              "discountConfig": [
-                  {
-                      "rangeTo": "50000005",
-                      "rangeFrom": "5000000",
-                      "discountRate": "55"
-                  },
-                  {
-                      "rangeTo": "50000008",
-                      "rangeFrom": "50000006",
-                      "discountRate": "56"
-                  },
-                  {
-                      "rangeTo": -1,
-                      "rangeFrom": "50000008.01",
-                      "discountRate": "45"
-                  }
-              ],
-              "isUpdateProduct": true,
-              "additionalCharge": null,
-              "isReactivateSkip": false,
-              "isAdditionalCharges": false,
-              "isSingleSubscription": true,
-              "additionalChargeLabel": null,
-              "isUpdateShippingAddress": true
-          },
           "automaticDiscountDetails": [
               {
                   "id": 593,
@@ -502,7 +590,120 @@
                   "customerEligibilityType": 4
               }
           ],
-          "sizeChartDetails": {},
+          "sizeChartDetails": {
+              "productSizeChart": {
+                  "id": 1368,
+                  "sizeChartName": "Size Guide",
+                  "description": "Special Notes - Before Ordering Please Check Your Measurement to Make Sure the Item Fits You. Select the Correct Size from Dropdown; - For Detail of Measurements Please Refer to Our Size Chart",
+                  "sizeChart": [
+                      {
+                          "title": "Size",
+                          "measurements": [
+                              "S",
+                              "M",
+                              "L"
+                          ]
+                      },
+                      {
+                          "title": "Bust",
+                          "measurements": [
+                              "35.83",
+                              "36.22",
+                              "36.61"
+                          ]
+                      },
+                      {
+                          "title": "Waist",
+                          "measurements": [
+                              "32.68",
+                              "33.07",
+                              "33.46"
+                          ]
+                      },
+                      {
+                          "title": "Hip",
+                          "measurements": [
+                              "27.56",
+                              "27.95",
+                              "28.35"
+                          ]
+                      },
+                      {
+                          "title": "Length",
+                          "measurements": [
+                              "35.43",
+                              "39.37",
+                              "39.76"
+                          ]
+                      }
+                  ],
+                  "sizeChartCentimeters": [
+                      {
+                          "title": "Size",
+                          "measurements": [
+                              "S",
+                              "M",
+                              "L"
+                          ]
+                      },
+                      {
+                          "title": "Bust",
+                          "measurements": [
+                              "91",
+                              "92",
+                              "93"
+                          ]
+                      },
+                      {
+                          "title": "Waist",
+                          "measurements": [
+                              "83",
+                              "84",
+                              "85"
+                          ]
+                      },
+                      {
+                          "title": "Hip",
+                          "measurements": [
+                              "70",
+                              "71",
+                              "72"
+                          ]
+                      },
+                      {
+                          "title": "Length",
+                          "measurements": [
+                              "90",
+                              "100",
+                              "101"
+                          ]
+                      }
+                  ],
+                  "isProductBased": true,
+                  "isCategoryBased": null,
+                  "isBrandBased": null,
+                  "imageUrl": "themes/retail/sample/sizechart.jpg",
+                  "brandId": null,
+                  "categoryId": null,
+                  "productId": 249040,
+                  "availability": true
+              },
+              "sizeChartStyleDetails": {
+                  "popUpOverlayColor": "#554444",
+                  "displayBothSystems": "true",
+                  "fontSize": "16",
+                  "fontFamily": "Montserrat",
+                  "fontStyles": [
+                      "Bold"
+                  ],
+                  "fontColor": "var(--primary-color)",
+                  "sizeChartLabel": "Size chart",
+                  "sizeChartView": "Inline",
+                  "linkPosition": "Before add to cart",
+                  "defaultMeasurementSystem": "Metric (Centimeters)",
+                  "headerSubText": "How to measure"
+              }
+          },
           "salesCountdownTimerOffers": [
               {
                   "id": 199,
@@ -838,6 +1039,15 @@
                   "selectorInput": "sizeChartDetails",
                   "handlerInput": "sampleData.sizeChartDetails",
                   "functionName": "getProductSizeChartDetails"
+              },
+              {
+                  "selectorInput": "isSingleSubscriptionValue",
+                  "handlerInput": "sampleData.subscriptionSetting",
+                  "functionName": "getData"
+              },
+              {
+                  "selectorInput": "frequencyArray",
+                  "handlerInput": "sampleData.frequencyArray"
               }
           ],
           "outputData": [
@@ -1043,17 +1253,13 @@
               {
                   "selectorInput": "isNoProduct",
                   "handlerInput": "sampleData.isNoProduct"
-              },
+              }
+          ],
+          "outputData": [
               {
                   "selectorOutput": "pageToNavigate",
                   "handlerFunction": "pageToNavigate"
               }
-          ],
-          "outputData": [
-            {
-              "selectorOutput": "pageToNavigate",
-              "handlerFunction": "pageToNavigate"
-          }
           ]
       }
   },
@@ -1117,7 +1323,7 @@
                   },
                   {
                       "title": "Color",
-                      "description": "Stardust White"
+                      "description": "Stardust Black"
                   },
                   {
                       "title": "In The Box",
@@ -1229,7 +1435,7 @@
           "websiteSettings": {
               "currency": {
                   "currencySymbol": "竄ｹ",
-                  "currencyCode": "USD"
+                  "currencyCode": "INR"
               },
               "isInstructionEnabled": true,
               "isWholeSaleEnabled": true,
@@ -1279,9 +1485,9 @@
                   "handlerFunction": "dislikeClicked"
               },
               {
-                "selectorOutput": "pageToNavigate",
-                "handlerFunction": "pageToNavigate"
-            }
+                  "selectorOutput": "pageToNavigate",
+                  "handlerFunction": "pageToNavigate"
+              }
           ]
       }
   },
@@ -1432,8 +1638,33 @@
       "sectionName": "Frequently bought together",
       "isExistingComponent": true,
       "details": {
+          "heading": "Frequently Bought Together",
+          "textFontFamily": "'Montserrat',sans-serif",
+          "headingColor": "var(--primary-color)",
+          "headingSize": 20,
+          "headingStyle": [
+              "B"
+          ],
+          "headingAlign": "center",
           "textAlign": "center",
-          "heading": "Frequently Bought Together"
+          "subtextFontFamily": "'Montserrat',sans-serif",
+          "textColor": "var(--primary-color)",
+          "priceColor": "#000",
+          "priceHoverColor": "var(--primary-color)",
+          "textSize": 14,
+          "productNameStyle": [
+              "B"
+          ],
+          "discounttextFontFamily": "'Montserrat',sans-serif",
+          "badgeColor": "#ff0000",
+          "badgeTextColor": "#fff",
+          "discountStyle": [],
+          "totalPrice": "Total price: ",
+          "buttontextFontFamily": "'Montserrat',sans-serif",
+          "buttonColor": "var(--primary-color)",
+          "buttonTextColor": "#fff",
+          "buttonStyle": [],
+          "backgroundColor": "#efefefef"
       },
       "sampleData": {
           "getFrequentlyBoughtTogether": {
@@ -1446,21 +1677,16 @@
                       "discountValue": 100,
                       "variantId": 237015,
                       "productId": 126011,
-                      "combinationName": "1",
-                      "name": "Modern Art",
+                      "combinationName": "",
+                      "name": "Peach kurtas",
                       "stock": -1,
-                      "image": "STORE_391/products/view_1687436473543_S391.png",
+                      "image": "themes/retail2/peachKurtas.png",
                       "costComparePrice": null,
-                      "price": "21.00",
+                      "price": "950.00",
                       "weightUnit": null,
                       "weightCount": "1.00",
-                      "oldPrice": "21.00",
-                      "newPrice": "21.00",
-                      "fbtPrice": "21.00",
-                      "selected": true,
                       "isFbt": true,
-                      "quantity": "1.00",
-                      "show": true
+                      "quantity": "1.00"
                   },
                   {
                       "id": 498,
@@ -1471,20 +1697,30 @@
                       "variantId": 164540,
                       "productId": 126009,
                       "combinationName": "",
-                      "name": "Queen Portrait",
+                      "name": "Pink Top",
                       "stock": -1,
-                      "image": "STORE_391/products/queen_1687436365787_S391.png",
+                      "image": "themes/retail2/pinkTop.png",
                       "costComparePrice": null,
-                      "price": "36000.00",
+                      "price": "360.00",
                       "weightUnit": null,
-                      "weightCount": null,
-                      "oldPrice": "36000.00",
-                      "newPrice": 0,
-                      "fbtPrice": 0,
-                      "selected": true,
-                      "isFbt": true,
-                      "quantity": 1,
-                      "show": true
+                      "weightCount": null
+                  },
+                  {
+                      "id": 498,
+                      "storeId": 391,
+                      "fbtId": 149,
+                      "discountType": "FIXED",
+                      "discountValue": 50,
+                      "variantId": 164540,
+                      "productId": 126009,
+                      "combinationName": "",
+                      "name": "Crop Top",
+                      "stock": -1,
+                      "image": "themes/retail2/westernCropTop.png",
+                      "costComparePrice": null,
+                      "price": "460.00",
+                      "weightUnit": null,
+                      "weightCount": null
                   }
               ],
               "id": 149,
